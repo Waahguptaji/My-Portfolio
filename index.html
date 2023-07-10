@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sahil Gupta</title>
-    <link rel="javascript" href="script.js" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -16,7 +15,7 @@
             <p>SG</p>
           </div>
           <div id="navDiv">
-            <ul>
+            <ul class="list">
               <li>Home</li>
               <li>About</li>
               <li>Portfolio</li>
@@ -24,8 +23,16 @@
               <li>Contact</li>
             </ul>
           </div>
+          <div class="mobilenav">
+            <ion-icon class="btn" name="add-circle-outline"></ion-icon>
+            <ion-icon class="btn" name="close-circle-outline"></ion-icon>
+          </div>
         </header>
       </nav>
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
