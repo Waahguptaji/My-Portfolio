@@ -1,19 +1,92 @@
-body{
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);  
+body {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    /*It will strecth the background*/
+    color: white;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
+
+
 /*---------Nav Bar----------*/
-.header{
+
+nav {
+    position: relative;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
 }
 
-ul{
+ul {
     display: inline-flex;
     gap: 10px;
 }
 
 li {
     list-style: none;
+}
+
+.mobilenav {
+    display: none;
+    background: transparent;
+}
+
+
+
+
+@media (max-width: 700px) {
+    .mobilenav {
+        display: flex;
+        z-index: 10;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .navDiv {
+        display: flex;
+    }
+
+    .btn[name="close-circle-outline"] {
+        display: none;
+    }
+
+    .list {
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        margin-top: 45px;
+        text-align: center;
+        width: 20%;
+        justify-content: center;
+        z-index: 15;
+        transform: translate(100%);
+        transition: all 0.5s linear;
+        visibility: hidden;
+    }
+
+
+
+    .active .list {
+        transform: translateX(0);
+        visibility: visible;
+    }
+
+    .active .mobilenav .btn[name="close-circle-outline"] {
+        display: block;
+    }
+
+    .active .mobilenav .btn[name="add-circle-outline"] {
+        display: none;
+    }
+
 }
