@@ -41,6 +41,17 @@ li {
     background: transparent;
 }
 
+/*------Name and Moving details------ */
+.nameContainer {
+    position: absolute;
+    bottom: 25px;
+}
+
+.movingContainer {
+    position: absolute;
+    bottom: 0;
+}
+
 
 
 
@@ -72,9 +83,9 @@ li {
         transform: translate(100%);
         transition: all 0.5s linear;
         visibility: hidden;
+        position: fixed;
+        padding-top: 20px;
     }
-
-
 
     .active .list {
         transform: translateX(0);
