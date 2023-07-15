@@ -12,6 +12,8 @@ body {
     color: white;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-size: 30px;
+
 }
 
 
@@ -52,8 +54,31 @@ li {
     bottom: 0;
 }
 
+.nameContainer h2 {
+    font-size: 2rem;
+}
+
+#movingText {
+    font-size: 1rem;
+}
 
 
+/* -------Contact -------- */
+.contact {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1.1rem;
+}
+
+.fa-regular {
+    color: #ffffff;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
 
 @media (max-width: 700px) {
     .mobilenav {
