@@ -68,10 +68,11 @@ p {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    font-size: 2rem;
-    font-weight: bolder;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .btn:hover {
     background-color: #f4a949;
+    color: white;
 }
