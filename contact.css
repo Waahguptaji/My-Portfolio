@@ -1,5 +1,13 @@
 body {
-    background-color: black;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -50,14 +58,37 @@ a {
     color: white;
 }
 
-h1 {
-    font-size: 4rem;
-}
-
 p {
     font-size: 1.5rem;
 }
 
+/* The name and effects */
+h1 {
+    font-size: 4rem;
+}
+
+.firstName {
+    display: flex;
+}
+
+.firstLetter:hover {
+    color: #f4a949;
+    cursor: pointer;
+    animation: shake 1s;
+}
+
+.lastName {
+    font-weight: lighter;
+    display: flex;
+}
+
+.lastLetter:hover {
+    color: #f4a949;
+    cursor: pointer;
+    animation: shake 1s;
+}
+
+/* Lets Chat Button */
 .btn {
     position: absolute;
     right: 5rem;
@@ -73,6 +104,7 @@ p {
 }
 
 .btn:hover {
+    animation-delay: 5s;
     background-color: #f4a949;
     color: white;
 }
