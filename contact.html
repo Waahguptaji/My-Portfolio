@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactme</title>
-     <!-- Button to open WhatsApp -->
-     <script>
-      function openWhatsapp() {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contactme</title>
+  <!-- Button to open WhatsApp -->
+  <script>
+    function openWhatsapp() {
       var phoneNumber = "9653936286";
       var url = "https://wa.me/" + phoneNumber;
 
       // Open WhatsApp in a new tab/window
       window.open(url, "_blank");
-      }
-     </script>
+    }
+  </script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="contact.css">
 </head>
+
 <body>
+  <div class="mainBg">
     <div class="img">
       <img src="./images/me.png" alt="Sahil Photo">
     </div>
@@ -26,11 +31,11 @@
       <h1>
         <div class="nameContainer">
           <span class="firstName">
-           <span class="firstLetter">S</span> 
-           <span class="firstLetter">a</span>
-           <span class="firstLetter">h</span>
-           <span class="firstLetter">i</span>
-           <span class="firstLetter">l</span>
+            <span class="firstLetter">S</span>
+            <span class="firstLetter">a</span>
+            <span class="firstLetter">h</span>
+            <span class="firstLetter">i</span>
+            <span class="firstLetter">l</span>
           </span>
           <div class="lastName">
             <Span class="lastLetter">G</Span>
@@ -44,14 +49,22 @@
       <p>Find me on:</p>
       <div class="socialLinks">
         <ul>
-          <li><a href="https://twitter.com/waahguptaji" target="_blank"><i class="fa-brands fa-twitter" style="color: #1da1f2; padding-right: 30px;"></i>Twitter</a></li>
-          <li><a href="https://github.com/waahguptaji" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; padding-right: 30px;"></i>Github</a></li>
-          <li><a href="mailto:sahilgupta742@gmail.com"><i class="fa-regular fa-envelope" style="color: #db4437; padding-right: 30px;"></i>Gmail</a></li>
-          <li><a href="https://linkedin.com/waahguptaji" target="_blank"><i class="fa-brands fa-linkedin" style="color: #0a66c2; padding-right: 30px;"></i>LinkedIn</a></li>
+          <li><a href="https://twitter.com/waahguptaji" target="_blank"><i class="fa-brands fa-twitter"
+                style="color: #1da1f2; padding-right: 30px;"></i>@waahguptaji</a></li>
+          <li><a href="https://github.com/waahguptaji" target="_blank"><i class="fa-brands fa-github"
+                style="color: black; padding-right: 30px;"></i>@waahguptaji</a></li>
+          <li><a href="https://linkedin.com/waahguptaji" target="_blank"><i class="fa-brands fa-linkedin"
+                style="color: #0a66c2; padding-right: 30px;"></i>@waahguptaji</a></li>
+          <li><a href="mailto:sahilgupta742@gmail.com"><i class="fa-regular fa-envelope"
+                style="color: #db4437; padding-right: 30px;"></i>sahilgupta742@gmail.com</a></li>
         </ul>
       </div>
+      <div class="whatsApp">
+        <button onclick="openWhatsapp()" class="btn">Let's Chat</button>
+      </div>
     </div>
-    <button onclick="openWhatsapp()" class="btn">Let's Chat</button>
-    
+
+  </div>
 </body>
+
 </html>
