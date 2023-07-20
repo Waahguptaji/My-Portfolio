@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sahil Gupta</title>
-    <!-- Stylesheet Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="main_bg">
-      <!-- navbar -->
-      <nav>
-        <header class="header">
-          <div id="nameIcon">
-            <p>SG</p>
-          </div>
-          <div id="navDiv">
-            <ul class="list">
-              <li>Home</li>
-              <li>About</li>
-              <li>Portfolio</li>
-              <li>Blog</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-          <div class="mobilenav">
-            <ion-icon class="btn" name="add-circle-outline"></ion-icon>
-            <ion-icon class="btn" name="close-circle-outline"></ion-icon>
-          </div>
-        </header>
-      </nav>
 
-      <!-- Moving text and Name -->
-      <div class="nameContainer">
-        <h2>Sahil Gupta</h2> 
-      </div>
-      <div class="movingContainer">
-        <p id="movingText"></p>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sahil Gupta</title>
+  <!-- Stylesheet Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="main_bg">
+    <!-- navbar -->
+    <nav>
+      <header class="header">
+        <div id="nameIcon">
+          <p>SG</p>
+        </div>
+        <div id="navDiv">
+          <ul class="list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="mobilenav">
+          <ion-icon class="btn" name="add-circle-outline"></ion-icon>
+          <ion-icon class="btn" name="close-circle-outline"></ion-icon>
+        </div>
+      </header>
+    </nav>
+
+    <!-- Moving text and Name -->
+    <div class="nameContainer">
+      <h2>
+        <span class="first">Sahil</span>
+        <span>Gupta</span>
+      </h2>
     </div>
-
-    <!-- Contact Me Button -->
-    <div class="contact">
-      <p>Contact Me!</p>
-      <i class="fa-regular fa-bell" style="color: #ffffff;"></i>
+    <div class="movingContainer">
+      <p id="movingText"></p>
     </div>
+  </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="script.js"></script>
-  </body>
+  <!-- Contact Me Button -->
+  <div class="contact">
+    <p> Contact Me!
+      <a href="contact.html"><img class="sendImg" src="./images/send.png"></a>
+    </p>
+
+
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>

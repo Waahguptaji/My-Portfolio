@@ -1,9 +1,9 @@
 body {
     background: #000000;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #434343, #000000);
+    /* background: -webkit-linear-gradient(to top, #434343, #000000); */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #434343, #000000);
+    /* background: linear-gradient(to top, #434343, #000000); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0;
     padding: 0;
@@ -12,8 +12,8 @@ body {
     color: white;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Ysabeau SC', sans-serif;
     font-size: 30px;
-
 }
 
 
@@ -55,7 +55,18 @@ li {
 }
 
 .nameContainer h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.first::after {
+    /* => ::after it is use to put something after the selected element*/
+    content: "\a";
+    /* => Set the content property to "\a" (the new-line character).*/
+    white-space: pre;
+    /* By default, HTML collapses multiple white spaces (including spaces, tabs, and line breaks) into a single space when rendered on a web page. 
+    However, when you use white-space: pre;, the element will display the exact formatting*/
 }
 
 #movingText {
@@ -67,17 +78,21 @@ li {
 .contact {
     display: inline-flex;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    font-size: 1.1rem;
+    right: 3%;
+    bottom: 5%;
+    font-size: 1rem;
 }
 
-.fa-regular {
-    color: #ffffff;
-    padding-top: 35px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 1.2rem;
+.contact>p>a {
+    background: white;
+    padding: 10px;
+    border-radius: 60px;
+    border: 0px;
+}
+
+.sendImg {
+    vertical-align: middle;
+    border-style: none;
 }
 
 @media (max-width: 700px) {
