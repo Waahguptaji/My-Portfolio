@@ -1,19 +1,11 @@
 body {
     background: #000000;
-    /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to top, #434343, #000000); */
-    /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to top, #434343, #000000); */
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin: 0;
-    padding: 0;
-    background-attachment: fixed;
-    /*It will strecth the background*/
     color: white;
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 30px;
+    margin-left: 2rem;
 }
 
 
@@ -70,7 +62,7 @@ li {
 }
 
 #movingText {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 
