@@ -1,11 +1,5 @@
 body {
     background: #000000;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #434343, #000000);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #434343, #000000);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-attachment: fixed;
     color: white;
 }
 
@@ -15,10 +9,26 @@ body {
 }
 
 
+/* Photo */
+.h {
+    background-color: #f4a949;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    clip-path: polygon(0 0, 46% 0, 79% 100%, 0 100%);
+    width: 65%;
+    height: 100%;
+}
+
 img {
     width: 30rem;
     height: 40rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    margin-left: 1.5rem;
 }
+
 
 .content {
     display: flex;
@@ -45,12 +55,13 @@ img {
 }
 
 .lastName {
+    color: #f4a949;
     display: flex;
     font-weight: lighter;
 }
 
 .lastLetter:hover {
-    color: #f4a949;
+    color: white;
     cursor: default;
     animation: shake 1s;
 }
@@ -58,7 +69,7 @@ img {
 
 /*The social medi links*/
 .socialLinks {
-    background-color: white;
+    background-color: #282A3A;
     width: 75%;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -67,10 +78,6 @@ img {
     bottom: 15px;
 }
 
-.socialLinks:hover {
-    transition: 300ms;
-    background-color: #f4a949;
-}
 
 ul {
     list-style: none;
@@ -90,23 +97,18 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-a:hover {
     color: white;
 }
 
-p {
-    font-size: 1.5rem;
-    color: white
-}
-
-p:hover {
+a:hover {
     transition: 300ms;
     color: #f4a949;
 }
 
+p {
+    font-size: 1.5rem;
+    color: #f4a949;
+}
 
 /* Lets Chat Button */
 .whatsApp {
@@ -126,14 +128,13 @@ p:hover {
     padding-top: 0px;
     margin-top: 20px;
     align-items: center;
-
-
+    background-color: #f4a949;
+    color: white;
 }
 
 .btn:hover {
     transition: 300ms;
-    background-color: #f4a949;
-    color: white;
+    background-color: white;
+    color: black;
     cursor: pointer;
-
 }
