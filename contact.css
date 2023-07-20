@@ -9,7 +9,7 @@ body {
 }
 
 
-/* Photo */
+/* background color */
 .h {
     background-color: #f4a949;
     position: absolute;
@@ -20,6 +20,9 @@ body {
     width: 65%;
     height: 100%;
 }
+
+
+/* Photo */
 
 img {
     width: 30rem;
@@ -69,7 +72,7 @@ img {
 
 /*The social medi links*/
 .socialLinks {
-    background-color: #282A3A;
+    background-color: #212121;
     width: 75%;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -137,4 +140,50 @@ p {
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+
+@media (max-width: 700px) {
+    .h {
+        background-color: #f4a949;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+        width: 100%;
+        height: 100%;
+    }
+
+    .mainBg {
+        display: inline-flex;
+        flex-direction: column;
+
+    }
+
+    img {
+        width: 20rem;
+        height: 30rem;
+        margin-top: 2rem;
+        border-radius: 50%;
+        margin-left: 2rem;
+    }
+
+    .nameContainer {
+        margin-left: 3rem;
+    }
+
+    p {
+        color: white;
+        margin: 0;
+        z-index: 1;
+    }
+
+    .socialLinks {
+        width: auto;
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
 }
