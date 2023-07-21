@@ -1,6 +1,6 @@
 body {
-    background: #000000;
-    color: white;
+    background: #333333;
+    color: #f8f8f8;
 }
 
 .mainBg {
@@ -64,7 +64,7 @@ img {
 }
 
 .lastLetter:hover {
-    color: white;
+    color: #f8f8f8;
     cursor: default;
     animation: shake 1s;
 }
@@ -100,7 +100,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #f8f8f8;
 }
 
 a:hover {
@@ -132,12 +132,12 @@ p {
     margin-top: 20px;
     align-items: center;
     background-color: #f4a949;
-    color: white;
+    color: #f8f8f8;
 }
 
 .btn:hover {
     transition: 300ms;
-    background-color: white;
+    background-color: #f8f8f8;
     color: black;
     cursor: pointer;
 }
@@ -174,7 +174,7 @@ p {
     }
 
     p {
-        color: white;
+        color: #f8f8f8;
         margin: 0;
         z-index: 1;
     }

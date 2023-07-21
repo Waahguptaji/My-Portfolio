@@ -1,6 +1,6 @@
 body {
-    background: #000000;
-    color: white;
+    background: #333333;
+    color: #f8f8f8;
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Ysabeau SC', sans-serif;
@@ -89,7 +89,7 @@ li {
 }
 
 .contact:hover {
-    color: white;
+    color: #f8f8f8;
 }
 
 .contact>p>a {
@@ -100,12 +100,16 @@ li {
 }
 
 .contact>p>a:hover {
-    background-color: white;
+    background-color: #f8f8f8;
 }
 
 .sendImg {
     vertical-align: middle;
     border-style: none;
+}
+
+.mobileContact {
+    display: none;
 }
 
 @media (max-width: 700px) {
@@ -151,6 +155,69 @@ li {
 
     .active .mobilenav .btn[name="add-circle-outline"] {
         display: none;
+    }
+
+    /* image of me */
+    .imgMe {
+        width: 20rem;
+        height: 20rem;
+        bottom: 0;
+        right: 0;
+    }
+
+    /* Name and movingtext */
+
+    .wholeContainer {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .nameContainer {
+        top: 20%;
+        right: 12%;
+    }
+
+    .nameContainer h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    .first::after {
+        /* to remove the new line */
+        content: "";
+    }
+
+    .movingContainer {
+        top: 31%;
+        left: 35%;
+    }
+
+
+    /* Contact Button */
+    .contact>p {
+        display: none;
+    }
+
+    .mobileContact {
+        display: block;
+        height: 2rem;
+        width: 6.5rem;
+        border: none;
+        border-radius: 15px;
+        font-size: 1rem;
+        background-color: #f4a949;
+        color: #f8f8f8;
+        position: fixed;
+        top: 41%;
+        right: 39%;
+    }
+
+    .mobileContact:hover {
+        transition: 300ms;
+        background-color: #f8f8f8;
+        color: black;
+        cursor: pointer;
     }
 
 }
