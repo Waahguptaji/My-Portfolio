@@ -4,8 +4,9 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Ysabeau SC', sans-serif;
-    font-size: 30px;
+    font-size: 1.5rem;
     margin-left: 2rem;
+    color: #f4a949;
 }
 
 
@@ -23,16 +24,28 @@ nav {
 
 ul {
     display: inline-flex;
-    gap: 10px;
+    gap: 1rem;
 }
 
 li {
     list-style: none;
+    letter-spacing: 1.5px;
 }
 
 .mobilenav {
     display: none;
     background: transparent;
+}
+
+
+/* Main Image of me */
+.imgMe {
+    width: 32.3rem;
+    height: 31.25rem;
+    position: fixed;
+    /*Because i donot want to image move according to anything*/
+    bottom: 0;
+    left: 30%;
 }
 
 /*------Name and Moving details------ */
@@ -62,7 +75,7 @@ li {
 }
 
 #movingText {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 
@@ -75,11 +88,19 @@ li {
     font-size: 1rem;
 }
 
+.contact:hover {
+    color: white;
+}
+
 .contact>p>a {
-    background: white;
+    background: #f4a949;
     padding: 10px;
     border-radius: 60px;
     border: 0px;
+}
+
+.contact>p>a:hover {
+    background-color: white;
 }
 
 .sendImg {

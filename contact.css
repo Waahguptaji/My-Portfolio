@@ -33,14 +33,14 @@ img {
 }
 
 
+
+/* The name and effects */
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-
-/* The name and effects */
 .nameContainer {
     font-size: 4rem;
     display: inline-flex;
