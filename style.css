@@ -30,6 +30,12 @@ ul {
 li {
     list-style: none;
     letter-spacing: 1.5px;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.15);
+    cursor: default;
 }
 
 .mobilenav {
@@ -51,16 +57,18 @@ li {
 /*------Name and Moving details------ */
 .nameContainer {
     position: absolute;
-    bottom: 25px;
+    bottom: 15px;
 }
 
 .movingContainer {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 5px;
+    border-right: solid #f4a949 1px;
+    padding-right: 5px;
 }
 
-.nameContainer h2 {
-    font-size: 2.5rem;
+.nameContainer h1 {
+    font-size: 3rem;
     font-weight: 800;
     letter-spacing: 2px;
 }
@@ -75,7 +83,7 @@ li {
 }
 
 #movingText {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 
@@ -83,13 +91,15 @@ li {
 .contact {
     display: inline-flex;
     position: absolute;
+    transition: transform 0.3s;
+    /* transform: This is the property that will be affected by the transition. In this case, it's the transform property, which means any changes to transform will be animated. */
     right: 3%;
     bottom: 5%;
     font-size: 1rem;
 }
 
 .contact:hover {
-    color: #f8f8f8;
+    transform: scale(1.25);
 }
 
 .contact>p>a {
@@ -97,10 +107,6 @@ li {
     padding: 10px;
     border-radius: 60px;
     border: 0px;
-}
-
-.contact>p>a:hover {
-    background-color: #f8f8f8;
 }
 
 .sendImg {
@@ -214,9 +220,9 @@ li {
     }
 
     .mobileContact:hover {
-        transition: 300ms;
-        background-color: #f8f8f8;
         color: black;
+        transition: color 0.3s;
+        background-color: #f8f8f8;
         cursor: pointer;
     }
 
