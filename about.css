@@ -1,0 +1,42 @@
+body {
+    background: #333333;
+    color: #f8f8f8;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: #f4a949;
+}
+
+.header {
+    position: absolute;
+    font-size: 4rem;
+    left: 50%;
+    top: 0;
+}
+
+.first::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843e9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-content-main-details {
+    color: white;
+}
+
+.about-content-skills {
+    display: inline-flex;
+}
