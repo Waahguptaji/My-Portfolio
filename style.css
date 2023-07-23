@@ -73,19 +73,55 @@ li:hover {
 }
 
 .nameContainer h1 {
+    display: block;
     font-size: 3rem;
     font-weight: 800;
     letter-spacing: 2px;
 }
 
-.first::after {
-    /* => ::after it is use to put something after the selected element*/
-    content: "\a";
-    /* => Set the content property to "\a" (the new-line character).*/
-    white-space: pre;
-    /* By default, HTML collapses multiple white spaces (including spaces, tabs, and line breaks) into a single space when rendered on a web page. 
-    However, when you use white-space: pre;, the element will display the exact formatting*/
+.first::before {
+    content: "Sahil";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(45deg,
+            transparent 0,
+            transparent 2px,
+            white 2px,
+            white 4px);
+    -webkit-background-clip: text;
+    bottom: 15px;
+    top: 32.2px;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
 }
+
+.first::after {
+    content: "Sahil";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(135deg,
+            transparent 0,
+            transparent 2px,
+            white 2px,
+            white 4px);
+    -webkit-background-clip: text;
+    bottom: 15px;
+    top: 32.2px;
+    left: 0;
+    transition: 1s;
+}
+
+.first:hover:before {
+    top: 32.2px;
+    left: 10px;
+}
+
+.first:hover:after {
+    top: 18%;
+    left: -101px;
+}
+
 
 #movingText {
     font-size: 1.4rem;
