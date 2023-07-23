@@ -1,5 +1,5 @@
 body {
-    background: #333333;
+    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
     color: #f8f8f8;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -10,10 +10,12 @@ body {
     color: #f4a949;
 }
 
+
 #subcontainer {
     margin-bottom: 9rem;
 }
 
+/* Heading and sub heading */
 .heading {
     display: block;
     position: relative;
@@ -24,52 +26,87 @@ body {
     margin-bottom: 10px;
 }
 
-.heading::after {
-    content: '';
+.heading::before {
+    background-color: #f4a949;
+    color: #f8f8f8;
+    content: 'About Me';
+    overflow: hidden;
     position: absolute;
-    top: 100%;
-    height: 5px;
-    width: 3rem;
-    background: #7843e9;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 5px;
+    -webkit-clip-path: polygon(0% 0%, 30% 0%, 30% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 30% 0%, 30% 100%, 0% 100%);
+    animation: slide 4s 1s linear infinite;
+}
+
+@keyframes slide {
+
+    /*It let us define the function that is used in the animation*/
+    50% {
+        -webkit-clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 70% 100%);
+    }
 }
 
 .sub-heading {
     display: block;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     max-width: 80rem;
     margin-bottom: 3rem;
     line-height: 1.6;
+    color: PaleGoldenRod
 }
 
 
+/* content */
 .about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     grid-gap: 5rem;
+}
+
+.about-content-main {
+    background-color: #212121;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5%;
 }
 
 .about-content-main-details {
     color: #f8f8f8;
-    font-size: 1.2rem;
-    text-transform: lowercase;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-content-main-details>strong {
+    color: PaleGoldenRod;
 }
 
 .about-content-skills {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #212121;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8%;
 }
 
 .about-content-skills>h3 {
-    font-weight: 700;
     font-size: 2rem;
     margin-top: 0px;
     margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    color: #f4a949;
+    outline: none;
+}
+
+.about-content-skills>h3:hover {
+    font-variation-settings: "wght" 700;
+    letter-spacing: 1px;
+    text-decoration: underline;
 }
 
 .about-skills {
@@ -78,5 +115,26 @@ body {
 }
 
 .skills-skill {
-    margin: 1rem;
+    padding: 1rem;
+    transition: transform 0.4s;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.skills-skill:hover {
+    background-color: transparent;
+    border-radius: 100%;
+    transform: scale(1.5);
+}
+
+@media(max-width:700px) {
+    .about-content {
+        display: grid;
+        grid-template-rows: 1.5fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 5rem;
+    }
 }

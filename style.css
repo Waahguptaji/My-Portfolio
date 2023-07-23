@@ -1,5 +1,5 @@
 body {
-    background: #333333;
+    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
     color: #f8f8f8;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -31,6 +31,11 @@ li {
     list-style: none;
     letter-spacing: 1.5px;
     transition: transform 0.2s;
+}
+
+li>a {
+    text-decoration: none;
+    color: #f4a949;
 }
 
 li:hover {
@@ -181,6 +186,7 @@ li:hover {
     .nameContainer {
         top: 20%;
         right: 12%;
+
     }
 
     .nameContainer h2 {
@@ -197,6 +203,7 @@ li:hover {
     .movingContainer {
         top: 31%;
         left: 35%;
+        bottom: auto;
     }
 
 

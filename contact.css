@@ -1,5 +1,5 @@
 body {
-    background: #333333;
+    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
     color: #f8f8f8;
 }
 
@@ -75,7 +75,7 @@ img {
 /*The social medi links*/
 .socialLinks {
     background-color: #212121;
-    width: 75%;
+    width: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 10%;
