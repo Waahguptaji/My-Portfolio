@@ -20,6 +20,7 @@ nav {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -174,24 +175,32 @@ li:hover {
         display: flex;
     }
 
+    .btn {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
     .btn[name="close-circle-outline"] {
         display: none;
     }
 
     .list {
         flex-direction: column;
-        position: absolute;
         right: 0;
-        margin-top: 45px;
+        /* margin-top: 45px; */
         text-align: center;
-        width: 20%;
-        justify-content: center;
-        z-index: 15;
+        /* width: 20%; */
+        justify-content: start;
+        z-index: 5;
         transform: translate(100%);
         transition: all 0.5s linear;
         visibility: hidden;
         position: fixed;
         padding-top: 20px;
+        width: 50%;
+        height: 100%;
+        background-color: #241f1f;
+        border-radius: 34px;
     }
 
     .active .list {
