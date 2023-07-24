@@ -73,8 +73,10 @@ li:hover {
 }
 
 .nameContainer h1 {
-    display: block;
-    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    font-size: 4rem;
     font-weight: 800;
     letter-spacing: 2px;
 }
@@ -90,7 +92,7 @@ li:hover {
             white 4px);
     -webkit-background-clip: text;
     bottom: 15px;
-    top: 32.2px;
+    top: 42.2px;
     left: 0;
     z-index: -1;
     transition: 1s;
@@ -107,24 +109,25 @@ li:hover {
             white 4px);
     -webkit-background-clip: text;
     bottom: 15px;
-    top: 32.2px;
+    top: 42.2px;
     left: 0;
     transition: 1s;
 }
 
 .first:hover:before {
-    top: 32.2px;
-    left: 10px;
+    top: 48.2px;
+    left: 4px;
 }
 
 .first:hover:after {
-    top: 18%;
-    left: -101px;
+    top: 39.2px;
+    left: -4px;
 }
 
 
 #movingText {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    padding-left: 5px;
 }
 
 
@@ -215,29 +218,22 @@ li:hover {
     /* Name and movingtext */
 
     .wholeContainer {
-        display: inline-block;
+        display: inline-flex;
         justify-content: center;
     }
 
-    .nameContainer {
-        top: 20%;
-        right: 12%;
-
-    }
-
-    .nameContainer h2 {
+    .nameContainer h1 {
+        display: block;
+        position: fixed;
+        top: 25%;
+        left: 15%;
         font-size: 3rem;
         font-weight: 700;
         letter-spacing: 2px;
     }
 
-    .first::after {
-        /* to remove the new line */
-        content: "";
-    }
-
     .movingContainer {
-        top: 31%;
+        top: 35%;
         left: 35%;
         bottom: auto;
     }
@@ -250,16 +246,16 @@ li:hover {
 
     .mobileContact {
         display: block;
-        height: 2rem;
-        width: 6.5rem;
+        height: 2.5rem;
+        width: 7.5rem;
         border: none;
-        border-radius: 15px;
-        font-size: 1rem;
+        border-radius: 20px;
+        font-size: 1.1rem;
         background-color: #f4a949;
         color: #f8f8f8;
         position: fixed;
-        top: 41%;
-        right: 39%;
+        top: 42%;
+        right: 35%;
     }
 
     .mobileContact:hover {
