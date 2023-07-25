@@ -52,5 +52,28 @@ function movingText(stringArr) {
 
     }, 120)
 }
-
 movingText(stArr);
+
+//Moving Rays
+const mainImg = document.querySelector(".mainImg");
+const imgMe = document.querySelector(".imgMe");
+
+//Here we Add the 'active' class to the box
+onHover = () => {
+    mainImg.classList.add("active1");
+}
+
+// Remove the 'active' class from the box
+offHover = () => {
+    mainImg.classList.remove("active1");
+}
+
+// Add event listener for mouseover
+imgMe.addEventListener('mouseover', () => {
+    onHover()
+});
+
+// Add event listener for mouseout
+imgMe.addEventListener('mouseout', function () {
+    offHover()
+});
