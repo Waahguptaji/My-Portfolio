@@ -16,14 +16,22 @@ body {
 .blogContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
-.blogContainer>div {
-    border: #f8f8f8 solid;
-    background-color: #212121;
-    padding: 24px;
+.outside-box {
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(13, 12, 12));
+    /* background: linear-gradient(rgba(255, 255, 255, 0.1) -6.28%, rgba(255, 255, 255, 0) 9.84%, rgb(0, 0, 0) 38.59%, rgba(255, 255, 255, 0) 66.93%, rgba(255, 255, 255, 0) 122.67%); */
+    padding: 0.5px;
+    border-radius: 0.5rem;
+    height: 100%;
+}
+
+.inside-box {
+    /* background: linear-gradient(45deg, rgb(0, 0, 0), rgb(13, 12, 12)); */
+    background: linear-gradient(rgba(255, 255, 255, 0.1) -6.28%, rgba(255, 255, 255, 0) 9.84%, rgb(0, 0, 0) 38.59%, rgba(255, 255, 255, 0) 66.93%, rgba(255, 255, 255, 0) 122.67%);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
 }
 
 .blogContainer>div>h2 {

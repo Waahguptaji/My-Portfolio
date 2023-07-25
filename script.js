@@ -68,12 +68,3 @@ offHover = () => {
     mainImg.classList.remove("active1");
 }
 
-// Add event listener for mouseover
-imgMe.addEventListener('mouseover', () => {
-    onHover()
-});
-
-// Add event listener for mouseout
-imgMe.addEventListener('mouseout', function () {
-    offHover()
-});
