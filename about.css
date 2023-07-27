@@ -1,6 +1,5 @@
 body {
-    /* background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%); */
-    background: linear-gradient(45deg, #ff5252, #b33939);
+    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
     color: #f8f8f8;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -8,7 +7,7 @@ body {
     font-size: 1.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    color: #ffd700;
+    color: #f4a949;
 }
 
 
@@ -28,7 +27,7 @@ body {
 }
 
 .heading::before {
-    background-color: #ffd700;
+    background-color: #f4a949;
     color: #f8f8f8;
     content: 'About Me';
     overflow: hidden;
@@ -54,7 +53,7 @@ body {
     max-width: 80rem;
     margin-bottom: 3rem;
     line-height: 1.6;
-    color: #fffff0
+    color: palegoldenrod;
 }
 
 
@@ -66,7 +65,7 @@ body {
 }
 
 .about-content-main {
-    background-color: #333333;
+    background-color: #212121;
     width: 100%;
     padding: 1rem;
     border-radius: 5%;
@@ -86,7 +85,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #333333;
+    background-color: #212121;
     width: 100%;
     padding: 1rem;
     border-radius: 8%;
@@ -100,7 +99,7 @@ body {
     letter-spacing: -3px;
     transition: 700ms ease;
     font-variation-settings: "wght" 311;
-    color: #add8e6;
+    color: #f4a949;
     outline: none;
 }
 

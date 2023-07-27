@@ -1,6 +1,5 @@
 body {
-    /* background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%); */
-    background: linear-gradient(45deg, #ff5252, #b33939);
+    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
     background-attachment: fixed;
     color: #f8f8f8;
     box-sizing: border-box;
@@ -53,27 +52,50 @@ li:hover {
 
 
 /* Main Image of me */
-.imgMe {
-    width: 32.3rem;
-    height: 31.25rem;
+
+.mainImg {
+    height: 629px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0;
     position: fixed;
-    /*Because i donot want to image move according to anything*/
+    left: 26%;
     bottom: 0;
-    left: 30%;
-    transition: 0.3s ease;
+}
+
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10rem;
+}
+
+.imgMe {
+    width: 30.3rem;
+    height: 29.25rem;
+}
+
+.sunrays-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4.5rem;
 }
 
 .rays {
+    width: 41rem;
+    height: 35.25rem;
     display: none;
 }
 
-.active1 .rays {
-    display: block;
-    width: 43rem;
-    height: 37.25rem;
-    position: fixed;
-    bottom: 0;
-    left: 24.25%;
+.mainImg:hover {
+    transition: 1s;
+
+    .rays {
+        display: block;
+    }
 }
 
 
@@ -158,6 +180,7 @@ li:hover {
     right: 3%;
     bottom: 5%;
     font-size: 1rem;
+    z-index: 1;
 }
 
 .contact:hover {

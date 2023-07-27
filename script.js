@@ -54,17 +54,17 @@ function movingText(stringArr) {
 }
 movingText(stArr);
 
-//Moving Rays
-const mainImg = document.querySelector(".mainImg");
-const imgMe = document.querySelector(".imgMe");
+// //Moving Rays
+// const mainImg = document.querySelector(".mainImg");
+// const imgMe = document.querySelector(".img-container");
 
-//Here we Add the 'active' class to the box
-onHover = () => {
-    mainImg.classList.add("active1");
-}
+// //Here we Add the 'active' class to the box
+// onHover = () => {
+//     mainImg.classList.add("active1");
+// }
 
-// Remove the 'active' class from the box
-offHover = () => {
-    mainImg.classList.remove("active1");
-}
+// // Remove the 'active' class from the box
+// offHover = () => {
+//     mainImg.classList.remove("active1");
+// }
 
