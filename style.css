@@ -54,14 +54,15 @@ li:hover {
 /* Main Image of me */
 
 .mainImg {
-    height: 629px;
+    height: 419px;
     width: 700px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0;
-    position: fixed;
-    left: 26%;
+    position: absolute;
     bottom: 0;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 
@@ -253,39 +254,105 @@ li:hover {
         display: none;
     }
 
-    /* image of me */
-    .imgMe {
-        width: 20rem;
-        height: 20rem;
-        bottom: 0;
-        right: 0;
+    .mobileFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    /* image of me */
+    .mainImg {
+        position: fixed;
+        height: 24.5rem;
+        width: 24rem;
+        bottom: 0;
+        transform: none;
+        left: auto;
+    }
+
+    .img-container {
+        top: 7rem;
+    }
+
+    .imgMe {
+        width: 17rem;
+        height: 18rem;
+    }
+
+    .sunrays-container {
+        top: 3.3rem;
+    }
+
+    .rays {
+        width: 23rem;
+        height: 22rem;
+    }
+
 
     /* Name and movingtext */
 
     .wholeContainer {
-        display: inline-flex;
-        justify-content: center;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 18%;
+    }
+
+    .nameContainer {
+        position: relative;
+        bottom: 0;
     }
 
     .nameContainer h1 {
         display: block;
-        position: fixed;
-        top: 25%;
-        left: 15%;
         font-size: 3rem;
         font-weight: 700;
         letter-spacing: 2px;
     }
 
-    .movingContainer {
-        top: 35%;
-        left: 35%;
-        bottom: auto;
+    .first::before {
+        bottom: 15px;
+        top: 32.2px;
     }
 
+    .first::after {
+        bottom: 15px;
+        top: 32.2px;
+    }
+
+    .first:hover:before {
+        top: 36.2px;
+        left: 4px;
+    }
+
+    .first:hover:after {
+        top: 30.2px;
+        left: -4px;
+    }
+
+    .movingContainer {
+        position: relative;
+        bottom: 0;
+    }
 
     /* Contact Button */
+    .contact {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        font-size: 1rem;
+        z-index: 1;
+        align-items: center;
+        right: 0;
+        top: 14rem;
+    }
+
+    .contact:hover {
+        transform: none;
+    }
+
     .contact>p {
         display: none;
     }
@@ -299,9 +366,6 @@ li:hover {
         font-size: 1.1rem;
         background-color: #f4a949;
         color: #f8f8f8;
-        position: fixed;
-        top: 42%;
-        right: 35%;
     }
 
     .mobileContact:hover {

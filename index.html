@@ -42,26 +42,28 @@
       </header>
     </nav>
 
-    <!-- Main Img -->
-    <div class="mainImg">
-      <div class="img-container" onmouseover="onHover()" onmouseout="offHover()">
-        <img class="imgMe" src="./images/sahil2.png" alt="sahil.png">
+    <div class="mobileFlex">
+      <!-- Main Img -->
+      <div class="mainImg">
+        <div class="img-container" onmouseover="onHover()" onmouseout="offHover()">
+          <img class="imgMe" src="./images/sahil2.png" alt="sahil.png">
+        </div>
+        <div class="sunrays-container">
+          <img class="rays" src="./images/rays.png" alt="sahil.png">
+        </div>
       </div>
-      <div class="sunrays-container">
-        <img class="rays" src="./images/rays.png" alt="sahil.png">
-      </div>
-    </div>
 
-    <!-- Moving text and Name -->
-    <div class="wholeContainer">
-      <div class="nameContainer">
-        <h1>
-          <span class="first">Sahil</span>
-          <span class="last">Gupta</span>
-        </h1>
-      </div>
-      <div class="movingContainer">
-        <i id="movingText"></i>
+      <!-- Moving text and Name -->
+      <div class="wholeContainer">
+        <div class="nameContainer">
+          <h1>
+            <span class="first">Sahil</span>
+            <span class="last">Gupta</span>
+          </h1>
+        </div>
+        <div class="movingContainer">
+          <i id="movingText"></i>
+        </div>
       </div>
     </div>
   </div>
@@ -71,8 +73,8 @@
     <p>Contact Me!
       <a href="contact.html"><img class="sendImg" src="./images/send.png"> </a>
     </p>
-    <button class="mobileContact">
-      <a href="contact.html"></a>Contact Me!</button>
+    <button onclick="openContact()" class="mobileContact"> Contact Me!
+    </button>
   </div>
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

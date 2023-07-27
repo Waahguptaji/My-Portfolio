@@ -54,6 +54,11 @@ function movingText(stringArr) {
 }
 movingText(stArr);
 
+function openContact() {
+    var url = "contact.html";
+    window.open(url);
+}
+
 // //Moving Rays
 // const mainImg = document.querySelector(".mainImg");
 // const imgMe = document.querySelector(".img-container");
