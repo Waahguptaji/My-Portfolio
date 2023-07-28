@@ -10,8 +10,6 @@ body {
     color: #f4a949;
 }
 
-
-
 /*---------Nav Bar----------*/
 
 nav {
@@ -216,6 +214,10 @@ li:hover {
         display: flex;
     }
 
+    .logo {
+        font-size: 2rem;
+    }
+
     .btn {
         width: 1.5rem;
         height: 1.5rem;
@@ -297,12 +299,13 @@ li:hover {
         align-items: center;
         flex-direction: column;
         position: absolute;
-        top: 18%;
+        top: 29%;
     }
 
     .nameContainer {
         position: relative;
         bottom: 0;
+
     }
 
     .nameContainer h1 {
@@ -334,7 +337,7 @@ li:hover {
 
     .movingContainer {
         position: relative;
-        bottom: 0;
+        bottom: 25px;
     }
 
     /* Contact Button */
@@ -346,7 +349,7 @@ li:hover {
         z-index: 1;
         align-items: center;
         right: 0;
-        top: 14rem;
+        top: 17rem;
     }
 
     .contact:hover {
