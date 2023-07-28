@@ -7,7 +7,7 @@ body {
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 1.5rem;
     margin-left: 2rem;
-    color: #f4a949;
+    color: #BDA2A2;
 }
 
 /*---------Nav Bar----------*/
@@ -35,7 +35,7 @@ li {
 
 li>a {
     text-decoration: none;
-    color: #f4a949;
+    color: #BDA2A2;
 }
 
 li:hover {
@@ -68,24 +68,24 @@ li:hover {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 10rem;
+    top: 11rem;
 }
 
 .imgMe {
-    width: 30.3rem;
-    height: 29.25rem;
+    width: 28.3rem;
+    height: 28.25rem;
 }
 
 .sunrays-container {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 4.5rem;
+    top: 5.5rem;
 }
 
 .rays {
-    width: 41rem;
-    height: 35.25rem;
+    width: 38rem;
+    height: 32.25rem;
     display: none;
 }
 
@@ -107,7 +107,7 @@ li:hover {
 .movingContainer {
     position: fixed;
     bottom: 5px;
-    border-right: solid #f4a949 1px;
+    border-right: solid #BDA2A2 1px;
     padding-right: 5px;
 }
 
@@ -187,7 +187,7 @@ li:hover {
 }
 
 .contact>p>a {
-    background: #f4a949;
+    background: #BDA2A2;
     padding: 10px;
     border-radius: 60px;
     border: 0px;
@@ -349,7 +349,7 @@ li:hover {
         z-index: 1;
         align-items: center;
         right: 0;
-        top: 17rem;
+        top: 18rem;
     }
 
     .contact:hover {
@@ -367,7 +367,7 @@ li:hover {
         border: none;
         border-radius: 20px;
         font-size: 1.1rem;
-        background-color: #f4a949;
+        background-color: #BDA2A2;
         color: #f8f8f8;
     }
 
