@@ -86,8 +86,6 @@ p {
     text-align: center;
     width: 250px;
     height: 380px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     background-color: #241f1f;
     transition: .6s;
     transform: rotatex(65deg) translatey(-200px) translatez(-100px);
