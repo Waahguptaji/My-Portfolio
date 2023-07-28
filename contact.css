@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
+    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%);
     color: #f8f8f8;
 }
 
@@ -11,7 +11,7 @@ body {
 
 /* background color */
 .h {
-    background-color: #f4a949;
+    background-color: #BDA2A2;
     position: absolute;
     left: 0;
     top: 0;
@@ -52,14 +52,14 @@ img {
 }
 
 .firstLetter:hover {
-    color: #f4a949;
+    color: #BDA2A2;
     transition: color 0.3s;
     cursor: default;
     animation: shake 0.5s;
 }
 
 .lastName {
-    color: #f4a949;
+    color: #BDA2A2;
     display: flex;
     font-weight: lighter;
 }
@@ -74,7 +74,8 @@ img {
 
 /*The social medi links*/
 .socialLinks {
-    background-color: #212121;
+    background-color: #241f1f;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
     width: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -106,13 +107,13 @@ a {
 }
 
 a:hover {
-    color: #f4a949;
+    color: #BDA2A2;
     transition: color 0.3s;
 }
 
 p {
     font-size: 1.5rem;
-    color: #f4a949;
+    color: #BDA2A2;
 }
 
 /* Lets Chat Button */
@@ -133,7 +134,7 @@ p {
     padding-top: 0px;
     margin-top: 20px;
     align-items: center;
-    background-color: #f4a949;
+    background-color: #BDA2A2;
     color: #f8f8f8;
 }
 
@@ -147,7 +148,7 @@ p {
 
 @media (max-width: 700px) {
     .h {
-        background-color: #f4a949;
+        background-color: #BDA2A2;
         position: absolute;
         left: 0;
         top: 0;
