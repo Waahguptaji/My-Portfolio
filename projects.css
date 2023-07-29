@@ -5,16 +5,63 @@ body {
     /* background-color: #dfe6e9; */
     background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%);
     box-sizing: border-box;
-    overflow-x: hidden;
     font-family: 'Ysabeau SC', sans-serif;
     color: #BDA2A2;
 
 }
 
 .mainContainer {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.heading {
+    align-self: center;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+}
+
+
+.complete-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Together, these two properties enable the creation of 3D effects by controlling the perspective of the element and its children in a 3D space */
+    transform: perspective(900px);
+    /*The perspective function with 900px means you are pretending to view the scene from a point that is 900 pixels away from the screen.*/
+    transform-style: preserve-3d;
+    /* The preserve-3d value ensures that these elements maintain their 3D positioning, so they don't get flattened to the 2D plane of the screen.
+This allows elements to interact with each other in the 3D space, giving a more realistic effect. */
+}
+
+.working-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Together, these two properties enable the creation of 3D effects by controlling the perspective of the element and its children in a 3D space */
+    transform: perspective(900px);
+    /*The perspective function with 900px means you are pretending to view the scene from a point that is 900 pixels away from the screen.*/
+    transform-style: preserve-3d;
+    /* The preserve-3d value ensures that these elements maintain their 3D positioning, so they don't get flattened to the 2D plane of the screen.
+This allows elements to interact with each other in the 3D space, giving a more realistic effect. */
+}
+
+.ideas-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Together, these two properties enable the creation of 3D effects by controlling the perspective of the element and its children in a 3D space */
+    transform: perspective(900px);
+    /*The perspective function with 900px means you are pretending to view the scene from a point that is 900 pixels away from the screen.*/
+    transform-style: preserve-3d;
+    /* The preserve-3d value ensures that these elements maintain their 3D positioning, so they don't get flattened to the 2D plane of the screen.
+This allows elements to interact with each other in the 3D space, giving a more realistic effect. */
 }
 
 h1 {
@@ -23,18 +70,31 @@ h1 {
     margin-bottom: 0px;
 }
 
-.blogContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10rem;
-    margin-top: 2rem;
-    /* Together, these two properties enable the creation of 3D effects by controlling the perspective of the element and its children in a 3D space */
-    transform: perspective(900px);
-    /*The perspective function with 900px means you are pretending to view the scene from a point that is 900 pixels away from the screen.*/
-    transform-style: preserve-3d;
-    /* The preserve-3d value ensures that these elements maintain their 3D positioning, so they don't get flattened to the 2D plane of the screen.
-This allows elements to interact with each other in the 3D space, giving a more realistic effect. */
+.sub-heading {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+.sub-heading>img {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding-top: 7px;
+}
+
+.sub-heading>h2 {
+    padding-left: 15px;
+}
+
+.status {
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
 
 /*Card effects*/
 a {
@@ -48,6 +108,7 @@ a {
     height: 350px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 100px;
     background-color: #241f1f;
     transition: .6s;
     transform: rotatex(65deg) translatey(-200px) translatez(-100px);
@@ -70,8 +131,9 @@ a {
 h2 {
     font-size: 25px;
     font-family: 'Abel', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 2px rgb(255, 255, 255);
+    color:
+        white;
+    text-shadow: 0 0 2px white;
     transform: translatey(10px);
 }
 
@@ -85,7 +147,9 @@ p {
 .card-2 {
     text-align: center;
     width: 250px;
-    height: 380px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #241f1f;
     transition: .6s;
     transform: rotatex(65deg) translatey(-200px) translatez(-100px);
