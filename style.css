@@ -146,13 +146,12 @@ li:hover {
     background-image: repeating-linear-gradient(45deg,
             transparent 0,
             transparent 2px,
-            white 2px,
-            white 4px);
+            #a45959 2px,
+            #a45959 4px);
     -webkit-background-clip: text;
     bottom: 15px;
-    top: 42.2px;
+    top: 42.5px;
     left: 0;
-    z-index: -1;
     transition: 1s;
 }
 
@@ -163,23 +162,58 @@ li:hover {
     background-image: repeating-linear-gradient(135deg,
             transparent 0,
             transparent 2px,
-            white 2px,
-            white 4px);
+            #a45959 2px,
+            #a45959 4px);
     -webkit-background-clip: text;
     bottom: 15px;
-    top: 42.2px;
+    top: 42.5px;
     left: 0;
     transition: 1s;
 }
 
 .first:hover:before {
-    top: 48.2px;
-    left: 4px;
+    top: 42.5px;
+    left: 3.5px;
+    z-index: -1;
 }
 
-.first:hover:after {
-    top: 39.2px;
-    left: -4px;
+
+.last::before {
+    content: "Gupta";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(45deg,
+            transparent 0,
+            transparent 2px,
+            #a45959 2px,
+            #a45959 4px);
+    -webkit-background-clip: text;
+    bottom: 15px;
+    top: 107.2px;
+    left: 0;
+    transition: 1s;
+}
+
+.last::after {
+    content: "Gupta";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(135deg,
+            transparent 0,
+            transparent 2px,
+            #a45959 2px,
+            #a45959 4px);
+    -webkit-background-clip: text;
+    bottom: 15px;
+    top: 107.2px;
+    left: 0;
+    transition: 1s;
+}
+
+.last:hover:before {
+    top: 107.2px;
+    left: 4px;
+    z-index: -1;
 }
 
 
@@ -338,22 +372,36 @@ li:hover {
 
     .first::before {
         bottom: 15px;
-        top: 32.2px;
+        top: 32px;
     }
 
     .first::after {
         bottom: 15px;
-        top: 32.2px;
+        top: 32px;
     }
 
     .first:hover:before {
-        top: 36.2px;
+        top: 32px;
         left: 4px;
     }
 
-    .first:hover:after {
-        top: 30.2px;
-        left: -4px;
+
+    .last::before {
+        bottom: 15px;
+        top: 32px;
+        left: 142px;
+    }
+
+    .last::after {
+        bottom: 15px;
+        top: 32px;
+        left: 142px;
+    }
+
+    .last:hover:before {
+        top: 32px;
+        left: 146px;
+        z-index: -1;
     }
 
     .movingContainer {
@@ -387,14 +435,14 @@ li:hover {
         border: none;
         border-radius: 20px;
         font-size: 1.1rem;
-        background-color: #BDA2A2;
-        color: #f8f8f8;
+        background-color: #a45959;
+        color: #BDA2A2;
     }
 
     .mobileContact:hover {
-        color: black;
+        color: #a45959;
         transition: color 0.3s;
-        background-color: #f8f8f8;
+        background-color: #BDA2A2;
         cursor: pointer;
     }
 
