@@ -15,21 +15,22 @@ body {
     margin-bottom: 9rem;
 }
 
-/* Heading and sub heading */
-.heading {
+/* sub heading */
+.sub-heading {
     display: block;
-    position: relative;
-    letter-spacing: 3px;
     text-align: center;
-    font-size: 4rem;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    color: #BDA2A2;
 }
 
-.heading::before {
+.sub-heading::before {
     /* background-color: #BDA2A2; */
     color: #f8f8f8;
-    content: 'About Me';
+    content: 'Hello there!';
     overflow: hidden;
     position: absolute;
     -webkit-clip-path: polygon(0% 0%, 30% 0%, 30% 100%, 0% 100%);
@@ -45,17 +46,6 @@ body {
     }
 }
 
-.sub-heading {
-    display: block;
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 500;
-    max-width: 80rem;
-    margin-bottom: 3rem;
-    line-height: 1.6;
-    color: #BDA2A2;
-}
-
 
 /* content */
 .about-content {
@@ -68,7 +58,7 @@ body {
     background-color: #241f1f;
     box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
     width: 100%;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 5%;
 }
 
@@ -88,7 +78,6 @@ body {
     align-items: center;
     background-color: #241f1f;
     width: 100%;
-    padding: 1rem;
     border-radius: 8%;
     box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
 }
@@ -96,11 +85,9 @@ body {
 .about-content-skills>h3 {
     font-size: 2rem;
     margin-top: 0px;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
     letter-spacing: -3px;
     transition: 700ms ease;
-    font-variation-settings: "wght" 311;
+    font-variation-settings: "wght" 200;
     color: #BDA2A2;
     outline: none;
 }
@@ -112,8 +99,9 @@ body {
 }
 
 .about-skills {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .skills-skill {
@@ -135,8 +123,14 @@ img {
 @media(max-width:700px) {
     .about-content {
         display: grid;
-        grid-template-rows: 1.5fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
         grid-gap: 5rem;
+    }
+
+    .about-skills {
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
     }
 }
