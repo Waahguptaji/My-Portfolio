@@ -3,7 +3,7 @@ body {
     color: #f8f8f8;
 }
 
-.mainBg {
+.contact-sub-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -41,13 +41,13 @@ img {
     justify-content: center;
 }
 
-.nameContainer {
+.nameContainer-contact {
     font-size: 4rem;
     display: inline-flex;
     gap: 1rem;
 }
 
-.firstName {
+.firstName-contact {
     display: flex;
 }
 
@@ -58,7 +58,7 @@ img {
     animation: shake 0.5s;
 }
 
-.lastName {
+.lastName-contact {
     color: #BDA2A2;
     display: flex;
     font-weight: lighter;
@@ -85,7 +85,7 @@ img {
 }
 
 
-ul {
+.social-links-list {
     list-style: none;
     font-size: 2rem;
     display: flex;
@@ -96,22 +96,22 @@ ul {
     padding-left: 60px;
 }
 
-li {
+.social-links-list>li {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-a {
+.social-links-list a {
     text-decoration: none;
     color: #f8f8f8;
 }
 
-a:hover {
-    color: #BDA2A2;
+.social-links-list>li>a:hover {
+    color: #a45959;
     transition: color 0.3s;
 }
 
-p {
+.social-links-list p {
     font-size: 1.5rem;
     color: #BDA2A2;
 }
@@ -134,13 +134,13 @@ p {
     padding-top: 0px;
     margin-top: 20px;
     align-items: center;
+    color: #a45959;
     background-color: #BDA2A2;
-    color: #f8f8f8;
 }
 
 .btn:hover {
-    color: black;
-    background-color: #f8f8f8;
+    background-color: #a45959;
+    color: #BDA2A2;
     transition: color 0.3s;
     cursor: pointer;
 }
