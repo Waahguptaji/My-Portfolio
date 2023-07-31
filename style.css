@@ -16,6 +16,11 @@ nav {
     position: relative;
 }
 
+.logo {
+    width: 2rem;
+    height: 2rem;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -48,6 +53,21 @@ li:hover {
     background: transparent;
 }
 
+/* Nav Bar for Multipages */
+/* blog */
+.textAni {
+    background-image: linear-gradient(transparent 0, transparent 55%, #a45959 55%, #a45959 90%, transparent 90%, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    animation: underline .5s 100ms cubic-bezier(.645, .045, .355, 1) forwards;
+}
+
+@keyframes underline {
+    100% {
+        background-size: 8rem 100%;
+    }
+
+}
 
 /* Main Image of me */
 

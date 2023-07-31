@@ -14,8 +14,8 @@ body {
 .mainContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
+
 
 h1 {
     font-size: 4rem;
@@ -26,42 +26,52 @@ h1 {
 .blogContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10rem;
     margin-top: 2rem;
+    gap: 5rem;
+    grid-auto-flow: row;
+    overflow: scroll;
+}
+
+/*Card effects*/
+.card {
+    display: flex;
+    justify-content: center;
+    /**Imp ==> Jab bhi 3d effect use kar rhe ho toh perspective and style jis div mai laga rhe ho uske ek upar waale mai declare karo */
+
     /* Together, these two properties enable the creation of 3D effects by controlling the perspective of the element and its children in a 3D space */
     transform: perspective(900px);
     /*The perspective function with 900px means you are pretending to view the scene from a point that is 900 pixels away from the screen.*/
     transform-style: preserve-3d;
     /* The preserve-3d value ensures that these elements maintain their 3D positioning, so they don't get flattened to the 2D plane of the screen.
-This allows elements to interact with each other in the 3D space, giving a more realistic effect. */
+    This allows elements to interact with each other in the 3D space, giving a more realistic effect. */
 }
 
-/*Card effects*/
 a {
     text-decoration: none;
-    text-align: center;
+
 }
 
-.card-1 {
+.inner-card {
     text-align: center;
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #241f1f;
     transition: .6s;
     transform: rotatex(65deg) translatey(-200px) translatez(-100px);
     box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
 }
 
-.card-1:hover {
+.inner-card:hover {
     transform: rotatex(0deg);
     transform: rotatez(0deg);
     transition: .6s;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
-.card-1 img {
+.inner-card img {
     transform: translateY(15px);
     width: 200px;
     height: 120px;
@@ -79,54 +89,32 @@ p {
     color: white;
     font-family: 'Abel', sans-serif;
     width: 220px;
-    transform: translatex(12px);
-}
-
-.card-2 {
-    text-align: center;
-    width: 250px;
-    height: 380px;
-    background-color: #241f1f;
-    transition: .6s;
-    transform: rotatex(65deg) translatey(-200px) translatez(-100px);
-    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
-}
-
-.card-2:hover {
-    transform: rotatex(0deg);
-    transform: rotatez(0deg);
-    transition: .6s;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-}
-
-.card-2 img {
-    transform: translateY(15px);
-    width: 200px;
-    height: 120px;
+    transform: translatex(40px);
 }
 
 
-.card-3 {
-    text-align: center;
-    width: 250px;
-    height: 350px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #241f1f;
-    transition: .6s;
-    transform: rotatex(65deg) translatey(-200px) translatez(-100px);
-    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
-}
+/* Responsive */
+@media (max-width: 700px) {
+    .blogContainer {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-top: 2rem;
+    }
 
-.card-3:hover {
-    transform: rotatex(0deg);
-    transform: rotatez(0deg);
-    transition: .6s;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-}
+    .card {
+        display: flex;
+        justify-content: center;
+    }
 
-.card-3 img {
-    transform: translateY(15px);
-    width: 200px;
-    height: 120px;
+
+    /* .card-1 {
+        transform: rotatex(35deg) translatey(-200px) translatez(-100px);
+    }
+
+    .card-3 {
+        transform: rotatex(90deg) translatey(-200px) translatez(-100px);
+    } */
+
 }
