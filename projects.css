@@ -4,6 +4,8 @@
 body {
     /* background-color: #dfe6e9; */
     background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%);
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Ysabeau SC', sans-serif;
     color: #BDA2A2;
@@ -116,4 +118,29 @@ a {
     transform: translateY(15px);
     width: 200px;
     height: 120px;
+}
+
+
+@media (max-width: 700px) {
+
+    nav {
+        position: fixed;
+        width: 100%;
+    }
+
+    .mainContainer {
+        align-items: center;
+    }
+
+    .sub-container {
+        margin-top: 5rem;
+    }
+
+    .mini-container {
+        display: grid;
+        grid-template-rows: 0.1fr repeat(2, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+
 }
