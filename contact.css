@@ -1,8 +1,6 @@
 body {
     background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%);
     color: #f8f8f8;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     background-attachment: fixed;
 }
@@ -156,6 +154,8 @@ body {
         background-attachment: fixed;
         color: #f8f8f8;
         overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
 
     nav {

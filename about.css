@@ -5,8 +5,6 @@ body {
     overflow-x: hidden;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 1.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
     color: #BDA2A2;
 
 }
@@ -25,11 +23,12 @@ body {
     margin-bottom: 3rem;
     line-height: 1.6;
     color: #BDA2A2;
+    margin-top: 0px;
 }
 
 .sub-heading::before {
     /* background-color: #BDA2A2; */
-    color: #f8f8f8;
+    color: #a45959;
     content: 'Hello there!';
     overflow: hidden;
     position: absolute;
@@ -69,7 +68,7 @@ body {
 }
 
 .about-content-main-details>strong {
-    color: #add8e6;
+    color: #a45959;
 }
 
 .about-content-skills {
@@ -121,6 +120,11 @@ img {
 }
 
 @media(max-width:700px) {
+    .body {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
     .about-content {
         display: grid;
         grid-template-rows: 1fr 1fr;
