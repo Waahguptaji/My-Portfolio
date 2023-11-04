@@ -363,6 +363,7 @@ li:hover {
     .nameContainer {
         position: relative;
         bottom: 0;
+        margin-left: 0;
 
     }
 
@@ -374,42 +375,44 @@ li:hover {
     }
 
     .first::before {
-        bottom: 15px;
-        top: 32px;
+        bottom: 0;
+        /* top: 32px; */
     }
 
     .first::after {
-        bottom: 15px;
-        top: 32px;
+       bottom: 0;
+         /* top: 32px; */
     }
 
     .first:hover:before {
-        top: 32px;
+        /* top: 32px; */
         left: 4px;
     }
 
 
     .last::before {
-        bottom: 15px;
-        top: 32px;
-        left: 142px;
+        bottom: 0;
+        top: 0;
+        left: 8rem;
     }
 
     .last::after {
-        bottom: 15px;
-        top: 32px;
-        left: 142px;
+        bottom: 0;
+        top: 0;
+        left: 8rem;
     }
 
     .last:hover:before {
-        top: 32px;
-        left: 146px;
+        top: 0;
+        left: 8.2rem;
         z-index: -1;
     }
 
     .movingContainer {
         position: relative;
-        bottom: 25px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+        bottom: 0;
     }
 
     /* Contact Button */
