@@ -6,6 +6,20 @@ import send from "../images/send.png";
 import ReactTyped from "react-typed";
 
 const Home = () => {
+  // const mobileNav = document.querySelector(".mobilenav");
+  // const header = document.querySelector(".header");
+
+  // //Here we are making a toggle using classList property.
+  // //when the button is clicked, the classList.toggle() method is called on the button element.
+  // // If the "active" class is already applied to the button, it will be removed. If it's not applied, it will be added.
+  // toggle = () => {
+  //   header.classList.toggle("active");
+  // };
+  // //when click on button it will call the toggle function.
+  // mobileNav.addEventListener("click", () => {
+  //   toggle();
+  // });
+
   return (
     <div className="main_bg">
       <div className="mobileFlex">
@@ -33,9 +47,14 @@ const Home = () => {
           </div>
           <div className="movingContainer">
             <i id="movingText">
-              I'm a{" "}
+              {"< "}I'm a{" "}
               <ReactTyped
-                strings={["Developer.", "Thinker.", "Writer.", "Avid Reader."]}
+                strings={[
+                  "Developer. ",
+                  "Thinker. ",
+                  "Writer. ",
+                  "Avid Reader. ",
+                ]}
                 typeSpeed={100}
                 loop
                 backSpeed={20}
@@ -46,9 +65,9 @@ const Home = () => {
           </div>
           {/* <!-- Contact me Button mobile --> */}
           <div className="contact">
-            <button onClick="openContact()" className="mobileContact">
-              Contact Me!
-            </button>
+            <Link to="/Contact">
+              <button className="mobileContact">Contact Me!</button>
+            </Link>
           </div>
         </div>
       </div>
