@@ -12,7 +12,7 @@ body {
 
 
 /* background color */
-.polygon-Background {
+/* .polygon-Background {
     background-color: #BDA2A2;
     position: absolute;
     left: 0;
@@ -21,7 +21,7 @@ body {
     clip-path: polygon(0 0, 46% 0, 79% 100%, 0 100%);
     width: 65%;
     height: 33em;
-}
+} */
 
 
 /* Photo */

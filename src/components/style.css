@@ -121,13 +121,12 @@ li:hover {
 /*------Name and Moving details------ */
 .nameContainer {
     position: absolute;
-    bottom: 15px;
+    bottom: 3rem;
 }
 
 .movingContainer {
     position: fixed;
     bottom: 5px;
-    border-right: solid #BDA2A2 1px;
     padding-right: 5px;
 }
 
@@ -151,7 +150,7 @@ li:hover {
             #a45959 4px);
     -webkit-background-clip: text;
     bottom: 15px;
-    top: 42.5px;
+    top: 0;
     left: 0;
     transition: 1s;
 }
@@ -167,13 +166,13 @@ li:hover {
             #a45959 4px);
     -webkit-background-clip: text;
     bottom: 15px;
-    top: 42.5px;
+    top: 0;
     left: 0;
     transition: 1s;
 }
 
 .first:hover:before {
-    top: 42.5px;
+    top: 0;
     left: 3.5px;
     z-index: -1;
 }
@@ -190,7 +189,7 @@ li:hover {
             #a45959 4px);
     -webkit-background-clip: text;
     bottom: 15px;
-    top: 107.2px;
+    top: 4rem;
     left: 0;
     transition: 1s;
 }
@@ -206,13 +205,13 @@ li:hover {
             #a45959 4px);
     -webkit-background-clip: text;
     bottom: 15px;
-    top: 107.2px;
+    top: 4rem;
     left: 0;
     transition: 1s;
 }
 
 .last:hover:before {
-    top: 107.2px;
+    top: 4rem;
     left: 4px;
     z-index: -1;
 }
@@ -240,16 +239,19 @@ li:hover {
     transform: scale(1.25);
 }
 
-.contact>p>a {
+.link {
     background: #BDA2A2;
     padding: 10px;
     border-radius: 60px;
     border: 0px;
+    margin: 10px;
 }
 
 .sendImg {
     vertical-align: middle;
     border-style: none;
+    height: auto;
+    width: auto;
 }
 
 .mobileContact {
