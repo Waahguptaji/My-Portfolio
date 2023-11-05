@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import Completed from "../images/completed.png";
+import working from "../images/working.png";
+import ideas from "../images/ideas.png";
 import "./projects.css";
 const Projects = () => {
   return (
@@ -6,7 +9,7 @@ const Projects = () => {
       <div className="sub-container">
         <div className="complete mini-container  ">
           <div className="sub-heading">
-            <img src="./images/completed.png" alt="img" />
+            <img src={Completed} alt="img" />
             <h2 className="status"> Completed</h2>
           </div>
           <div className="card-1 card">
@@ -37,7 +40,7 @@ const Projects = () => {
 
         <div className="working-container mini-container ">
           <div className="sub-heading">
-            <img src="./images/working.png" alt="img" />
+            <img src={working} alt="img" />
             <h2 className="status"> Working</h2>
           </div>
           <div className="card-1 card">
@@ -65,7 +68,7 @@ const Projects = () => {
 
         <div className="ideas-container mini-container ">
           <div className="sub-heading">
-            <img src="./images/ideas.png" alt="img" />
+            <img src={ideas} alt="img" />
             <h2 className="status"> Ideas</h2>
           </div>
           <div className="card-1 card">
