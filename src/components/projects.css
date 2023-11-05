@@ -1,142 +1,132 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:700');
-@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url("https://fonts.googleapis.com/css?family=Exo:700");
+@import url("https://fonts.googleapis.com/css?family=Abel");
 
 body {
-    /* background-color: #dfe6e9; */
-    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%);
-    box-sizing: border-box;
-    font-family: 'Ysabeau SC', sans-serif;
-    color: #BDA2A2;
-
+  /* background-color: #dfe6e9; */
+  background: linear-gradient(
+    to right,
+    rgba(36, 31, 31, 1) 0%,
+    rgba(36, 31, 31, 1) 32%
+  );
+  box-sizing: border-box;
+  font-family: "Ysabeau SC", sans-serif;
+  color: #bda2a2;
 }
 
 .mainContainer {
-    /* display: flex;
+  /* display: flex;
     flex-direction: column;
     align-items: center; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
-
 
 .sub-container {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
 }
 
-
 .mini-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* Together, these two properties enable the creation of 3D effects by controlling the perspective of the element and its children in a 3D space */
-    transform: perspective(900px);
-    /*The perspective function with 900px means you are pretending to view the scene from a point that is 900 pixels away from the screen.*/
-    transform-style: preserve-3d;
-    /* The preserve-3d value ensures that these elements maintain their 3D positioning, so they don't get flattened to the 2D plane of the screen.
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Together, these two properties enable the creation of 3D effects by controlling the perspective of the element and its children in a 3D space */
+  transform: perspective(900px);
+  /*The perspective function with 900px means you are pretending to view the scene from a point that is 900 pixels away from the screen.*/
+  transform-style: preserve-3d;
+  /* The preserve-3d value ensures that these elements maintain their 3D positioning, so they don't get flattened to the 2D plane of the screen.
 This allows elements to interact with each other in the 3D space, giving a more realistic effect. */
-
 }
 
 h1 {
-    font-size: 4rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  font-size: 4rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .sub-heading {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.sub-heading>img {
-    width: 3.5rem;
-    height: 3.5rem;
-    padding-top: 7px;
+.sub-heading > img {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding-top: 7px;
 }
 
-.sub-heading>h2 {
-    padding-left: 15px;
+.sub-heading > h2 {
+  padding-left: 15px;
 }
 
 .status {
-    font-family: 'Abel', sans-serif;
-    font-size: 2rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  font-family: "Abel", sans-serif;
+  font-size: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
 
 /*Card effects*/
 a {
-    text-decoration: none;
-    text-align: center;
+  text-decoration: none;
+  text-align: center;
 }
 
 .card h2 {
-    font-size: 25px;
-    font-family: 'Abel', sans-serif;
-    color:
-        white;
-    text-shadow: 0 0 2px white;
-    transform: translatey(10px);
+  font-size: 25px;
+  font-family: "Abel", sans-serif;
+  color: white;
+  text-shadow: 0 0 2px white;
+  transform: translatey(10px);
 }
 
 .card p {
-    color: white;
-    font-size: 1rem;
-    font-family: 'Abel', sans-serif;
-    width: 220px;
-    transform: translatex(12px);
+  color: white;
+  font-size: 1rem;
+  font-family: "Abel", sans-serif;
+  width: 220px;
+  transform: translatex(12px);
 }
 
-
 .card {
-    text-align: center;
-    width: 250px;
-    height: 350px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #241f1f;
-    transition: .6s;
-    transform: rotatex(65deg) translatey(-200px) translatez(-100px);
-    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #241f1f;
+  transition: 0.6s;
+  transform: rotatex(65deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
 }
 
 .card:hover {
-    transform: rotatex(0deg);
-    transform: rotatez(0deg);
-    transition: .6s;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  transform: rotatex(0deg);
+  transform: rotatez(0deg);
+  transition: 0.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
-    transform: translateY(15px);
-    width: 200px;
-    height: 120px;
+  transform: translateY(15px);
+  width: 200px;
+  height: 120px;
 }
 
-
 @media (max-width: 700px) {
+  .mainContainer {
+    align-items: center;
+  }
 
-    nav {
-        position: fixed;
-        width: 100%;
-    }
+  .sub-container {
+    margin-top: 5rem;
+  }
 
-    .mainContainer {
-        align-items: center;
-    }
-
-    .sub-container {
-        margin-top: 5rem;
-    }
-
-    .mini-container {
-        display: grid;
-        grid-template-rows: 0.1fr repeat(2, 1fr);
-        grid-template-columns: 1fr;
-    }
+  .mini-container {
+    display: grid;
+    grid-template-rows: 0.1fr repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
 }

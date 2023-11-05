@@ -10,65 +10,6 @@ body {
     color: #BDA2A2;
 }
 
-/*---------Nav Bar----------*/
-
-nav {
-    position: relative;
-}
-
-.logo {
-    width: 10rem;
-    height: 3rem;
-    padding-top: 20px;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-ul {
-    display: inline-flex;
-    gap: 1rem;
-}
-
-li {
-    list-style: none;
-    letter-spacing: 1.5px;
-    transition: transform 0.2s;
-}
-
-li>a {
-    text-decoration: none;
-    color: #BDA2A2;
-}
-
-li:hover {
-    transform: scale(1.15);
-    cursor: default;
-}
-
-.mobilenav {
-    display: none;
-    background: transparent;
-}
-
-/* Nav Bar for Multipages */
-.textAni {
-    background-image: linear-gradient(transparent 0, transparent 55%, #a45959 55%, #a45959 90%, transparent 90%, transparent 100%);
-    background-repeat: no-repeat;
-    background-size: 0 100%;
-    animation: underline .5s 100ms cubic-bezier(.645, .045, .355, 1) forwards;
-}
-
-@keyframes underline {
-    100% {
-        background-size: 8rem 100%;
-    }
-
-}
-
 /* Main Image of me */
 
 .mainImg {
@@ -259,64 +200,6 @@ li:hover {
 }
 
 @media (max-width: 700px) {
-    .mobilenav {
-        display: flex;
-        z-index: 10;
-    }
-
-    .navDiv {
-        display: flex;
-    }
-
-    .logo {
-        width: 10rem;
-        height: 3rem;
-        padding-top: 20px;
-    }
-
-    .btn {
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-
-    .btn[name="close-circle-outline"] {
-        display: none;
-    }
-
-    .list {
-        flex-direction: column;
-        right: 0;
-        align-items: center;
-        z-index: 5;
-        transform: translate(100%);
-        transition: all 0.5s linear;
-        visibility: hidden;
-        position: fixed;
-        padding: 20px;
-        padding-left: 20px;
-        width: 30%;
-        background-color: #241f1f;
-        border-radius: 34px;
-    }
-
-    .active .list {
-        transform: translateX(0);
-        visibility: visible;
-    }
-
-    .active .mobilenav .btn[name="close-circle-outline"] {
-        display: block;
-    }
-
-    .active .mobilenav .btn[name="add-circle-outline"] {
-        display: none;
-    }
-
-    .mobileFlex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     /* image of me */
     .mainImg {
