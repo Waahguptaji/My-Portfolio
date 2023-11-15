@@ -18,8 +18,8 @@ const Projects = () => {
               <h2>PortFolio Website</h2>
               <p>
                 Tech Stack: Developed using HTML, CSS (Grid and Flexbox), and
-                Javascript, my portfolio website is fully responsive, showcases
-                my skills and achievements with an interactive touch.
+                React, my portfolio website is fully responsive, showcases my
+                skills and achievements with an interactive touch.
               </p>
             </a>
           </div>
