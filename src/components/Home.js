@@ -3,7 +3,7 @@ import "./style.css";
 import sahilHD from "../images/sahilHD.png";
 import sunshine from "../images/sunshine.png";
 import send from "../images/send.png";
-import ReactTyped from "react-typed";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
@@ -34,19 +34,23 @@ const Home = () => {
           <div className="movingContainer">
             <i id="movingText">
               {"< "}I'm a{" "}
-              <ReactTyped
-                strings={[
-                  "Developer. ",
-                  "Thinker. ",
-                  "Writer. ",
-                  "Avid Reader. ",
-                ]}
-                typeSpeed={100}
-                loop
-                backSpeed={20}
-                cursorChar=">"
-                showCursor={true}
-              />
+              {
+                <TypeAnimation
+                  sequence={[
+                    "Developer.",
+                    1000,
+                    "Writer.",
+                    1000,
+                    "Thinker.",
+                    1000,
+                    "Avid Reader.",
+                    1000,
+                  ]}
+                  speed={50}
+                  repeat={Infinity}
+                  style={{ fontSize: "1 em" }}
+                />
+              }
             </i>
           </div>
           {/* <!-- Contact me Button mobile --> */}
