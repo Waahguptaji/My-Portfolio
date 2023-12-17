@@ -8,13 +8,17 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
 import Projects from "./components/Projects";
+import Particlebg from "./components/Particlebg";
 
 const AppLayout = () => {
   return (
-    <div className="app">
-      <Navbar />
-      <Outlet />
-    </div>
+    <>
+      <Particlebg />
+      <div className="app">
+        <Navbar />
+        <Outlet />
+      </div>
+    </>
   );
 };
 
