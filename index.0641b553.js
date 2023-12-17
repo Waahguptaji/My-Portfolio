@@ -2961,33 +2961,44 @@ var _blogs = require("./components/Blogs");
 var _blogsDefault = parcelHelpers.interopDefault(_blogs);
 var _projects = require("./components/Projects");
 var _projectsDefault = parcelHelpers.interopDefault(_projects);
+var _particlebg = require("./components/Particlebg");
+var _particlebgDefault = parcelHelpers.interopDefault(_particlebg);
 const AppLayout = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "app",
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
-                fileName: "src/app.js",
-                lineNumber: 15,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _particlebgDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
                 lineNumber: 16,
                 columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "app",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
+                        fileName: "src/app.js",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
+                        fileName: "src/app.js",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/app.js",
+                lineNumber: 17,
+                columnNumber: 7
             }, undefined)
         ]
-    }, void 0, true, {
-        fileName: "src/app.js",
-        lineNumber: 14,
-        columnNumber: 5
-    }, undefined);
+    }, void 0, true);
 };
 _c = AppLayout;
 const appRouter = (0, _reactRouterDom.createBrowserRouter)([
     {
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
             fileName: "src/app.js",
-            lineNumber: 23,
+            lineNumber: 27,
             columnNumber: 14
         }, undefined),
         children: [
@@ -2995,7 +3006,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 25,
+                    lineNumber: 29,
                     columnNumber: 29
                 }, undefined)
             },
@@ -3003,7 +3014,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/Home",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 28,
+                    lineNumber: 32,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3011,7 +3022,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/About",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 32,
+                    lineNumber: 36,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3019,7 +3030,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/Blogs",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _blogsDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 36,
+                    lineNumber: 40,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3027,7 +3038,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/Projects",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 40,
+                    lineNumber: 44,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3035,7 +3046,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/Contact",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                     fileName: "src/app.js",
-                    lineNumber: 44,
+                    lineNumber: 48,
                     columnNumber: 18
                 }, undefined)
             }
@@ -3047,7 +3058,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/app.js",
-    lineNumber: 51,
+    lineNumber: 55,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3058,7 +3069,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./components/Navbar":"5EEXV","./components/Home":"hcu4N","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Blogs":"e2lab","./components/Projects":"16pwG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./components/Navbar":"5EEXV","./components/Home":"hcu4N","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Blogs":"e2lab","./components/Projects":"16pwG","./components/Particlebg":"lPRIb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27247,7 +27258,7 @@ module.exports = require("ef03b89c8fe2794e");
 
 },{}],"9xmpe":[function(require,module,exports) {
 /**
- * React Router DOM v6.17.0
+ * React Router DOM v6.21.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -27287,10 +27298,10 @@ parcelHelpers.export(exports, "redirect", ()=>(0, _reactRouter.redirect));
 parcelHelpers.export(exports, "redirectDocument", ()=>(0, _reactRouter.redirectDocument));
 parcelHelpers.export(exports, "renderMatches", ()=>(0, _reactRouter.renderMatches));
 parcelHelpers.export(exports, "resolvePath", ()=>(0, _reactRouter.resolvePath));
-parcelHelpers.export(exports, "unstable_useBlocker", ()=>(0, _reactRouter.unstable_useBlocker));
 parcelHelpers.export(exports, "useActionData", ()=>(0, _reactRouter.useActionData));
 parcelHelpers.export(exports, "useAsyncError", ()=>(0, _reactRouter.useAsyncError));
 parcelHelpers.export(exports, "useAsyncValue", ()=>(0, _reactRouter.useAsyncValue));
+parcelHelpers.export(exports, "useBlocker", ()=>(0, _reactRouter.useBlocker));
 parcelHelpers.export(exports, "useHref", ()=>(0, _reactRouter.useHref));
 parcelHelpers.export(exports, "useInRouterContext", ()=>(0, _reactRouter.useInRouterContext));
 parcelHelpers.export(exports, "useLoaderData", ()=>(0, _reactRouter.useLoaderData));
@@ -27316,6 +27327,7 @@ parcelHelpers.export(exports, "Link", ()=>Link);
 parcelHelpers.export(exports, "NavLink", ()=>NavLink);
 parcelHelpers.export(exports, "RouterProvider", ()=>RouterProvider);
 parcelHelpers.export(exports, "ScrollRestoration", ()=>ScrollRestoration);
+parcelHelpers.export(exports, "UNSAFE_FetchersContext", ()=>FetchersContext);
 parcelHelpers.export(exports, "UNSAFE_ViewTransitionContext", ()=>ViewTransitionContext);
 parcelHelpers.export(exports, "UNSAFE_useScrollRestoration", ()=>useScrollRestoration);
 parcelHelpers.export(exports, "createBrowserRouter", ()=>createBrowserRouter);
@@ -27332,6 +27344,7 @@ parcelHelpers.export(exports, "useLinkClickHandler", ()=>useLinkClickHandler);
 parcelHelpers.export(exports, "useSearchParams", ()=>useSearchParams);
 parcelHelpers.export(exports, "useSubmit", ()=>useSubmit);
 var _react = require("react");
+var _reactDom = require("react-dom");
 var _reactRouter = require("react-router");
 var _router = require("@remix-run/router");
 function _extends() {
@@ -27532,13 +27545,14 @@ const _excluded = [
     "unstable_viewTransition",
     "children"
 ], _excluded3 = [
+    "fetcherKey",
+    "navigate",
     "reloadDocument",
     "replace",
     "state",
     "method",
     "action",
     "onSubmit",
-    "submit",
     "relative",
     "preventScrollReset",
     "unstable_viewTransition"
@@ -27619,6 +27633,8 @@ const ViewTransitionContext = /*#__PURE__*/ _react.createContext({
     isTransitioning: false
 });
 ViewTransitionContext.displayName = "ViewTransition";
+const FetchersContext = /*#__PURE__*/ _react.createContext(new Map());
+FetchersContext.displayName = "Fetchers";
 //#endregion
 ////////////////////////////////////////////////////////////////////////////////
 //#region Components
@@ -27645,8 +27661,14 @@ ViewTransitionContext.displayName = "ViewTransition";
   See https://github.com/remix-run/react-router/issues/10579
 */ const START_TRANSITION = "startTransition";
 const startTransitionImpl = _react[START_TRANSITION];
+const FLUSH_SYNC = "flushSync";
+const flushSyncImpl = _reactDom[FLUSH_SYNC];
 function startTransitionSafe(cb) {
     if (startTransitionImpl) startTransitionImpl(cb);
+    else cb();
+}
+function flushSyncSafe(cb) {
+    if (flushSyncImpl) flushSyncImpl(cb);
     else cb();
 }
 class Deferred {
@@ -27680,6 +27702,7 @@ class Deferred {
     let [renderDfd, setRenderDfd] = _react.useState();
     let [transition, setTransition] = _react.useState();
     let [interruption, setInterruption] = _react.useState();
+    let fetcherData = _react.useRef(new Map());
     let { v7_startTransition } = future || {};
     let optInStartTransition = _react.useCallback((cb)=>{
         if (v7_startTransition) startTransitionSafe(cb);
@@ -27688,13 +27711,58 @@ class Deferred {
         v7_startTransition
     ]);
     let setState = _react.useCallback((newState, _ref2)=>{
-        let { unstable_viewTransitionOpts: viewTransitionOpts } = _ref2;
-        if (!viewTransitionOpts || router.window == null || typeof router.window.document.startViewTransition !== "function") // Mid-navigation state update, or startViewTransition isn't available
-        optInStartTransition(()=>setStateImpl(newState));
-        else if (transition && renderDfd) {
+        let { deletedFetchers, unstable_flushSync: flushSync, unstable_viewTransitionOpts: viewTransitionOpts } = _ref2;
+        deletedFetchers.forEach((key)=>fetcherData.current.delete(key));
+        newState.fetchers.forEach((fetcher, key)=>{
+            if (fetcher.data !== undefined) fetcherData.current.set(key, fetcher.data);
+        });
+        let isViewTransitionUnavailable = router.window == null || typeof router.window.document.startViewTransition !== "function";
+        // If this isn't a view transition or it's not available in this browser,
+        // just update and be done with it
+        if (!viewTransitionOpts || isViewTransitionUnavailable) {
+            if (flushSync) flushSyncSafe(()=>setStateImpl(newState));
+            else optInStartTransition(()=>setStateImpl(newState));
+            return;
+        }
+        // flushSync + startViewTransition
+        if (flushSync) {
+            // Flush through the context to mark DOM elements as transition=ing
+            flushSyncSafe(()=>{
+                // Cancel any pending transitions
+                if (transition) {
+                    renderDfd && renderDfd.resolve();
+                    transition.skipTransition();
+                }
+                setVtContext({
+                    isTransitioning: true,
+                    flushSync: true,
+                    currentLocation: viewTransitionOpts.currentLocation,
+                    nextLocation: viewTransitionOpts.nextLocation
+                });
+            });
+            // Update the DOM
+            let t = router.window.document.startViewTransition(()=>{
+                flushSyncSafe(()=>setStateImpl(newState));
+            });
+            // Clean up after the animation completes
+            t.finished.finally(()=>{
+                flushSyncSafe(()=>{
+                    setRenderDfd(undefined);
+                    setTransition(undefined);
+                    setPendingState(undefined);
+                    setVtContext({
+                        isTransitioning: false
+                    });
+                });
+            });
+            flushSyncSafe(()=>setTransition(t));
+            return;
+        }
+        // startTransition + startViewTransition
+        if (transition) {
             // Interrupting an in-progress transition, cancel and let everything flush
             // out, and then kick off a new transition from the interruption state
-            renderDfd.resolve();
+            renderDfd && renderDfd.resolve();
             transition.skipTransition();
             setInterruption({
                 state: newState,
@@ -27706,15 +27774,17 @@ class Deferred {
             setPendingState(newState);
             setVtContext({
                 isTransitioning: true,
+                flushSync: false,
                 currentLocation: viewTransitionOpts.currentLocation,
                 nextLocation: viewTransitionOpts.nextLocation
             });
         }
     }, [
-        optInStartTransition,
+        router.window,
         transition,
         renderDfd,
-        router.window
+        fetcherData,
+        optInStartTransition
     ]);
     // Need to use a layout effect here so we are subscribed early enough to
     // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
@@ -27725,9 +27795,9 @@ class Deferred {
     // When we start a view transition, create a Deferred we can use for the
     // eventual "completed" render
     _react.useEffect(()=>{
-        if (vtContext.isTransitioning) setRenderDfd(new Deferred());
+        if (vtContext.isTransitioning && !vtContext.flushSync) setRenderDfd(new Deferred());
     }, [
-        vtContext.isTransitioning
+        vtContext
     ]);
     // Once the deferred is created, kick off startViewTransition() to update the
     // DOM and then wait on the Deferred to resolve (indicating the DOM update has
@@ -27773,6 +27843,7 @@ class Deferred {
             setPendingState(interruption.state);
             setVtContext({
                 isTransitioning: true,
+                flushSync: false,
                 currentLocation: interruption.currentLocation,
                 nextLocation: interruption.nextLocation
             });
@@ -27782,6 +27853,11 @@ class Deferred {
         vtContext.isTransitioning,
         interruption
     ]);
+    _react.useEffect(()=>{
+        (0, _router.UNSAFE_warning)(fallbackElement == null || !router.future.v7_partialHydration, "`<RouterProvider fallbackElement>` is deprecated when using `v7_partialHydration`, use a `HydrateFallback` component instead");
+    // Only log this once on initial mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
     let navigator = _react.useMemo(()=>{
         return {
             createHref: router.createHref,
@@ -27821,21 +27897,27 @@ class Deferred {
         value: dataRouterContext
     }, /*#__PURE__*/ _react.createElement((0, _reactRouter.UNSAFE_DataRouterStateContext).Provider, {
         value: state
+    }, /*#__PURE__*/ _react.createElement(FetchersContext.Provider, {
+        value: fetcherData.current
     }, /*#__PURE__*/ _react.createElement(ViewTransitionContext.Provider, {
         value: vtContext
     }, /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
         basename: basename,
         location: state.location,
         navigationType: state.historyAction,
-        navigator: navigator
-    }, state.initialized ? /*#__PURE__*/ _react.createElement(DataRoutes, {
+        navigator: navigator,
+        future: {
+            v7_relativeSplatPath: router.future.v7_relativeSplatPath
+        }
+    }, state.initialized || router.future.v7_partialHydration ? /*#__PURE__*/ _react.createElement(DataRoutes, {
         routes: router.routes,
+        future: router.future,
         state: state
-    }) : fallbackElement)))), null);
+    }) : fallbackElement))))), null);
 }
 function DataRoutes(_ref3) {
-    let { routes, state } = _ref3;
-    return (0, _reactRouter.UNSAFE_useRoutesImpl)(routes, undefined, state);
+    let { routes, future, state } = _ref3;
+    return (0, _reactRouter.UNSAFE_useRoutesImpl)(routes, undefined, state, future);
 }
 /**
  * A `<Router>` for use in web browsers. Provides the cleanest URLs.
@@ -27867,7 +27949,8 @@ function DataRoutes(_ref3) {
         children: children,
         location: state.location,
         navigationType: state.action,
-        navigator: history
+        navigator: history,
+        future: future
     });
 }
 /**
@@ -27901,7 +27984,8 @@ function DataRoutes(_ref3) {
         children: children,
         location: state.location,
         navigationType: state.action,
-        navigator: history
+        navigator: history,
+        future: future
     });
 }
 /**
@@ -27931,7 +28015,8 @@ function DataRoutes(_ref3) {
         children: children,
         location: state.location,
         navigationType: state.action,
-        navigator: history
+        navigator: history,
+        future: future
     });
 }
 HistoryRouter.displayName = "unstable_HistoryRouter";
@@ -28007,7 +28092,13 @@ Link.displayName = "Link";
         nextLocationPathname = nextLocationPathname ? nextLocationPathname.toLowerCase() : null;
         toPathname = toPathname.toLowerCase();
     }
-    let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(toPathname.length) === "/";
+    // If the `to` has a trailing slash, look at that exact spot.  Otherwise,
+    // we're looking for a slash _after_ what's in `to`.  For example:
+    //
+    // <NavLink to="/users"> and <NavLink to="/users/">
+    // both want to look for a / at index 6 to match URL `/users/matt`
+    const endSlashPosition = toPathname !== "/" && toPathname.endsWith("/") ? toPathname.length - 1 : toPathname.length;
+    let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(endSlashPosition) === "/";
     let isPending = nextLocationPathname != null && (nextLocationPathname === toPathname || !end && nextLocationPathname.startsWith(toPathname) && nextLocationPathname.charAt(toPathname.length) === "/");
     let renderProps = {
         isActive,
@@ -28044,20 +28135,13 @@ NavLink.displayName = "NavLink";
  * that the interaction with the server is with `fetch` instead of new document
  * requests, allowing components to add nicer UX to the page as the form is
  * submitted and returns with data.
- */ const Form = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+ */ const Form = /*#__PURE__*/ _react.forwardRef((_ref9, forwardedRef)=>{
+    let { fetcherKey, navigate, reloadDocument, replace, state, method = defaultMethod, action, onSubmit, relative, preventScrollReset, unstable_viewTransition } = _ref9, props = _objectWithoutPropertiesLoose(_ref9, _excluded3);
     let submit = useSubmit();
-    return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
-        submit: submit,
-        ref: ref
-    }));
-});
-Form.displayName = "Form";
-const FormImpl = /*#__PURE__*/ _react.forwardRef((_ref9, forwardedRef)=>{
-    let { reloadDocument, replace, state, method = defaultMethod, action, onSubmit, submit, relative, preventScrollReset, unstable_viewTransition } = _ref9, props = _objectWithoutPropertiesLoose(_ref9, _excluded3);
-    let formMethod = method.toLowerCase() === "get" ? "get" : "post";
     let formAction = useFormAction(action, {
         relative
     });
+    let formMethod = method.toLowerCase() === "get" ? "get" : "post";
     let submitHandler = (event)=>{
         onSubmit && onSubmit(event);
         if (event.defaultPrevented) return;
@@ -28065,7 +28149,9 @@ const FormImpl = /*#__PURE__*/ _react.forwardRef((_ref9, forwardedRef)=>{
         let submitter = event.nativeEvent.submitter;
         let submitMethod = (submitter == null ? void 0 : submitter.getAttribute("formmethod")) || method;
         submit(submitter || event.currentTarget, {
+            fetcherKey,
             method: submitMethod,
+            navigate,
             replace,
             state,
             relative,
@@ -28080,7 +28166,7 @@ const FormImpl = /*#__PURE__*/ _react.forwardRef((_ref9, forwardedRef)=>{
         onSubmit: reloadDocument ? onSubmit : submitHandler
     }, props));
 });
-FormImpl.displayName = "FormImpl";
+Form.displayName = "Form";
 /**
  * This component will emulate the browser's scroll restoration on location
  * changes.
@@ -28107,9 +28193,11 @@ var DataRouterHook;
 })(DataRouterHook || (DataRouterHook = {}));
 var DataRouterStateHook;
 (function(DataRouterStateHook) {
+    DataRouterStateHook["UseFetcher"] = "useFetcher";
     DataRouterStateHook["UseFetchers"] = "useFetchers";
     DataRouterStateHook["UseScrollRestoration"] = "useScrollRestoration";
 })(DataRouterStateHook || (DataRouterStateHook = {}));
+// Internal hooks
 function getDataRouterConsoleError(hookName) {
     return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
 }
@@ -28123,6 +28211,7 @@ function useDataRouterState(hookName) {
     !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
     return state;
 }
+// External hooks
 /**
  * Handles the click behavior for router `<Link>` components. This is useful if
  * you need to create custom `<Link>` components with the same click behavior we
@@ -28192,6 +28281,8 @@ function useDataRouterState(hookName) {
 function validateClientSideSubmission() {
     if (typeof document === "undefined") throw new Error("You are calling submit during the server render. Try calling submit within a `useEffect` or callback instead.");
 }
+let fetcherId = 0;
+let getUniqueFetcherId = ()=>"__" + String(++fetcherId) + "__";
 /**
  * Returns a function that may be used to programmatically submit a form (or
  * some arbitrary data) to the server.
@@ -28203,7 +28294,17 @@ function validateClientSideSubmission() {
         if (options === void 0) options = {};
         validateClientSideSubmission();
         let { action, method, encType, formData, body } = getFormSubmissionInfo(target, basename);
-        router.navigate(options.action || action, {
+        if (options.navigate === false) {
+            let key = options.fetcherKey || getUniqueFetcherId();
+            router.fetch(key, currentRouteId, options.action || action, {
+                preventScrollReset: options.preventScrollReset,
+                formData,
+                body,
+                formMethod: options.method || method,
+                formEncType: options.encType || encType,
+                unstable_flushSync: options.unstable_flushSync
+            });
+        } else router.navigate(options.action || action, {
             preventScrollReset: options.preventScrollReset,
             formData,
             body,
@@ -28212,36 +28313,13 @@ function validateClientSideSubmission() {
             replace: options.replace,
             state: options.state,
             fromRouteId: currentRouteId,
+            unstable_flushSync: options.unstable_flushSync,
             unstable_viewTransition: options.unstable_viewTransition
         });
     }, [
         router,
         basename,
         currentRouteId
-    ]);
-}
-/**
- * Returns the implementation for fetcher.submit
- */ function useSubmitFetcher(fetcherKey, fetcherRouteId) {
-    let { router } = useDataRouterContext(DataRouterHook.UseSubmitFetcher);
-    let { basename } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
-    return _react.useCallback(function(target, options) {
-        if (options === void 0) options = {};
-        validateClientSideSubmission();
-        let { action, method, encType, formData, body } = getFormSubmissionInfo(target, basename);
-        !(fetcherRouteId != null) && (0, _router.UNSAFE_invariant)(false, "No routeId available for useFetcher()");
-        router.fetch(fetcherKey, fetcherRouteId, options.action || action, {
-            preventScrollReset: options.preventScrollReset,
-            formData,
-            body,
-            formMethod: options.method || method,
-            formEncType: options.encType || encType
-        });
-    }, [
-        router,
-        basename,
-        fetcherKey,
-        fetcherRouteId
     ]);
 }
 // v7: Eventually we should deprecate this entirely in favor of using the
@@ -28257,21 +28335,19 @@ function useFormAction(action, _temp2) {
     let path = _extends({}, (0, _reactRouter.useResolvedPath)(action ? action : ".", {
         relative
     }));
-    // Previously we set the default action to ".". The problem with this is that
-    // `useResolvedPath(".")` excludes search params of the resolved URL. This is
-    // the intended behavior of when "." is specifically provided as
-    // the form action, but inconsistent w/ browsers when the action is omitted.
+    // If no action was specified, browsers will persist current search params
+    // when determining the path, so match that behavior
     // https://github.com/remix-run/remix/issues/927
     let location = (0, _reactRouter.useLocation)();
     if (action == null) {
         // Safe to write to this directly here since if action was undefined, we
         // would have called useResolvedPath(".") which will never include a search
         path.search = location.search;
-        // When grabbing search params from the URL, remove the automatically
-        // inserted ?index param so we match the useResolvedPath search behavior
-        // which would not include ?index
-        if (match.route.index) {
-            let params = new URLSearchParams(path.search);
+        // When grabbing search params from the URL, remove any included ?index param
+        // since it might not apply to our contextual route.  We add it back based
+        // on match.route.index below
+        let params = new URLSearchParams(path.search);
+        if (params.has("index") && params.get("index") === "") {
             params.delete("index");
             path.search = params.toString() ? "?" + params.toString() : "";
         }
@@ -28287,65 +28363,85 @@ function useFormAction(action, _temp2) {
     ]);
     return (0, _reactRouter.createPath)(path);
 }
-function createFetcherForm(fetcherKey, routeId) {
-    let FetcherForm = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
-        let submit = useSubmitFetcher(fetcherKey, routeId);
-        return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
-            ref: ref,
-            submit: submit
-        }));
-    });
-    FetcherForm.displayName = "fetcher.Form";
-    return FetcherForm;
-}
-let fetcherId = 0;
 // TODO: (v7) Change the useFetcher generic default from `any` to `unknown`
 /**
  * Interacts with route loaders and actions without causing a navigation. Great
  * for any interaction that stays on the same page.
- */ function useFetcher() {
+ */ function useFetcher(_temp3) {
     var _route$matches;
+    let { key } = _temp3 === void 0 ? {} : _temp3;
     let { router } = useDataRouterContext(DataRouterHook.UseFetcher);
+    let state = useDataRouterState(DataRouterStateHook.UseFetcher);
+    let fetcherData = _react.useContext(FetchersContext);
     let route = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
-    !route && (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a RouteContext");
     let routeId = (_route$matches = route.matches[route.matches.length - 1]) == null ? void 0 : _route$matches.route.id;
+    !fetcherData && (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a FetchersContext");
+    !route && (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a RouteContext");
     !(routeId != null) && (0, _router.UNSAFE_invariant)(false, 'useFetcher can only be used on routes that contain a unique "id"');
-    let [fetcherKey] = _react.useState(()=>String(++fetcherId));
-    let [Form] = _react.useState(()=>{
-        !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.Form()");
-        return createFetcherForm(fetcherKey, routeId);
-    });
-    let [load] = _react.useState(()=>(href)=>{
-            !router && (0, _router.UNSAFE_invariant)(false, "No router available for fetcher.load()");
-            !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.load()");
-            router.fetch(fetcherKey, routeId, href);
-        });
-    let submit = useSubmitFetcher(fetcherKey, routeId);
-    let fetcher = router.getFetcher(fetcherKey);
-    let fetcherWithComponents = _react.useMemo(()=>_extends({
-            Form,
-            submit,
-            load
-        }, fetcher), [
-        fetcher,
-        Form,
-        submit,
-        load
-    ]);
+    // Fetcher key handling
+    let [fetcherKey, setFetcherKey] = _react.useState(key || "");
+    if (key && key !== fetcherKey) setFetcherKey(key);
+    else if (!fetcherKey) setFetcherKey(getUniqueFetcherId());
+    // Registration/cleanup
     _react.useEffect(()=>{
-        // Is this busted when the React team gets real weird and calls effects
-        // twice on mount?  We really just need to garbage collect here when this
-        // fetcher is no longer around.
+        router.getFetcher(fetcherKey);
         return ()=>{
-            if (!router) {
-                console.warn("No router available to clean up from useFetcher()");
-                return;
-            }
+            // Tell the router we've unmounted - if v7_fetcherPersist is enabled this
+            // will not delete immediately but instead queue up a delete after the
+            // fetcher returns to an `idle` state
             router.deleteFetcher(fetcherKey);
         };
     }, [
         router,
         fetcherKey
+    ]);
+    // Fetcher additions
+    let load = _react.useCallback((href, opts)=>{
+        !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.load()");
+        router.fetch(fetcherKey, routeId, href, opts);
+    }, [
+        fetcherKey,
+        routeId,
+        router
+    ]);
+    let submitImpl = useSubmit();
+    let submit = _react.useCallback((target, opts)=>{
+        submitImpl(target, _extends({}, opts, {
+            navigate: false,
+            fetcherKey
+        }));
+    }, [
+        fetcherKey,
+        submitImpl
+    ]);
+    let FetcherForm = _react.useMemo(()=>{
+        let FetcherForm = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+            return /*#__PURE__*/ _react.createElement(Form, _extends({}, props, {
+                navigate: false,
+                fetcherKey: fetcherKey,
+                ref: ref
+            }));
+        });
+        FetcherForm.displayName = "fetcher.Form";
+        return FetcherForm;
+    }, [
+        fetcherKey
+    ]);
+    // Exposed FetcherWithComponents
+    let fetcher = state.fetchers.get(fetcherKey) || (0, _router.IDLE_FETCHER);
+    let data = fetcherData.get(fetcherKey);
+    let fetcherWithComponents = _react.useMemo(()=>_extends({
+            Form: FetcherForm,
+            submit,
+            load
+        }, fetcher, {
+            data
+        }), [
+        FetcherForm,
+        submit,
+        load,
+        fetcher,
+        data
     ]);
     return fetcherWithComponents;
 }
@@ -28354,16 +28450,19 @@ let fetcherId = 0;
  * routes that need to provide pending/optimistic UI regarding the fetch.
  */ function useFetchers() {
     let state = useDataRouterState(DataRouterStateHook.UseFetchers);
-    return [
-        ...state.fetchers.values()
-    ];
+    return Array.from(state.fetchers.entries()).map((_ref11)=>{
+        let [key, fetcher] = _ref11;
+        return _extends({}, fetcher, {
+            key
+        });
+    });
 }
 const SCROLL_RESTORATION_STORAGE_KEY = "react-router-scroll-positions";
 let savedScrollPositions = {};
 /**
  * When rendered inside a RouterProvider, will restore scroll positions on navigations
- */ function useScrollRestoration(_temp3) {
-    let { getKey, storageKey } = _temp3 === void 0 ? {} : _temp3;
+ */ function useScrollRestoration(_temp4) {
+    let { getKey, storageKey } = _temp4 === void 0 ? {} : _temp4;
     let { router } = useDataRouterContext(DataRouterHook.UseScrollRestoration);
     let { restoreScrollPosition, preventScrollReset } = useDataRouterState(DataRouterStateHook.UseScrollRestoration);
     let { basename } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
@@ -28502,9 +28601,9 @@ let savedScrollPositions = {};
  * Warning: This has *a lot of rough edges* and behaves very differently (and
  * very incorrectly in some cases) across browsers if user click addition
  * back/forward navigations while the confirm is open.  Use at your own risk.
- */ function usePrompt(_ref11) {
-    let { when, message } = _ref11;
-    let blocker = (0, _reactRouter.unstable_useBlocker)(when);
+ */ function usePrompt(_ref12) {
+    let { when, message } = _ref12;
+    let blocker = (0, _reactRouter.useBlocker)(when);
     _react.useEffect(()=>{
         if (blocker.state === "blocked") {
             let proceed = window.confirm(message);
@@ -28559,9 +28658,9 @@ let savedScrollPositions = {};
     return (0, _router.matchPath)(path.pathname, nextPath) != null || (0, _router.matchPath)(path.pathname, currentPath) != null;
 }
 
-},{"react":"21dqq","react-router":"dbWyW","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dbWyW":[function(require,module,exports) {
+},{"react":"21dqq","react-dom":"j6uA9","react-router":"dbWyW","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dbWyW":[function(require,module,exports) {
 /**
- * React Router v6.17.0
+ * React Router v6.21.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -28604,10 +28703,10 @@ parcelHelpers.export(exports, "createMemoryRouter", ()=>createMemoryRouter);
 parcelHelpers.export(exports, "createRoutesFromChildren", ()=>createRoutesFromChildren);
 parcelHelpers.export(exports, "createRoutesFromElements", ()=>createRoutesFromChildren);
 parcelHelpers.export(exports, "renderMatches", ()=>renderMatches);
-parcelHelpers.export(exports, "unstable_useBlocker", ()=>useBlocker);
 parcelHelpers.export(exports, "useActionData", ()=>useActionData);
 parcelHelpers.export(exports, "useAsyncError", ()=>useAsyncError);
 parcelHelpers.export(exports, "useAsyncValue", ()=>useAsyncValue);
+parcelHelpers.export(exports, "useBlocker", ()=>useBlocker);
 parcelHelpers.export(exports, "useHref", ()=>useHref);
 parcelHelpers.export(exports, "useInRouterContext", ()=>useInRouterContext);
 parcelHelpers.export(exports, "useLoaderData", ()=>useLoaderData);
@@ -28763,10 +28862,10 @@ function useNavigateUnstable() {
     !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
     "useNavigate() may be used only in the context of a <Router> component.");
     let dataRouterContext = _react.useContext(DataRouterContext);
-    let { basename, navigator } = _react.useContext(NavigationContext);
+    let { basename, future, navigator } = _react.useContext(NavigationContext);
     let { matches } = _react.useContext(RouteContext);
     let { pathname: locationPathname } = useLocation();
-    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
+    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getResolveToMatches)(matches, future.v7_relativeSplatPath));
     let activeRef = _react.useRef(false);
     useIsomorphicLayoutEffect(()=>{
         activeRef.current = true;
@@ -28838,9 +28937,10 @@ const OutletContext = /*#__PURE__*/ _react.createContext(null);
  * @see https://reactrouter.com/hooks/use-resolved-path
  */ function useResolvedPath(to, _temp2) {
     let { relative } = _temp2 === void 0 ? {} : _temp2;
+    let { future } = _react.useContext(NavigationContext);
     let { matches } = _react.useContext(RouteContext);
     let { pathname: locationPathname } = useLocation();
-    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
+    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getResolveToMatches)(matches, future.v7_relativeSplatPath));
     return _react.useMemo(()=>(0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, relative === "path"), [
         to,
         routePathnamesJson,
@@ -28859,7 +28959,7 @@ const OutletContext = /*#__PURE__*/ _react.createContext(null);
     return useRoutesImpl(routes, locationArg);
 }
 // Internal implementation with accept optional param for RouterProvider usage
-function useRoutesImpl(routes, locationArg, dataRouterState) {
+function useRoutesImpl(routes, locationArg, dataRouterState, future) {
     !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
     "useRoutes() may be used only in the context of a <Router> component.");
     let { navigator } = _react.useContext(NavigationContext);
@@ -28920,7 +29020,7 @@ function useRoutesImpl(routes, locationArg, dataRouterState) {
                 // Re-encode pathnames that were decoded inside matchRoutes
                 navigator.encodeLocation ? navigator.encodeLocation(match.pathnameBase).pathname : match.pathnameBase
             ])
-        })), parentMatches, dataRouterState);
+        })), parentMatches, dataRouterState, future);
     // When a user passes in a `locationArg`, the associated routes need to
     // be wrapped in a new `LocationContext.Provider` in order for `useLocation`
     // to use the scoped location instead of the global location.
@@ -29000,7 +29100,7 @@ class RenderErrorBoundary extends _react.Component {
         // this because the error provided from the app state may be cleared without
         // the location changing.
         return {
-            error: props.error || state.error,
+            error: props.error !== undefined ? props.error : state.error,
             location: state.location,
             revalidation: props.revalidation || state.revalidation
         };
@@ -29009,7 +29109,7 @@ class RenderErrorBoundary extends _react.Component {
         console.error("React Router caught the following error during render", error, errorInfo);
     }
     render() {
-        return this.state.error ? /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
+        return this.state.error !== undefined ? /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
             value: this.props.routeContext
         }, /*#__PURE__*/ _react.createElement(RouteErrorContext.Provider, {
             value: this.state.error,
@@ -29027,10 +29127,11 @@ function RenderedRoute(_ref) {
         value: routeContext
     }, children);
 }
-function _renderMatches(matches, parentMatches, dataRouterState) {
+function _renderMatches(matches, parentMatches, dataRouterState, future) {
     var _dataRouterState2;
     if (parentMatches === void 0) parentMatches = [];
     if (dataRouterState === void 0) dataRouterState = null;
+    if (future === void 0) future = null;
     if (matches == null) {
         var _dataRouterState;
         if ((_dataRouterState = dataRouterState) != null && _dataRouterState.errors) // Don't bail if we have data router errors so we can render them in the
@@ -29046,15 +29147,51 @@ function _renderMatches(matches, parentMatches, dataRouterState) {
         !(errorIndex >= 0) && (0, _router.UNSAFE_invariant)(false, "Could not find a matching route for errors on route IDs: " + Object.keys(errors).join(","));
         renderedMatches = renderedMatches.slice(0, Math.min(renderedMatches.length, errorIndex + 1));
     }
+    // If we're in a partial hydration mode, detect if we need to render down to
+    // a given HydrateFallback while we load the rest of the hydration data
+    let renderFallback = false;
+    let fallbackIndex = -1;
+    if (dataRouterState && future && future.v7_partialHydration) for(let i = 0; i < renderedMatches.length; i++){
+        let match = renderedMatches[i];
+        // Track the deepest fallback up until the first route without data
+        if (match.route.HydrateFallback || match.route.hydrateFallbackElement) fallbackIndex = i;
+        if (match.route.loader && match.route.id && dataRouterState.loaderData[match.route.id] === undefined && (!dataRouterState.errors || dataRouterState.errors[match.route.id] === undefined)) {
+            // We found the first route without data/errors which means it's loader
+            // still needs to run.  Flag that we need to render a fallback and
+            // render up until the appropriate fallback
+            renderFallback = true;
+            if (fallbackIndex >= 0) renderedMatches = renderedMatches.slice(0, fallbackIndex + 1);
+            else renderedMatches = [
+                renderedMatches[0]
+            ];
+            break;
+        }
+    }
     return renderedMatches.reduceRight((outlet, match, index)=>{
-        let error = match.route.id ? errors == null ? void 0 : errors[match.route.id] : null;
-        // Only data routers handle errors
+        // Only data routers handle errors/fallbacks
+        let error;
+        let shouldRenderHydrateFallback = false;
         let errorElement = null;
-        if (dataRouterState) errorElement = match.route.errorElement || defaultErrorElement;
+        let hydrateFallbackElement = null;
+        if (dataRouterState) {
+            error = errors && match.route.id ? errors[match.route.id] : undefined;
+            errorElement = match.route.errorElement || defaultErrorElement;
+            if (renderFallback) {
+                if (fallbackIndex < 0 && index === 0) {
+                    warningOnce("route-fallback", false, "No `HydrateFallback` element provided to render during initial hydration");
+                    shouldRenderHydrateFallback = true;
+                    hydrateFallbackElement = null;
+                } else if (fallbackIndex === index) {
+                    shouldRenderHydrateFallback = true;
+                    hydrateFallbackElement = match.route.hydrateFallbackElement || null;
+                }
+            }
+        }
         let matches = parentMatches.concat(renderedMatches.slice(0, index + 1));
         let getChildren = ()=>{
             let children;
             if (error) children = errorElement;
+            else if (shouldRenderHydrateFallback) children = hydrateFallbackElement;
             else if (match.route.Component) // Note: This is a de-optimized path since React won't re-use the
             // ReactElement since it's identity changes with each new
             // React.createElement call.  We keep this so folks can use
@@ -29192,9 +29329,8 @@ function useCurrentRouteId(hookName) {
  * Returns the action data for the nearest ancestor Route action
  */ function useActionData() {
     let state = useDataRouterState(DataRouterStateHook.UseActionData);
-    let route = _react.useContext(RouteContext);
-    !route && (0, _router.UNSAFE_invariant)(false, "useActionData must be used inside a RouteContext");
-    return Object.values((state == null ? void 0 : state.actionData) || {})[0];
+    let routeId = useCurrentRouteId(DataRouterStateHook.UseLoaderData);
+    return state.actionData ? state.actionData[routeId] : undefined;
 }
 /**
  * Returns the nearest ancestor Route error, which could be a loader/action
@@ -29207,7 +29343,7 @@ function useCurrentRouteId(hookName) {
     let routeId = useCurrentRouteId(DataRouterStateHook.UseRouteError);
     // If this was a render error, we put it in a RouteError context inside
     // of RenderErrorBoundary
-    if (error) return error;
+    if (error !== undefined) return error;
     // Otherwise look for errors from our data router state
     return (_state$errors = state.errors) == null ? void 0 : _state$errors[routeId];
 }
@@ -29351,6 +29487,11 @@ const startTransitionImpl = _react[START_TRANSITION];
         router,
         setState
     ]);
+    _react.useEffect(()=>{
+        (0, _router.UNSAFE_warning)(fallbackElement == null || !router.future.v7_partialHydration, "`<RouterProvider fallbackElement>` is deprecated when using `v7_partialHydration`, use a `HydrateFallback` component instead");
+    // Only log this once on initial mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
     let navigator = _react.useMemo(()=>{
         return {
             createHref: router.createHref,
@@ -29394,15 +29535,19 @@ const startTransitionImpl = _react[START_TRANSITION];
         basename: basename,
         location: state.location,
         navigationType: state.historyAction,
-        navigator: navigator
-    }, state.initialized ? /*#__PURE__*/ _react.createElement(DataRoutes, {
+        navigator: navigator,
+        future: {
+            v7_relativeSplatPath: router.future.v7_relativeSplatPath
+        }
+    }, state.initialized || router.future.v7_partialHydration ? /*#__PURE__*/ _react.createElement(DataRoutes, {
         routes: router.routes,
+        future: router.future,
         state: state
     }) : fallbackElement))), null);
 }
 function DataRoutes(_ref2) {
-    let { routes, state } = _ref2;
-    return useRoutesImpl(routes, undefined, state);
+    let { routes, future, state } = _ref2;
+    return useRoutesImpl(routes, undefined, state, future);
 }
 /**
  * A `<Router>` that stores all entries in memory.
@@ -29437,7 +29582,8 @@ function DataRoutes(_ref2) {
         children: children,
         location: state.location,
         navigationType: state.action,
-        navigator: history
+        navigator: history,
+        future: future
     });
 }
 /**
@@ -29452,13 +29598,14 @@ function DataRoutes(_ref2) {
     let { to, replace, state, relative } = _ref4;
     !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // the router loaded. We can help them understand how to avoid that.
     "<Navigate> may be used only in the context of a <Router> component.");
-    (0, _router.UNSAFE_warning)(!_react.useContext(NavigationContext).static, "<Navigate> must not be used on the initial render in a <StaticRouter>. This is a no-op, but you should modify your code so the <Navigate> is only ever rendered in response to some user interaction or state change.");
+    let { future, static: isStatic } = _react.useContext(NavigationContext);
+    (0, _router.UNSAFE_warning)(!isStatic, "<Navigate> must not be used on the initial render in a <StaticRouter>. This is a no-op, but you should modify your code so the <Navigate> is only ever rendered in response to some user interaction or state change.");
     let { matches } = _react.useContext(RouteContext);
     let { pathname: locationPathname } = useLocation();
     let navigate = useNavigate();
     // Resolve the path outside of the effect so that when effects run twice in
     // StrictMode they navigate to the same place
-    let path = (0, _router.resolveTo)(to, (0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase), locationPathname, relative === "path");
+    let path = (0, _router.resolveTo)(to, (0, _router.UNSAFE_getResolveToMatches)(matches, future.v7_relativeSplatPath), locationPathname, relative === "path");
     let jsonPath = JSON.stringify(path);
     _react.useEffect(()=>navigate(JSON.parse(jsonPath), {
             replace,
@@ -29496,7 +29643,7 @@ function DataRoutes(_ref2) {
  *
  * @see https://reactrouter.com/router-components/router
  */ function Router(_ref5) {
-    let { basename: basenameProp = "/", children = null, location: locationProp, navigationType = (0, _router.Action).Pop, navigator, static: staticProp = false } = _ref5;
+    let { basename: basenameProp = "/", children = null, location: locationProp, navigationType = (0, _router.Action).Pop, navigator, static: staticProp = false, future } = _ref5;
     !!useInRouterContext() && (0, _router.UNSAFE_invariant)(false, "You cannot render a <Router> inside another <Router>. You should never have more than one in your app.");
     // Preserve trailing slashes on basename, so we can let the user control
     // the enforcement of trailing slashes throughout the app
@@ -29504,9 +29651,13 @@ function DataRoutes(_ref2) {
     let navigationContext = _react.useMemo(()=>({
             basename,
             navigator,
-            static: staticProp
+            static: staticProp,
+            future: _extends({
+                v7_relativeSplatPath: false
+            }, future)
         }), [
         basename,
+        future,
         navigator,
         staticProp
     ]);
@@ -29718,6 +29869,13 @@ function mapRouteProperties(route) {
             Component: undefined
         });
     }
+    if (route.HydrateFallback) {
+        if (route.hydrateFallbackElement) (0, _router.UNSAFE_warning)(false, "You should not include both `HydrateFallback` and `hydrateFallbackElement` on your route - `HydrateFallback` will be used.");
+        Object.assign(updates, {
+            hydrateFallbackElement: /*#__PURE__*/ _react.createElement(route.HydrateFallback),
+            HydrateFallback: undefined
+        });
+    }
     if (route.ErrorBoundary) {
         if (route.errorElement) (0, _router.UNSAFE_warning)(false, "You should not include both `ErrorBoundary` and `errorElement` on your route - `ErrorBoundary` will be used.");
         Object.assign(updates, {
@@ -29745,7 +29903,7 @@ function createMemoryRouter(routes, opts) {
 
 },{"react":"21dqq","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ncDG":[function(require,module,exports) {
 /**
- * @remix-run/router v1.10.0
+ * @remix-run/router v1.14.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -29766,7 +29924,7 @@ parcelHelpers.export(exports, "UNSAFE_DeferredData", ()=>DeferredData);
 parcelHelpers.export(exports, "UNSAFE_ErrorResponseImpl", ()=>ErrorResponseImpl);
 parcelHelpers.export(exports, "UNSAFE_convertRouteMatchToUiMatch", ()=>convertRouteMatchToUiMatch);
 parcelHelpers.export(exports, "UNSAFE_convertRoutesToDataRoutes", ()=>convertRoutesToDataRoutes);
-parcelHelpers.export(exports, "UNSAFE_getPathContributingMatches", ()=>getPathContributingMatches);
+parcelHelpers.export(exports, "UNSAFE_getResolveToMatches", ()=>getResolveToMatches);
 parcelHelpers.export(exports, "UNSAFE_invariant", ()=>invariant);
 parcelHelpers.export(exports, "UNSAFE_warning", ()=>warning);
 parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory);
@@ -30458,20 +30616,23 @@ function matchRouteBranch(branch, pathname) {
         caseSensitive: false,
         end: true
     };
-    let [matcher, paramNames] = compilePath(pattern.path, pattern.caseSensitive, pattern.end);
+    let [matcher, compiledParams] = compilePath(pattern.path, pattern.caseSensitive, pattern.end);
     let match = pathname.match(matcher);
     if (!match) return null;
     let matchedPathname = match[0];
     let pathnameBase = matchedPathname.replace(/(.)\/+$/, "$1");
     let captureGroups = match.slice(1);
-    let params = paramNames.reduce((memo, paramName, index)=>{
+    let params = compiledParams.reduce((memo, _ref, index)=>{
+        let { paramName, isOptional } = _ref;
         // We need to compute the pathnameBase here using the raw splat value
         // instead of using params["*"] later because it will be decoded then
         if (paramName === "*") {
             let splatValue = captureGroups[index] || "";
             pathnameBase = matchedPathname.slice(0, matchedPathname.length - splatValue.length).replace(/(.)\/+$/, "$1");
         }
-        memo[paramName] = safelyDecodeURIComponent(captureGroups[index] || "", paramName);
+        const value = captureGroups[index];
+        if (isOptional && !value) memo[paramName] = undefined;
+        else memo[paramName] = safelyDecodeURIComponent(value || "", paramName);
         return memo;
     }, {});
     return {
@@ -30485,16 +30646,21 @@ function compilePath(path, caseSensitive, end) {
     if (caseSensitive === void 0) caseSensitive = false;
     if (end === void 0) end = true;
     warning(path === "*" || !path.endsWith("*") || path.endsWith("/*"), 'Route path "' + path + '" will be treated as if it were ' + ('"' + path.replace(/\*$/, "/*") + '" because the `*` character must ') + "always follow a `/` in the pattern. To get rid of this warning, " + ('please change the route path to "' + path.replace(/\*$/, "/*") + '".'));
-    let paramNames = [];
+    let params = [];
     let regexpSource = "^" + path.replace(/\/*\*?$/, "") // Ignore trailing / and /*, we'll handle it below
     .replace(/^\/*/, "/") // Make sure it has a leading /
-    .replace(/[\\.*+^$?{}|()[\]]/g, "\\$&") // Escape special regex chars
-    .replace(/\/:(\w+)/g, (_, paramName)=>{
-        paramNames.push(paramName);
-        return "/([^\\/]+)";
+    .replace(/[\\.*+^${}|()[\]]/g, "\\$&") // Escape special regex chars
+    .replace(/\/:(\w+)(\?)?/g, (_, paramName, isOptional)=>{
+        params.push({
+            paramName,
+            isOptional: isOptional != null
+        });
+        return isOptional ? "/?([^\\/]+)?" : "/([^\\/]+)";
     });
     if (path.endsWith("*")) {
-        paramNames.push("*");
+        params.push({
+            paramName: "*"
+        });
         regexpSource += path === "*" || path === "/*" ? "(.*)$" // Already matched the initial /, just match the rest
          : "(?:\\/(.+)|\\/*)$"; // Don't include the / in params["*"]
     } else if (end) // When matching to the end, ignore trailing slashes
@@ -30510,7 +30676,7 @@ function compilePath(path, caseSensitive, end) {
     let matcher = new RegExp(regexpSource, caseSensitive ? undefined : "i");
     return [
         matcher,
-        paramNames
+        params
     ];
 }
 function safelyDecodeURI(value) {
@@ -30595,6 +30761,16 @@ function getInvalidPathError(char, field, dest, path) {
  */ function getPathContributingMatches(matches) {
     return matches.filter((match, index)=>index === 0 || match.route.path && match.route.path.length > 0);
 }
+// Return the array of pathnames for the current route matches - used to
+// generate the routePathnames input for resolveTo()
+function getResolveToMatches(matches, v7_relativeSplatPath) {
+    let pathMatches = getPathContributingMatches(matches);
+    // When v7_relativeSplatPath is enabled, use the full pathname for the leaf
+    // match so we include splat values for "." links.  See:
+    // https://github.com/remix-run/react-router/issues/11052#issuecomment-1836589329
+    if (v7_relativeSplatPath) return pathMatches.map((match, idx)=>idx === matches.length - 1 ? match.pathname : match.pathnameBase);
+    return pathMatches.map((match)=>match.pathnameBase);
+}
 /**
  * @private
  */ function resolveTo(toArg, routePathnames, locationPathname, isPathRelative) {
@@ -30619,14 +30795,27 @@ function getInvalidPathError(char, field, dest, path) {
     // `to` values that do not provide a pathname. `to` can simply be a search or
     // hash string, in which case we should assume that the navigation is relative
     // to the current location's pathname and *not* the route pathname.
-    if (isPathRelative || toPathname == null) from = locationPathname;
-    else {
+    if (toPathname == null) from = locationPathname;
+    else if (isPathRelative) {
+        let fromSegments = routePathnames.length === 0 ? [] : routePathnames[routePathnames.length - 1].replace(/^\//, "").split("/");
+        if (toPathname.startsWith("..")) {
+            let toSegments = toPathname.split("/");
+            // With relative="path", each leading .. segment means "go up one URL segment"
+            while(toSegments[0] === ".."){
+                toSegments.shift();
+                fromSegments.pop();
+            }
+            to.pathname = toSegments.join("/");
+        }
+        from = "/" + fromSegments.join("/");
+    } else {
         let routePathnameIndex = routePathnames.length - 1;
         if (toPathname.startsWith("..")) {
             let toSegments = toPathname.split("/");
-            // Each leading .. segment means "go up one route" instead of "go up one
-            // URL segment".  This is a key difference from how <a href> works and a
-            // major reason we call this a "to" value instead of a "href".
+            // With relative="route" (the default), each leading .. segment means
+            // "go up one route" instead of "go up one URL segment".  This is a key
+            // difference from how <a href> works and a major reason we call this a
+            // "to" value instead of a "href".
             while(toSegments[0] === ".."){
                 toSegments.shift();
                 routePathnameIndex -= 1;
@@ -30693,8 +30882,8 @@ class DeferredData {
         let onAbort = ()=>reject(new AbortedDeferredError("Deferred data aborted"));
         this.unlistenAbortSignal = ()=>this.controller.signal.removeEventListener("abort", onAbort);
         this.controller.signal.addEventListener("abort", onAbort);
-        this.data = Object.entries(data).reduce((acc, _ref)=>{
-            let [key, value] = _ref;
+        this.data = Object.entries(data).reduce((acc, _ref2)=>{
+            let [key, value] = _ref2;
             return Object.assign(acc, {
                 [key]: this.trackPromise(key, value)
             });
@@ -30786,8 +30975,8 @@ class DeferredData {
     }
     get unwrappedData() {
         invariant(this.data !== null && this.done, "Can only unwrap data on initialized and settled deferreds");
-        return Object.entries(this.data).reduce((acc, _ref2)=>{
-            let [key, value] = _ref2;
+        return Object.entries(this.data).reduce((acc, _ref3)=>{
+            let [key, value] = _ref3;
             return Object.assign(acc, {
                 [key]: unwrapTrackedPromise(value)
             });
@@ -30944,8 +31133,11 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
     let basename = init.basename || "/";
     // Config driven behavior flags
     let future = _extends({
+        v7_fetcherPersist: false,
         v7_normalizeFormMethod: false,
-        v7_prependBasename: false
+        v7_partialHydration: false,
+        v7_prependBasename: false,
+        v7_relativeSplatPath: false
     }, init.future);
     // Cleanup function for history
     let unlistenHistory = null;
@@ -30978,10 +31170,24 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             [route.id]: error
         };
     }
-    let initialized = // All initialMatches need to be loaded before we're ready.  If we have lazy
+    let initialized;
+    let hasLazyRoutes = initialMatches.some((m)=>m.route.lazy);
+    let hasLoaders = initialMatches.some((m)=>m.route.loader);
+    if (hasLazyRoutes) // All initialMatches need to be loaded before we're ready.  If we have lazy
     // functions around still then we'll need to run them in initialize()
-    !initialMatches.some((m)=>m.route.lazy) && // And we have to either have no loaders or have been provided hydrationData
-    (!initialMatches.some((m)=>m.route.loader) || init.hydrationData != null);
+    initialized = false;
+    else if (!hasLoaders) // If we've got no loaders to run, then we're good to go
+    initialized = true;
+    else if (future.v7_partialHydration) {
+        // If partial hydration is enabled, we're initialized so long as we were
+        // provided with hydrationData for every route with a loader, and no loaders
+        // were marked for explicit hydration
+        let loaderData = init.hydrationData ? init.hydrationData.loaderData : null;
+        let errors = init.hydrationData ? init.hydrationData.errors : null;
+        initialized = initialMatches.every((m)=>m.route.loader && m.route.loader.hydrate !== true && (loaderData && loaderData[m.route.id] !== undefined || errors && errors[m.route.id] !== undefined));
+    } else // Without partial hydration - we're initialized if we were provided any
+    // hydrationData - which is expected to be complete
+    initialized = init.hydrationData != null;
     let router;
     let state = {
         historyAction: init.history.action,
@@ -31041,6 +31247,11 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
     let fetchRedirectIds = new Set();
     // Most recent href/match for fetcher.load calls for fetchers
     let fetchLoadMatches = new Map();
+    // Ref-count mounted fetchers so we know when it's ok to clean them up
+    let activeFetchers = new Map();
+    // Fetchers that have requested a delete when using v7_fetcherPersist,
+    // they'll be officially removed after they return to idle
+    let deletedFetchers = new Set();
     // Store DeferredData instances for active route matches.  When a
     // route loader returns defer() we stick one in here.  Then, when a nested
     // promise resolves we update loaderData.  If a new navigation starts we
@@ -31115,7 +31326,9 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         // in the normal navigation flow.  For SSR it's expected that lazy modules are
         // resolved prior to router creation since we can't go into a fallbackElement
         // UI for SSR'd apps
-        if (!state.initialized) startNavigation(Action.Pop, state.location);
+        if (!state.initialized) startNavigation(Action.Pop, state.location, {
+            initialHydration: true
+        });
         return router;
     }
     // Clean up a router and it's side effects
@@ -31133,19 +31346,46 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         return ()=>subscribers.delete(fn);
     }
     // Update our state and notify the calling context of the change
-    function updateState(newState, viewTransitionOpts) {
+    function updateState(newState, opts) {
+        if (opts === void 0) opts = {};
         state = _extends({}, state, newState);
-        subscribers.forEach((subscriber)=>subscriber(state, {
-                unstable_viewTransitionOpts: viewTransitionOpts
+        // Prep fetcher cleanup so we can tell the UI which fetcher data entries
+        // can be removed
+        let completedFetchers = [];
+        let deletedFetchersKeys = [];
+        if (future.v7_fetcherPersist) state.fetchers.forEach((fetcher, key)=>{
+            if (fetcher.state === "idle") {
+                if (deletedFetchers.has(key)) // Unmounted from the UI and can be totally removed
+                deletedFetchersKeys.push(key);
+                else // Returned to idle but still mounted in the UI, so semi-remains for
+                // revalidations and such
+                completedFetchers.push(key);
+            }
+        });
+        // Iterate over a local copy so that if flushSync is used and we end up
+        // removing and adding a new subscriber due to the useCallback dependencies,
+        // we don't get ourselves into a loop calling the new subscriber immediately
+        [
+            ...subscribers
+        ].forEach((subscriber)=>subscriber(state, {
+                deletedFetchers: deletedFetchersKeys,
+                unstable_viewTransitionOpts: opts.viewTransitionOpts,
+                unstable_flushSync: opts.flushSync === true
             }));
+        // Remove idle fetchers from state since we only care about in-flight fetchers.
+        if (future.v7_fetcherPersist) {
+            completedFetchers.forEach((key)=>state.fetchers.delete(key));
+            deletedFetchersKeys.forEach((key)=>deleteFetcher(key));
+        }
     }
     // Complete a navigation returning the state.navigation back to the IDLE_NAVIGATION
     // and setting state.[historyAction/location/matches] to the new route.
     // - Location is a required param
     // - Navigation will always be set to IDLE_NAVIGATION
     // - Can pass any other state in newState
-    function completeNavigation(location, newState) {
+    function completeNavigation(location, newState, _temp) {
         var _location$state, _location$state2;
+        let { flushSync } = _temp === void 0 ? {} : _temp;
         // Deduce if we're in a loading/actionReload state:
         // - We have committed actionData in the store
         // - The current navigation was a mutation submission
@@ -31222,7 +31462,10 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             restoreScrollPosition: getSavedScrollPosition(location, newState.matches || state.matches),
             preventScrollReset,
             blockers
-        }), viewTransitionOpts);
+        }), {
+            viewTransitionOpts,
+            flushSync: flushSync === true
+        });
         // Reset stateful navigation vars
         pendingAction = Action.Pop;
         pendingPreventScrollReset = false;
@@ -31239,7 +31482,7 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             init.history.go(to);
             return;
         }
-        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, to, opts == null ? void 0 : opts.fromRouteId, opts == null ? void 0 : opts.relative);
+        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, to, future.v7_relativeSplatPath, opts == null ? void 0 : opts.fromRouteId, opts == null ? void 0 : opts.relative);
         let { path, submission, error } = normalizeNavigateOptions(future.v7_normalizeFormMethod, false, normalizedPath, opts);
         let currentLocation = state.location;
         let nextLocation = createLocation(state.location, path, opts && opts.state);
@@ -31259,6 +31502,7 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         // action/loader this will be ignored and the redirect will be a PUSH
         historyAction = Action.Replace;
         let preventScrollReset = opts && "preventScrollReset" in opts ? opts.preventScrollReset === true : undefined;
+        let flushSync = (opts && opts.unstable_flushSync) === true;
         let blockerKey = shouldBlockNavigation({
             currentLocation,
             nextLocation,
@@ -31296,7 +31540,8 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             pendingError: error,
             preventScrollReset,
             replace: opts && opts.replace,
-            enableViewTransition: opts && opts.unstable_viewTransition
+            enableViewTransition: opts && opts.unstable_viewTransition,
+            flushSync
         });
     }
     // Revalidate all current loaders.  If a navigation is in progress or if this
@@ -31345,6 +31590,7 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         let routesToUse = inFlightDataRoutes || dataRoutes;
         let loadingNavigation = opts && opts.overrideNavigation;
         let matches = matchRoutes(routesToUse, location, basename);
+        let flushSync = (opts && opts.flushSync) === true;
         // Short circuit with a 404 on the root error boundary if we match nothing
         if (!matches) {
             let error = getInternalRouterError(404, {
@@ -31359,6 +31605,8 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
                 errors: {
                     [route.id]: error
                 }
+            }, {
+                flushSync
             });
             return;
         }
@@ -31371,6 +31619,8 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         if (state.initialized && !isRevalidationRequired && isHashChangeOnly(state.location, location) && !(opts && opts.submission && isMutationMethod(opts.submission.formMethod))) {
             completeNavigation(location, {
                 matches
+            }, {
+                flushSync
             });
             return;
         }
@@ -31389,19 +31639,21 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         else if (opts && opts.submission && isMutationMethod(opts.submission.formMethod)) {
             // Call action if we received an action submission
             let actionOutput = await handleAction(request, location, opts.submission, matches, {
-                replace: opts.replace
+                replace: opts.replace,
+                flushSync
             });
             if (actionOutput.shortCircuited) return;
             pendingActionData = actionOutput.pendingActionData;
             pendingError = actionOutput.pendingActionError;
             loadingNavigation = getLoadingNavigation(location, opts.submission);
+            flushSync = false;
             // Create a GET request for the loaders
             request = new Request(request.url, {
                 signal: request.signal
             });
         }
         // Call loaders
-        let { shortCircuited, loaderData, errors } = await handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, pendingActionData, pendingError);
+        let { shortCircuited, loaderData, errors } = await handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, opts && opts.initialHydration === true, flushSync, pendingActionData, pendingError);
         if (shortCircuited) return;
         // Clean up now that the action/loaders have completed.  Don't clean up if
         // we short circuited because pendingNavigationController will have already
@@ -31425,6 +31677,8 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         let navigation = getSubmittingNavigation(location, submission);
         updateState({
             navigation
+        }, {
+            flushSync: opts.flushSync === true
         });
         // Call our action and get the result
         let result;
@@ -31438,7 +31692,7 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             })
         };
         else {
-            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename);
+            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath);
             if (request.signal.aborted) return {
                 shortCircuited: true
             };
@@ -31486,14 +31740,14 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
     }
     // Call all applicable loaders for the given matches, handling redirects,
     // errors, etc.
-    async function handleLoaders(request, location, matches, overrideNavigation, submission, fetcherSubmission, replace, pendingActionData, pendingError) {
+    async function handleLoaders(request, location, matches, overrideNavigation, submission, fetcherSubmission, replace, initialHydration, flushSync, pendingActionData, pendingError) {
         // Figure out the right navigation we want to use for data loading
         let loadingNavigation = overrideNavigation || getLoadingNavigation(location, submission);
         // If this was a redirect from an action we don't have a "submission" but
         // we have it on the loading navigation so use that if available
         let activeSubmission = submission || fetcherSubmission || getSubmissionFromNavigation(loadingNavigation);
         let routesToUse = inFlightDataRoutes || dataRoutes;
-        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError);
+        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, future.v7_partialHydration && initialHydration === true, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, deletedFetchers, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError);
         // Cancel pending deferreds for no-longer-matched routes or routes we're
         // about to reload.  Note that if this is an action reload we would have
         // already cancelled all pending deferreds so this would be a no-op
@@ -31511,7 +31765,9 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
                 actionData: pendingActionData
             } : {}, updatedFetchers ? {
                 fetchers: new Map(state.fetchers)
-            } : {}));
+            } : {}), {
+                flushSync
+            });
             return {
                 shortCircuited: true
             };
@@ -31520,7 +31776,9 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         // state.  If not, we need to switch to our loading state and load data,
         // preserving any new action data or existing action data (in the case of
         // a revalidation interrupting an actionReload)
-        if (!isUninterruptedRevalidation) {
+        // If we have partialHydration enabled, then don't update the state for the
+        // initial data load since iot's not a "navigation"
+        if (!isUninterruptedRevalidation && (!future.v7_partialHydration || !initialHydration)) {
             revalidatingFetchers.forEach((rf)=>{
                 let fetcher = state.fetchers.get(rf.key);
                 let revalidatingFetcher = getLoadingFetcher(undefined, fetcher ? fetcher.data : undefined);
@@ -31535,7 +31793,9 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
                 actionData
             } : {}, revalidatingFetchers.length > 0 ? {
                 fetchers: new Map(state.fetchers)
-            } : {}));
+            } : {}), {
+                flushSync
+            });
         }
         revalidatingFetchers.forEach((rf)=>{
             if (fetchControllers.has(rf.key)) abortFetcher(rf.key);
@@ -31594,31 +31854,33 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             fetchers: new Map(state.fetchers)
         } : {});
     }
-    function getFetcher(key) {
-        return state.fetchers.get(key) || IDLE_FETCHER;
-    }
     // Trigger a fetcher load/submit for the given fetcher key
     function fetch(key, routeId, href, opts) {
         if (isServer) throw new Error("router.fetch() was called during the server render, but it shouldn't be. You are likely calling a useFetcher() method in the body of your component. Try moving it to a useEffect or a callback.");
         if (fetchControllers.has(key)) abortFetcher(key);
+        let flushSync = (opts && opts.unstable_flushSync) === true;
         let routesToUse = inFlightDataRoutes || dataRoutes;
-        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, href, routeId, opts == null ? void 0 : opts.relative);
+        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, href, future.v7_relativeSplatPath, routeId, opts == null ? void 0 : opts.relative);
         let matches = matchRoutes(routesToUse, normalizedPath, basename);
         if (!matches) {
             setFetcherError(key, routeId, getInternalRouterError(404, {
                 pathname: normalizedPath
-            }));
+            }), {
+                flushSync
+            });
             return;
         }
         let { path, submission, error } = normalizeNavigateOptions(future.v7_normalizeFormMethod, true, normalizedPath, opts);
         if (error) {
-            setFetcherError(key, routeId, error);
+            setFetcherError(key, routeId, error, {
+                flushSync
+            });
             return;
         }
         let match = getTargetMatch(matches, path);
         pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
         if (submission && isMutationMethod(submission.formMethod)) {
-            handleFetcherAction(key, routeId, path, match, matches, submission);
+            handleFetcherAction(key, routeId, path, match, matches, flushSync, submission);
             return;
         }
         // Store off the match so we can call it's shouldRevalidate on subsequent
@@ -31627,11 +31889,11 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             routeId,
             path
         });
-        handleFetcherLoader(key, routeId, path, match, matches, submission);
+        handleFetcherLoader(key, routeId, path, match, matches, flushSync, submission);
     }
     // Call the action for the matched fetcher.submit(), and then handle redirects,
     // errors, and revalidation
-    async function handleFetcherAction(key, routeId, path, match, requestMatches, submission) {
+    async function handleFetcherAction(key, routeId, path, match, requestMatches, flushSync, submission) {
         interruptActiveLoads();
         fetchLoadMatches.delete(key);
         if (!match.route.action && !match.route.lazy) {
@@ -31640,26 +31902,30 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
                 pathname: path,
                 routeId: routeId
             });
-            setFetcherError(key, routeId, error);
+            setFetcherError(key, routeId, error, {
+                flushSync
+            });
             return;
         }
         // Put this fetcher into it's submitting state
         let existingFetcher = state.fetchers.get(key);
-        let fetcher = getSubmittingFetcher(submission, existingFetcher);
-        state.fetchers.set(key, fetcher);
-        updateState({
-            fetchers: new Map(state.fetchers)
+        updateFetcherState(key, getSubmittingFetcher(submission, existingFetcher), {
+            flushSync
         });
         // Call the action for the fetcher
         let abortController = new AbortController();
         let fetchRequest = createClientSideRequest(init.history, path, abortController.signal, submission);
         fetchControllers.set(key, abortController);
         let originatingLoadId = incrementingLoadId;
-        let actionResult = await callLoaderOrAction("action", fetchRequest, match, requestMatches, manifest, mapRouteProperties, basename);
+        let actionResult = await callLoaderOrAction("action", fetchRequest, match, requestMatches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath);
         if (fetchRequest.signal.aborted) {
-            // We can delete this so long as we weren't aborted by ou our own fetcher
+            // We can delete this so long as we weren't aborted by our own fetcher
             // re-submit which would have put _new_ controller is in fetchControllers
             if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
+            return;
+        }
+        if (deletedFetchers.has(key)) {
+            updateFetcherState(key, getDoneFetcher(undefined));
             return;
         }
         if (isRedirectResult(actionResult)) {
@@ -31669,19 +31935,11 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
                 // should take precedence over this redirect navigation.  We already
                 // set isRevalidationRequired so all loaders for the new route should
                 // fire unless opted out via shouldRevalidate
-                let doneFetcher = getDoneFetcher(undefined);
-                state.fetchers.set(key, doneFetcher);
-                updateState({
-                    fetchers: new Map(state.fetchers)
-                });
+                updateFetcherState(key, getDoneFetcher(undefined));
                 return;
             } else {
                 fetchRedirectIds.add(key);
-                let loadingFetcher = getLoadingFetcher(submission);
-                state.fetchers.set(key, loadingFetcher);
-                updateState({
-                    fetchers: new Map(state.fetchers)
-                });
+                updateFetcherState(key, getLoadingFetcher(submission));
                 return startRedirectNavigation(state, actionResult, {
                     fetcherSubmission: submission
                 });
@@ -31706,7 +31964,7 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         fetchReloadIds.set(key, loadId);
         let loadFetcher = getLoadingFetcher(submission, actionResult.data);
         state.fetchers.set(key, loadFetcher);
-        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, {
+        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, false, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, deletedFetchers, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, {
             [match.route.id]: actionResult.data
         }, undefined // No need to send through errors since we short circuit above
         );
@@ -31751,7 +32009,7 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             let doneFetcher = getDoneFetcher(actionResult.data);
             state.fetchers.set(key, doneFetcher);
         }
-        let didAbortFetchLoads = abortStaleFetchLoads(loadId);
+        abortStaleFetchLoads(loadId);
         // If we are currently in a navigation loading state and this fetcher is
         // more recent than the navigation, we want the newer data so abort the
         // navigation and complete it with the fetcher data
@@ -31768,30 +32026,26 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             // otherwise just update with the fetcher data, preserving any existing
             // loaderData for loaders that did not need to reload.  We have to
             // manually merge here since we aren't going through completeNavigation
-            updateState(_extends({
+            updateState({
                 errors,
-                loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors)
-            }, didAbortFetchLoads || revalidatingFetchers.length > 0 ? {
+                loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors),
                 fetchers: new Map(state.fetchers)
-            } : {}));
+            });
             isRevalidationRequired = false;
         }
     }
     // Call the matched loader for fetcher.load(), handling redirects, errors, etc.
-    async function handleFetcherLoader(key, routeId, path, match, matches, submission) {
+    async function handleFetcherLoader(key, routeId, path, match, matches, flushSync, submission) {
         let existingFetcher = state.fetchers.get(key);
-        // Put this fetcher into it's loading state
-        let loadingFetcher = getLoadingFetcher(submission, existingFetcher ? existingFetcher.data : undefined);
-        state.fetchers.set(key, loadingFetcher);
-        updateState({
-            fetchers: new Map(state.fetchers)
+        updateFetcherState(key, getLoadingFetcher(submission, existingFetcher ? existingFetcher.data : undefined), {
+            flushSync
         });
         // Call the loader for this fetcher route match
         let abortController = new AbortController();
         let fetchRequest = createClientSideRequest(init.history, path, abortController.signal);
         fetchControllers.set(key, abortController);
         let originatingLoadId = incrementingLoadId;
-        let result = await callLoaderOrAction("loader", fetchRequest, match, matches, manifest, mapRouteProperties, basename);
+        let result = await callLoaderOrAction("loader", fetchRequest, match, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath);
         // Deferred isn't supported for fetcher loads, await everything and treat it
         // as a normal load.  resolveDeferredData will return undefined if this
         // fetcher gets aborted, so we just leave result untouched and short circuit
@@ -31801,16 +32055,16 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         // re-load which would have put _new_ controller is in fetchControllers
         if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
         if (fetchRequest.signal.aborted) return;
+        if (deletedFetchers.has(key)) {
+            updateFetcherState(key, getDoneFetcher(undefined));
+            return;
+        }
         // If the loader threw a redirect Response, start a new REPLACE navigation
         if (isRedirectResult(result)) {
             if (pendingNavigationLoadId > originatingLoadId) {
                 // A new navigation was kicked off after our loader started, so that
                 // should take precedence over this redirect navigation
-                let doneFetcher = getDoneFetcher(undefined);
-                state.fetchers.set(key, doneFetcher);
-                updateState({
-                    fetchers: new Map(state.fetchers)
-                });
+                updateFetcherState(key, getDoneFetcher(undefined));
                 return;
             } else {
                 fetchRedirectIds.add(key);
@@ -31820,26 +32074,12 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         }
         // Process any non-redirect errors thrown
         if (isErrorResult(result)) {
-            let boundaryMatch = findNearestBoundary(state.matches, routeId);
-            state.fetchers.delete(key);
-            // TODO: In remix, this would reset to IDLE_NAVIGATION if it was a catch -
-            // do we need to behave any differently with our non-redirect errors?
-            // What if it was a non-redirect Response?
-            updateState({
-                fetchers: new Map(state.fetchers),
-                errors: {
-                    [boundaryMatch.route.id]: result.error
-                }
-            });
+            setFetcherError(key, routeId, result.error);
             return;
         }
         invariant(!isDeferredResult(result), "Unhandled fetcher deferred data");
         // Put the fetcher back into an idle state
-        let doneFetcher = getDoneFetcher(result.data);
-        state.fetchers.set(key, doneFetcher);
-        updateState({
-            fetchers: new Map(state.fetchers)
-        });
+        updateFetcherState(key, getDoneFetcher(result.data));
     }
     /**
    * Utility function to handle redirects returned from an action or loader.
@@ -31859,8 +32099,8 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
    * navigation (including processed redirects).  This means that we never
    * actually touch history until we've processed redirects, so we just use
    * the history action from the original navigation (PUSH or REPLACE).
-   */ async function startRedirectNavigation(state, redirect, _temp) {
-        let { submission, fetcherSubmission, replace } = _temp === void 0 ? {} : _temp;
+   */ async function startRedirectNavigation(state, redirect, _temp2) {
+        let { submission, fetcherSubmission, replace } = _temp2 === void 0 ? {} : _temp2;
         if (redirect.revalidate) isRevalidationRequired = true;
         let redirectLocation = createLocation(state.location, redirect.location, {
             _isRedirect: true
@@ -31919,9 +32159,9 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         // then slice off the results into separate arrays so we can handle them
         // accordingly
         let results = await Promise.all([
-            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename)),
+            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath)),
             ...fetchersToLoad.map((f)=>{
-                if (f.matches && f.match && f.controller) return callLoaderOrAction("loader", createClientSideRequest(init.history, f.path, f.controller.signal), f.match, f.matches, manifest, mapRouteProperties, basename);
+                if (f.matches && f.match && f.controller) return callLoaderOrAction("loader", createClientSideRequest(init.history, f.path, f.controller.signal), f.match, f.matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath);
                 else {
                     let error = {
                         type: ResultType.error,
@@ -31959,7 +32199,17 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
             }
         });
     }
-    function setFetcherError(key, routeId, error) {
+    function updateFetcherState(key, fetcher, opts) {
+        if (opts === void 0) opts = {};
+        state.fetchers.set(key, fetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        }, {
+            flushSync: (opts && opts.flushSync) === true
+        });
+    }
+    function setFetcherError(key, routeId, error, opts) {
+        if (opts === void 0) opts = {};
         let boundaryMatch = findNearestBoundary(state.matches, routeId);
         deleteFetcher(key);
         updateState({
@@ -31967,7 +32217,18 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
                 [boundaryMatch.route.id]: error
             },
             fetchers: new Map(state.fetchers)
+        }, {
+            flushSync: (opts && opts.flushSync) === true
         });
+    }
+    function getFetcher(key) {
+        if (future.v7_fetcherPersist) {
+            activeFetchers.set(key, (activeFetchers.get(key) || 0) + 1);
+            // If this fetcher was previously marked for deletion, unmark it since we
+            // have a new instance
+            if (deletedFetchers.has(key)) deletedFetchers.delete(key);
+        }
+        return state.fetchers.get(key) || IDLE_FETCHER;
     }
     function deleteFetcher(key) {
         let fetcher = state.fetchers.get(key);
@@ -31978,7 +32239,20 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         fetchLoadMatches.delete(key);
         fetchReloadIds.delete(key);
         fetchRedirectIds.delete(key);
+        deletedFetchers.delete(key);
         state.fetchers.delete(key);
+    }
+    function deleteFetcherAndUpdateState(key) {
+        if (future.v7_fetcherPersist) {
+            let count = (activeFetchers.get(key) || 0) - 1;
+            if (count <= 0) {
+                activeFetchers.delete(key);
+                deletedFetchers.add(key);
+            } else activeFetchers.set(key, count);
+        } else deleteFetcher(key);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
     }
     function abortFetcher(key) {
         let controller = fetchControllers.get(key);
@@ -32128,6 +32402,9 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         get basename () {
             return basename;
         },
+        get future () {
+            return future;
+        },
         get state () {
             return state;
         },
@@ -32148,7 +32425,7 @@ const TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
         createHref: (to)=>init.history.createHref(to),
         encodeLocation: (to)=>init.history.encodeLocation(to),
         getFetcher,
-        deleteFetcher,
+        deleteFetcher: deleteFetcherAndUpdateState,
         dispose,
         getBlocker,
         deleteBlocker,
@@ -32178,6 +32455,10 @@ function createStaticHandler(routes, opts) {
                 hasErrorBoundary: detectErrorBoundary(route)
             });
     } else mapRouteProperties = defaultMapRouteProperties;
+    // Config driven behavior flags
+    let future = _extends({
+        v7_relativeSplatPath: false
+    }, opts ? opts.future : null);
     let dataRoutes = convertRoutesToDataRoutes(routes, mapRouteProperties, undefined, manifest);
     /**
    * The query() method is intended for document requests, in which we want to
@@ -32197,8 +32478,8 @@ function createStaticHandler(routes, opts) {
    * redirect response is returned or thrown from any action/loader.  We
    * propagate that out and return the raw Response so the HTTP server can
    * return it directly.
-   */ async function query(request, _temp2) {
-        let { requestContext } = _temp2 === void 0 ? {} : _temp2;
+   */ async function query(request, _temp3) {
+        let { requestContext } = _temp3 === void 0 ? {} : _temp3;
         let url = new URL(request.url);
         let method = request.method;
         let location = createLocation("", createPath(url), null, "default");
@@ -32272,8 +32553,8 @@ function createStaticHandler(routes, opts) {
    * serialize the error as they see fit while including the proper response
    * code.  Examples here are 404 and 405 errors that occur prior to reaching
    * any user-defined loaders.
-   */ async function queryRoute(request, _temp3) {
-        let { routeId, requestContext } = _temp3 === void 0 ? {} : _temp3;
+   */ async function queryRoute(request, _temp4) {
+        let { routeId, requestContext } = _temp4 === void 0 ? {} : _temp4;
         let url = new URL(request.url);
         let method = request.method;
         let location = createLocation("", createPath(url), null, "default");
@@ -32352,7 +32633,7 @@ function createStaticHandler(routes, opts) {
                 error
             };
         } else {
-            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, {
+            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath, {
                 isStaticRequest: true,
                 isRouteRequest,
                 requestContext
@@ -32462,7 +32743,7 @@ function createStaticHandler(routes, opts) {
             activeDeferreds: null
         };
         let results = await Promise.all([
-            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, {
+            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath, {
                     isStaticRequest: true,
                     isRouteRequest,
                     requestContext
@@ -32510,14 +32791,12 @@ function createStaticHandler(routes, opts) {
 function isSubmissionNavigation(opts) {
     return opts != null && ("formData" in opts && opts.formData != null || "body" in opts && opts.body !== undefined);
 }
-function normalizeTo(location, matches, basename, prependBasename, to, fromRouteId, relative) {
+function normalizeTo(location, matches, basename, prependBasename, to, v7_relativeSplatPath, fromRouteId, relative) {
     let contextualMatches;
     let activeRouteMatch;
-    if (fromRouteId != null && relative !== "path") {
+    if (fromRouteId) {
         // Grab matches up to the calling route so our route-relative logic is
-        // relative to the correct source route.  When using relative:path,
-        // fromRouteId is ignored since that is always relative to the current
-        // location path
+        // relative to the correct source route
         contextualMatches = [];
         for (let match of matches){
             contextualMatches.push(match);
@@ -32531,7 +32810,7 @@ function normalizeTo(location, matches, basename, prependBasename, to, fromRoute
         activeRouteMatch = matches[matches.length - 1];
     }
     // Resolve the relative path
-    let path = resolveTo(to ? to : ".", getPathContributingMatches(contextualMatches).map((m)=>m.pathnameBase), stripBasename(location.pathname, basename) || location.pathname, relative === "path");
+    let path = resolveTo(to ? to : ".", getResolveToMatches(contextualMatches, v7_relativeSplatPath), stripBasename(location.pathname, basename) || location.pathname, relative === "path");
     // When `to` is not specified we inherit search/hash from the current
     // location, unlike when to="." and we just inherit the path.
     // See https://github.com/remix-run/remix/issues/927
@@ -32670,7 +32949,7 @@ function getLoaderMatchesUntilBoundary(matches, boundaryId) {
     }
     return boundaryMatches;
 }
-function getMatchesToLoad(history, state, matches, submission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError) {
+function getMatchesToLoad(history, state, matches, submission, location, isInitialLoad, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, deletedFetchers, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError) {
     let actionResult = pendingError ? Object.values(pendingError)[0] : pendingActionData ? Object.values(pendingActionData)[0] : undefined;
     let currentUrl = history.createURL(state.location);
     let nextUrl = history.createURL(location);
@@ -32678,6 +32957,9 @@ function getMatchesToLoad(history, state, matches, submission, location, isReval
     let boundaryId = pendingError ? Object.keys(pendingError)[0] : undefined;
     let boundaryMatches = getLoaderMatchesUntilBoundary(matches, boundaryId);
     let navigationMatches = boundaryMatches.filter((match, index)=>{
+        if (isInitialLoad) // On initial hydration we don't do any shouldRevalidate stuff - we just
+        // call the unhydrated loaders
+        return isUnhydratedRoute(state, match.route);
         if (match.route.lazy) // We haven't loaded this route yet so we don't know if it's got a loader!
         return true;
         if (match.route.loader == null) return false;
@@ -32705,8 +32987,12 @@ function getMatchesToLoad(history, state, matches, submission, location, isReval
     // Pick fetcher.loads that need to be revalidated
     let revalidatingFetchers = [];
     fetchLoadMatches.forEach((f, key)=>{
-        // Don't revalidate if fetcher won't be present in the subsequent render
-        if (!matches.some((m)=>m.route.id === f.routeId)) return;
+        // Don't revalidate:
+        //  - on initial load (shouldn't be any fetchers then anyway)
+        //  - if fetcher won't be present in the subsequent render
+        //    - no longer matches the URL (v7_fetcherPersist=false)
+        //    - was unmounted but persisted due to v7_fetcherPersist=true
+        if (isInitialLoad || !matches.some((m)=>m.route.id === f.routeId) || deletedFetchers.has(key)) return;
         let fetcherMatches = matchRoutes(routesToUse, f.path, basename);
         // If the fetcher path no longer matches, push it in with null matches so
         // we can trigger a 404 in callLoadersAndMaybeResolveData.  Note this is
@@ -32761,6 +33047,14 @@ function getMatchesToLoad(history, state, matches, submission, location, isReval
         navigationMatches,
         revalidatingFetchers
     ];
+}
+// Is this route unhydrated (when v7_partialHydration=true) such that we need
+// to call it's loader on the initial router creation
+function isUnhydratedRoute(state, route) {
+    if (!route.loader) return false;
+    if (route.loader.hydrate) return true;
+    return state.loaderData[route.id] === undefined && (!state.errors || // Loader ran but errored - don't re-run
+    state.errors[route.id] === undefined);
 }
 function isNewLoader(currentLoaderData, currentMatch, match) {
     let isNew = // [a] -> [a, b]
@@ -32826,7 +33120,7 @@ function shouldRevalidateLoader(loaderMatch, arg) {
         lazy: undefined
     }));
 }
-async function callLoaderOrAction(type, request, match, matches, manifest, mapRouteProperties, basename, opts) {
+async function callLoaderOrAction(type, request, match, matches, manifest, mapRouteProperties, basename, v7_relativeSplatPath, opts) {
     if (opts === void 0) opts = {};
     let resultType;
     let result;
@@ -32907,7 +33201,7 @@ async function callLoaderOrAction(type, request, match, matches, manifest, mapRo
             let location = result.headers.get("Location");
             invariant(location, "Redirects returned/thrown from loaders/actions must have a Location header");
             // Support relative routing in internal redirects
-            if (!ABSOLUTE_URL_REGEX.test(location)) location = normalizeTo(new URL(request.url), matches.slice(0, matches.indexOf(match) + 1), basename, true, location);
+            if (!ABSOLUTE_URL_REGEX.test(location)) location = normalizeTo(new URL(request.url), matches.slice(0, matches.indexOf(match) + 1), basename, true, location, v7_relativeSplatPath);
             else if (!opts.isStaticRequest) {
                 // Strip off the protocol+origin for same-origin + same-basename absolute
                 // redirects. If this is a static request, we can let it go back to the
@@ -32944,11 +33238,18 @@ async function callLoaderOrAction(type, request, match, matches, manifest, mapRo
             throw queryRouteResponse;
         }
         let data;
-        let contentType = result.headers.get("Content-Type");
-        // Check between word boundaries instead of startsWith() due to the last
-        // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
-        if (contentType && /\bapplication\/json\b/.test(contentType)) data = await result.json();
-        else data = await result.text();
+        try {
+            let contentType = result.headers.get("Content-Type");
+            // Check between word boundaries instead of startsWith() due to the last
+            // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
+            if (contentType && /\bapplication\/json\b/.test(contentType)) data = await result.json();
+            else data = await result.text();
+        } catch (e) {
+            return {
+                type: ResultType.error,
+                error: e
+            };
+        }
         if (resultType === ResultType.error) return {
             type: resultType,
             error: new ErrorResponseImpl(status, result.statusText, data),
@@ -33148,8 +33449,8 @@ function getShortCircuitMatches(routes) {
         route
     };
 }
-function getInternalRouterError(status, _temp4) {
-    let { pathname, routeId, method, type } = _temp4 === void 0 ? {} : _temp4;
+function getInternalRouterError(status, _temp5) {
+    let { pathname, routeId, method, type } = _temp5 === void 0 ? {} : _temp5;
     let statusText = "Unknown Server Error";
     let errorMessage = "Unknown @remix-run/router error";
     if (status === 400) {
@@ -33443,7 +33744,7 @@ exports.defineInteropFlag = function(a) {
 };
 exports.exportAll = function(source, dest) {
     Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
         Object.defineProperty(dest, key, {
             enumerable: true,
             get: function() {
@@ -34058,7 +34359,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./style.css":"65YJk","../images/sahilHD.png":"kjPEr","../images/sunshine.png":"2PVhE","../images/send.png":"azRz8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-type-animation":"3FP7D"}],"65YJk":[function() {},{}],"kjPEr":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./style.css":"65YJk","../images/sahilHD.png":"kjPEr","../images/sunshine.png":"2PVhE","../images/send.png":"azRz8","react-type-animation":"3FP7D","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"65YJk":[function() {},{}],"kjPEr":[function(require,module,exports) {
 module.exports = require("7ae047f4cecfd879").getBundleURL("lPpKD") + "sahilHD.299d55e6.png" + "?" + Date.now();
 
 },{"7ae047f4cecfd879":"lgJ39"}],"2PVhE":[function(require,module,exports) {
@@ -36005,6 +36306,10378 @@ module.exports = require("3faec81f3afbd312").getBundleURL("lPpKD") + "working.40
 },{"3faec81f3afbd312":"lgJ39"}],"a9BDp":[function(require,module,exports) {
 module.exports = require("abe6e19f23ccc512").getBundleURL("lPpKD") + "ideas.efac47b4.png" + "?" + Date.now();
 
-},{"abe6e19f23ccc512":"lgJ39"}],"34cXA":[function() {},{}]},["iWvxK","1xC6H","bNKaB"], "bNKaB", "parcelRequire82ef")
+},{"abe6e19f23ccc512":"lgJ39"}],"34cXA":[function() {},{}],"lPRIb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$222f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$222f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _react1 = require("@tsparticles/react");
+var _reactDefault = parcelHelpers.interopDefault(_react1);
+// import { loadAll } from "@/tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
+// import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+var _slim = require("@tsparticles/slim"); // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+var _s = $RefreshSig$();
+// import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
+const Particlebg = ()=>{
+    _s();
+    const [init, setInit] = (0, _react.useState)(false);
+    // this should be run only once per application lifetime
+    (0, _react.useEffect)(()=>{
+        (0, _react1.initParticlesEngine)(async (engine)=>{
+            // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+            // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+            // starting from v2 you can add only the features you need reducing the bundle size
+            //await loadAll(engine);
+            //await loadFull(engine);
+            await (0, _slim.loadSlim)(engine);
+        //await loadBasic(engine);
+        }).then(()=>{
+            setInit(true);
+        });
+    }, []);
+    const particlesLoaded = (container)=>{
+        console.log(container);
+    };
+    const options = (0, _react.useMemo)(()=>({
+            background: {
+                gradient: {
+                    type: "linear",
+                    direction: "to right",
+                    colorStops: [
+                        {
+                            color: "rgba(36, 31, 31, 1)",
+                            position: "0%"
+                        },
+                        {
+                            color: "rgba(36, 31, 31, 1)",
+                            position: "32%"
+                        }
+                    ]
+                }
+            },
+            fpsLimit: 120,
+            interactivity: {
+                events: {
+                    onClick: {
+                        enable: true,
+                        mode: "push"
+                    },
+                    onHover: {
+                        enable: true,
+                        mode: "repulse"
+                    },
+                    resize: true
+                },
+                modes: {
+                    push: {
+                        quantity: 4
+                    },
+                    repulse: {
+                        distance: 200,
+                        duration: 0.4
+                    }
+                }
+            },
+            particles: {
+                color: {
+                    value: "#ffffff"
+                },
+                links: {
+                    color: "#ffffff",
+                    distance: 150,
+                    enable: true,
+                    opacity: 0.5,
+                    width: 1
+                },
+                move: {
+                    direction: "none",
+                    enable: true,
+                    outModes: {
+                        default: "bounce"
+                    },
+                    random: false,
+                    speed: 6,
+                    straight: false
+                },
+                number: {
+                    density: {
+                        enable: true,
+                        area: 800
+                    },
+                    value: 80
+                },
+                opacity: {
+                    value: 0.5
+                },
+                shape: {
+                    type: "circle"
+                },
+                size: {
+                    value: {
+                        min: 1,
+                        max: 5
+                    }
+                }
+            },
+            detectRetina: true
+        }), []);
+    if (init) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default), {
+        id: "tsparticles",
+        particlesLoaded: particlesLoaded,
+        options: options
+    }, void 0, false, {
+        fileName: "src/components/Particlebg.js",
+        lineNumber: 110,
+        columnNumber: 7
+    }, undefined);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {}, void 0, false);
+};
+_s(Particlebg, "eB+NWpxmGZSqHQDaTSx/Qv0E/5M=");
+_c = Particlebg;
+exports.default = Particlebg;
+var _c;
+$RefreshReg$(_c, "Particlebg");
+
+  $parcel$ReactRefreshHelpers$222f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@tsparticles/react":"5fZYg","@tsparticles/slim":"0jTcN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5fZYg":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Particles", ()=>(0, _particlesJsDefault.default));
+parcelHelpers.export(exports, "default", ()=>(0, _particlesJsDefault.default));
+parcelHelpers.export(exports, "initParticlesEngine", ()=>n);
+var _engine = require("@tsparticles/engine");
+var _particlesJs = require("./Particles.js");
+var _particlesJsDefault = parcelHelpers.interopDefault(_particlesJs);
+var _jsxRuntime = require("react/jsx-runtime");
+var _react = require("react");
+async function n(t) {
+    await t((0, _engine.tsParticles));
+}
+
+},{"@tsparticles/engine":"ahMVX","./Particles.js":"gTg7A","react/jsx-runtime":"6AEwr","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ahMVX":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "tsParticles", ()=>tsParticles);
+var _initJs = require("./init.js");
+var _utilsJs = require("./Utils/Utils.js");
+var _exportsJs = require("./exports.js");
+parcelHelpers.exportAll(_exportsJs, exports);
+var _exportTypesJs = require("./export-types.js");
+parcelHelpers.exportAll(_exportTypesJs, exports);
+const tsParticles = (0, _initJs.init)();
+if (!(0, _utilsJs.isSsr)()) window.tsParticles = tsParticles;
+
+},{"./init.js":"cn6ky","./Utils/Utils.js":"17M4n","./exports.js":"4f3rW","./export-types.js":"8l4GZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cn6ky":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "init", ()=>init);
+var _engineJs = require("./Core/Engine.js");
+var _hslColorManagerJs = require("./Utils/HslColorManager.js");
+var _rgbColorManagerJs = require("./Utils/RgbColorManager.js");
+var _colorUtilsJs = require("./Utils/ColorUtils.js");
+function init() {
+    const rgbColorManager = new (0, _rgbColorManagerJs.RgbColorManager)(), hslColorManager = new (0, _hslColorManagerJs.HslColorManager)();
+    (0, _colorUtilsJs.addColorManager)(rgbColorManager);
+    (0, _colorUtilsJs.addColorManager)(hslColorManager);
+    const engine = new (0, _engineJs.Engine)();
+    engine.init();
+    return engine;
+}
+
+},{"./Core/Engine.js":"cwnBE","./Utils/HslColorManager.js":"6gEpO","./Utils/RgbColorManager.js":"gAkuj","./Utils/ColorUtils.js":"9NWNO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cwnBE":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Engine", ()=>Engine);
+var _constantsJs = require("./Utils/Constants.js");
+var _utilsJs = require("../Utils/Utils.js");
+var _containerJs = require("./Container.js");
+var _eventDispatcherJs = require("../Utils/EventDispatcher.js");
+var _numberUtilsJs = require("../Utils/NumberUtils.js");
+function getItemsFromInitializer(container, map, initializers, force = false) {
+    let res = map.get(container);
+    if (!res || force) {
+        res = [
+            ...initializers.values()
+        ].map((t)=>t(container));
+        map.set(container, res);
+    }
+    return res;
+}
+async function getDataFromUrl(data) {
+    const url = (0, _utilsJs.itemFromSingleOrMultiple)(data.url, data.index);
+    if (!url) return data.fallback;
+    const response = await fetch(url);
+    if (response.ok) return response.json();
+    (0, _utilsJs.getLogger)().error(`${(0, _constantsJs.errorPrefix)} ${response.status} while retrieving config file`);
+    return data.fallback;
+}
+class Engine {
+    constructor(){
+        this._configs = new Map();
+        this._domArray = [];
+        this._eventDispatcher = new (0, _eventDispatcherJs.EventDispatcher)();
+        this._initialized = false;
+        this.plugins = [];
+        this._initializers = {
+            interactors: new Map(),
+            movers: new Map(),
+            updaters: new Map()
+        };
+        this.interactors = new Map();
+        this.movers = new Map();
+        this.updaters = new Map();
+        this.presets = new Map();
+        this.effectDrawers = new Map();
+        this.shapeDrawers = new Map();
+        this.pathGenerators = new Map();
+    }
+    get configs() {
+        const res = {};
+        for (const [name, config] of this._configs)res[name] = config;
+        return res;
+    }
+    get version() {
+        return "3.0.2";
+    }
+    addConfig(config) {
+        const name = config.name ?? "default";
+        this._configs.set(name, config);
+        this._eventDispatcher.dispatchEvent("configAdded", {
+            data: {
+                name,
+                config
+            }
+        });
+    }
+    async addEffect(effect, drawer, refresh = true) {
+        (0, _utilsJs.executeOnSingleOrMultiple)(effect, (type)=>{
+            !this.getEffectDrawer(type) && this.effectDrawers.set(type, drawer);
+        });
+        await this.refresh(refresh);
+    }
+    addEventListener(type, listener) {
+        this._eventDispatcher.addEventListener(type, listener);
+    }
+    async addInteractor(name, interactorInitializer, refresh = true) {
+        this._initializers.interactors.set(name, interactorInitializer);
+        await this.refresh(refresh);
+    }
+    async addMover(name, moverInitializer, refresh = true) {
+        this._initializers.movers.set(name, moverInitializer);
+        await this.refresh(refresh);
+    }
+    async addParticleUpdater(name, updaterInitializer, refresh = true) {
+        this._initializers.updaters.set(name, updaterInitializer);
+        await this.refresh(refresh);
+    }
+    async addPathGenerator(name, generator, refresh = true) {
+        !this.getPathGenerator(name) && this.pathGenerators.set(name, generator);
+        await this.refresh(refresh);
+    }
+    async addPlugin(plugin, refresh = true) {
+        !this.getPlugin(plugin.id) && this.plugins.push(plugin);
+        await this.refresh(refresh);
+    }
+    async addPreset(preset, options, override = false, refresh = true) {
+        (override || !this.getPreset(preset)) && this.presets.set(preset, options);
+        await this.refresh(refresh);
+    }
+    async addShape(shape, drawer, refresh = true) {
+        (0, _utilsJs.executeOnSingleOrMultiple)(shape, (type)=>{
+            !this.getShapeDrawer(type) && this.shapeDrawers.set(type, drawer);
+        });
+        await this.refresh(refresh);
+    }
+    clearPlugins(container) {
+        this.updaters.delete(container);
+        this.movers.delete(container);
+        this.interactors.delete(container);
+    }
+    dispatchEvent(type, args) {
+        this._eventDispatcher.dispatchEvent(type, args);
+    }
+    dom() {
+        return this._domArray;
+    }
+    domItem(index) {
+        const dom = this.dom(), item = dom[index];
+        if (!item || item.destroyed) {
+            dom.splice(index, 1);
+            return;
+        }
+        return item;
+    }
+    getAvailablePlugins(container) {
+        const res = new Map();
+        for (const plugin of this.plugins)plugin.needsPlugin(container.actualOptions) && res.set(plugin.id, plugin.getPlugin(container));
+        return res;
+    }
+    getEffectDrawer(type) {
+        return this.effectDrawers.get(type);
+    }
+    getInteractors(container, force = false) {
+        return getItemsFromInitializer(container, this.interactors, this._initializers.interactors, force);
+    }
+    getMovers(container, force = false) {
+        return getItemsFromInitializer(container, this.movers, this._initializers.movers, force);
+    }
+    getPathGenerator(type) {
+        return this.pathGenerators.get(type);
+    }
+    getPlugin(plugin) {
+        return this.plugins.find((t)=>t.id === plugin);
+    }
+    getPreset(preset) {
+        return this.presets.get(preset);
+    }
+    getShapeDrawer(type) {
+        return this.shapeDrawers.get(type);
+    }
+    getSupportedEffects() {
+        return this.effectDrawers.keys();
+    }
+    getSupportedShapes() {
+        return this.shapeDrawers.keys();
+    }
+    getUpdaters(container, force = false) {
+        return getItemsFromInitializer(container, this.updaters, this._initializers.updaters, force);
+    }
+    init() {
+        if (this._initialized) return;
+        this._initialized = true;
+    }
+    async load(params) {
+        const id = params.id ?? `tsparticles${Math.floor((0, _numberUtilsJs.getRandom)() * 10000)}`, { index, url } = params, options = url ? await getDataFromUrl({
+            fallback: params.options,
+            url,
+            index
+        }) : params.options;
+        let domContainer = params.element ?? document.getElementById(id);
+        if (!domContainer) {
+            domContainer = document.createElement("div");
+            domContainer.id = id;
+            document.body.append(domContainer);
+        }
+        const currentOptions = (0, _utilsJs.itemFromSingleOrMultiple)(options, index), dom = this.dom(), oldIndex = dom.findIndex((v)=>v.id.description === id);
+        if (oldIndex >= 0) {
+            const old = this.domItem(oldIndex);
+            if (old && !old.destroyed) {
+                old.destroy();
+                dom.splice(oldIndex, 1);
+            }
+        }
+        let canvasEl;
+        if (domContainer.tagName.toLowerCase() === "canvas") {
+            canvasEl = domContainer;
+            canvasEl.dataset[0, _constantsJs.generatedAttribute] = "false";
+        } else {
+            const existingCanvases = domContainer.getElementsByTagName("canvas");
+            if (existingCanvases.length) {
+                canvasEl = existingCanvases[0];
+                canvasEl.dataset[0, _constantsJs.generatedAttribute] = "false";
+            } else {
+                canvasEl = document.createElement("canvas");
+                canvasEl.dataset[0, _constantsJs.generatedAttribute] = "true";
+                domContainer.appendChild(canvasEl);
+            }
+        }
+        if (!canvasEl.style.width) canvasEl.style.width = "100%";
+        if (!canvasEl.style.height) canvasEl.style.height = "100%";
+        const newItem = new (0, _containerJs.Container)(this, id, currentOptions);
+        if (oldIndex >= 0) dom.splice(oldIndex, 0, newItem);
+        else dom.push(newItem);
+        newItem.canvas.loadCanvas(canvasEl);
+        await newItem.start();
+        return newItem;
+    }
+    loadOptions(options, sourceOptions) {
+        for (const plugin of this.plugins)plugin.loadOptions(options, sourceOptions);
+    }
+    loadParticlesOptions(container, options, ...sourceOptions) {
+        const updaters = this.updaters.get(container);
+        if (!updaters) return;
+        for (const updater of updaters)updater.loadOptions && updater.loadOptions(options, ...sourceOptions);
+    }
+    async refresh(refresh = true) {
+        if (!refresh) return;
+        this.dom().forEach((t)=>t.refresh());
+    }
+    removeEventListener(type, listener) {
+        this._eventDispatcher.removeEventListener(type, listener);
+    }
+    setOnClickHandler(callback) {
+        const dom = this.dom();
+        if (!dom.length) throw new Error(`${(0, _constantsJs.errorPrefix)} can only set click handlers after calling tsParticles.load()`);
+        for (const domItem of dom)domItem.addClickHandler(callback);
+    }
+}
+
+},{"./Utils/Constants.js":"9fra9","../Utils/Utils.js":"17M4n","./Container.js":"4i0Qd","../Utils/EventDispatcher.js":"hW0hi","../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9fra9":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "generatedAttribute", ()=>generatedAttribute);
+parcelHelpers.export(exports, "mouseDownEvent", ()=>mouseDownEvent);
+parcelHelpers.export(exports, "mouseUpEvent", ()=>mouseUpEvent);
+parcelHelpers.export(exports, "mouseLeaveEvent", ()=>mouseLeaveEvent);
+parcelHelpers.export(exports, "mouseOutEvent", ()=>mouseOutEvent);
+parcelHelpers.export(exports, "mouseMoveEvent", ()=>mouseMoveEvent);
+parcelHelpers.export(exports, "touchStartEvent", ()=>touchStartEvent);
+parcelHelpers.export(exports, "touchEndEvent", ()=>touchEndEvent);
+parcelHelpers.export(exports, "touchMoveEvent", ()=>touchMoveEvent);
+parcelHelpers.export(exports, "touchCancelEvent", ()=>touchCancelEvent);
+parcelHelpers.export(exports, "resizeEvent", ()=>resizeEvent);
+parcelHelpers.export(exports, "visibilityChangeEvent", ()=>visibilityChangeEvent);
+parcelHelpers.export(exports, "errorPrefix", ()=>errorPrefix);
+const generatedAttribute = "generated";
+const mouseDownEvent = "pointerdown";
+const mouseUpEvent = "pointerup";
+const mouseLeaveEvent = "pointerleave";
+const mouseOutEvent = "pointerout";
+const mouseMoveEvent = "pointermove";
+const touchStartEvent = "touchstart";
+const touchEndEvent = "touchend";
+const touchMoveEvent = "touchmove";
+const touchCancelEvent = "touchcancel";
+const resizeEvent = "resize";
+const visibilityChangeEvent = "visibilitychange";
+const errorPrefix = "tsParticles - Error";
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"17M4n":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "setLogger", ()=>setLogger);
+parcelHelpers.export(exports, "getLogger", ()=>getLogger);
+parcelHelpers.export(exports, "isSsr", ()=>isSsr);
+parcelHelpers.export(exports, "hasMatchMedia", ()=>hasMatchMedia);
+parcelHelpers.export(exports, "safeMatchMedia", ()=>safeMatchMedia);
+parcelHelpers.export(exports, "safeIntersectionObserver", ()=>safeIntersectionObserver);
+parcelHelpers.export(exports, "safeMutationObserver", ()=>safeMutationObserver);
+parcelHelpers.export(exports, "isInArray", ()=>isInArray);
+parcelHelpers.export(exports, "loadFont", ()=>loadFont);
+parcelHelpers.export(exports, "arrayRandomIndex", ()=>arrayRandomIndex);
+parcelHelpers.export(exports, "itemFromArray", ()=>itemFromArray);
+parcelHelpers.export(exports, "isPointInside", ()=>isPointInside);
+parcelHelpers.export(exports, "areBoundsInside", ()=>areBoundsInside);
+parcelHelpers.export(exports, "calculateBounds", ()=>calculateBounds);
+parcelHelpers.export(exports, "deepExtend", ()=>deepExtend);
+parcelHelpers.export(exports, "isDivModeEnabled", ()=>isDivModeEnabled);
+parcelHelpers.export(exports, "divModeExecute", ()=>divModeExecute);
+parcelHelpers.export(exports, "singleDivModeExecute", ()=>singleDivModeExecute);
+parcelHelpers.export(exports, "divMode", ()=>divMode);
+parcelHelpers.export(exports, "circleBounceDataFromParticle", ()=>circleBounceDataFromParticle);
+parcelHelpers.export(exports, "circleBounce", ()=>circleBounce);
+parcelHelpers.export(exports, "rectBounce", ()=>rectBounce);
+parcelHelpers.export(exports, "executeOnSingleOrMultiple", ()=>executeOnSingleOrMultiple);
+parcelHelpers.export(exports, "itemFromSingleOrMultiple", ()=>itemFromSingleOrMultiple);
+parcelHelpers.export(exports, "findItemFromSingleOrMultiple", ()=>findItemFromSingleOrMultiple);
+parcelHelpers.export(exports, "initParticleNumericAnimationValue", ()=>initParticleNumericAnimationValue);
+parcelHelpers.export(exports, "getPosition", ()=>getPosition);
+parcelHelpers.export(exports, "getSize", ()=>getSize);
+parcelHelpers.export(exports, "isBoolean", ()=>isBoolean);
+parcelHelpers.export(exports, "isString", ()=>isString);
+parcelHelpers.export(exports, "isNumber", ()=>isNumber);
+parcelHelpers.export(exports, "isFunction", ()=>isFunction);
+parcelHelpers.export(exports, "isObject", ()=>isObject);
+parcelHelpers.export(exports, "isArray", ()=>isArray);
+var _numberUtilsJs = require("./NumberUtils.js");
+var _vectorJs = require("../Core/Utils/Vector.js");
+const _logger = {
+    debug: console.debug,
+    error: console.error,
+    info: console.info,
+    log: console.log,
+    verbose: console.log,
+    warning: console.warn
+};
+function setLogger(logger) {
+    _logger.debug = logger.debug || _logger.debug;
+    _logger.error = logger.error || _logger.error;
+    _logger.info = logger.info || _logger.info;
+    _logger.log = logger.log || _logger.log;
+    _logger.verbose = logger.verbose || _logger.verbose;
+    _logger.warning = logger.warning || _logger.warning;
+}
+function getLogger() {
+    return _logger;
+}
+function rectSideBounce(data) {
+    const res = {
+        bounced: false
+    }, { pSide, pOtherSide, rectSide, rectOtherSide, velocity, factor } = data;
+    if (pOtherSide.min < rectOtherSide.min || pOtherSide.min > rectOtherSide.max || pOtherSide.max < rectOtherSide.min || pOtherSide.max > rectOtherSide.max) return res;
+    if (pSide.max >= rectSide.min && pSide.max <= (rectSide.max + rectSide.min) * 0.5 && velocity > 0 || pSide.min <= rectSide.max && pSide.min > (rectSide.max + rectSide.min) * 0.5 && velocity < 0) {
+        res.velocity = velocity * -factor;
+        res.bounced = true;
+    }
+    return res;
+}
+function checkSelector(element, selectors) {
+    const res = executeOnSingleOrMultiple(selectors, (selector)=>{
+        return element.matches(selector);
+    });
+    return isArray(res) ? res.some((t)=>t) : res;
+}
+function isSsr() {
+    return typeof window === "undefined" || !window || typeof window.document === "undefined" || !window.document;
+}
+function hasMatchMedia() {
+    return !isSsr() && typeof matchMedia !== "undefined";
+}
+function safeMatchMedia(query) {
+    if (!hasMatchMedia()) return;
+    return matchMedia(query);
+}
+function safeIntersectionObserver(callback) {
+    if (isSsr() || typeof IntersectionObserver === "undefined") return;
+    return new IntersectionObserver(callback);
+}
+function safeMutationObserver(callback) {
+    if (isSsr() || typeof MutationObserver === "undefined") return;
+    return new MutationObserver(callback);
+}
+function isInArray(value, array) {
+    return value === array || isArray(array) && array.indexOf(value) > -1;
+}
+async function loadFont(font, weight) {
+    try {
+        await document.fonts.load(`${weight ?? "400"} 36px '${font ?? "Verdana"}'`);
+    } catch  {}
+}
+function arrayRandomIndex(array) {
+    return Math.floor((0, _numberUtilsJs.getRandom)() * array.length);
+}
+function itemFromArray(array, index, useIndex = true) {
+    return array[index !== undefined && useIndex ? index % array.length : arrayRandomIndex(array)];
+}
+function isPointInside(point, size, offset, radius, direction) {
+    return areBoundsInside(calculateBounds(point, radius ?? 0), size, offset, direction);
+}
+function areBoundsInside(bounds, size, offset, direction) {
+    let inside = true;
+    if (!direction || direction === "bottom") inside = bounds.top < size.height + offset.x;
+    if (inside && (!direction || direction === "left")) inside = bounds.right > offset.x;
+    if (inside && (!direction || direction === "right")) inside = bounds.left < size.width + offset.y;
+    if (inside && (!direction || direction === "top")) inside = bounds.bottom > offset.y;
+    return inside;
+}
+function calculateBounds(point, radius) {
+    return {
+        bottom: point.y + radius,
+        left: point.x - radius,
+        right: point.x + radius,
+        top: point.y - radius
+    };
+}
+function deepExtend(destination, ...sources) {
+    for (const source of sources){
+        if (source === undefined || source === null) continue;
+        if (!isObject(source)) {
+            destination = source;
+            continue;
+        }
+        const sourceIsArray = Array.isArray(source);
+        if (sourceIsArray && (isObject(destination) || !destination || !Array.isArray(destination))) destination = [];
+        else if (!sourceIsArray && (isObject(destination) || !destination || Array.isArray(destination))) destination = {};
+        for(const key in source){
+            if (key === "__proto__") continue;
+            const sourceDict = source, value = sourceDict[key], destDict = destination;
+            destDict[key] = isObject(value) && Array.isArray(value) ? value.map((v)=>deepExtend(destDict[key], v)) : deepExtend(destDict[key], value);
+        }
+    }
+    return destination;
+}
+function isDivModeEnabled(mode, divs) {
+    return !!findItemFromSingleOrMultiple(divs, (t)=>t.enable && isInArray(mode, t.mode));
+}
+function divModeExecute(mode, divs, callback) {
+    executeOnSingleOrMultiple(divs, (div)=>{
+        const divMode = div.mode, divEnabled = div.enable;
+        if (divEnabled && isInArray(mode, divMode)) singleDivModeExecute(div, callback);
+    });
+}
+function singleDivModeExecute(div, callback) {
+    const selectors = div.selectors;
+    executeOnSingleOrMultiple(selectors, (selector)=>{
+        callback(selector, div);
+    });
+}
+function divMode(divs, element) {
+    if (!element || !divs) return;
+    return findItemFromSingleOrMultiple(divs, (div)=>{
+        return checkSelector(element, div.selectors);
+    });
+}
+function circleBounceDataFromParticle(p) {
+    return {
+        position: p.getPosition(),
+        radius: p.getRadius(),
+        mass: p.getMass(),
+        velocity: p.velocity,
+        factor: (0, _vectorJs.Vector).create((0, _numberUtilsJs.getRangeValue)(p.options.bounce.horizontal.value), (0, _numberUtilsJs.getRangeValue)(p.options.bounce.vertical.value))
+    };
+}
+function circleBounce(p1, p2) {
+    const { x: xVelocityDiff, y: yVelocityDiff } = p1.velocity.sub(p2.velocity), [pos1, pos2] = [
+        p1.position,
+        p2.position
+    ], { dx: xDist, dy: yDist } = (0, _numberUtilsJs.getDistances)(pos2, pos1);
+    if (xVelocityDiff * xDist + yVelocityDiff * yDist < 0) return;
+    const angle = -Math.atan2(yDist, xDist), m1 = p1.mass, m2 = p2.mass, u1 = p1.velocity.rotate(angle), u2 = p2.velocity.rotate(angle), v1 = (0, _numberUtilsJs.collisionVelocity)(u1, u2, m1, m2), v2 = (0, _numberUtilsJs.collisionVelocity)(u2, u1, m1, m2), vFinal1 = v1.rotate(-angle), vFinal2 = v2.rotate(-angle);
+    p1.velocity.x = vFinal1.x * p1.factor.x;
+    p1.velocity.y = vFinal1.y * p1.factor.y;
+    p2.velocity.x = vFinal2.x * p2.factor.x;
+    p2.velocity.y = vFinal2.y * p2.factor.y;
+}
+function rectBounce(particle, divBounds) {
+    const pPos = particle.getPosition(), size = particle.getRadius(), bounds = calculateBounds(pPos, size), bounceOptions = particle.options.bounce, resH = rectSideBounce({
+        pSide: {
+            min: bounds.left,
+            max: bounds.right
+        },
+        pOtherSide: {
+            min: bounds.top,
+            max: bounds.bottom
+        },
+        rectSide: {
+            min: divBounds.left,
+            max: divBounds.right
+        },
+        rectOtherSide: {
+            min: divBounds.top,
+            max: divBounds.bottom
+        },
+        velocity: particle.velocity.x,
+        factor: (0, _numberUtilsJs.getRangeValue)(bounceOptions.horizontal.value)
+    });
+    if (resH.bounced) {
+        if (resH.velocity !== undefined) particle.velocity.x = resH.velocity;
+        if (resH.position !== undefined) particle.position.x = resH.position;
+    }
+    const resV = rectSideBounce({
+        pSide: {
+            min: bounds.top,
+            max: bounds.bottom
+        },
+        pOtherSide: {
+            min: bounds.left,
+            max: bounds.right
+        },
+        rectSide: {
+            min: divBounds.top,
+            max: divBounds.bottom
+        },
+        rectOtherSide: {
+            min: divBounds.left,
+            max: divBounds.right
+        },
+        velocity: particle.velocity.y,
+        factor: (0, _numberUtilsJs.getRangeValue)(bounceOptions.vertical.value)
+    });
+    if (resV.bounced) {
+        if (resV.velocity !== undefined) particle.velocity.y = resV.velocity;
+        if (resV.position !== undefined) particle.position.y = resV.position;
+    }
+}
+function executeOnSingleOrMultiple(obj, callback) {
+    return isArray(obj) ? obj.map((item, index)=>callback(item, index)) : callback(obj, 0);
+}
+function itemFromSingleOrMultiple(obj, index, useIndex) {
+    return isArray(obj) ? itemFromArray(obj, index, useIndex) : obj;
+}
+function findItemFromSingleOrMultiple(obj, callback) {
+    return isArray(obj) ? obj.find((t, index)=>callback(t, index)) : callback(obj, 0) ? obj : undefined;
+}
+function initParticleNumericAnimationValue(options, pxRatio) {
+    const valueRange = options.value, animationOptions = options.animation, res = {
+        delayTime: (0, _numberUtilsJs.getRangeValue)(animationOptions.delay) * 1000,
+        enable: animationOptions.enable,
+        value: (0, _numberUtilsJs.getRangeValue)(options.value) * pxRatio,
+        max: (0, _numberUtilsJs.getRangeMax)(valueRange) * pxRatio,
+        min: (0, _numberUtilsJs.getRangeMin)(valueRange) * pxRatio,
+        loops: 0,
+        maxLoops: (0, _numberUtilsJs.getRangeValue)(animationOptions.count),
+        time: 0
+    };
+    if (animationOptions.enable) {
+        res.decay = 1 - (0, _numberUtilsJs.getRangeValue)(animationOptions.decay);
+        switch(animationOptions.mode){
+            case "increase":
+                res.status = "increasing";
+                break;
+            case "decrease":
+                res.status = "decreasing";
+                break;
+            case "random":
+                res.status = (0, _numberUtilsJs.getRandom)() >= 0.5 ? "increasing" : "decreasing";
+                break;
+        }
+        const autoStatus = animationOptions.mode === "auto";
+        switch(animationOptions.startValue){
+            case "min":
+                res.value = res.min;
+                if (autoStatus) res.status = "increasing";
+                break;
+            case "max":
+                res.value = res.max;
+                if (autoStatus) res.status = "decreasing";
+                break;
+            case "random":
+            default:
+                res.value = (0, _numberUtilsJs.randomInRange)(res);
+                if (autoStatus) res.status = (0, _numberUtilsJs.getRandom)() >= 0.5 ? "increasing" : "decreasing";
+                break;
+        }
+    }
+    res.initialValue = res.value;
+    return res;
+}
+function getPositionOrSize(positionOrSize, canvasSize) {
+    const isPercent = positionOrSize.mode === "percent";
+    if (!isPercent) {
+        const { mode: _, ...rest } = positionOrSize;
+        return rest;
+    }
+    const isPosition = "x" in positionOrSize;
+    if (isPosition) return {
+        x: positionOrSize.x / 100 * canvasSize.width,
+        y: positionOrSize.y / 100 * canvasSize.height
+    };
+    else return {
+        width: positionOrSize.width / 100 * canvasSize.width,
+        height: positionOrSize.height / 100 * canvasSize.height
+    };
+}
+function getPosition(position, canvasSize) {
+    return getPositionOrSize(position, canvasSize);
+}
+function getSize(size, canvasSize) {
+    return getPositionOrSize(size, canvasSize);
+}
+function isBoolean(arg) {
+    return typeof arg === "boolean";
+}
+function isString(arg) {
+    return typeof arg === "string";
+}
+function isNumber(arg) {
+    return typeof arg === "number";
+}
+function isFunction(arg) {
+    return typeof arg === "function";
+}
+function isObject(arg) {
+    return typeof arg === "object" && arg !== null;
+}
+function isArray(arg) {
+    return Array.isArray(arg);
+}
+
+},{"./NumberUtils.js":"c9eVN","../Core/Utils/Vector.js":"eaMIS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c9eVN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "addEasing", ()=>addEasing);
+parcelHelpers.export(exports, "getEasing", ()=>getEasing);
+parcelHelpers.export(exports, "setRandom", ()=>setRandom);
+parcelHelpers.export(exports, "getRandom", ()=>getRandom);
+parcelHelpers.export(exports, "clamp", ()=>clamp);
+parcelHelpers.export(exports, "mix", ()=>mix);
+parcelHelpers.export(exports, "randomInRange", ()=>randomInRange);
+parcelHelpers.export(exports, "getRangeValue", ()=>getRangeValue);
+parcelHelpers.export(exports, "getRangeMin", ()=>getRangeMin);
+parcelHelpers.export(exports, "getRangeMax", ()=>getRangeMax);
+parcelHelpers.export(exports, "setRangeValue", ()=>setRangeValue);
+parcelHelpers.export(exports, "getDistances", ()=>getDistances);
+parcelHelpers.export(exports, "getDistance", ()=>getDistance);
+parcelHelpers.export(exports, "getParticleDirectionAngle", ()=>getParticleDirectionAngle);
+parcelHelpers.export(exports, "getParticleBaseVelocity", ()=>getParticleBaseVelocity);
+parcelHelpers.export(exports, "collisionVelocity", ()=>collisionVelocity);
+parcelHelpers.export(exports, "calcPositionFromSize", ()=>calcPositionFromSize);
+parcelHelpers.export(exports, "calcPositionOrRandomFromSize", ()=>calcPositionOrRandomFromSize);
+parcelHelpers.export(exports, "calcPositionOrRandomFromSizeRanged", ()=>calcPositionOrRandomFromSizeRanged);
+parcelHelpers.export(exports, "calcExactPositionOrRandomFromSize", ()=>calcExactPositionOrRandomFromSize);
+parcelHelpers.export(exports, "calcExactPositionOrRandomFromSizeRanged", ()=>calcExactPositionOrRandomFromSizeRanged);
+parcelHelpers.export(exports, "parseAlpha", ()=>parseAlpha);
+var _vectorJs = require("../Core/Utils/Vector.js");
+var _utilsJs = require("./Utils.js");
+let _random = Math.random;
+const easings = new Map();
+function addEasing(name, easing) {
+    if (easings.get(name)) return;
+    easings.set(name, easing);
+}
+function getEasing(name) {
+    return easings.get(name) || ((value)=>value);
+}
+function setRandom(rnd = Math.random) {
+    _random = rnd;
+}
+function getRandom() {
+    return clamp(_random(), 0, 1 - 1e-16);
+}
+function clamp(num, min, max) {
+    return Math.min(Math.max(num, min), max);
+}
+function mix(comp1, comp2, weight1, weight2) {
+    return Math.floor((comp1 * weight1 + comp2 * weight2) / (weight1 + weight2));
+}
+function randomInRange(r) {
+    const max = getRangeMax(r);
+    let min = getRangeMin(r);
+    if (max === min) min = 0;
+    return getRandom() * (max - min) + min;
+}
+function getRangeValue(value) {
+    return (0, _utilsJs.isNumber)(value) ? value : randomInRange(value);
+}
+function getRangeMin(value) {
+    return (0, _utilsJs.isNumber)(value) ? value : value.min;
+}
+function getRangeMax(value) {
+    return (0, _utilsJs.isNumber)(value) ? value : value.max;
+}
+function setRangeValue(source, value) {
+    if (source === value || value === undefined && (0, _utilsJs.isNumber)(source)) return source;
+    const min = getRangeMin(source), max = getRangeMax(source);
+    return value !== undefined ? {
+        min: Math.min(min, value),
+        max: Math.max(max, value)
+    } : setRangeValue(min, max);
+}
+function getDistances(pointA, pointB) {
+    const dx = pointA.x - pointB.x, dy = pointA.y - pointB.y;
+    return {
+        dx: dx,
+        dy: dy,
+        distance: Math.sqrt(dx ** 2 + dy ** 2)
+    };
+}
+function getDistance(pointA, pointB) {
+    return getDistances(pointA, pointB).distance;
+}
+function getParticleDirectionAngle(direction, position, center) {
+    if ((0, _utilsJs.isNumber)(direction)) return direction * Math.PI / 180;
+    switch(direction){
+        case "top":
+            return -Math.PI * 0.5;
+        case "top-right":
+            return -Math.PI * 0.25;
+        case "right":
+            return 0;
+        case "bottom-right":
+            return Math.PI * 0.25;
+        case "bottom":
+            return Math.PI * 0.5;
+        case "bottom-left":
+            return Math.PI * 0.75;
+        case "left":
+            return Math.PI;
+        case "top-left":
+            return -Math.PI * 0.75;
+        case "inside":
+            return Math.atan2(center.y - position.y, center.x - position.x);
+        case "outside":
+            return Math.atan2(position.y - center.y, position.x - center.x);
+        default:
+            return getRandom() * Math.PI * 2;
+    }
+}
+function getParticleBaseVelocity(direction) {
+    const baseVelocity = (0, _vectorJs.Vector).origin;
+    baseVelocity.length = 1;
+    baseVelocity.angle = direction;
+    return baseVelocity;
+}
+function collisionVelocity(v1, v2, m1, m2) {
+    return (0, _vectorJs.Vector).create(v1.x * (m1 - m2) / (m1 + m2) + v2.x * 2 * m2 / (m1 + m2), v1.y);
+}
+function calcPositionFromSize(data) {
+    return data.position && data.position.x !== undefined && data.position.y !== undefined ? {
+        x: data.position.x * data.size.width / 100,
+        y: data.position.y * data.size.height / 100
+    } : undefined;
+}
+function calcPositionOrRandomFromSize(data) {
+    return {
+        x: (data.position?.x ?? getRandom() * 100) * data.size.width / 100,
+        y: (data.position?.y ?? getRandom() * 100) * data.size.height / 100
+    };
+}
+function calcPositionOrRandomFromSizeRanged(data) {
+    const position = {
+        x: data.position?.x !== undefined ? getRangeValue(data.position.x) : undefined,
+        y: data.position?.y !== undefined ? getRangeValue(data.position.y) : undefined
+    };
+    return calcPositionOrRandomFromSize({
+        size: data.size,
+        position
+    });
+}
+function calcExactPositionOrRandomFromSize(data) {
+    return {
+        x: data.position?.x ?? getRandom() * data.size.width,
+        y: data.position?.y ?? getRandom() * data.size.height
+    };
+}
+function calcExactPositionOrRandomFromSizeRanged(data) {
+    const position = {
+        x: data.position?.x !== undefined ? getRangeValue(data.position.x) : undefined,
+        y: data.position?.y !== undefined ? getRangeValue(data.position.y) : undefined
+    };
+    return calcExactPositionOrRandomFromSize({
+        size: data.size,
+        position
+    });
+}
+function parseAlpha(input) {
+    return input ? input.endsWith("%") ? parseFloat(input) / 100 : parseFloat(input) : 1;
+}
+
+},{"../Core/Utils/Vector.js":"eaMIS","./Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eaMIS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Vector", ()=>Vector);
+var _vector3DJs = require("./Vector3d.js");
+class Vector extends (0, _vector3DJs.Vector3d) {
+    constructor(xOrCoords, y){
+        super(xOrCoords, y, 0);
+    }
+    static get origin() {
+        return Vector.create(0, 0);
+    }
+    static clone(source) {
+        return Vector.create(source.x, source.y);
+    }
+    static create(x, y) {
+        return new Vector(x, y);
+    }
+}
+
+},{"./Vector3d.js":"fauhc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fauhc":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Vector3d", ()=>Vector3d);
+var _constantsJs = require("./Constants.js");
+var _utilsJs = require("../../Utils/Utils.js");
+class Vector3d {
+    constructor(xOrCoords, y, z){
+        this._updateFromAngle = (angle, length)=>{
+            this.x = Math.cos(angle) * length;
+            this.y = Math.sin(angle) * length;
+        };
+        if (!(0, _utilsJs.isNumber)(xOrCoords) && xOrCoords) {
+            this.x = xOrCoords.x;
+            this.y = xOrCoords.y;
+            const coords3d = xOrCoords;
+            this.z = coords3d.z ? coords3d.z : 0;
+        } else if (xOrCoords !== undefined && y !== undefined) {
+            this.x = xOrCoords;
+            this.y = y;
+            this.z = z ?? 0;
+        } else throw new Error(`${(0, _constantsJs.errorPrefix)} Vector3d not initialized correctly`);
+    }
+    static get origin() {
+        return Vector3d.create(0, 0, 0);
+    }
+    get angle() {
+        return Math.atan2(this.y, this.x);
+    }
+    set angle(angle) {
+        this._updateFromAngle(angle, this.length);
+    }
+    get length() {
+        return Math.sqrt(this.getLengthSq());
+    }
+    set length(length) {
+        this._updateFromAngle(this.angle, length);
+    }
+    static clone(source) {
+        return Vector3d.create(source.x, source.y, source.z);
+    }
+    static create(x, y, z) {
+        return new Vector3d(x, y, z);
+    }
+    add(v) {
+        return Vector3d.create(this.x + v.x, this.y + v.y, this.z + v.z);
+    }
+    addTo(v) {
+        this.x += v.x;
+        this.y += v.y;
+        this.z += v.z;
+    }
+    copy() {
+        return Vector3d.clone(this);
+    }
+    distanceTo(v) {
+        return this.sub(v).length;
+    }
+    distanceToSq(v) {
+        return this.sub(v).getLengthSq();
+    }
+    div(n) {
+        return Vector3d.create(this.x / n, this.y / n, this.z / n);
+    }
+    divTo(n) {
+        this.x /= n;
+        this.y /= n;
+        this.z /= n;
+    }
+    getLengthSq() {
+        return this.x ** 2 + this.y ** 2;
+    }
+    mult(n) {
+        return Vector3d.create(this.x * n, this.y * n, this.z * n);
+    }
+    multTo(n) {
+        this.x *= n;
+        this.y *= n;
+        this.z *= n;
+    }
+    normalize() {
+        const length = this.length;
+        if (length != 0) this.multTo(1.0 / length);
+    }
+    rotate(angle) {
+        return Vector3d.create(this.x * Math.cos(angle) - this.y * Math.sin(angle), this.x * Math.sin(angle) + this.y * Math.cos(angle), 0);
+    }
+    setTo(c) {
+        this.x = c.x;
+        this.y = c.y;
+        const v3d = c;
+        this.z = v3d.z ? v3d.z : 0;
+    }
+    sub(v) {
+        return Vector3d.create(this.x - v.x, this.y - v.y, this.z - v.z);
+    }
+    subFrom(v) {
+        this.x -= v.x;
+        this.y -= v.y;
+        this.z -= v.z;
+    }
+}
+
+},{"./Constants.js":"9fra9","../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4i0Qd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Container", ()=>Container);
+var _utilsJs = require("../Utils/Utils.js");
+var _canvasJs = require("./Canvas.js");
+var _eventListenersJs = require("./Utils/EventListeners.js");
+var _optionsJs = require("../Options/Classes/Options.js");
+var _particlesJs = require("./Particles.js");
+var _retinaJs = require("./Retina.js");
+var _constantsJs = require("./Utils/Constants.js");
+var _numberUtilsJs = require("../Utils/NumberUtils.js");
+var _optionsUtilsJs = require("../Utils/OptionsUtils.js");
+function guardCheck(container) {
+    return container && !container.destroyed;
+}
+function initDelta(value, fpsLimit = 60, smooth = false) {
+    return {
+        value,
+        factor: smooth ? 60 / fpsLimit : 60 * value / 1000
+    };
+}
+function loadContainerOptions(engine, container, ...sourceOptionsArr) {
+    const options = new (0, _optionsJs.Options)(engine, container);
+    (0, _optionsUtilsJs.loadOptions)(options, ...sourceOptionsArr);
+    return options;
+}
+class Container {
+    constructor(engine, id, sourceOptions){
+        this._intersectionManager = (entries)=>{
+            if (!guardCheck(this) || !this.actualOptions.pauseOnOutsideViewport) return;
+            for (const entry of entries){
+                if (entry.target !== this.interactivity.element) continue;
+                (entry.isIntersecting ? this.play : this.pause)();
+            }
+        };
+        this._nextFrame = async (timestamp)=>{
+            try {
+                if (!this._smooth && this._lastFrameTime !== undefined && timestamp < this._lastFrameTime + 1000 / this.fpsLimit) {
+                    this.draw(false);
+                    return;
+                }
+                this._lastFrameTime ??= timestamp;
+                const delta = initDelta(timestamp - this._lastFrameTime, this.fpsLimit, this._smooth);
+                this.addLifeTime(delta.value);
+                this._lastFrameTime = timestamp;
+                if (delta.value > 1000) {
+                    this.draw(false);
+                    return;
+                }
+                await this.particles.draw(delta);
+                if (!this.alive()) {
+                    this.destroy();
+                    return;
+                }
+                if (this.getAnimationStatus()) this.draw(false);
+            } catch (e) {
+                (0, _utilsJs.getLogger)().error(`${(0, _constantsJs.errorPrefix)} in animation loop`, e);
+            }
+        };
+        this._engine = engine;
+        this.id = Symbol(id);
+        this.fpsLimit = 120;
+        this._smooth = false;
+        this._delay = 0;
+        this._duration = 0;
+        this._lifeTime = 0;
+        this._firstStart = true;
+        this.started = false;
+        this.destroyed = false;
+        this._paused = true;
+        this._lastFrameTime = 0;
+        this.zLayers = 100;
+        this.pageHidden = false;
+        this._sourceOptions = sourceOptions;
+        this._initialSourceOptions = sourceOptions;
+        this.retina = new (0, _retinaJs.Retina)(this);
+        this.canvas = new (0, _canvasJs.Canvas)(this);
+        this.particles = new (0, _particlesJs.Particles)(this._engine, this);
+        this.pathGenerators = new Map();
+        this.interactivity = {
+            mouse: {
+                clicking: false,
+                inside: false
+            }
+        };
+        this.plugins = new Map();
+        this.effectDrawers = new Map();
+        this.shapeDrawers = new Map();
+        this._options = loadContainerOptions(this._engine, this);
+        this.actualOptions = loadContainerOptions(this._engine, this);
+        this._eventListeners = new (0, _eventListenersJs.EventListeners)(this);
+        this._intersectionObserver = (0, _utilsJs.safeIntersectionObserver)((entries)=>this._intersectionManager(entries));
+        this._engine.dispatchEvent("containerBuilt", {
+            container: this
+        });
+    }
+    get options() {
+        return this._options;
+    }
+    get sourceOptions() {
+        return this._sourceOptions;
+    }
+    addClickHandler(callback) {
+        if (!guardCheck(this)) return;
+        const el = this.interactivity.element;
+        if (!el) return;
+        const clickOrTouchHandler = (e, pos, radius)=>{
+            if (!guardCheck(this)) return;
+            const pxRatio = this.retina.pixelRatio, posRetina = {
+                x: pos.x * pxRatio,
+                y: pos.y * pxRatio
+            }, particles = this.particles.quadTree.queryCircle(posRetina, radius * pxRatio);
+            callback(e, particles);
+        };
+        const clickHandler = (e)=>{
+            if (!guardCheck(this)) return;
+            const mouseEvent = e, pos = {
+                x: mouseEvent.offsetX || mouseEvent.clientX,
+                y: mouseEvent.offsetY || mouseEvent.clientY
+            };
+            clickOrTouchHandler(e, pos, 1);
+        };
+        const touchStartHandler = ()=>{
+            if (!guardCheck(this)) return;
+            touched = true;
+            touchMoved = false;
+        };
+        const touchMoveHandler = ()=>{
+            if (!guardCheck(this)) return;
+            touchMoved = true;
+        };
+        const touchEndHandler = (e)=>{
+            if (!guardCheck(this)) return;
+            if (touched && !touchMoved) {
+                const touchEvent = e;
+                let lastTouch = touchEvent.touches[touchEvent.touches.length - 1];
+                if (!lastTouch) {
+                    lastTouch = touchEvent.changedTouches[touchEvent.changedTouches.length - 1];
+                    if (!lastTouch) return;
+                }
+                const element = this.canvas.element, canvasRect = element ? element.getBoundingClientRect() : undefined, pos = {
+                    x: lastTouch.clientX - (canvasRect ? canvasRect.left : 0),
+                    y: lastTouch.clientY - (canvasRect ? canvasRect.top : 0)
+                };
+                clickOrTouchHandler(e, pos, Math.max(lastTouch.radiusX, lastTouch.radiusY));
+            }
+            touched = false;
+            touchMoved = false;
+        };
+        const touchCancelHandler = ()=>{
+            if (!guardCheck(this)) return;
+            touched = false;
+            touchMoved = false;
+        };
+        let touched = false, touchMoved = false;
+        el.addEventListener("click", clickHandler);
+        el.addEventListener("touchstart", touchStartHandler);
+        el.addEventListener("touchmove", touchMoveHandler);
+        el.addEventListener("touchend", touchEndHandler);
+        el.addEventListener("touchcancel", touchCancelHandler);
+    }
+    addLifeTime(value) {
+        this._lifeTime += value;
+    }
+    addPath(key, generator, override = false) {
+        if (!guardCheck(this) || !override && this.pathGenerators.has(key)) return false;
+        this.pathGenerators.set(key, generator);
+        return true;
+    }
+    alive() {
+        return !this._duration || this._lifeTime <= this._duration;
+    }
+    destroy() {
+        if (!guardCheck(this)) return;
+        this.stop();
+        this.particles.destroy();
+        this.canvas.destroy();
+        for (const [, effectDrawer] of this.effectDrawers)effectDrawer.destroy && effectDrawer.destroy(this);
+        for (const [, shapeDrawer] of this.shapeDrawers)shapeDrawer.destroy && shapeDrawer.destroy(this);
+        for (const key of this.effectDrawers.keys())this.effectDrawers.delete(key);
+        for (const key of this.shapeDrawers.keys())this.shapeDrawers.delete(key);
+        this._engine.clearPlugins(this);
+        this.destroyed = true;
+        const mainArr = this._engine.dom(), idx = mainArr.findIndex((t)=>t === this);
+        if (idx >= 0) mainArr.splice(idx, 1);
+        this._engine.dispatchEvent("containerDestroyed", {
+            container: this
+        });
+    }
+    draw(force) {
+        if (!guardCheck(this)) return;
+        let refreshTime = force;
+        this._drawAnimationFrame = requestAnimationFrame(async (timestamp)=>{
+            if (refreshTime) {
+                this._lastFrameTime = undefined;
+                refreshTime = false;
+            }
+            await this._nextFrame(timestamp);
+        });
+    }
+    async export(type, options = {}) {
+        for (const [, plugin] of this.plugins){
+            if (!plugin.export) continue;
+            const res = await plugin.export(type, options);
+            if (!res.supported) continue;
+            return res.blob;
+        }
+        (0, _utilsJs.getLogger)().error(`${(0, _constantsJs.errorPrefix)} - Export plugin with type ${type} not found`);
+    }
+    getAnimationStatus() {
+        return !this._paused && !this.pageHidden && guardCheck(this);
+    }
+    handleClickMode(mode) {
+        if (!guardCheck(this)) return;
+        this.particles.handleClickMode(mode);
+        for (const [, plugin] of this.plugins)plugin.handleClickMode && plugin.handleClickMode(mode);
+    }
+    async init() {
+        if (!guardCheck(this)) return;
+        const effects = this._engine.getSupportedEffects();
+        for (const type of effects){
+            const drawer = this._engine.getEffectDrawer(type);
+            if (drawer) this.effectDrawers.set(type, drawer);
+        }
+        const shapes = this._engine.getSupportedShapes();
+        for (const type of shapes){
+            const drawer = this._engine.getShapeDrawer(type);
+            if (drawer) this.shapeDrawers.set(type, drawer);
+        }
+        this._options = loadContainerOptions(this._engine, this, this._initialSourceOptions, this.sourceOptions);
+        this.actualOptions = loadContainerOptions(this._engine, this, this._options);
+        const availablePlugins = this._engine.getAvailablePlugins(this);
+        for (const [id, plugin] of availablePlugins)this.plugins.set(id, plugin);
+        this.retina.init();
+        await this.canvas.init();
+        this.updateActualOptions();
+        this.canvas.initBackground();
+        this.canvas.resize();
+        this.zLayers = this.actualOptions.zLayers;
+        this._duration = (0, _numberUtilsJs.getRangeValue)(this.actualOptions.duration) * 1000;
+        this._delay = (0, _numberUtilsJs.getRangeValue)(this.actualOptions.delay) * 1000;
+        this._lifeTime = 0;
+        this.fpsLimit = this.actualOptions.fpsLimit > 0 ? this.actualOptions.fpsLimit : 120;
+        this._smooth = this.actualOptions.smooth;
+        for (const [, drawer] of this.effectDrawers)drawer.init && await drawer.init(this);
+        for (const [, drawer] of this.shapeDrawers)drawer.init && await drawer.init(this);
+        for (const [, plugin] of this.plugins)plugin.init && await plugin.init();
+        this._engine.dispatchEvent("containerInit", {
+            container: this
+        });
+        this.particles.init();
+        this.particles.setDensity();
+        for (const [, plugin] of this.plugins)plugin.particlesSetup && plugin.particlesSetup();
+        this._engine.dispatchEvent("particlesSetup", {
+            container: this
+        });
+    }
+    async loadTheme(name) {
+        if (!guardCheck(this)) return;
+        this._currentTheme = name;
+        await this.refresh();
+    }
+    pause() {
+        if (!guardCheck(this)) return;
+        if (this._drawAnimationFrame !== undefined) {
+            cancelAnimationFrame(this._drawAnimationFrame);
+            delete this._drawAnimationFrame;
+        }
+        if (this._paused) return;
+        for (const [, plugin] of this.plugins)plugin.pause && plugin.pause();
+        if (!this.pageHidden) this._paused = true;
+        this._engine.dispatchEvent("containerPaused", {
+            container: this
+        });
+    }
+    play(force) {
+        if (!guardCheck(this)) return;
+        const needsUpdate = this._paused || force;
+        if (this._firstStart && !this.actualOptions.autoPlay) {
+            this._firstStart = false;
+            return;
+        }
+        if (this._paused) this._paused = false;
+        if (needsUpdate) {
+            for (const [, plugin] of this.plugins)if (plugin.play) plugin.play();
+        }
+        this._engine.dispatchEvent("containerPlay", {
+            container: this
+        });
+        this.draw(needsUpdate || false);
+    }
+    async refresh() {
+        if (!guardCheck(this)) return;
+        this.stop();
+        return this.start();
+    }
+    async reset() {
+        if (!guardCheck(this)) return;
+        this._initialSourceOptions = undefined;
+        this._options = loadContainerOptions(this._engine, this);
+        this.actualOptions = loadContainerOptions(this._engine, this, this._options);
+        return this.refresh();
+    }
+    async start() {
+        if (!guardCheck(this) || this.started) return;
+        await this.init();
+        this.started = true;
+        await new Promise((resolve)=>{
+            this._delayTimeout = setTimeout(async ()=>{
+                this._eventListeners.addListeners();
+                if (this.interactivity.element instanceof HTMLElement && this._intersectionObserver) this._intersectionObserver.observe(this.interactivity.element);
+                for (const [, plugin] of this.plugins)plugin.start && await plugin.start();
+                this._engine.dispatchEvent("containerStarted", {
+                    container: this
+                });
+                this.play();
+                resolve();
+            }, this._delay);
+        });
+    }
+    stop() {
+        if (!guardCheck(this) || !this.started) return;
+        if (this._delayTimeout) {
+            clearTimeout(this._delayTimeout);
+            delete this._delayTimeout;
+        }
+        this._firstStart = true;
+        this.started = false;
+        this._eventListeners.removeListeners();
+        this.pause();
+        this.particles.clear();
+        this.canvas.stop();
+        if (this.interactivity.element instanceof HTMLElement && this._intersectionObserver) this._intersectionObserver.unobserve(this.interactivity.element);
+        for (const [, plugin] of this.plugins)plugin.stop && plugin.stop();
+        for (const key of this.plugins.keys())this.plugins.delete(key);
+        this._sourceOptions = this._options;
+        this._engine.dispatchEvent("containerStopped", {
+            container: this
+        });
+    }
+    updateActualOptions() {
+        this.actualOptions.responsive = [];
+        const newMaxWidth = this.actualOptions.setResponsive(this.canvas.size.width, this.retina.pixelRatio, this._options);
+        this.actualOptions.setTheme(this._currentTheme);
+        if (this._responsiveMaxWidth === newMaxWidth) return false;
+        this._responsiveMaxWidth = newMaxWidth;
+        return true;
+    }
+}
+
+},{"../Utils/Utils.js":"17M4n","./Canvas.js":"b5oGg","./Utils/EventListeners.js":"dCar4","../Options/Classes/Options.js":"gH477","./Particles.js":"a0Lei","./Retina.js":"q7xVz","./Utils/Constants.js":"9fra9","../Utils/NumberUtils.js":"c9eVN","../Utils/OptionsUtils.js":"eM9C9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b5oGg":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Canvas", ()=>Canvas);
+var _canvasUtilsJs = require("../Utils/CanvasUtils.js");
+var _utilsJs = require("../Utils/Utils.js");
+var _colorUtilsJs = require("../Utils/ColorUtils.js");
+var _constantsJs = require("./Utils/Constants.js");
+function setTransformValue(factor, newFactor, key) {
+    const newValue = newFactor[key];
+    if (newValue !== undefined) factor[key] = (factor[key] ?? 1) * newValue;
+}
+class Canvas {
+    constructor(container){
+        this.container = container;
+        this._applyPostDrawUpdaters = (particle)=>{
+            for (const updater of this._postDrawUpdaters)updater.afterDraw && updater.afterDraw(particle);
+        };
+        this._applyPreDrawUpdaters = (ctx, particle, radius, zOpacity, colorStyles, transform)=>{
+            for (const updater of this._preDrawUpdaters){
+                if (updater.getColorStyles) {
+                    const { fill, stroke } = updater.getColorStyles(particle, ctx, radius, zOpacity);
+                    if (fill) colorStyles.fill = fill;
+                    if (stroke) colorStyles.stroke = stroke;
+                }
+                if (updater.getTransformValues) {
+                    const updaterTransform = updater.getTransformValues(particle);
+                    for(const key in updaterTransform)setTransformValue(transform, updaterTransform, key);
+                }
+                updater.beforeDraw && updater.beforeDraw(particle);
+            }
+        };
+        this._applyResizePlugins = ()=>{
+            for (const plugin of this._resizePlugins)plugin.resize && plugin.resize();
+        };
+        this._getPluginParticleColors = (particle)=>{
+            let fColor, sColor;
+            for (const plugin of this._colorPlugins){
+                if (!fColor && plugin.particleFillColor) fColor = (0, _colorUtilsJs.rangeColorToHsl)(plugin.particleFillColor(particle));
+                if (!sColor && plugin.particleStrokeColor) sColor = (0, _colorUtilsJs.rangeColorToHsl)(plugin.particleStrokeColor(particle));
+                if (fColor && sColor) break;
+            }
+            return [
+                fColor,
+                sColor
+            ];
+        };
+        this._initCover = ()=>{
+            const options = this.container.actualOptions, cover = options.backgroundMask.cover, color = cover.color, coverRgb = (0, _colorUtilsJs.rangeColorToRgb)(color);
+            if (coverRgb) {
+                const coverColor = {
+                    ...coverRgb,
+                    a: cover.opacity
+                };
+                this._coverColorStyle = (0, _colorUtilsJs.getStyleFromRgb)(coverColor, coverColor.a);
+            }
+        };
+        this._initStyle = ()=>{
+            const element = this.element, options = this.container.actualOptions;
+            if (!element) return;
+            if (this._fullScreen) {
+                this._originalStyle = (0, _utilsJs.deepExtend)({}, element.style);
+                this._setFullScreenStyle();
+            } else this._resetOriginalStyle();
+            for(const key in options.style){
+                if (!key || !options.style) continue;
+                const value = options.style[key];
+                if (!value) continue;
+                element.style.setProperty(key, value, "important");
+            }
+        };
+        this._initTrail = async ()=>{
+            const options = this.container.actualOptions, trail = options.particles.move.trail, trailFill = trail.fill;
+            if (!trail.enable) return;
+            if (trailFill.color) {
+                const fillColor = (0, _colorUtilsJs.rangeColorToRgb)(trailFill.color);
+                if (!fillColor) return;
+                const trail = options.particles.move.trail;
+                this._trailFill = {
+                    color: {
+                        ...fillColor
+                    },
+                    opacity: 1 / trail.length
+                };
+            } else await new Promise((resolve, reject)=>{
+                if (!trailFill.image) return;
+                const img = document.createElement("img");
+                img.addEventListener("load", ()=>{
+                    this._trailFill = {
+                        image: img,
+                        opacity: 1 / trail.length
+                    };
+                    resolve();
+                });
+                img.addEventListener("error", (evt)=>{
+                    reject(evt.error);
+                });
+                img.src = trailFill.image;
+            });
+        };
+        this._paintBase = (baseColor)=>{
+            this.draw((ctx)=>(0, _canvasUtilsJs.paintBase)(ctx, this.size, baseColor));
+        };
+        this._paintImage = (image, opacity)=>{
+            this.draw((ctx)=>(0, _canvasUtilsJs.paintImage)(ctx, this.size, image, opacity));
+        };
+        this._repairStyle = ()=>{
+            const element = this.element;
+            if (!element) return;
+            this._safeMutationObserver((observer)=>observer.disconnect());
+            this._initStyle();
+            this.initBackground();
+            this._safeMutationObserver((observer)=>observer.observe(element, {
+                    attributes: true
+                }));
+        };
+        this._resetOriginalStyle = ()=>{
+            const element = this.element, originalStyle = this._originalStyle;
+            if (!(element && originalStyle)) return;
+            const style = element.style;
+            style.position = originalStyle.position;
+            style.zIndex = originalStyle.zIndex;
+            style.top = originalStyle.top;
+            style.left = originalStyle.left;
+            style.width = originalStyle.width;
+            style.height = originalStyle.height;
+        };
+        this._safeMutationObserver = (callback)=>{
+            if (!this._mutationObserver) return;
+            callback(this._mutationObserver);
+        };
+        this._setFullScreenStyle = ()=>{
+            const element = this.element;
+            if (!element) return;
+            const priority = "important", style = element.style;
+            style.setProperty("position", "fixed", priority);
+            style.setProperty("z-index", this.container.actualOptions.fullScreen.zIndex.toString(10), priority);
+            style.setProperty("top", "0", priority);
+            style.setProperty("left", "0", priority);
+            style.setProperty("width", "100%", priority);
+            style.setProperty("height", "100%", priority);
+        };
+        this.size = {
+            height: 0,
+            width: 0
+        };
+        this._context = null;
+        this._generated = false;
+        this._preDrawUpdaters = [];
+        this._postDrawUpdaters = [];
+        this._resizePlugins = [];
+        this._colorPlugins = [];
+    }
+    get _fullScreen() {
+        return this.container.actualOptions.fullScreen.enable;
+    }
+    clear() {
+        const options = this.container.actualOptions, trail = options.particles.move.trail, trailFill = this._trailFill;
+        if (options.backgroundMask.enable) this.paint();
+        else if (trail.enable && trail.length > 0 && trailFill) {
+            if (trailFill.color) this._paintBase((0, _colorUtilsJs.getStyleFromRgb)(trailFill.color, trailFill.opacity));
+            else if (trailFill.image) this._paintImage(trailFill.image, trailFill.opacity);
+        } else if (options.clear) this.draw((ctx)=>{
+            (0, _canvasUtilsJs.clear)(ctx, this.size);
+        });
+    }
+    destroy() {
+        this.stop();
+        if (this._generated) {
+            const element = this.element;
+            element && element.remove();
+        } else this._resetOriginalStyle();
+        this._preDrawUpdaters = [];
+        this._postDrawUpdaters = [];
+        this._resizePlugins = [];
+        this._colorPlugins = [];
+    }
+    draw(cb) {
+        const ctx = this._context;
+        if (!ctx) return;
+        return cb(ctx);
+    }
+    drawParticle(particle, delta) {
+        if (particle.spawning || particle.destroyed) return;
+        const radius = particle.getRadius();
+        if (radius <= 0) return;
+        const pfColor = particle.getFillColor(), psColor = particle.getStrokeColor() ?? pfColor;
+        let [fColor, sColor] = this._getPluginParticleColors(particle);
+        if (!fColor) fColor = pfColor;
+        if (!sColor) sColor = psColor;
+        if (!fColor && !sColor) return;
+        this.draw((ctx)=>{
+            const container = this.container, options = container.actualOptions, zIndexOptions = particle.options.zIndex, zOpacityFactor = (1 - particle.zIndexFactor) ** zIndexOptions.opacityRate, opacity = particle.bubble.opacity ?? particle.opacity?.value ?? 1, strokeOpacity = particle.strokeOpacity ?? opacity, zOpacity = opacity * zOpacityFactor, zStrokeOpacity = strokeOpacity * zOpacityFactor, transform = {}, colorStyles = {
+                fill: fColor ? (0, _colorUtilsJs.getStyleFromHsl)(fColor, zOpacity) : undefined
+            };
+            colorStyles.stroke = sColor ? (0, _colorUtilsJs.getStyleFromHsl)(sColor, zStrokeOpacity) : colorStyles.fill;
+            this._applyPreDrawUpdaters(ctx, particle, radius, zOpacity, colorStyles, transform);
+            (0, _canvasUtilsJs.drawParticle)({
+                container,
+                context: ctx,
+                particle,
+                delta,
+                colorStyles,
+                backgroundMask: options.backgroundMask.enable,
+                composite: options.backgroundMask.composite,
+                radius: radius * (1 - particle.zIndexFactor) ** zIndexOptions.sizeRate,
+                opacity: zOpacity,
+                shadow: particle.options.shadow,
+                transform
+            });
+            this._applyPostDrawUpdaters(particle);
+        });
+    }
+    drawParticlePlugin(plugin, particle, delta) {
+        this.draw((ctx)=>(0, _canvasUtilsJs.drawParticlePlugin)(ctx, plugin, particle, delta));
+    }
+    drawPlugin(plugin, delta) {
+        this.draw((ctx)=>(0, _canvasUtilsJs.drawPlugin)(ctx, plugin, delta));
+    }
+    async init() {
+        this._safeMutationObserver((obs)=>obs.disconnect());
+        this._mutationObserver = (0, _utilsJs.safeMutationObserver)((records)=>{
+            for (const record of records)if (record.type === "attributes" && record.attributeName === "style") this._repairStyle();
+        });
+        this.resize();
+        this._initStyle();
+        this._initCover();
+        try {
+            await this._initTrail();
+        } catch (e) {
+            (0, _utilsJs.getLogger)().error(e);
+        }
+        this.initBackground();
+        this._safeMutationObserver((obs)=>{
+            if (!this.element) return;
+            obs.observe(this.element, {
+                attributes: true
+            });
+        });
+        this.initUpdaters();
+        this.initPlugins();
+        this.paint();
+    }
+    initBackground() {
+        const options = this.container.actualOptions, background = options.background, element = this.element;
+        if (!element) return;
+        const elementStyle = element.style;
+        if (!elementStyle) return;
+        if (background.color) {
+            const color = (0, _colorUtilsJs.rangeColorToRgb)(background.color);
+            elementStyle.backgroundColor = color ? (0, _colorUtilsJs.getStyleFromRgb)(color, background.opacity) : "";
+        } else elementStyle.backgroundColor = "";
+        elementStyle.backgroundImage = background.image || "";
+        elementStyle.backgroundPosition = background.position || "";
+        elementStyle.backgroundRepeat = background.repeat || "";
+        elementStyle.backgroundSize = background.size || "";
+    }
+    initPlugins() {
+        this._resizePlugins = [];
+        for (const [, plugin] of this.container.plugins){
+            if (plugin.resize) this._resizePlugins.push(plugin);
+            if (plugin.particleFillColor || plugin.particleStrokeColor) this._colorPlugins.push(plugin);
+        }
+    }
+    initUpdaters() {
+        this._preDrawUpdaters = [];
+        this._postDrawUpdaters = [];
+        for (const updater of this.container.particles.updaters){
+            if (updater.afterDraw) this._postDrawUpdaters.push(updater);
+            if (updater.getColorStyles || updater.getTransformValues || updater.beforeDraw) this._preDrawUpdaters.push(updater);
+        }
+    }
+    loadCanvas(canvas) {
+        if (this._generated && this.element) this.element.remove();
+        this._generated = canvas.dataset && (0, _constantsJs.generatedAttribute) in canvas.dataset ? canvas.dataset[0, _constantsJs.generatedAttribute] === "true" : this._generated;
+        this.element = canvas;
+        this.element.ariaHidden = "true";
+        this._originalStyle = (0, _utilsJs.deepExtend)({}, this.element.style);
+        this.size.height = canvas.offsetHeight;
+        this.size.width = canvas.offsetWidth;
+        this._context = this.element.getContext("2d");
+        this._safeMutationObserver((obs)=>{
+            if (!this.element) return;
+            obs.observe(this.element, {
+                attributes: true
+            });
+        });
+        this.container.retina.init();
+        this.initBackground();
+    }
+    paint() {
+        const options = this.container.actualOptions;
+        this.draw((ctx)=>{
+            if (options.backgroundMask.enable && options.backgroundMask.cover) {
+                (0, _canvasUtilsJs.clear)(ctx, this.size);
+                this._paintBase(this._coverColorStyle);
+            } else this._paintBase();
+        });
+    }
+    resize() {
+        if (!this.element) return false;
+        const container = this.container, pxRatio = container.retina.pixelRatio, size = container.canvas.size, newSize = {
+            width: this.element.offsetWidth * pxRatio,
+            height: this.element.offsetHeight * pxRatio
+        };
+        if (newSize.height === size.height && newSize.width === size.width && newSize.height === this.element.height && newSize.width === this.element.width) return false;
+        const oldSize = {
+            ...size
+        };
+        this.element.width = size.width = this.element.offsetWidth * pxRatio;
+        this.element.height = size.height = this.element.offsetHeight * pxRatio;
+        if (this.container.started) container.particles.setResizeFactor({
+            width: size.width / oldSize.width,
+            height: size.height / oldSize.height
+        });
+        return true;
+    }
+    stop() {
+        this._safeMutationObserver((obs)=>obs.disconnect());
+        this._mutationObserver = undefined;
+        this.draw((ctx)=>(0, _canvasUtilsJs.clear)(ctx, this.size));
+    }
+    async windowResize() {
+        if (!this.element || !this.resize()) return;
+        const container = this.container, needsRefresh = container.updateActualOptions();
+        container.particles.setDensity();
+        this._applyResizePlugins();
+        if (needsRefresh) await container.refresh();
+    }
+}
+
+},{"../Utils/CanvasUtils.js":"8COXr","../Utils/Utils.js":"17M4n","../Utils/ColorUtils.js":"9NWNO","./Utils/Constants.js":"9fra9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8COXr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "drawLine", ()=>drawLine);
+parcelHelpers.export(exports, "paintBase", ()=>paintBase);
+parcelHelpers.export(exports, "paintImage", ()=>paintImage);
+parcelHelpers.export(exports, "clear", ()=>clear);
+parcelHelpers.export(exports, "drawParticle", ()=>drawParticle);
+parcelHelpers.export(exports, "drawEffect", ()=>drawEffect);
+parcelHelpers.export(exports, "drawShape", ()=>drawShape);
+parcelHelpers.export(exports, "drawShapeAfterDraw", ()=>drawShapeAfterDraw);
+parcelHelpers.export(exports, "drawPlugin", ()=>drawPlugin);
+parcelHelpers.export(exports, "drawParticlePlugin", ()=>drawParticlePlugin);
+parcelHelpers.export(exports, "alterHsl", ()=>alterHsl);
+var _colorUtilsJs = require("./ColorUtils.js");
+function drawLine(context, begin, end) {
+    context.beginPath();
+    context.moveTo(begin.x, begin.y);
+    context.lineTo(end.x, end.y);
+    context.closePath();
+}
+function paintBase(context, dimension, baseColor) {
+    context.fillStyle = baseColor ?? "rgba(0,0,0,0)";
+    context.fillRect(0, 0, dimension.width, dimension.height);
+}
+function paintImage(context, dimension, image, opacity) {
+    if (!image) return;
+    context.globalAlpha = opacity;
+    context.drawImage(image, 0, 0, dimension.width, dimension.height);
+    context.globalAlpha = 1;
+}
+function clear(context, dimension) {
+    context.clearRect(0, 0, dimension.width, dimension.height);
+}
+function drawParticle(data) {
+    const { container, context, particle, delta, colorStyles, backgroundMask, composite, radius, opacity, shadow, transform } = data;
+    const pos = particle.getPosition(), angle = particle.rotation + (particle.pathRotation ? particle.velocity.angle : 0), rotateData = {
+        sin: Math.sin(angle),
+        cos: Math.cos(angle)
+    }, transformData = {
+        a: rotateData.cos * (transform.a ?? 1),
+        b: rotateData.sin * (transform.b ?? 1),
+        c: -rotateData.sin * (transform.c ?? 1),
+        d: rotateData.cos * (transform.d ?? 1)
+    };
+    context.setTransform(transformData.a, transformData.b, transformData.c, transformData.d, pos.x, pos.y);
+    if (backgroundMask) context.globalCompositeOperation = composite;
+    const shadowColor = particle.shadowColor;
+    if (shadow.enable && shadowColor) {
+        context.shadowBlur = shadow.blur;
+        context.shadowColor = (0, _colorUtilsJs.getStyleFromRgb)(shadowColor);
+        context.shadowOffsetX = shadow.offset.x;
+        context.shadowOffsetY = shadow.offset.y;
+    }
+    if (colorStyles.fill) context.fillStyle = colorStyles.fill;
+    const strokeWidth = particle.strokeWidth ?? 0;
+    context.lineWidth = strokeWidth;
+    if (colorStyles.stroke) context.strokeStyle = colorStyles.stroke;
+    const drawData = {
+        container,
+        context,
+        particle,
+        radius,
+        opacity,
+        delta,
+        transformData
+    };
+    context.beginPath();
+    drawShape(drawData);
+    if (particle.shapeClose) context.closePath();
+    if (strokeWidth > 0) context.stroke();
+    if (particle.shapeFill) context.fill();
+    drawShapeAfterDraw(drawData);
+    drawEffect(drawData);
+    context.globalCompositeOperation = "source-over";
+    context.setTransform(1, 0, 0, 1, 0, 0);
+}
+function drawEffect(data) {
+    const { container, context, particle, radius, opacity, delta, transformData } = data;
+    if (!particle.effect) return;
+    const drawer = container.effectDrawers.get(particle.effect);
+    if (!drawer) return;
+    drawer.draw({
+        context,
+        particle,
+        radius,
+        opacity,
+        delta,
+        pixelRatio: container.retina.pixelRatio,
+        transformData: {
+            ...transformData
+        }
+    });
+}
+function drawShape(data) {
+    const { container, context, particle, radius, opacity, delta, transformData } = data;
+    if (!particle.shape) return;
+    const drawer = container.shapeDrawers.get(particle.shape);
+    if (!drawer) return;
+    drawer.draw({
+        context,
+        particle,
+        radius,
+        opacity,
+        delta,
+        pixelRatio: container.retina.pixelRatio,
+        transformData: {
+            ...transformData
+        }
+    });
+}
+function drawShapeAfterDraw(data) {
+    const { container, context, particle, radius, opacity, delta, transformData } = data;
+    if (!particle.shape) return;
+    const drawer = container.shapeDrawers.get(particle.shape);
+    if (!drawer || !drawer.afterDraw) return;
+    drawer.afterDraw({
+        context,
+        particle,
+        radius,
+        opacity,
+        delta,
+        pixelRatio: container.retina.pixelRatio,
+        transformData: {
+            ...transformData
+        }
+    });
+}
+function drawPlugin(context, plugin, delta) {
+    if (!plugin.draw) return;
+    plugin.draw(context, delta);
+}
+function drawParticlePlugin(context, plugin, particle, delta) {
+    if (!plugin.drawParticle) return;
+    plugin.drawParticle(context, particle, delta);
+}
+function alterHsl(color, type, value) {
+    return {
+        h: color.h,
+        s: color.s,
+        l: color.l + (type === "darken" ? -1 : 1) * value
+    };
+}
+
+},{"./ColorUtils.js":"9NWNO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9NWNO":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "addColorManager", ()=>addColorManager);
+parcelHelpers.export(exports, "rangeColorToRgb", ()=>rangeColorToRgb);
+parcelHelpers.export(exports, "colorToRgb", ()=>colorToRgb);
+parcelHelpers.export(exports, "colorToHsl", ()=>colorToHsl);
+parcelHelpers.export(exports, "rangeColorToHsl", ()=>rangeColorToHsl);
+parcelHelpers.export(exports, "rgbToHsl", ()=>rgbToHsl);
+parcelHelpers.export(exports, "stringToAlpha", ()=>stringToAlpha);
+parcelHelpers.export(exports, "stringToRgb", ()=>stringToRgb);
+parcelHelpers.export(exports, "hslToRgb", ()=>hslToRgb);
+parcelHelpers.export(exports, "hslaToRgba", ()=>hslaToRgba);
+parcelHelpers.export(exports, "getRandomRgbColor", ()=>getRandomRgbColor);
+parcelHelpers.export(exports, "getStyleFromRgb", ()=>getStyleFromRgb);
+parcelHelpers.export(exports, "getStyleFromHsl", ()=>getStyleFromHsl);
+parcelHelpers.export(exports, "colorMix", ()=>colorMix);
+parcelHelpers.export(exports, "getLinkColor", ()=>getLinkColor);
+parcelHelpers.export(exports, "getLinkRandomColor", ()=>getLinkRandomColor);
+parcelHelpers.export(exports, "getHslFromAnimation", ()=>getHslFromAnimation);
+parcelHelpers.export(exports, "getHslAnimationFromHsl", ()=>getHslAnimationFromHsl);
+var _numberUtilsJs = require("./NumberUtils.js");
+var _utilsJs = require("./Utils.js");
+const randomColorValue = "random", midColorValue = "mid", colorManagers = new Map();
+function addColorManager(manager) {
+    colorManagers.set(manager.key, manager);
+}
+function stringToRgba(input) {
+    for (const [, manager] of colorManagers){
+        if (input.startsWith(manager.stringPrefix)) return manager.parseString(input);
+    }
+    const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])([a-f\d])?$/i, hexFixed = input.replace(shorthandRegex, (_, r, g, b, a)=>{
+        return r + r + g + g + b + b + (a !== undefined ? a + a : "");
+    }), regex = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})?$/i, result = regex.exec(hexFixed);
+    return result ? {
+        a: result[4] !== undefined ? parseInt(result[4], 16) / 0xff : 1,
+        b: parseInt(result[3], 16),
+        g: parseInt(result[2], 16),
+        r: parseInt(result[1], 16)
+    } : undefined;
+}
+function rangeColorToRgb(input, index, useIndex = true) {
+    if (!input) return;
+    const color = (0, _utilsJs.isString)(input) ? {
+        value: input
+    } : input;
+    if ((0, _utilsJs.isString)(color.value)) return colorToRgb(color.value, index, useIndex);
+    if ((0, _utilsJs.isArray)(color.value)) return rangeColorToRgb({
+        value: (0, _utilsJs.itemFromArray)(color.value, index, useIndex)
+    });
+    for (const [, manager] of colorManagers){
+        const res = manager.handleRangeColor(color);
+        if (res) return res;
+    }
+}
+function colorToRgb(input, index, useIndex = true) {
+    if (!input) return;
+    const color = (0, _utilsJs.isString)(input) ? {
+        value: input
+    } : input;
+    if ((0, _utilsJs.isString)(color.value)) return color.value === randomColorValue ? getRandomRgbColor() : stringToRgb(color.value);
+    if ((0, _utilsJs.isArray)(color.value)) return colorToRgb({
+        value: (0, _utilsJs.itemFromArray)(color.value, index, useIndex)
+    });
+    for (const [, manager] of colorManagers){
+        const res = manager.handleColor(color);
+        if (res) return res;
+    }
+}
+function colorToHsl(color, index, useIndex = true) {
+    const rgb = colorToRgb(color, index, useIndex);
+    return rgb ? rgbToHsl(rgb) : undefined;
+}
+function rangeColorToHsl(color, index, useIndex = true) {
+    const rgb = rangeColorToRgb(color, index, useIndex);
+    return rgb ? rgbToHsl(rgb) : undefined;
+}
+function rgbToHsl(color) {
+    const r1 = color.r / 255, g1 = color.g / 255, b1 = color.b / 255, max = Math.max(r1, g1, b1), min = Math.min(r1, g1, b1), res = {
+        h: 0,
+        l: (max + min) * 0.5,
+        s: 0
+    };
+    if (max !== min) {
+        res.s = res.l < 0.5 ? (max - min) / (max + min) : (max - min) / (2.0 - max - min);
+        res.h = r1 === max ? (g1 - b1) / (max - min) : res.h = g1 === max ? 2.0 + (b1 - r1) / (max - min) : 4.0 + (r1 - g1) / (max - min);
+    }
+    res.l *= 100;
+    res.s *= 100;
+    res.h *= 60;
+    if (res.h < 0) res.h += 360;
+    if (res.h >= 360) res.h -= 360;
+    return res;
+}
+function stringToAlpha(input) {
+    return stringToRgba(input)?.a;
+}
+function stringToRgb(input) {
+    return stringToRgba(input);
+}
+function hslToRgb(hsl) {
+    const h = (hsl.h % 360 + 360) % 360, s = Math.max(0, Math.min(100, hsl.s)), l = Math.max(0, Math.min(100, hsl.l)), hNormalized = h / 360, sNormalized = s / 100, lNormalized = l / 100;
+    if (s === 0) {
+        const grayscaleValue = Math.round(lNormalized * 255);
+        return {
+            r: grayscaleValue,
+            g: grayscaleValue,
+            b: grayscaleValue
+        };
+    }
+    const channel = (temp1, temp2, temp3)=>{
+        if (temp3 < 0) temp3 += 1;
+        if (temp3 > 1) temp3 -= 1;
+        if (temp3 * 6 < 1) return temp1 + (temp2 - temp1) * 6 * temp3;
+        if (temp3 * 2 < 1) return temp2;
+        if (temp3 * 3 < 2) return temp1 + (temp2 - temp1) * (2 / 3 - temp3) * 6;
+        return temp1;
+    }, temp1 = lNormalized < 0.5 ? lNormalized * (1 + sNormalized) : lNormalized + sNormalized - lNormalized * sNormalized, temp2 = 2 * lNormalized - temp1, red = Math.min(255, 255 * channel(temp2, temp1, hNormalized + 1 / 3)), green = Math.min(255, 255 * channel(temp2, temp1, hNormalized)), blue = Math.min(255, 255 * channel(temp2, temp1, hNormalized - 1 / 3));
+    return {
+        r: Math.round(red),
+        g: Math.round(green),
+        b: Math.round(blue)
+    };
+}
+function hslaToRgba(hsla) {
+    const rgbResult = hslToRgb(hsla);
+    return {
+        a: hsla.a,
+        b: rgbResult.b,
+        g: rgbResult.g,
+        r: rgbResult.r
+    };
+}
+function getRandomRgbColor(min) {
+    const fixedMin = min ?? 0;
+    return {
+        b: Math.floor((0, _numberUtilsJs.randomInRange)((0, _numberUtilsJs.setRangeValue)(fixedMin, 256))),
+        g: Math.floor((0, _numberUtilsJs.randomInRange)((0, _numberUtilsJs.setRangeValue)(fixedMin, 256))),
+        r: Math.floor((0, _numberUtilsJs.randomInRange)((0, _numberUtilsJs.setRangeValue)(fixedMin, 256)))
+    };
+}
+function getStyleFromRgb(color, opacity) {
+    return `rgba(${color.r}, ${color.g}, ${color.b}, ${opacity ?? 1})`;
+}
+function getStyleFromHsl(color, opacity) {
+    return `hsla(${color.h}, ${color.s}%, ${color.l}%, ${opacity ?? 1})`;
+}
+function colorMix(color1, color2, size1, size2) {
+    let rgb1 = color1, rgb2 = color2;
+    if (rgb1.r === undefined) rgb1 = hslToRgb(color1);
+    if (rgb2.r === undefined) rgb2 = hslToRgb(color2);
+    return {
+        b: (0, _numberUtilsJs.mix)(rgb1.b, rgb2.b, size1, size2),
+        g: (0, _numberUtilsJs.mix)(rgb1.g, rgb2.g, size1, size2),
+        r: (0, _numberUtilsJs.mix)(rgb1.r, rgb2.r, size1, size2)
+    };
+}
+function getLinkColor(p1, p2, linkColor) {
+    if (linkColor === randomColorValue) return getRandomRgbColor();
+    else if (linkColor === midColorValue) {
+        const sourceColor = p1.getFillColor() ?? p1.getStrokeColor(), destColor = p2?.getFillColor() ?? p2?.getStrokeColor();
+        if (sourceColor && destColor && p2) return colorMix(sourceColor, destColor, p1.getRadius(), p2.getRadius());
+        else {
+            const hslColor = sourceColor ?? destColor;
+            if (hslColor) return hslToRgb(hslColor);
+        }
+    } else return linkColor;
+}
+function getLinkRandomColor(optColor, blink, consent) {
+    const color = (0, _utilsJs.isString)(optColor) ? optColor : optColor.value;
+    if (color === randomColorValue) {
+        if (consent) return rangeColorToRgb({
+            value: color
+        });
+        if (blink) return randomColorValue;
+        return midColorValue;
+    } else if (color === midColorValue) return midColorValue;
+    else return rangeColorToRgb({
+        value: color
+    });
+}
+function getHslFromAnimation(animation) {
+    return animation !== undefined ? {
+        h: animation.h.value,
+        s: animation.s.value,
+        l: animation.l.value
+    } : undefined;
+}
+function getHslAnimationFromHsl(hsl, animationOptions, reduceFactor) {
+    const resColor = {
+        h: {
+            enable: false,
+            value: hsl.h
+        },
+        s: {
+            enable: false,
+            value: hsl.s
+        },
+        l: {
+            enable: false,
+            value: hsl.l
+        }
+    };
+    if (animationOptions) {
+        setColorAnimation(resColor.h, animationOptions.h, reduceFactor);
+        setColorAnimation(resColor.s, animationOptions.s, reduceFactor);
+        setColorAnimation(resColor.l, animationOptions.l, reduceFactor);
+    }
+    return resColor;
+}
+function setColorAnimation(colorValue, colorAnimation, reduceFactor) {
+    colorValue.enable = colorAnimation.enable;
+    if (colorValue.enable) {
+        colorValue.velocity = (0, _numberUtilsJs.getRangeValue)(colorAnimation.speed) / 100 * reduceFactor;
+        colorValue.decay = 1 - (0, _numberUtilsJs.getRangeValue)(colorAnimation.decay);
+        colorValue.status = "increasing";
+        colorValue.loops = 0;
+        colorValue.maxLoops = (0, _numberUtilsJs.getRangeValue)(colorAnimation.count);
+        colorValue.time = 0;
+        colorValue.delayTime = (0, _numberUtilsJs.getRangeValue)(colorAnimation.delay) * 1000;
+        if (!colorAnimation.sync) {
+            colorValue.velocity *= (0, _numberUtilsJs.getRandom)();
+            colorValue.value *= (0, _numberUtilsJs.getRandom)();
+        }
+        colorValue.initialValue = colorValue.value;
+    } else colorValue.velocity = 0;
+}
+
+},{"./NumberUtils.js":"c9eVN","./Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dCar4":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "EventListeners", ()=>EventListeners);
+var _utilsJs = require("../../Utils/Utils.js");
+var _constantsJs = require("./Constants.js");
+function manageListener(element, event, handler, add, options) {
+    if (add) {
+        let addOptions = {
+            passive: true
+        };
+        if ((0, _utilsJs.isBoolean)(options)) addOptions.capture = options;
+        else if (options !== undefined) addOptions = options;
+        element.addEventListener(event, handler, addOptions);
+    } else {
+        const removeOptions = options;
+        element.removeEventListener(event, handler, removeOptions);
+    }
+}
+class EventListeners {
+    constructor(container){
+        this.container = container;
+        this._doMouseTouchClick = (e)=>{
+            const container = this.container, options = container.actualOptions;
+            if (this._canPush) {
+                const mouseInteractivity = container.interactivity.mouse, mousePos = mouseInteractivity.position;
+                if (!mousePos) return;
+                mouseInteractivity.clickPosition = {
+                    ...mousePos
+                };
+                mouseInteractivity.clickTime = new Date().getTime();
+                const onClick = options.interactivity.events.onClick;
+                (0, _utilsJs.executeOnSingleOrMultiple)(onClick.mode, (mode)=>this.container.handleClickMode(mode));
+            }
+            if (e.type === "touchend") setTimeout(()=>this._mouseTouchFinish(), 500);
+        };
+        this._handleThemeChange = (e)=>{
+            const mediaEvent = e, container = this.container, options = container.options, defaultThemes = options.defaultThemes, themeName = mediaEvent.matches ? defaultThemes.dark : defaultThemes.light, theme = options.themes.find((theme)=>theme.name === themeName);
+            if (theme && theme.default.auto) container.loadTheme(themeName);
+        };
+        this._handleVisibilityChange = ()=>{
+            const container = this.container, options = container.actualOptions;
+            this._mouseTouchFinish();
+            if (!options.pauseOnBlur) return;
+            if (document && document.hidden) {
+                container.pageHidden = true;
+                container.pause();
+            } else {
+                container.pageHidden = false;
+                if (container.getAnimationStatus()) container.play(true);
+                else container.draw(true);
+            }
+        };
+        this._handleWindowResize = async ()=>{
+            if (this._resizeTimeout) {
+                clearTimeout(this._resizeTimeout);
+                delete this._resizeTimeout;
+            }
+            this._resizeTimeout = setTimeout(async ()=>{
+                const canvas = this.container.canvas;
+                canvas && await canvas.windowResize();
+            }, this.container.actualOptions.interactivity.events.resize.delay * 1000);
+        };
+        this._manageInteractivityListeners = (mouseLeaveTmpEvent, add)=>{
+            const handlers = this._handlers, container = this.container, options = container.actualOptions;
+            const interactivityEl = container.interactivity.element;
+            if (!interactivityEl) return;
+            const html = interactivityEl, canvasEl = container.canvas.element;
+            if (canvasEl) canvasEl.style.pointerEvents = html === canvasEl ? "initial" : "none";
+            if (!(options.interactivity.events.onHover.enable || options.interactivity.events.onClick.enable)) return;
+            manageListener(interactivityEl, (0, _constantsJs.mouseMoveEvent), handlers.mouseMove, add);
+            manageListener(interactivityEl, (0, _constantsJs.touchStartEvent), handlers.touchStart, add);
+            manageListener(interactivityEl, (0, _constantsJs.touchMoveEvent), handlers.touchMove, add);
+            if (!options.interactivity.events.onClick.enable) manageListener(interactivityEl, (0, _constantsJs.touchEndEvent), handlers.touchEnd, add);
+            else {
+                manageListener(interactivityEl, (0, _constantsJs.touchEndEvent), handlers.touchEndClick, add);
+                manageListener(interactivityEl, (0, _constantsJs.mouseUpEvent), handlers.mouseUp, add);
+                manageListener(interactivityEl, (0, _constantsJs.mouseDownEvent), handlers.mouseDown, add);
+            }
+            manageListener(interactivityEl, mouseLeaveTmpEvent, handlers.mouseLeave, add);
+            manageListener(interactivityEl, (0, _constantsJs.touchCancelEvent), handlers.touchCancel, add);
+        };
+        this._manageListeners = (add)=>{
+            const handlers = this._handlers, container = this.container, options = container.actualOptions, detectType = options.interactivity.detectsOn, canvasEl = container.canvas.element;
+            let mouseLeaveTmpEvent = (0, _constantsJs.mouseLeaveEvent);
+            if (detectType === "window") {
+                container.interactivity.element = window;
+                mouseLeaveTmpEvent = (0, _constantsJs.mouseOutEvent);
+            } else if (detectType === "parent" && canvasEl) container.interactivity.element = canvasEl.parentElement ?? canvasEl.parentNode;
+            else container.interactivity.element = canvasEl;
+            this._manageMediaMatch(add);
+            this._manageResize(add);
+            this._manageInteractivityListeners(mouseLeaveTmpEvent, add);
+            if (document) manageListener(document, (0, _constantsJs.visibilityChangeEvent), handlers.visibilityChange, add, false);
+        };
+        this._manageMediaMatch = (add)=>{
+            const handlers = this._handlers, mediaMatch = (0, _utilsJs.safeMatchMedia)("(prefers-color-scheme: dark)");
+            if (!mediaMatch) return;
+            if (mediaMatch.addEventListener !== undefined) {
+                manageListener(mediaMatch, "change", handlers.themeChange, add);
+                return;
+            }
+            if (mediaMatch.addListener === undefined) return;
+            if (add) mediaMatch.addListener(handlers.oldThemeChange);
+            else mediaMatch.removeListener(handlers.oldThemeChange);
+        };
+        this._manageResize = (add)=>{
+            const handlers = this._handlers, container = this.container, options = container.actualOptions;
+            if (!options.interactivity.events.resize) return;
+            if (typeof ResizeObserver === "undefined") {
+                manageListener(window, (0, _constantsJs.resizeEvent), handlers.resize, add);
+                return;
+            }
+            const canvasEl = container.canvas.element;
+            if (this._resizeObserver && !add) {
+                if (canvasEl) this._resizeObserver.unobserve(canvasEl);
+                this._resizeObserver.disconnect();
+                delete this._resizeObserver;
+            } else if (!this._resizeObserver && add && canvasEl) {
+                this._resizeObserver = new ResizeObserver(async (entries)=>{
+                    const entry = entries.find((e)=>e.target === canvasEl);
+                    if (!entry) return;
+                    await this._handleWindowResize();
+                });
+                this._resizeObserver.observe(canvasEl);
+            }
+        };
+        this._mouseDown = ()=>{
+            const { interactivity } = this.container;
+            if (!interactivity) return;
+            const { mouse } = interactivity;
+            mouse.clicking = true;
+            mouse.downPosition = mouse.position;
+        };
+        this._mouseTouchClick = (e)=>{
+            const container = this.container, options = container.actualOptions, { mouse } = container.interactivity;
+            mouse.inside = true;
+            let handled = false;
+            const mousePosition = mouse.position;
+            if (!mousePosition || !options.interactivity.events.onClick.enable) return;
+            for (const [, plugin] of container.plugins){
+                if (!plugin.clickPositionValid) continue;
+                handled = plugin.clickPositionValid(mousePosition);
+                if (handled) break;
+            }
+            if (!handled) this._doMouseTouchClick(e);
+            mouse.clicking = false;
+        };
+        this._mouseTouchFinish = ()=>{
+            const interactivity = this.container.interactivity;
+            if (!interactivity) return;
+            const mouse = interactivity.mouse;
+            delete mouse.position;
+            delete mouse.clickPosition;
+            delete mouse.downPosition;
+            interactivity.status = (0, _constantsJs.mouseLeaveEvent);
+            mouse.inside = false;
+            mouse.clicking = false;
+        };
+        this._mouseTouchMove = (e)=>{
+            const container = this.container, options = container.actualOptions, interactivity = container.interactivity, canvasEl = container.canvas.element;
+            if (!interactivity || !interactivity.element) return;
+            interactivity.mouse.inside = true;
+            let pos;
+            if (e.type.startsWith("pointer")) {
+                this._canPush = true;
+                const mouseEvent = e;
+                if (interactivity.element === window) {
+                    if (canvasEl) {
+                        const clientRect = canvasEl.getBoundingClientRect();
+                        pos = {
+                            x: mouseEvent.clientX - clientRect.left,
+                            y: mouseEvent.clientY - clientRect.top
+                        };
+                    }
+                } else if (options.interactivity.detectsOn === "parent") {
+                    const source = mouseEvent.target, target = mouseEvent.currentTarget;
+                    if (source && target && canvasEl) {
+                        const sourceRect = source.getBoundingClientRect(), targetRect = target.getBoundingClientRect(), canvasRect = canvasEl.getBoundingClientRect();
+                        pos = {
+                            x: mouseEvent.offsetX + 2 * sourceRect.left - (targetRect.left + canvasRect.left),
+                            y: mouseEvent.offsetY + 2 * sourceRect.top - (targetRect.top + canvasRect.top)
+                        };
+                    } else pos = {
+                        x: mouseEvent.offsetX ?? mouseEvent.clientX,
+                        y: mouseEvent.offsetY ?? mouseEvent.clientY
+                    };
+                } else if (mouseEvent.target === canvasEl) pos = {
+                    x: mouseEvent.offsetX ?? mouseEvent.clientX,
+                    y: mouseEvent.offsetY ?? mouseEvent.clientY
+                };
+            } else {
+                this._canPush = e.type !== "touchmove";
+                if (canvasEl) {
+                    const touchEvent = e, lastTouch = touchEvent.touches[touchEvent.touches.length - 1], canvasRect = canvasEl.getBoundingClientRect();
+                    pos = {
+                        x: lastTouch.clientX - (canvasRect.left ?? 0),
+                        y: lastTouch.clientY - (canvasRect.top ?? 0)
+                    };
+                }
+            }
+            const pxRatio = container.retina.pixelRatio;
+            if (pos) {
+                pos.x *= pxRatio;
+                pos.y *= pxRatio;
+            }
+            interactivity.mouse.position = pos;
+            interactivity.status = (0, _constantsJs.mouseMoveEvent);
+        };
+        this._touchEnd = (e)=>{
+            const evt = e, touches = Array.from(evt.changedTouches);
+            for (const touch of touches)this._touches.delete(touch.identifier);
+            this._mouseTouchFinish();
+        };
+        this._touchEndClick = (e)=>{
+            const evt = e, touches = Array.from(evt.changedTouches);
+            for (const touch of touches)this._touches.delete(touch.identifier);
+            this._mouseTouchClick(e);
+        };
+        this._touchStart = (e)=>{
+            const evt = e, touches = Array.from(evt.changedTouches);
+            for (const touch of touches)this._touches.set(touch.identifier, performance.now());
+            this._mouseTouchMove(e);
+        };
+        this._canPush = true;
+        this._touches = new Map();
+        this._handlers = {
+            mouseDown: ()=>this._mouseDown(),
+            mouseLeave: ()=>this._mouseTouchFinish(),
+            mouseMove: (e)=>this._mouseTouchMove(e),
+            mouseUp: (e)=>this._mouseTouchClick(e),
+            touchStart: (e)=>this._touchStart(e),
+            touchMove: (e)=>this._mouseTouchMove(e),
+            touchEnd: (e)=>this._touchEnd(e),
+            touchCancel: (e)=>this._touchEnd(e),
+            touchEndClick: (e)=>this._touchEndClick(e),
+            visibilityChange: ()=>this._handleVisibilityChange(),
+            themeChange: (e)=>this._handleThemeChange(e),
+            oldThemeChange: (e)=>this._handleThemeChange(e),
+            resize: ()=>{
+                this._handleWindowResize();
+            }
+        };
+    }
+    addListeners() {
+        this._manageListeners(true);
+    }
+    removeListeners() {
+        this._manageListeners(false);
+    }
+}
+
+},{"../../Utils/Utils.js":"17M4n","./Constants.js":"9fra9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gH477":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Options", ()=>Options);
+var _utilsJs = require("../../Utils/Utils.js");
+var _backgroundJs = require("./Background/Background.js");
+var _backgroundMaskJs = require("./BackgroundMask/BackgroundMask.js");
+var _fullScreenJs = require("./FullScreen/FullScreen.js");
+var _interactivityJs = require("./Interactivity/Interactivity.js");
+var _manualParticleJs = require("./ManualParticle.js");
+var _responsiveJs = require("./Responsive.js");
+var _themeJs = require("./Theme/Theme.js");
+var _optionsUtilsJs = require("../../Utils/OptionsUtils.js");
+var _numberUtilsJs = require("../../Utils/NumberUtils.js");
+class Options {
+    constructor(engine, container){
+        this._findDefaultTheme = (mode)=>{
+            return this.themes.find((theme)=>theme.default.value && theme.default.mode === mode) ?? this.themes.find((theme)=>theme.default.value && theme.default.mode === "any");
+        };
+        this._importPreset = (preset)=>{
+            this.load(this._engine.getPreset(preset));
+        };
+        this._engine = engine;
+        this._container = container;
+        this.autoPlay = true;
+        this.background = new (0, _backgroundJs.Background)();
+        this.backgroundMask = new (0, _backgroundMaskJs.BackgroundMask)();
+        this.clear = true;
+        this.defaultThemes = {};
+        this.delay = 0;
+        this.fullScreen = new (0, _fullScreenJs.FullScreen)();
+        this.detectRetina = true;
+        this.duration = 0;
+        this.fpsLimit = 120;
+        this.interactivity = new (0, _interactivityJs.Interactivity)(engine, container);
+        this.manualParticles = [];
+        this.particles = (0, _optionsUtilsJs.loadParticlesOptions)(this._engine, this._container);
+        this.pauseOnBlur = true;
+        this.pauseOnOutsideViewport = true;
+        this.responsive = [];
+        this.smooth = false;
+        this.style = {};
+        this.themes = [];
+        this.zLayers = 100;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.preset !== undefined) (0, _utilsJs.executeOnSingleOrMultiple)(data.preset, (preset)=>this._importPreset(preset));
+        if (data.autoPlay !== undefined) this.autoPlay = data.autoPlay;
+        if (data.clear !== undefined) this.clear = data.clear;
+        if (data.name !== undefined) this.name = data.name;
+        if (data.delay !== undefined) this.delay = (0, _numberUtilsJs.setRangeValue)(data.delay);
+        const detectRetina = data.detectRetina;
+        if (detectRetina !== undefined) this.detectRetina = detectRetina;
+        if (data.duration !== undefined) this.duration = (0, _numberUtilsJs.setRangeValue)(data.duration);
+        const fpsLimit = data.fpsLimit;
+        if (fpsLimit !== undefined) this.fpsLimit = fpsLimit;
+        if (data.pauseOnBlur !== undefined) this.pauseOnBlur = data.pauseOnBlur;
+        if (data.pauseOnOutsideViewport !== undefined) this.pauseOnOutsideViewport = data.pauseOnOutsideViewport;
+        if (data.zLayers !== undefined) this.zLayers = data.zLayers;
+        this.background.load(data.background);
+        const fullScreen = data.fullScreen;
+        if ((0, _utilsJs.isBoolean)(fullScreen)) this.fullScreen.enable = fullScreen;
+        else this.fullScreen.load(fullScreen);
+        this.backgroundMask.load(data.backgroundMask);
+        this.interactivity.load(data.interactivity);
+        if (data.manualParticles) this.manualParticles = data.manualParticles.map((t)=>{
+            const tmp = new (0, _manualParticleJs.ManualParticle)();
+            tmp.load(t);
+            return tmp;
+        });
+        this.particles.load(data.particles);
+        this.style = (0, _utilsJs.deepExtend)(this.style, data.style);
+        this._engine.loadOptions(this, data);
+        if (data.smooth !== undefined) this.smooth = data.smooth;
+        const interactors = this._engine.interactors.get(this._container);
+        if (interactors) {
+            for (const interactor of interactors)if (interactor.loadOptions) interactor.loadOptions(this, data);
+        }
+        if (data.responsive !== undefined) for (const responsive of data.responsive){
+            const optResponsive = new (0, _responsiveJs.Responsive)();
+            optResponsive.load(responsive);
+            this.responsive.push(optResponsive);
+        }
+        this.responsive.sort((a, b)=>a.maxWidth - b.maxWidth);
+        if (data.themes !== undefined) for (const theme of data.themes){
+            const existingTheme = this.themes.find((t)=>t.name === theme.name);
+            if (!existingTheme) {
+                const optTheme = new (0, _themeJs.Theme)();
+                optTheme.load(theme);
+                this.themes.push(optTheme);
+            } else existingTheme.load(theme);
+        }
+        this.defaultThemes.dark = this._findDefaultTheme("dark")?.name;
+        this.defaultThemes.light = this._findDefaultTheme("light")?.name;
+    }
+    setResponsive(width, pxRatio, defaultOptions) {
+        this.load(defaultOptions);
+        const responsiveOptions = this.responsive.find((t)=>t.mode === "screen" && screen ? t.maxWidth > screen.availWidth : t.maxWidth * pxRatio > width);
+        this.load(responsiveOptions?.options);
+        return responsiveOptions?.maxWidth;
+    }
+    setTheme(name) {
+        if (name) {
+            const chosenTheme = this.themes.find((theme)=>theme.name === name);
+            if (chosenTheme) this.load(chosenTheme.options);
+        } else {
+            const mediaMatch = (0, _utilsJs.safeMatchMedia)("(prefers-color-scheme: dark)"), clientDarkMode = mediaMatch && mediaMatch.matches, defaultTheme = this._findDefaultTheme(clientDarkMode ? "dark" : "light");
+            if (defaultTheme) this.load(defaultTheme.options);
+        }
+    }
+}
+
+},{"../../Utils/Utils.js":"17M4n","./Background/Background.js":"gm8xP","./BackgroundMask/BackgroundMask.js":"3eGnq","./FullScreen/FullScreen.js":"dfpLr","./Interactivity/Interactivity.js":"48Zpu","./ManualParticle.js":"2dkfx","./Responsive.js":"gmVzG","./Theme/Theme.js":"5vbwW","../../Utils/OptionsUtils.js":"eM9C9","../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gm8xP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Background", ()=>Background);
+var _optionsColorJs = require("../OptionsColor.js");
+class Background {
+    constructor(){
+        this.color = new (0, _optionsColorJs.OptionsColor)();
+        this.color.value = "";
+        this.image = "";
+        this.position = "";
+        this.repeat = "";
+        this.size = "";
+        this.opacity = 1;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.color !== undefined) this.color = (0, _optionsColorJs.OptionsColor).create(this.color, data.color);
+        if (data.image !== undefined) this.image = data.image;
+        if (data.position !== undefined) this.position = data.position;
+        if (data.repeat !== undefined) this.repeat = data.repeat;
+        if (data.size !== undefined) this.size = data.size;
+        if (data.opacity !== undefined) this.opacity = data.opacity;
+    }
+}
+
+},{"../OptionsColor.js":"bzg9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bzg9S":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "OptionsColor", ()=>OptionsColor);
+var _utilsJs = require("../../Utils/Utils.js");
+class OptionsColor {
+    constructor(){
+        this.value = "";
+    }
+    static create(source, data) {
+        const color = new OptionsColor();
+        color.load(source);
+        if (data !== undefined) {
+            if ((0, _utilsJs.isString)(data) || (0, _utilsJs.isArray)(data)) color.load({
+                value: data
+            });
+            else color.load(data);
+        }
+        return color;
+    }
+    load(data) {
+        if (data?.value === undefined) return;
+        this.value = data.value;
+    }
+}
+
+},{"../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3eGnq":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BackgroundMask", ()=>BackgroundMask);
+var _backgroundMaskCoverJs = require("./BackgroundMaskCover.js");
+var _utilsJs = require("../../../Utils/Utils.js");
+class BackgroundMask {
+    constructor(){
+        this.composite = "destination-out";
+        this.cover = new (0, _backgroundMaskCoverJs.BackgroundMaskCover)();
+        this.enable = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.composite !== undefined) this.composite = data.composite;
+        if (data.cover !== undefined) {
+            const cover = data.cover, color = (0, _utilsJs.isString)(data.cover) ? {
+                color: data.cover
+            } : data.cover;
+            this.cover.load(cover.color !== undefined ? cover : {
+                color: color
+            });
+        }
+        if (data.enable !== undefined) this.enable = data.enable;
+    }
+}
+
+},{"./BackgroundMaskCover.js":"1qgnF","../../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1qgnF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BackgroundMaskCover", ()=>BackgroundMaskCover);
+var _optionsColorJs = require("../OptionsColor.js");
+class BackgroundMaskCover {
+    constructor(){
+        this.color = new (0, _optionsColorJs.OptionsColor)();
+        this.color.value = "#fff";
+        this.opacity = 1;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.color !== undefined) this.color = (0, _optionsColorJs.OptionsColor).create(this.color, data.color);
+        if (data.opacity !== undefined) this.opacity = data.opacity;
+    }
+}
+
+},{"../OptionsColor.js":"bzg9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dfpLr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "FullScreen", ()=>FullScreen);
+class FullScreen {
+    constructor(){
+        this.enable = true;
+        this.zIndex = 0;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.zIndex !== undefined) this.zIndex = data.zIndex;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"48Zpu":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Interactivity", ()=>Interactivity);
+var _eventsJs = require("./Events/Events.js");
+var _modesJs = require("./Modes/Modes.js");
+class Interactivity {
+    constructor(engine, container){
+        this.detectsOn = "window";
+        this.events = new (0, _eventsJs.Events)();
+        this.modes = new (0, _modesJs.Modes)(engine, container);
+    }
+    load(data) {
+        if (!data) return;
+        const detectsOn = data.detectsOn;
+        if (detectsOn !== undefined) this.detectsOn = detectsOn;
+        this.events.load(data.events);
+        this.modes.load(data.modes);
+    }
+}
+
+},{"./Events/Events.js":"6mux5","./Modes/Modes.js":"2kRwR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6mux5":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Events", ()=>Events);
+var _clickEventJs = require("./ClickEvent.js");
+var _divEventJs = require("./DivEvent.js");
+var _hoverEventJs = require("./HoverEvent.js");
+var _resizeEventJs = require("./ResizeEvent.js");
+var _utilsJs = require("../../../../Utils/Utils.js");
+class Events {
+    constructor(){
+        this.onClick = new (0, _clickEventJs.ClickEvent)();
+        this.onDiv = new (0, _divEventJs.DivEvent)();
+        this.onHover = new (0, _hoverEventJs.HoverEvent)();
+        this.resize = new (0, _resizeEventJs.ResizeEvent)();
+    }
+    load(data) {
+        if (!data) return;
+        this.onClick.load(data.onClick);
+        const onDiv = data.onDiv;
+        if (onDiv !== undefined) this.onDiv = (0, _utilsJs.executeOnSingleOrMultiple)(onDiv, (t)=>{
+            const tmp = new (0, _divEventJs.DivEvent)();
+            tmp.load(t);
+            return tmp;
+        });
+        this.onHover.load(data.onHover);
+        this.resize.load(data.resize);
+    }
+}
+
+},{"./ClickEvent.js":"kjBh8","./DivEvent.js":"WIRuI","./HoverEvent.js":"5XXWb","./ResizeEvent.js":"dMPxb","../../../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kjBh8":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ClickEvent", ()=>ClickEvent);
+class ClickEvent {
+    constructor(){
+        this.enable = false;
+        this.mode = [];
+    }
+    load(data) {
+        if (!data) return;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.mode !== undefined) this.mode = data.mode;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"WIRuI":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DivEvent", ()=>DivEvent);
+class DivEvent {
+    constructor(){
+        this.selectors = [];
+        this.enable = false;
+        this.mode = [];
+        this.type = "circle";
+    }
+    load(data) {
+        if (!data) return;
+        if (data.selectors !== undefined) this.selectors = data.selectors;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.mode !== undefined) this.mode = data.mode;
+        if (data.type !== undefined) this.type = data.type;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5XXWb":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "HoverEvent", ()=>HoverEvent);
+var _parallaxJs = require("./Parallax.js");
+class HoverEvent {
+    constructor(){
+        this.enable = false;
+        this.mode = [];
+        this.parallax = new (0, _parallaxJs.Parallax)();
+    }
+    load(data) {
+        if (!data) return;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.mode !== undefined) this.mode = data.mode;
+        this.parallax.load(data.parallax);
+    }
+}
+
+},{"./Parallax.js":"g5l3e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g5l3e":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Parallax", ()=>Parallax);
+class Parallax {
+    constructor(){
+        this.enable = false;
+        this.force = 2;
+        this.smooth = 10;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.force !== undefined) this.force = data.force;
+        if (data.smooth !== undefined) this.smooth = data.smooth;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dMPxb":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ResizeEvent", ()=>ResizeEvent);
+class ResizeEvent {
+    constructor(){
+        this.delay = 0.5;
+        this.enable = true;
+    }
+    load(data) {
+        if (data === undefined) return;
+        if (data.delay !== undefined) this.delay = data.delay;
+        if (data.enable !== undefined) this.enable = data.enable;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2kRwR":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Modes", ()=>Modes);
+class Modes {
+    constructor(engine, container){
+        this._engine = engine;
+        this._container = container;
+    }
+    load(data) {
+        if (!data) return;
+        if (!this._container) return;
+        const interactors = this._engine.interactors.get(this._container);
+        if (!interactors) return;
+        for (const interactor of interactors){
+            if (!interactor.loadModeOptions) continue;
+            interactor.loadModeOptions(this, data);
+        }
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2dkfx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ManualParticle", ()=>ManualParticle);
+var _utilsJs = require("../../Utils/Utils.js");
+class ManualParticle {
+    load(data) {
+        if (!data) return;
+        if (data.position) this.position = {
+            x: data.position.x ?? 50,
+            y: data.position.y ?? 50,
+            mode: data.position.mode ?? "percent"
+        };
+        if (data.options) this.options = (0, _utilsJs.deepExtend)({}, data.options);
+    }
+}
+
+},{"../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gmVzG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Responsive", ()=>Responsive);
+var _utilsJs = require("../../Utils/Utils.js");
+class Responsive {
+    constructor(){
+        this.maxWidth = Infinity;
+        this.options = {};
+        this.mode = "canvas";
+    }
+    load(data) {
+        if (!data) return;
+        if (data.maxWidth !== undefined) this.maxWidth = data.maxWidth;
+        if (data.mode !== undefined) {
+            if (data.mode === "screen") this.mode = "screen";
+            else this.mode = "canvas";
+        }
+        if (data.options !== undefined) this.options = (0, _utilsJs.deepExtend)({}, data.options);
+    }
+}
+
+},{"../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5vbwW":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Theme", ()=>Theme);
+var _themeDefaultJs = require("./ThemeDefault.js");
+var _utilsJs = require("../../../Utils/Utils.js");
+class Theme {
+    constructor(){
+        this.name = "";
+        this.default = new (0, _themeDefaultJs.ThemeDefault)();
+    }
+    load(data) {
+        if (!data) return;
+        if (data.name !== undefined) this.name = data.name;
+        this.default.load(data.default);
+        if (data.options !== undefined) this.options = (0, _utilsJs.deepExtend)({}, data.options);
+    }
+}
+
+},{"./ThemeDefault.js":"64zhn","../../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"64zhn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ThemeDefault", ()=>ThemeDefault);
+class ThemeDefault {
+    constructor(){
+        this.auto = false;
+        this.mode = "any";
+        this.value = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.auto !== undefined) this.auto = data.auto;
+        if (data.mode !== undefined) this.mode = data.mode;
+        if (data.value !== undefined) this.value = data.value;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eM9C9":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadOptions", ()=>loadOptions);
+parcelHelpers.export(exports, "loadParticlesOptions", ()=>loadParticlesOptions);
+var _particlesOptionsJs = require("../Options/Classes/Particles/ParticlesOptions.js");
+function loadOptions(options, ...sourceOptionsArr) {
+    for (const sourceOptions of sourceOptionsArr)options.load(sourceOptions);
+}
+function loadParticlesOptions(engine, container, ...sourceOptionsArr) {
+    const options = new (0, _particlesOptionsJs.ParticlesOptions)(engine, container);
+    loadOptions(options, ...sourceOptionsArr);
+    return options;
+}
+
+},{"../Options/Classes/Particles/ParticlesOptions.js":"d1MQq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d1MQq":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ParticlesOptions", ()=>ParticlesOptions);
+var _utilsJs = require("../../../Utils/Utils.js");
+var _animatableColorJs = require("../AnimatableColor.js");
+var _collisionsJs = require("./Collisions/Collisions.js");
+var _effectJs = require("./Effect/Effect.js");
+var _moveJs = require("./Move/Move.js");
+var _opacityJs = require("./Opacity/Opacity.js");
+var _particlesBounceJs = require("./Bounce/ParticlesBounce.js");
+var _particlesNumberJs = require("./Number/ParticlesNumber.js");
+var _shadowJs = require("./Shadow.js");
+var _shapeJs = require("./Shape/Shape.js");
+var _sizeJs = require("./Size/Size.js");
+var _strokeJs = require("./Stroke.js");
+var _zindexJs = require("./ZIndex/ZIndex.js");
+class ParticlesOptions {
+    constructor(engine, container){
+        this._engine = engine;
+        this._container = container;
+        this.bounce = new (0, _particlesBounceJs.ParticlesBounce)();
+        this.collisions = new (0, _collisionsJs.Collisions)();
+        this.color = new (0, _animatableColorJs.AnimatableColor)();
+        this.color.value = "#fff";
+        this.effect = new (0, _effectJs.Effect)();
+        this.groups = {};
+        this.move = new (0, _moveJs.Move)();
+        this.number = new (0, _particlesNumberJs.ParticlesNumber)();
+        this.opacity = new (0, _opacityJs.Opacity)();
+        this.reduceDuplicates = false;
+        this.shadow = new (0, _shadowJs.Shadow)();
+        this.shape = new (0, _shapeJs.Shape)();
+        this.size = new (0, _sizeJs.Size)();
+        this.stroke = new (0, _strokeJs.Stroke)();
+        this.zIndex = new (0, _zindexJs.ZIndex)();
+    }
+    load(data) {
+        if (!data) return;
+        if (data.groups !== undefined) for (const group of Object.keys(data.groups)){
+            if (!Object.hasOwn(data.groups, group)) continue;
+            const item = data.groups[group];
+            if (item !== undefined) this.groups[group] = (0, _utilsJs.deepExtend)(this.groups[group] ?? {}, item);
+        }
+        if (data.reduceDuplicates !== undefined) this.reduceDuplicates = data.reduceDuplicates;
+        this.bounce.load(data.bounce);
+        this.color.load((0, _animatableColorJs.AnimatableColor).create(this.color, data.color));
+        this.effect.load(data.effect);
+        this.move.load(data.move);
+        this.number.load(data.number);
+        this.opacity.load(data.opacity);
+        this.shape.load(data.shape);
+        this.size.load(data.size);
+        this.shadow.load(data.shadow);
+        this.zIndex.load(data.zIndex);
+        this.collisions.load(data.collisions);
+        if (data.interactivity !== undefined) this.interactivity = (0, _utilsJs.deepExtend)({}, data.interactivity);
+        const strokeToLoad = data.stroke;
+        if (strokeToLoad) this.stroke = (0, _utilsJs.executeOnSingleOrMultiple)(strokeToLoad, (t)=>{
+            const tmp = new (0, _strokeJs.Stroke)();
+            tmp.load(t);
+            return tmp;
+        });
+        if (this._container) {
+            const updaters = this._engine.updaters.get(this._container);
+            if (updaters) {
+                for (const updater of updaters)if (updater.loadOptions) updater.loadOptions(this, data);
+            }
+            const interactors = this._engine.interactors.get(this._container);
+            if (interactors) {
+                for (const interactor of interactors)if (interactor.loadParticlesOptions) interactor.loadParticlesOptions(this, data);
+            }
+        }
+    }
+}
+
+},{"../../../Utils/Utils.js":"17M4n","../AnimatableColor.js":"5djnu","./Collisions/Collisions.js":"5vSbf","./Effect/Effect.js":"5AUR6","./Move/Move.js":"hupTV","./Opacity/Opacity.js":"gntnr","./Bounce/ParticlesBounce.js":"VqyxP","./Number/ParticlesNumber.js":"jRQTT","./Shadow.js":"gSdou","./Shape/Shape.js":"jy5CK","./Size/Size.js":"1K5Wn","./Stroke.js":"j8rvF","./ZIndex/ZIndex.js":"783r3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5djnu":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AnimatableColor", ()=>AnimatableColor);
+var _utilsJs = require("../../Utils/Utils.js");
+var _hslAnimationJs = require("./HslAnimation.js");
+var _optionsColorJs = require("./OptionsColor.js");
+class AnimatableColor extends (0, _optionsColorJs.OptionsColor) {
+    constructor(){
+        super();
+        this.animation = new (0, _hslAnimationJs.HslAnimation)();
+    }
+    static create(source, data) {
+        const color = new AnimatableColor();
+        color.load(source);
+        if (data !== undefined) {
+            if ((0, _utilsJs.isString)(data) || (0, _utilsJs.isArray)(data)) color.load({
+                value: data
+            });
+            else color.load(data);
+        }
+        return color;
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        const colorAnimation = data.animation;
+        if (colorAnimation !== undefined) {
+            if (colorAnimation.enable !== undefined) this.animation.h.load(colorAnimation);
+            else this.animation.load(data.animation);
+        }
+    }
+}
+
+},{"../../Utils/Utils.js":"17M4n","./HslAnimation.js":"hzzzN","./OptionsColor.js":"bzg9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hzzzN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "HslAnimation", ()=>HslAnimation);
+var _colorAnimationJs = require("./ColorAnimation.js");
+class HslAnimation {
+    constructor(){
+        this.h = new (0, _colorAnimationJs.ColorAnimation)();
+        this.s = new (0, _colorAnimationJs.ColorAnimation)();
+        this.l = new (0, _colorAnimationJs.ColorAnimation)();
+    }
+    load(data) {
+        if (!data) return;
+        this.h.load(data.h);
+        this.s.load(data.s);
+        this.l.load(data.l);
+    }
+}
+
+},{"./ColorAnimation.js":"7jUHD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7jUHD":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ColorAnimation", ()=>ColorAnimation);
+var _animationOptionsJs = require("./AnimationOptions.js");
+var _numberUtilsJs = require("../../Utils/NumberUtils.js");
+class ColorAnimation extends (0, _animationOptionsJs.AnimationOptions) {
+    constructor(){
+        super();
+        this.offset = 0;
+        this.sync = true;
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        if (data.offset !== undefined) this.offset = (0, _numberUtilsJs.setRangeValue)(data.offset);
+    }
+}
+
+},{"./AnimationOptions.js":"abEvO","../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"abEvO":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AnimationOptions", ()=>AnimationOptions);
+parcelHelpers.export(exports, "RangedAnimationOptions", ()=>RangedAnimationOptions);
+var _numberUtilsJs = require("../../Utils/NumberUtils.js");
+class AnimationOptions {
+    constructor(){
+        this.count = 0;
+        this.enable = false;
+        this.speed = 1;
+        this.decay = 0;
+        this.delay = 0;
+        this.sync = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.count !== undefined) this.count = (0, _numberUtilsJs.setRangeValue)(data.count);
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.speed !== undefined) this.speed = (0, _numberUtilsJs.setRangeValue)(data.speed);
+        if (data.decay !== undefined) this.decay = (0, _numberUtilsJs.setRangeValue)(data.decay);
+        if (data.delay !== undefined) this.delay = (0, _numberUtilsJs.setRangeValue)(data.delay);
+        if (data.sync !== undefined) this.sync = data.sync;
+    }
+}
+class RangedAnimationOptions extends AnimationOptions {
+    constructor(){
+        super();
+        this.mode = "auto";
+        this.startValue = "random";
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        if (data.mode !== undefined) this.mode = data.mode;
+        if (data.startValue !== undefined) this.startValue = data.startValue;
+    }
+}
+
+},{"../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5vSbf":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Collisions", ()=>Collisions);
+var _collisionsAbsorbJs = require("./CollisionsAbsorb.js");
+var _collisionsOverlapJs = require("./CollisionsOverlap.js");
+var _particlesBounceJs = require("../Bounce/ParticlesBounce.js");
+var _numberUtilsJs = require("../../../../Utils/NumberUtils.js");
+class Collisions {
+    constructor(){
+        this.absorb = new (0, _collisionsAbsorbJs.CollisionsAbsorb)();
+        this.bounce = new (0, _particlesBounceJs.ParticlesBounce)();
+        this.enable = false;
+        this.maxSpeed = 50;
+        this.mode = "bounce";
+        this.overlap = new (0, _collisionsOverlapJs.CollisionsOverlap)();
+    }
+    load(data) {
+        if (!data) return;
+        this.absorb.load(data.absorb);
+        this.bounce.load(data.bounce);
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.maxSpeed !== undefined) this.maxSpeed = (0, _numberUtilsJs.setRangeValue)(data.maxSpeed);
+        if (data.mode !== undefined) this.mode = data.mode;
+        this.overlap.load(data.overlap);
+    }
+}
+
+},{"./CollisionsAbsorb.js":"2TAHy","./CollisionsOverlap.js":"3UIdS","../Bounce/ParticlesBounce.js":"VqyxP","../../../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2TAHy":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "CollisionsAbsorb", ()=>CollisionsAbsorb);
+class CollisionsAbsorb {
+    constructor(){
+        this.speed = 2;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.speed !== undefined) this.speed = data.speed;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3UIdS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "CollisionsOverlap", ()=>CollisionsOverlap);
+class CollisionsOverlap {
+    constructor(){
+        this.enable = true;
+        this.retries = 0;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.retries !== undefined) this.retries = data.retries;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"VqyxP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ParticlesBounce", ()=>ParticlesBounce);
+var _particlesBounceFactorJs = require("./ParticlesBounceFactor.js");
+class ParticlesBounce {
+    constructor(){
+        this.horizontal = new (0, _particlesBounceFactorJs.ParticlesBounceFactor)();
+        this.vertical = new (0, _particlesBounceFactorJs.ParticlesBounceFactor)();
+    }
+    load(data) {
+        if (!data) return;
+        this.horizontal.load(data.horizontal);
+        this.vertical.load(data.vertical);
+    }
+}
+
+},{"./ParticlesBounceFactor.js":"3gkvS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3gkvS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ParticlesBounceFactor", ()=>ParticlesBounceFactor);
+var _valueWithRandomJs = require("../../ValueWithRandom.js");
+class ParticlesBounceFactor extends (0, _valueWithRandomJs.ValueWithRandom) {
+    constructor(){
+        super();
+        this.value = 1;
+    }
+}
+
+},{"../../ValueWithRandom.js":"dKmbd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dKmbd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ValueWithRandom", ()=>ValueWithRandom);
+parcelHelpers.export(exports, "AnimationValueWithRandom", ()=>AnimationValueWithRandom);
+parcelHelpers.export(exports, "RangedAnimationValueWithRandom", ()=>RangedAnimationValueWithRandom);
+var _animationOptionsJs = require("./AnimationOptions.js");
+var _numberUtilsJs = require("../../Utils/NumberUtils.js");
+class ValueWithRandom {
+    constructor(){
+        this.value = 0;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.value !== undefined) this.value = (0, _numberUtilsJs.setRangeValue)(data.value);
+    }
+}
+class AnimationValueWithRandom extends ValueWithRandom {
+    constructor(){
+        super();
+        this.animation = new (0, _animationOptionsJs.AnimationOptions)();
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        const animation = data.animation;
+        if (animation !== undefined) this.animation.load(animation);
+    }
+}
+class RangedAnimationValueWithRandom extends AnimationValueWithRandom {
+    constructor(){
+        super();
+        this.animation = new (0, _animationOptionsJs.RangedAnimationOptions)();
+    }
+    load(data) {
+        super.load(data);
+    }
+}
+
+},{"./AnimationOptions.js":"abEvO","../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5AUR6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Effect", ()=>Effect);
+var _utilsJs = require("../../../../Utils/Utils.js");
+class Effect {
+    constructor(){
+        this.close = true;
+        this.fill = true;
+        this.options = {};
+        this.type = [];
+    }
+    load(data) {
+        if (!data) return;
+        const options = data.options;
+        if (options !== undefined) for(const effect in options){
+            const item = options[effect];
+            if (item) this.options[effect] = (0, _utilsJs.deepExtend)(this.options[effect] ?? {}, item);
+        }
+        if (data.close !== undefined) this.close = data.close;
+        if (data.fill !== undefined) this.fill = data.fill;
+        if (data.type !== undefined) this.type = data.type;
+    }
+}
+
+},{"../../../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hupTV":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Move", ()=>Move);
+var _utilsJs = require("../../../../Utils/Utils.js");
+var _moveAngleJs = require("./MoveAngle.js");
+var _moveAttractJs = require("./MoveAttract.js");
+var _moveCenterJs = require("./MoveCenter.js");
+var _moveGravityJs = require("./MoveGravity.js");
+var _movePathJs = require("./Path/MovePath.js");
+var _moveTrailJs = require("./MoveTrail.js");
+var _outModesJs = require("./OutModes.js");
+var _spinJs = require("./Spin.js");
+var _numberUtilsJs = require("../../../../Utils/NumberUtils.js");
+class Move {
+    constructor(){
+        this.angle = new (0, _moveAngleJs.MoveAngle)();
+        this.attract = new (0, _moveAttractJs.MoveAttract)();
+        this.center = new (0, _moveCenterJs.MoveCenter)();
+        this.decay = 0;
+        this.distance = {};
+        this.direction = "none";
+        this.drift = 0;
+        this.enable = false;
+        this.gravity = new (0, _moveGravityJs.MoveGravity)();
+        this.path = new (0, _movePathJs.MovePath)();
+        this.outModes = new (0, _outModesJs.OutModes)();
+        this.random = false;
+        this.size = false;
+        this.speed = 2;
+        this.spin = new (0, _spinJs.Spin)();
+        this.straight = false;
+        this.trail = new (0, _moveTrailJs.MoveTrail)();
+        this.vibrate = false;
+        this.warp = false;
+    }
+    load(data) {
+        if (!data) return;
+        this.angle.load((0, _utilsJs.isNumber)(data.angle) ? {
+            value: data.angle
+        } : data.angle);
+        this.attract.load(data.attract);
+        this.center.load(data.center);
+        if (data.decay !== undefined) this.decay = (0, _numberUtilsJs.setRangeValue)(data.decay);
+        if (data.direction !== undefined) this.direction = data.direction;
+        if (data.distance !== undefined) this.distance = (0, _utilsJs.isNumber)(data.distance) ? {
+            horizontal: data.distance,
+            vertical: data.distance
+        } : {
+            ...data.distance
+        };
+        if (data.drift !== undefined) this.drift = (0, _numberUtilsJs.setRangeValue)(data.drift);
+        if (data.enable !== undefined) this.enable = data.enable;
+        this.gravity.load(data.gravity);
+        const outModes = data.outModes;
+        if (outModes !== undefined) {
+            if ((0, _utilsJs.isObject)(outModes)) this.outModes.load(outModes);
+            else this.outModes.load({
+                default: outModes
+            });
+        }
+        this.path.load(data.path);
+        if (data.random !== undefined) this.random = data.random;
+        if (data.size !== undefined) this.size = data.size;
+        if (data.speed !== undefined) this.speed = (0, _numberUtilsJs.setRangeValue)(data.speed);
+        this.spin.load(data.spin);
+        if (data.straight !== undefined) this.straight = data.straight;
+        this.trail.load(data.trail);
+        if (data.vibrate !== undefined) this.vibrate = data.vibrate;
+        if (data.warp !== undefined) this.warp = data.warp;
+    }
+}
+
+},{"../../../../Utils/Utils.js":"17M4n","./MoveAngle.js":"iUXMO","./MoveAttract.js":"3Hg7c","./MoveCenter.js":"1Xu1n","./MoveGravity.js":"4z4Rh","./Path/MovePath.js":"cWSlc","./MoveTrail.js":"fkbOJ","./OutModes.js":"bXg6Z","./Spin.js":"8P0Om","../../../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iUXMO":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MoveAngle", ()=>MoveAngle);
+var _numberUtilsJs = require("../../../../Utils/NumberUtils.js");
+class MoveAngle {
+    constructor(){
+        this.offset = 0;
+        this.value = 90;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.offset !== undefined) this.offset = (0, _numberUtilsJs.setRangeValue)(data.offset);
+        if (data.value !== undefined) this.value = (0, _numberUtilsJs.setRangeValue)(data.value);
+    }
+}
+
+},{"../../../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3Hg7c":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MoveAttract", ()=>MoveAttract);
+var _numberUtilsJs = require("../../../../Utils/NumberUtils.js");
+class MoveAttract {
+    constructor(){
+        this.distance = 200;
+        this.enable = false;
+        this.rotate = {
+            x: 3000,
+            y: 3000
+        };
+    }
+    load(data) {
+        if (!data) return;
+        if (data.distance !== undefined) this.distance = (0, _numberUtilsJs.setRangeValue)(data.distance);
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.rotate) {
+            const rotateX = data.rotate.x;
+            if (rotateX !== undefined) this.rotate.x = rotateX;
+            const rotateY = data.rotate.y;
+            if (rotateY !== undefined) this.rotate.y = rotateY;
+        }
+    }
+}
+
+},{"../../../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1Xu1n":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MoveCenter", ()=>MoveCenter);
+class MoveCenter {
+    constructor(){
+        this.x = 50;
+        this.y = 50;
+        this.mode = "percent";
+        this.radius = 0;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.x !== undefined) this.x = data.x;
+        if (data.y !== undefined) this.y = data.y;
+        if (data.mode !== undefined) this.mode = data.mode;
+        if (data.radius !== undefined) this.radius = data.radius;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4z4Rh":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MoveGravity", ()=>MoveGravity);
+var _numberUtilsJs = require("../../../../Utils/NumberUtils.js");
+class MoveGravity {
+    constructor(){
+        this.acceleration = 9.81;
+        this.enable = false;
+        this.inverse = false;
+        this.maxSpeed = 50;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.acceleration !== undefined) this.acceleration = (0, _numberUtilsJs.setRangeValue)(data.acceleration);
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.inverse !== undefined) this.inverse = data.inverse;
+        if (data.maxSpeed !== undefined) this.maxSpeed = (0, _numberUtilsJs.setRangeValue)(data.maxSpeed);
+    }
+}
+
+},{"../../../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cWSlc":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MovePath", ()=>MovePath);
+var _valueWithRandomJs = require("../../../ValueWithRandom.js");
+var _utilsJs = require("../../../../../Utils/Utils.js");
+class MovePath {
+    constructor(){
+        this.clamp = true;
+        this.delay = new (0, _valueWithRandomJs.ValueWithRandom)();
+        this.enable = false;
+        this.options = {};
+    }
+    load(data) {
+        if (!data) return;
+        if (data.clamp !== undefined) this.clamp = data.clamp;
+        this.delay.load(data.delay);
+        if (data.enable !== undefined) this.enable = data.enable;
+        this.generator = data.generator;
+        if (data.options) this.options = (0, _utilsJs.deepExtend)(this.options, data.options);
+    }
+}
+
+},{"../../../ValueWithRandom.js":"dKmbd","../../../../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fkbOJ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MoveTrail", ()=>MoveTrail);
+var _moveTrailFillJs = require("./MoveTrailFill.js");
+class MoveTrail {
+    constructor(){
+        this.enable = false;
+        this.length = 10;
+        this.fill = new (0, _moveTrailFillJs.MoveTrailFill)();
+    }
+    load(data) {
+        if (!data) return;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.fill !== undefined) this.fill.load(data.fill);
+        if (data.length !== undefined) this.length = data.length;
+    }
+}
+
+},{"./MoveTrailFill.js":"LX5cg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"LX5cg":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MoveTrailFill", ()=>MoveTrailFill);
+var _optionsColorJs = require("../../OptionsColor.js");
+class MoveTrailFill {
+    load(data) {
+        if (!data) return;
+        if (data.color !== undefined) this.color = (0, _optionsColorJs.OptionsColor).create(this.color, data.color);
+        if (data.image !== undefined) this.image = data.image;
+    }
+}
+
+},{"../../OptionsColor.js":"bzg9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bXg6Z":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "OutModes", ()=>OutModes);
+class OutModes {
+    constructor(){
+        this.default = "out";
+    }
+    load(data) {
+        if (!data) return;
+        if (data.default !== undefined) this.default = data.default;
+        this.bottom = data.bottom ?? data.default;
+        this.left = data.left ?? data.default;
+        this.right = data.right ?? data.default;
+        this.top = data.top ?? data.default;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8P0Om":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Spin", ()=>Spin);
+var _utilsJs = require("../../../../Utils/Utils.js");
+var _numberUtilsJs = require("../../../../Utils/NumberUtils.js");
+class Spin {
+    constructor(){
+        this.acceleration = 0;
+        this.enable = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.acceleration !== undefined) this.acceleration = (0, _numberUtilsJs.setRangeValue)(data.acceleration);
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.position) this.position = (0, _utilsJs.deepExtend)({}, data.position);
+    }
+}
+
+},{"../../../../Utils/Utils.js":"17M4n","../../../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gntnr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Opacity", ()=>Opacity);
+var _opacityAnimationJs = require("./OpacityAnimation.js");
+var _valueWithRandomJs = require("../../ValueWithRandom.js");
+class Opacity extends (0, _valueWithRandomJs.RangedAnimationValueWithRandom) {
+    constructor(){
+        super();
+        this.animation = new (0, _opacityAnimationJs.OpacityAnimation)();
+        this.value = 1;
+    }
+    load(data) {
+        if (!data) return;
+        super.load(data);
+        const animation = data.animation;
+        if (animation !== undefined) this.animation.load(animation);
+    }
+}
+
+},{"./OpacityAnimation.js":"bmRKN","../../ValueWithRandom.js":"dKmbd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bmRKN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "OpacityAnimation", ()=>OpacityAnimation);
+var _animationOptionsJs = require("../../AnimationOptions.js");
+class OpacityAnimation extends (0, _animationOptionsJs.RangedAnimationOptions) {
+    constructor(){
+        super();
+        this.destroy = "none";
+        this.speed = 2;
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        if (data.destroy !== undefined) this.destroy = data.destroy;
+    }
+}
+
+},{"../../AnimationOptions.js":"abEvO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jRQTT":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ParticlesNumber", ()=>ParticlesNumber);
+var _particlesDensityJs = require("./ParticlesDensity.js");
+var _particlesNumberLimitJs = require("./ParticlesNumberLimit.js");
+class ParticlesNumber {
+    constructor(){
+        this.density = new (0, _particlesDensityJs.ParticlesDensity)();
+        this.limit = new (0, _particlesNumberLimitJs.ParticlesNumberLimit)();
+        this.value = 0;
+    }
+    load(data) {
+        if (!data) return;
+        this.density.load(data.density);
+        this.limit.load(data.limit);
+        if (data.value !== undefined) this.value = data.value;
+    }
+}
+
+},{"./ParticlesDensity.js":"4SGsC","./ParticlesNumberLimit.js":"eybIF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4SGsC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ParticlesDensity", ()=>ParticlesDensity);
+class ParticlesDensity {
+    constructor(){
+        this.enable = false;
+        this.width = 1920;
+        this.height = 1080;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.enable !== undefined) this.enable = data.enable;
+        const width = data.width;
+        if (width !== undefined) this.width = width;
+        const height = data.height;
+        if (height !== undefined) this.height = height;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eybIF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ParticlesNumberLimit", ()=>ParticlesNumberLimit);
+class ParticlesNumberLimit {
+    constructor(){
+        this.mode = "delete";
+        this.value = 0;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.mode !== undefined) this.mode = data.mode;
+        if (data.value !== undefined) this.value = data.value;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gSdou":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Shadow", ()=>Shadow);
+var _optionsColorJs = require("../OptionsColor.js");
+class Shadow {
+    constructor(){
+        this.blur = 0;
+        this.color = new (0, _optionsColorJs.OptionsColor)();
+        this.enable = false;
+        this.offset = {
+            x: 0,
+            y: 0
+        };
+        this.color.value = "#000";
+    }
+    load(data) {
+        if (!data) return;
+        if (data.blur !== undefined) this.blur = data.blur;
+        this.color = (0, _optionsColorJs.OptionsColor).create(this.color, data.color);
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.offset === undefined) return;
+        if (data.offset.x !== undefined) this.offset.x = data.offset.x;
+        if (data.offset.y !== undefined) this.offset.y = data.offset.y;
+    }
+}
+
+},{"../OptionsColor.js":"bzg9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jy5CK":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Shape", ()=>Shape);
+var _utilsJs = require("../../../../Utils/Utils.js");
+class Shape {
+    constructor(){
+        this.close = true;
+        this.fill = true;
+        this.options = {};
+        this.type = "circle";
+    }
+    load(data) {
+        if (!data) return;
+        const options = data.options;
+        if (options !== undefined) for(const shape in options){
+            const item = options[shape];
+            if (item) this.options[shape] = (0, _utilsJs.deepExtend)(this.options[shape] ?? {}, item);
+        }
+        if (data.close !== undefined) this.close = data.close;
+        if (data.fill !== undefined) this.fill = data.fill;
+        if (data.type !== undefined) this.type = data.type;
+    }
+}
+
+},{"../../../../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1K5Wn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Size", ()=>Size);
+var _valueWithRandomJs = require("../../ValueWithRandom.js");
+var _sizeAnimationJs = require("./SizeAnimation.js");
+class Size extends (0, _valueWithRandomJs.RangedAnimationValueWithRandom) {
+    constructor(){
+        super();
+        this.animation = new (0, _sizeAnimationJs.SizeAnimation)();
+        this.value = 3;
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        const animation = data.animation;
+        if (animation !== undefined) this.animation.load(animation);
+    }
+}
+
+},{"../../ValueWithRandom.js":"dKmbd","./SizeAnimation.js":"kvh2y","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kvh2y":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SizeAnimation", ()=>SizeAnimation);
+var _animationOptionsJs = require("../../AnimationOptions.js");
+class SizeAnimation extends (0, _animationOptionsJs.RangedAnimationOptions) {
+    constructor(){
+        super();
+        this.destroy = "none";
+        this.speed = 5;
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        if (data.destroy !== undefined) this.destroy = data.destroy;
+    }
+}
+
+},{"../../AnimationOptions.js":"abEvO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j8rvF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Stroke", ()=>Stroke);
+var _animatableColorJs = require("../AnimatableColor.js");
+var _numberUtilsJs = require("../../../Utils/NumberUtils.js");
+class Stroke {
+    constructor(){
+        this.width = 0;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.color !== undefined) this.color = (0, _animatableColorJs.AnimatableColor).create(this.color, data.color);
+        if (data.width !== undefined) this.width = (0, _numberUtilsJs.setRangeValue)(data.width);
+        if (data.opacity !== undefined) this.opacity = (0, _numberUtilsJs.setRangeValue)(data.opacity);
+    }
+}
+
+},{"../AnimatableColor.js":"5djnu","../../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"783r3":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ZIndex", ()=>ZIndex);
+var _valueWithRandomJs = require("../../ValueWithRandom.js");
+class ZIndex extends (0, _valueWithRandomJs.ValueWithRandom) {
+    constructor(){
+        super();
+        this.opacityRate = 1;
+        this.sizeRate = 1;
+        this.velocityRate = 1;
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        if (data.opacityRate !== undefined) this.opacityRate = data.opacityRate;
+        if (data.sizeRate !== undefined) this.sizeRate = data.sizeRate;
+        if (data.velocityRate !== undefined) this.velocityRate = data.velocityRate;
+    }
+}
+
+},{"../../ValueWithRandom.js":"dKmbd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a0Lei":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Particles", ()=>Particles);
+var _utilsJs = require("../Utils/Utils.js");
+var _interactionManagerJs = require("./Utils/InteractionManager.js");
+var _particleJs = require("./Particle.js");
+var _pointJs = require("./Utils/Point.js");
+var _quadTreeJs = require("./Utils/QuadTree.js");
+var _rectangleJs = require("./Utils/Rectangle.js");
+var _constantsJs = require("./Utils/Constants.js");
+const qTreeCapacity = 4;
+const qTreeRectangle = (canvasSize)=>{
+    const { height, width } = canvasSize, posOffset = -0.25, sizeFactor = 1.5;
+    return new (0, _rectangleJs.Rectangle)(posOffset * width, posOffset * height, sizeFactor * width, sizeFactor * height);
+};
+class Particles {
+    constructor(engine, container){
+        this._addToPool = (...particles)=>{
+            for (const particle of particles)this._pool.push(particle);
+        };
+        this._applyDensity = (options, manualCount, group)=>{
+            const numberOptions = options.number;
+            if (!options.number.density?.enable) {
+                if (group === undefined) this._limit = numberOptions.limit.value;
+                else if (numberOptions.limit) this._groupLimits.set(group, numberOptions.limit.value);
+                return;
+            }
+            const densityFactor = this._initDensityFactor(numberOptions.density), optParticlesNumber = numberOptions.value, optParticlesLimit = numberOptions.limit.value > 0 ? numberOptions.limit.value : optParticlesNumber, particlesNumber = Math.min(optParticlesNumber, optParticlesLimit) * densityFactor + manualCount, particlesCount = Math.min(this.count, this.filter((t)=>t.group === group).length);
+            if (group === undefined) this._limit = numberOptions.limit.value * densityFactor;
+            else this._groupLimits.set(group, numberOptions.limit.value * densityFactor);
+            if (particlesCount < particlesNumber) this.push(Math.abs(particlesNumber - particlesCount), undefined, options, group);
+            else if (particlesCount > particlesNumber) this.removeQuantity(particlesCount - particlesNumber, group);
+        };
+        this._initDensityFactor = (densityOptions)=>{
+            const container = this._container;
+            if (!container.canvas.element || !densityOptions.enable) return 1;
+            const canvas = container.canvas.element, pxRatio = container.retina.pixelRatio;
+            return canvas.width * canvas.height / (densityOptions.height * densityOptions.width * pxRatio ** 2);
+        };
+        this._pushParticle = (position, overrideOptions, group, initializer)=>{
+            try {
+                let particle = this._pool.pop();
+                if (particle) particle.init(this._nextId, position, overrideOptions, group);
+                else particle = new (0, _particleJs.Particle)(this._engine, this._nextId, this._container, position, overrideOptions, group);
+                let canAdd = true;
+                if (initializer) canAdd = initializer(particle);
+                if (!canAdd) return;
+                this._array.push(particle);
+                this._zArray.push(particle);
+                this._nextId++;
+                this._engine.dispatchEvent("particleAdded", {
+                    container: this._container,
+                    data: {
+                        particle
+                    }
+                });
+                return particle;
+            } catch (e) {
+                (0, _utilsJs.getLogger)().warning(`${(0, _constantsJs.errorPrefix)} adding particle: ${e}`);
+                return;
+            }
+        };
+        this._removeParticle = (index, group, override)=>{
+            const particle = this._array[index];
+            if (!particle || particle.group !== group) return false;
+            const zIdx = this._zArray.indexOf(particle);
+            this._array.splice(index, 1);
+            this._zArray.splice(zIdx, 1);
+            particle.destroy(override);
+            this._engine.dispatchEvent("particleRemoved", {
+                container: this._container,
+                data: {
+                    particle
+                }
+            });
+            this._addToPool(particle);
+            return true;
+        };
+        this._engine = engine;
+        this._container = container;
+        this._nextId = 0;
+        this._array = [];
+        this._zArray = [];
+        this._pool = [];
+        this._limit = 0;
+        this._groupLimits = new Map();
+        this._needsSort = false;
+        this._lastZIndex = 0;
+        this._interactionManager = new (0, _interactionManagerJs.InteractionManager)(engine, container);
+        const canvasSize = container.canvas.size;
+        this.quadTree = new (0, _quadTreeJs.QuadTree)(qTreeRectangle(canvasSize), qTreeCapacity);
+        this.movers = this._engine.getMovers(container, true);
+        this.updaters = this._engine.getUpdaters(container, true);
+    }
+    get count() {
+        return this._array.length;
+    }
+    addManualParticles() {
+        const container = this._container, options = container.actualOptions;
+        for (const particle of options.manualParticles)this.addParticle(particle.position ? (0, _utilsJs.getPosition)(particle.position, container.canvas.size) : undefined, particle.options);
+    }
+    addParticle(position, overrideOptions, group, initializer) {
+        const limitOptions = this._container.actualOptions.particles.number.limit, limit = group === undefined ? this._limit : this._groupLimits.get(group) ?? this._limit, currentCount = this.count;
+        if (limit > 0) {
+            if (limitOptions.mode === "delete") {
+                const countToRemove = currentCount + 1 - limit;
+                if (countToRemove > 0) this.removeQuantity(countToRemove);
+            } else if (limitOptions.mode === "wait") {
+                if (currentCount >= limit) return;
+            }
+        }
+        return this._pushParticle(position, overrideOptions, group, initializer);
+    }
+    clear() {
+        this._array = [];
+        this._zArray = [];
+    }
+    destroy() {
+        this._array = [];
+        this._zArray = [];
+        this.movers = [];
+        this.updaters = [];
+    }
+    async draw(delta) {
+        const container = this._container, canvas = container.canvas;
+        canvas.clear();
+        await this.update(delta);
+        for (const [, plugin] of container.plugins)canvas.drawPlugin(plugin, delta);
+        for (const p of this._zArray)p.draw(delta);
+    }
+    filter(condition) {
+        return this._array.filter(condition);
+    }
+    find(condition) {
+        return this._array.find(condition);
+    }
+    get(index) {
+        return this._array[index];
+    }
+    handleClickMode(mode) {
+        this._interactionManager.handleClickMode(mode);
+    }
+    init() {
+        const container = this._container, options = container.actualOptions;
+        this._lastZIndex = 0;
+        this._needsSort = false;
+        let handled = false;
+        this.updaters = this._engine.getUpdaters(container, true);
+        this._interactionManager.init();
+        for (const [, plugin] of container.plugins){
+            if (plugin.particlesInitialization !== undefined) handled = plugin.particlesInitialization();
+            if (handled) break;
+        }
+        this._interactionManager.init();
+        for (const [, pathGenerator] of container.pathGenerators)pathGenerator.init(container);
+        this.addManualParticles();
+        if (!handled) {
+            const particlesOptions = options.particles, groups = particlesOptions.groups;
+            for(const group in groups){
+                const groupOptions = groups[group];
+                for(let i = this.count, j = 0; j < groupOptions.number?.value && i < particlesOptions.number.value; i++, j++)this.addParticle(undefined, groupOptions, group);
+            }
+            for(let i = this.count; i < particlesOptions.number.value; i++)this.addParticle();
+        }
+    }
+    push(nb, mouse, overrideOptions, group) {
+        for(let i = 0; i < nb; i++)this.addParticle(mouse?.position, overrideOptions, group);
+    }
+    async redraw() {
+        this.clear();
+        this.init();
+        await this.draw({
+            value: 0,
+            factor: 0
+        });
+    }
+    remove(particle, group, override) {
+        this.removeAt(this._array.indexOf(particle), undefined, group, override);
+    }
+    removeAt(index, quantity = 1, group, override) {
+        if (index < 0 || index > this.count) return;
+        let deleted = 0;
+        for(let i = index; deleted < quantity && i < this.count; i++)this._removeParticle(i--, group, override) && deleted++;
+    }
+    removeQuantity(quantity, group) {
+        this.removeAt(0, quantity, group);
+    }
+    setDensity() {
+        const options = this._container.actualOptions, groups = options.particles.groups;
+        for(const group in groups)this._applyDensity(groups[group], 0, group);
+        this._applyDensity(options.particles, options.manualParticles.length);
+    }
+    setLastZIndex(zIndex) {
+        this._lastZIndex = zIndex;
+        this._needsSort = this._needsSort || this._lastZIndex < zIndex;
+    }
+    setResizeFactor(factor) {
+        this._resizeFactor = factor;
+    }
+    async update(delta) {
+        const container = this._container, particlesToDelete = new Set();
+        this.quadTree = new (0, _quadTreeJs.QuadTree)(qTreeRectangle(container.canvas.size), qTreeCapacity);
+        for (const [, pathGenerator] of container.pathGenerators)pathGenerator.update();
+        for (const [, plugin] of container.plugins)plugin.update && await plugin.update(delta);
+        const resizeFactor = this._resizeFactor;
+        for (const particle of this._array){
+            if (resizeFactor && !particle.ignoresResizeRatio) {
+                particle.position.x *= resizeFactor.width;
+                particle.position.y *= resizeFactor.height;
+                particle.initialPosition.x *= resizeFactor.width;
+                particle.initialPosition.y *= resizeFactor.height;
+            }
+            particle.ignoresResizeRatio = false;
+            await this._interactionManager.reset(particle);
+            for (const [, plugin] of this._container.plugins){
+                if (particle.destroyed) break;
+                plugin.particleUpdate && plugin.particleUpdate(particle, delta);
+            }
+            for (const mover of this.movers)mover.isEnabled(particle) && mover.move(particle, delta);
+            if (particle.destroyed) {
+                particlesToDelete.add(particle);
+                continue;
+            }
+            this.quadTree.insert(new (0, _pointJs.Point)(particle.getPosition(), particle));
+        }
+        if (particlesToDelete.size) {
+            const checkDelete = (p)=>!particlesToDelete.has(p);
+            this._array = this.filter(checkDelete);
+            this._zArray = this._zArray.filter(checkDelete);
+            for (const particle of particlesToDelete)this._engine.dispatchEvent("particleRemoved", {
+                container: this._container,
+                data: {
+                    particle
+                }
+            });
+            this._addToPool(...particlesToDelete);
+        }
+        await this._interactionManager.externalInteract(delta);
+        for (const particle of this._array){
+            for (const updater of this.updaters)updater.update(particle, delta);
+            if (!particle.destroyed && !particle.spawning) await this._interactionManager.particlesInteract(particle, delta);
+        }
+        delete this._resizeFactor;
+        if (this._needsSort) {
+            const zArray = this._zArray;
+            zArray.sort((a, b)=>b.position.z - a.position.z || a.id - b.id);
+            this._lastZIndex = zArray[zArray.length - 1].position.z;
+            this._needsSort = false;
+        }
+    }
+}
+
+},{"../Utils/Utils.js":"17M4n","./Utils/InteractionManager.js":"aNeHA","./Particle.js":"gILLP","./Utils/Point.js":"iGxI4","./Utils/QuadTree.js":"kT9VC","./Utils/Rectangle.js":"5ZO3p","./Utils/Constants.js":"9fra9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aNeHA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "InteractionManager", ()=>InteractionManager);
+class InteractionManager {
+    constructor(engine, container){
+        this.container = container;
+        this._engine = engine;
+        this._interactors = engine.getInteractors(this.container, true);
+        this._externalInteractors = [];
+        this._particleInteractors = [];
+    }
+    async externalInteract(delta) {
+        for (const interactor of this._externalInteractors)interactor.isEnabled() && await interactor.interact(delta);
+    }
+    handleClickMode(mode) {
+        for (const interactor of this._externalInteractors)interactor.handleClickMode && interactor.handleClickMode(mode);
+    }
+    init() {
+        this._externalInteractors = [];
+        this._particleInteractors = [];
+        for (const interactor of this._interactors){
+            switch(interactor.type){
+                case "external":
+                    this._externalInteractors.push(interactor);
+                    break;
+                case "particles":
+                    this._particleInteractors.push(interactor);
+                    break;
+            }
+            interactor.init();
+        }
+    }
+    async particlesInteract(particle, delta) {
+        for (const interactor of this._externalInteractors)interactor.clear(particle, delta);
+        for (const interactor of this._particleInteractors)interactor.isEnabled(particle) && await interactor.interact(particle, delta);
+    }
+    async reset(particle) {
+        for (const interactor of this._externalInteractors)interactor.isEnabled() && interactor.reset(particle);
+        for (const interactor of this._particleInteractors)interactor.isEnabled(particle) && interactor.reset(particle);
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gILLP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Particle", ()=>Particle);
+var _numberUtilsJs = require("../Utils/NumberUtils.js");
+var _utilsJs = require("../Utils/Utils.js");
+var _colorUtilsJs = require("../Utils/ColorUtils.js");
+var _interactivityJs = require("../Options/Classes/Interactivity/Interactivity.js");
+var _vectorJs = require("./Utils/Vector.js");
+var _vector3DJs = require("./Utils/Vector3d.js");
+var _canvasUtilsJs = require("../Utils/CanvasUtils.js");
+var _constantsJs = require("./Utils/Constants.js");
+var _optionsUtilsJs = require("../Utils/OptionsUtils.js");
+function loadEffectData(effect, effectOptions, id, reduceDuplicates) {
+    const effectData = effectOptions.options[effect];
+    if (!effectData) return;
+    return (0, _utilsJs.deepExtend)({
+        close: effectOptions.close,
+        fill: effectOptions.fill
+    }, (0, _utilsJs.itemFromSingleOrMultiple)(effectData, id, reduceDuplicates));
+}
+function loadShapeData(shape, shapeOptions, id, reduceDuplicates) {
+    const shapeData = shapeOptions.options[shape];
+    if (!shapeData) return;
+    return (0, _utilsJs.deepExtend)({
+        close: shapeOptions.close,
+        fill: shapeOptions.fill
+    }, (0, _utilsJs.itemFromSingleOrMultiple)(shapeData, id, reduceDuplicates));
+}
+function fixOutMode(data) {
+    if (!(0, _utilsJs.isInArray)(data.outMode, data.checkModes)) return;
+    const diameter = data.radius * 2;
+    if (data.coord > data.maxCoord - diameter) data.setCb(-data.radius);
+    else if (data.coord < diameter) data.setCb(data.radius);
+}
+class Particle {
+    constructor(engine, id, container, position, overrideOptions, group){
+        this.container = container;
+        this._calcPosition = (container, position, zIndex, tryCount = 0)=>{
+            for (const [, plugin] of container.plugins){
+                const pluginPos = plugin.particlePosition !== undefined ? plugin.particlePosition(position, this) : undefined;
+                if (pluginPos) return (0, _vector3DJs.Vector3d).create(pluginPos.x, pluginPos.y, zIndex);
+            }
+            const canvasSize = container.canvas.size, exactPosition = (0, _numberUtilsJs.calcExactPositionOrRandomFromSize)({
+                size: canvasSize,
+                position: position
+            }), pos = (0, _vector3DJs.Vector3d).create(exactPosition.x, exactPosition.y, zIndex), radius = this.getRadius(), outModes = this.options.move.outModes, fixHorizontal = (outMode)=>{
+                fixOutMode({
+                    outMode,
+                    checkModes: [
+                        "bounce",
+                        "bounce-horizontal"
+                    ],
+                    coord: pos.x,
+                    maxCoord: container.canvas.size.width,
+                    setCb: (value)=>pos.x += value,
+                    radius
+                });
+            }, fixVertical = (outMode)=>{
+                fixOutMode({
+                    outMode,
+                    checkModes: [
+                        "bounce",
+                        "bounce-vertical"
+                    ],
+                    coord: pos.y,
+                    maxCoord: container.canvas.size.height,
+                    setCb: (value)=>pos.y += value,
+                    radius
+                });
+            };
+            fixHorizontal(outModes.left ?? outModes.default);
+            fixHorizontal(outModes.right ?? outModes.default);
+            fixVertical(outModes.top ?? outModes.default);
+            fixVertical(outModes.bottom ?? outModes.default);
+            if (this._checkOverlap(pos, tryCount)) return this._calcPosition(container, undefined, zIndex, tryCount + 1);
+            return pos;
+        };
+        this._calculateVelocity = ()=>{
+            const baseVelocity = (0, _numberUtilsJs.getParticleBaseVelocity)(this.direction), res = baseVelocity.copy(), moveOptions = this.options.move;
+            if (moveOptions.direction === "inside" || moveOptions.direction === "outside") return res;
+            const rad = Math.PI / 180 * (0, _numberUtilsJs.getRangeValue)(moveOptions.angle.value), radOffset = Math.PI / 180 * (0, _numberUtilsJs.getRangeValue)(moveOptions.angle.offset), range = {
+                left: radOffset - rad * 0.5,
+                right: radOffset + rad * 0.5
+            };
+            if (!moveOptions.straight) res.angle += (0, _numberUtilsJs.randomInRange)((0, _numberUtilsJs.setRangeValue)(range.left, range.right));
+            if (moveOptions.random && typeof moveOptions.speed === "number") res.length *= (0, _numberUtilsJs.getRandom)();
+            return res;
+        };
+        this._checkOverlap = (pos, tryCount = 0)=>{
+            const collisionsOptions = this.options.collisions, radius = this.getRadius();
+            if (!collisionsOptions.enable) return false;
+            const overlapOptions = collisionsOptions.overlap;
+            if (overlapOptions.enable) return false;
+            const retries = overlapOptions.retries;
+            if (retries >= 0 && tryCount > retries) throw new Error(`${(0, _constantsJs.errorPrefix)} particle is overlapping and can't be placed`);
+            return !!this.container.particles.find((particle)=>(0, _numberUtilsJs.getDistance)(pos, particle.position) < radius + particle.getRadius());
+        };
+        this._getRollColor = (color)=>{
+            if (!color || !this.roll || !this.backColor && !this.roll.alter) return color;
+            const backFactor = this.roll.horizontal && this.roll.vertical ? 2 : 1, backSum = this.roll.horizontal ? Math.PI * 0.5 : 0, rolled = Math.floor(((this.roll.angle ?? 0) + backSum) / (Math.PI / backFactor)) % 2;
+            if (!rolled) return color;
+            if (this.backColor) return this.backColor;
+            if (this.roll.alter) return (0, _canvasUtilsJs.alterHsl)(color, this.roll.alter.type, this.roll.alter.value);
+            return color;
+        };
+        this._initPosition = (position)=>{
+            const container = this.container, zIndexValue = (0, _numberUtilsJs.getRangeValue)(this.options.zIndex.value);
+            this.position = this._calcPosition(container, position, (0, _numberUtilsJs.clamp)(zIndexValue, 0, container.zLayers));
+            this.initialPosition = this.position.copy();
+            const canvasSize = container.canvas.size;
+            this.moveCenter = {
+                ...(0, _utilsJs.getPosition)(this.options.move.center, canvasSize),
+                radius: this.options.move.center.radius ?? 0,
+                mode: this.options.move.center.mode ?? "percent"
+            };
+            this.direction = (0, _numberUtilsJs.getParticleDirectionAngle)(this.options.move.direction, this.position, this.moveCenter);
+            switch(this.options.move.direction){
+                case "inside":
+                    this.outType = "inside";
+                    break;
+                case "outside":
+                    this.outType = "outside";
+                    break;
+            }
+            this.offset = (0, _vectorJs.Vector).origin;
+        };
+        this._engine = engine;
+        this.init(id, position, overrideOptions, group);
+    }
+    destroy(override) {
+        if (this.unbreakable || this.destroyed) return;
+        this.destroyed = true;
+        this.bubble.inRange = false;
+        this.slow.inRange = false;
+        const container = this.container, pathGenerator = this.pathGenerator, shapeDrawer = container.shapeDrawers.get(this.shape);
+        shapeDrawer && shapeDrawer.particleDestroy && shapeDrawer.particleDestroy(this);
+        for (const [, plugin] of container.plugins)plugin.particleDestroyed && plugin.particleDestroyed(this, override);
+        for (const updater of container.particles.updaters)updater.particleDestroyed && updater.particleDestroyed(this, override);
+        pathGenerator && pathGenerator.reset(this);
+        this._engine.dispatchEvent("particleDestroyed", {
+            container: this.container,
+            data: {
+                particle: this
+            }
+        });
+    }
+    draw(delta) {
+        const container = this.container, canvas = container.canvas;
+        for (const [, plugin] of container.plugins)canvas.drawParticlePlugin(plugin, this, delta);
+        canvas.drawParticle(this, delta);
+    }
+    getFillColor() {
+        return this._getRollColor(this.bubble.color ?? (0, _colorUtilsJs.getHslFromAnimation)(this.color));
+    }
+    getMass() {
+        return this.getRadius() ** 2 * Math.PI * 0.5;
+    }
+    getPosition() {
+        return {
+            x: this.position.x + this.offset.x,
+            y: this.position.y + this.offset.y,
+            z: this.position.z
+        };
+    }
+    getRadius() {
+        return this.bubble.radius ?? this.size.value;
+    }
+    getStrokeColor() {
+        return this._getRollColor(this.bubble.color ?? (0, _colorUtilsJs.getHslFromAnimation)(this.strokeColor));
+    }
+    init(id, position, overrideOptions, group) {
+        const container = this.container, engine = this._engine;
+        this.id = id;
+        this.group = group;
+        this.effectClose = true;
+        this.effectFill = true;
+        this.shapeClose = true;
+        this.shapeFill = true;
+        this.pathRotation = false;
+        this.lastPathTime = 0;
+        this.destroyed = false;
+        this.unbreakable = false;
+        this.rotation = 0;
+        this.misplaced = false;
+        this.retina = {
+            maxDistance: {}
+        };
+        this.outType = "normal";
+        this.ignoresResizeRatio = true;
+        const pxRatio = container.retina.pixelRatio, mainOptions = container.actualOptions, particlesOptions = (0, _optionsUtilsJs.loadParticlesOptions)(this._engine, container, mainOptions.particles), effectType = particlesOptions.effect.type, shapeType = particlesOptions.shape.type, { reduceDuplicates } = particlesOptions;
+        this.effect = (0, _utilsJs.itemFromSingleOrMultiple)(effectType, this.id, reduceDuplicates);
+        this.shape = (0, _utilsJs.itemFromSingleOrMultiple)(shapeType, this.id, reduceDuplicates);
+        const effectOptions = particlesOptions.effect, shapeOptions = particlesOptions.shape;
+        if (overrideOptions) {
+            if (overrideOptions.effect && overrideOptions.effect.type) {
+                const overrideEffectType = overrideOptions.effect.type, effect = (0, _utilsJs.itemFromSingleOrMultiple)(overrideEffectType, this.id, reduceDuplicates);
+                if (effect) {
+                    this.effect = effect;
+                    effectOptions.load(overrideOptions.effect);
+                }
+            }
+            if (overrideOptions.shape && overrideOptions.shape.type) {
+                const overrideShapeType = overrideOptions.shape.type, shape = (0, _utilsJs.itemFromSingleOrMultiple)(overrideShapeType, this.id, reduceDuplicates);
+                if (shape) {
+                    this.shape = shape;
+                    shapeOptions.load(overrideOptions.shape);
+                }
+            }
+        }
+        this.effectData = loadEffectData(this.effect, effectOptions, this.id, reduceDuplicates);
+        this.shapeData = loadShapeData(this.shape, shapeOptions, this.id, reduceDuplicates);
+        particlesOptions.load(overrideOptions);
+        const effectData = this.effectData;
+        if (effectData) particlesOptions.load(effectData.particles);
+        const shapeData = this.shapeData;
+        if (shapeData) particlesOptions.load(shapeData.particles);
+        const interactivity = new (0, _interactivityJs.Interactivity)(engine, container);
+        interactivity.load(container.actualOptions.interactivity);
+        interactivity.load(particlesOptions.interactivity);
+        this.interactivity = interactivity;
+        this.effectFill = effectData?.fill ?? particlesOptions.effect.fill;
+        this.effectClose = effectData?.close ?? particlesOptions.effect.close;
+        this.shapeFill = shapeData?.fill ?? particlesOptions.shape.fill;
+        this.shapeClose = shapeData?.close ?? particlesOptions.shape.close;
+        this.options = particlesOptions;
+        const pathOptions = this.options.move.path;
+        this.pathDelay = (0, _numberUtilsJs.getRangeValue)(pathOptions.delay.value) * 1000;
+        if (pathOptions.generator) {
+            this.pathGenerator = this._engine.getPathGenerator(pathOptions.generator);
+            if (this.pathGenerator && container.addPath(pathOptions.generator, this.pathGenerator)) this.pathGenerator.init(container);
+        }
+        container.retina.initParticle(this);
+        this.size = (0, _utilsJs.initParticleNumericAnimationValue)(this.options.size, pxRatio);
+        this.bubble = {
+            inRange: false
+        };
+        this.slow = {
+            inRange: false,
+            factor: 1
+        };
+        this._initPosition(position);
+        this.initialVelocity = this._calculateVelocity();
+        this.velocity = this.initialVelocity.copy();
+        this.moveDecay = 1 - (0, _numberUtilsJs.getRangeValue)(this.options.move.decay);
+        const particles = container.particles;
+        particles.setLastZIndex(this.position.z);
+        this.zIndexFactor = this.position.z / container.zLayers;
+        this.sides = 24;
+        let effectDrawer = container.effectDrawers.get(this.effect);
+        if (!effectDrawer) {
+            effectDrawer = this._engine.getEffectDrawer(this.effect);
+            if (effectDrawer) container.effectDrawers.set(this.effect, effectDrawer);
+        }
+        if (effectDrawer && effectDrawer.loadEffect) effectDrawer.loadEffect(this);
+        let shapeDrawer = container.shapeDrawers.get(this.shape);
+        if (!shapeDrawer) {
+            shapeDrawer = this._engine.getShapeDrawer(this.shape);
+            if (shapeDrawer) container.shapeDrawers.set(this.shape, shapeDrawer);
+        }
+        if (shapeDrawer && shapeDrawer.loadShape) shapeDrawer.loadShape(this);
+        const sideCountFunc = shapeDrawer?.getSidesCount;
+        if (sideCountFunc) this.sides = sideCountFunc(this);
+        this.spawning = false;
+        this.shadowColor = (0, _colorUtilsJs.rangeColorToRgb)(this.options.shadow.color);
+        for (const updater of particles.updaters)updater.init(this);
+        for (const mover of particles.movers)mover.init && mover.init(this);
+        if (effectDrawer && effectDrawer.particleInit) effectDrawer.particleInit(container, this);
+        if (shapeDrawer && shapeDrawer.particleInit) shapeDrawer.particleInit(container, this);
+        for (const [, plugin] of container.plugins)plugin.particleCreated && plugin.particleCreated(this);
+    }
+    isInsideCanvas() {
+        const radius = this.getRadius(), canvasSize = this.container.canvas.size, position = this.position;
+        return position.x >= -radius && position.y >= -radius && position.y <= canvasSize.height + radius && position.x <= canvasSize.width + radius;
+    }
+    isVisible() {
+        return !this.destroyed && !this.spawning && this.isInsideCanvas();
+    }
+    reset() {
+        for (const updater of this.container.particles.updaters)updater.reset && updater.reset(this);
+    }
+}
+
+},{"../Utils/NumberUtils.js":"c9eVN","../Utils/Utils.js":"17M4n","../Utils/ColorUtils.js":"9NWNO","../Options/Classes/Interactivity/Interactivity.js":"48Zpu","./Utils/Vector.js":"eaMIS","./Utils/Vector3d.js":"fauhc","../Utils/CanvasUtils.js":"8COXr","./Utils/Constants.js":"9fra9","../Utils/OptionsUtils.js":"eM9C9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iGxI4":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Point", ()=>Point);
+class Point {
+    constructor(position, particle){
+        this.position = position;
+        this.particle = particle;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kT9VC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "QuadTree", ()=>QuadTree);
+var _circleJs = require("./Circle.js");
+var _rectangleJs = require("./Rectangle.js");
+var _numberUtilsJs = require("../../Utils/NumberUtils.js");
+class QuadTree {
+    constructor(rectangle, capacity){
+        this.rectangle = rectangle;
+        this.capacity = capacity;
+        this._subdivide = ()=>{
+            const { x, y } = this.rectangle.position, { width, height } = this.rectangle.size, { capacity } = this;
+            for(let i = 0; i < 4; i++)this._subs.push(new QuadTree(new (0, _rectangleJs.Rectangle)(x + width * 0.5 * (i % 2), y + height * 0.5 * (Math.round(i * 0.5) - i % 2), width * 0.5, height * 0.5), capacity));
+            this._divided = true;
+        };
+        this._points = [];
+        this._divided = false;
+        this._subs = [];
+    }
+    insert(point) {
+        if (!this.rectangle.contains(point.position)) return false;
+        if (this._points.length < this.capacity) {
+            this._points.push(point);
+            return true;
+        }
+        if (!this._divided) this._subdivide();
+        return this._subs.some((sub)=>sub.insert(point));
+    }
+    query(range, check, found) {
+        const res = found || [];
+        if (!range.intersects(this.rectangle)) return [];
+        for (const p of this._points){
+            if (!range.contains(p.position) && (0, _numberUtilsJs.getDistance)(range.position, p.position) > p.particle.getRadius() && (!check || check(p.particle))) continue;
+            res.push(p.particle);
+        }
+        if (this._divided) for (const sub of this._subs)sub.query(range, check, res);
+        return res;
+    }
+    queryCircle(position, radius, check) {
+        return this.query(new (0, _circleJs.Circle)(position.x, position.y, radius), check);
+    }
+    queryRectangle(position, size, check) {
+        return this.query(new (0, _rectangleJs.Rectangle)(position.x, position.y, size.width, size.height), check);
+    }
+}
+
+},{"./Circle.js":"acUKk","./Rectangle.js":"5ZO3p","../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"acUKk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Circle", ()=>Circle);
+var _rangeJs = require("./Range.js");
+var _rectangleJs = require("./Rectangle.js");
+var _numberUtilsJs = require("../../Utils/NumberUtils.js");
+class Circle extends (0, _rangeJs.Range) {
+    constructor(x, y, radius){
+        super(x, y);
+        this.radius = radius;
+    }
+    contains(point) {
+        return (0, _numberUtilsJs.getDistance)(point, this.position) <= this.radius;
+    }
+    intersects(range) {
+        const pos1 = this.position, pos2 = range.position, distPos = {
+            x: Math.abs(pos2.x - pos1.x),
+            y: Math.abs(pos2.y - pos1.y)
+        }, r = this.radius;
+        if (range instanceof Circle) {
+            const rSum = r + range.radius, dist = Math.sqrt(distPos.x ** 2 + distPos.y ** 2);
+            return rSum > dist;
+        } else if (range instanceof (0, _rectangleJs.Rectangle)) {
+            const { width, height } = range.size, edges = Math.pow(distPos.x - width, 2) + Math.pow(distPos.y - height, 2);
+            return edges <= r ** 2 || distPos.x <= r + width && distPos.y <= r + height || distPos.x <= width || distPos.y <= height;
+        }
+        return false;
+    }
+}
+
+},{"./Range.js":"cUP4p","./Rectangle.js":"5ZO3p","../../Utils/NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cUP4p":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Range", ()=>Range);
+class Range {
+    constructor(x, y){
+        this.position = {
+            x: x,
+            y: y
+        };
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ZO3p":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Rectangle", ()=>Rectangle);
+var _circleJs = require("./Circle.js");
+var _rangeJs = require("./Range.js");
+class Rectangle extends (0, _rangeJs.Range) {
+    constructor(x, y, width, height){
+        super(x, y);
+        this.size = {
+            height: height,
+            width: width
+        };
+    }
+    contains(point) {
+        const w = this.size.width, h = this.size.height, pos = this.position;
+        return point.x >= pos.x && point.x <= pos.x + w && point.y >= pos.y && point.y <= pos.y + h;
+    }
+    intersects(range) {
+        if (range instanceof (0, _circleJs.Circle)) range.intersects(this);
+        const w = this.size.width, h = this.size.height, pos1 = this.position, pos2 = range.position, size2 = range instanceof Rectangle ? range.size : {
+            width: 0,
+            height: 0
+        }, w2 = size2.width, h2 = size2.height;
+        return pos2.x < pos1.x + w && pos2.x + w2 > pos1.x && pos2.y < pos1.y + h && pos2.y + h2 > pos1.y;
+    }
+}
+
+},{"./Circle.js":"acUKk","./Range.js":"cUP4p","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"q7xVz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Retina", ()=>Retina);
+var _numberUtilsJs = require("../Utils/NumberUtils.js");
+var _utilsJs = require("../Utils/Utils.js");
+class Retina {
+    constructor(container){
+        this.container = container;
+        this.pixelRatio = 1;
+        this.reduceFactor = 1;
+    }
+    init() {
+        const container = this.container, options = container.actualOptions;
+        this.pixelRatio = !options.detectRetina || (0, _utilsJs.isSsr)() ? 1 : window.devicePixelRatio;
+        this.reduceFactor = 1;
+        const ratio = this.pixelRatio, canvas = container.canvas;
+        if (canvas.element) {
+            const element = canvas.element;
+            canvas.size.width = element.offsetWidth * ratio;
+            canvas.size.height = element.offsetHeight * ratio;
+        }
+        const particles = options.particles, moveOptions = particles.move;
+        this.maxSpeed = (0, _numberUtilsJs.getRangeValue)(moveOptions.gravity.maxSpeed) * ratio;
+        this.sizeAnimationSpeed = (0, _numberUtilsJs.getRangeValue)(particles.size.animation.speed) * ratio;
+    }
+    initParticle(particle) {
+        const options = particle.options, ratio = this.pixelRatio, moveOptions = options.move, moveDistance = moveOptions.distance, props = particle.retina;
+        props.moveDrift = (0, _numberUtilsJs.getRangeValue)(moveOptions.drift) * ratio;
+        props.moveSpeed = (0, _numberUtilsJs.getRangeValue)(moveOptions.speed) * ratio;
+        props.sizeAnimationSpeed = (0, _numberUtilsJs.getRangeValue)(options.size.animation.speed) * ratio;
+        const maxDistance = props.maxDistance;
+        maxDistance.horizontal = moveDistance.horizontal !== undefined ? moveDistance.horizontal * ratio : undefined;
+        maxDistance.vertical = moveDistance.vertical !== undefined ? moveDistance.vertical * ratio : undefined;
+        props.maxSpeed = (0, _numberUtilsJs.getRangeValue)(moveOptions.gravity.maxSpeed) * ratio;
+    }
+}
+
+},{"../Utils/NumberUtils.js":"c9eVN","../Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hW0hi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "EventDispatcher", ()=>EventDispatcher);
+class EventDispatcher {
+    constructor(){
+        this._listeners = new Map();
+    }
+    addEventListener(type, listener) {
+        this.removeEventListener(type, listener);
+        let arr = this._listeners.get(type);
+        if (!arr) {
+            arr = [];
+            this._listeners.set(type, arr);
+        }
+        arr.push(listener);
+    }
+    dispatchEvent(type, args) {
+        const listeners = this._listeners.get(type);
+        listeners && listeners.forEach((handler)=>handler(args));
+    }
+    hasEventListener(type) {
+        return !!this._listeners.get(type);
+    }
+    removeAllEventListeners(type) {
+        if (!type) this._listeners = new Map();
+        else this._listeners.delete(type);
+    }
+    removeEventListener(type, listener) {
+        const arr = this._listeners.get(type);
+        if (!arr) return;
+        const length = arr.length, idx = arr.indexOf(listener);
+        if (idx < 0) return;
+        if (length === 1) this._listeners.delete(type);
+        else arr.splice(idx, 1);
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6gEpO":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "HslColorManager", ()=>HslColorManager);
+var _numberUtilsJs = require("./NumberUtils.js");
+var _colorUtilsJs = require("./ColorUtils.js");
+class HslColorManager {
+    constructor(){
+        this.key = "hsl";
+        this.stringPrefix = "hsl";
+    }
+    handleColor(color) {
+        const colorValue = color.value, hslColor = colorValue.hsl ?? color.value;
+        if (hslColor.h !== undefined && hslColor.s !== undefined && hslColor.l !== undefined) return (0, _colorUtilsJs.hslToRgb)(hslColor);
+    }
+    handleRangeColor(color) {
+        const colorValue = color.value, hslColor = colorValue.hsl ?? color.value;
+        if (hslColor.h !== undefined && hslColor.l !== undefined) return (0, _colorUtilsJs.hslToRgb)({
+            h: (0, _numberUtilsJs.getRangeValue)(hslColor.h),
+            l: (0, _numberUtilsJs.getRangeValue)(hslColor.l),
+            s: (0, _numberUtilsJs.getRangeValue)(hslColor.s)
+        });
+    }
+    parseString(input) {
+        if (!input.startsWith("hsl")) return;
+        const regex = /hsla?\(\s*(\d+)\s*,\s*(\d+)%\s*,\s*(\d+)%\s*(,\s*([\d.%]+)\s*)?\)/i, result = regex.exec(input);
+        return result ? (0, _colorUtilsJs.hslaToRgba)({
+            a: result.length > 4 ? (0, _numberUtilsJs.parseAlpha)(result[5]) : 1,
+            h: parseInt(result[1], 10),
+            l: parseInt(result[3], 10),
+            s: parseInt(result[2], 10)
+        }) : undefined;
+    }
+}
+
+},{"./NumberUtils.js":"c9eVN","./ColorUtils.js":"9NWNO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gAkuj":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "RgbColorManager", ()=>RgbColorManager);
+var _numberUtilsJs = require("./NumberUtils.js");
+class RgbColorManager {
+    constructor(){
+        this.key = "rgb";
+        this.stringPrefix = "rgb";
+    }
+    handleColor(color) {
+        const colorValue = color.value, rgbColor = colorValue.rgb ?? color.value;
+        if (rgbColor.r !== undefined) return rgbColor;
+    }
+    handleRangeColor(color) {
+        const colorValue = color.value, rgbColor = colorValue.rgb ?? color.value;
+        if (rgbColor.r !== undefined) return {
+            r: (0, _numberUtilsJs.getRangeValue)(rgbColor.r),
+            g: (0, _numberUtilsJs.getRangeValue)(rgbColor.g),
+            b: (0, _numberUtilsJs.getRangeValue)(rgbColor.b)
+        };
+    }
+    parseString(input) {
+        if (!input.startsWith(this.stringPrefix)) return;
+        const regex = /rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*(,\s*([\d.%]+)\s*)?\)/i, result = regex.exec(input);
+        return result ? {
+            a: result.length > 4 ? (0, _numberUtilsJs.parseAlpha)(result[5]) : 1,
+            b: parseInt(result[3], 10),
+            g: parseInt(result[2], 10),
+            r: parseInt(result[1], 10)
+        } : undefined;
+    }
+}
+
+},{"./NumberUtils.js":"c9eVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4f3rW":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _circleJs = require("./Core/Utils/Circle.js");
+parcelHelpers.exportAll(_circleJs, exports);
+var _constantsJs = require("./Core/Utils/Constants.js");
+parcelHelpers.exportAll(_constantsJs, exports);
+var _externalInteractorBaseJs = require("./Core/Utils/ExternalInteractorBase.js");
+parcelHelpers.exportAll(_externalInteractorBaseJs, exports);
+var _particlesInteractorBaseJs = require("./Core/Utils/ParticlesInteractorBase.js");
+parcelHelpers.exportAll(_particlesInteractorBaseJs, exports);
+var _pointJs = require("./Core/Utils/Point.js");
+parcelHelpers.exportAll(_pointJs, exports);
+var _rangeJs = require("./Core/Utils/Range.js");
+parcelHelpers.exportAll(_rangeJs, exports);
+var _rectangleJs = require("./Core/Utils/Rectangle.js");
+parcelHelpers.exportAll(_rectangleJs, exports);
+var _vectorJs = require("./Core/Utils/Vector.js");
+parcelHelpers.exportAll(_vectorJs, exports);
+var _vector3DJs = require("./Core/Utils/Vector3d.js");
+parcelHelpers.exportAll(_vector3DJs, exports);
+var _moveDirectionJs = require("./Enums/Directions/MoveDirection.js");
+parcelHelpers.exportAll(_moveDirectionJs, exports);
+var _rotateDirectionJs = require("./Enums/Directions/RotateDirection.js");
+parcelHelpers.exportAll(_rotateDirectionJs, exports);
+var _outModeDirectionJs = require("./Enums/Directions/OutModeDirection.js");
+parcelHelpers.exportAll(_outModeDirectionJs, exports);
+var _animationModeJs = require("./Enums/Modes/AnimationMode.js");
+parcelHelpers.exportAll(_animationModeJs, exports);
+var _collisionModeJs = require("./Enums/Modes/CollisionMode.js");
+parcelHelpers.exportAll(_collisionModeJs, exports);
+var _limitModeJs = require("./Enums/Modes/LimitMode.js");
+parcelHelpers.exportAll(_limitModeJs, exports);
+var _outModeJs = require("./Enums/Modes/OutMode.js");
+parcelHelpers.exportAll(_outModeJs, exports);
+var _pixelModeJs = require("./Enums/Modes/PixelMode.js");
+parcelHelpers.exportAll(_pixelModeJs, exports);
+var _themeModeJs = require("./Enums/Modes/ThemeMode.js");
+parcelHelpers.exportAll(_themeModeJs, exports);
+var _responsiveModeJs = require("./Enums/Modes/ResponsiveMode.js");
+parcelHelpers.exportAll(_responsiveModeJs, exports);
+var _alterTypeJs = require("./Enums/Types/AlterType.js");
+parcelHelpers.exportAll(_alterTypeJs, exports);
+var _destroyTypeJs = require("./Enums/Types/DestroyType.js");
+parcelHelpers.exportAll(_destroyTypeJs, exports);
+var _gradientTypeJs = require("./Enums/Types/GradientType.js");
+parcelHelpers.exportAll(_gradientTypeJs, exports);
+var _interactorTypeJs = require("./Enums/Types/InteractorType.js");
+parcelHelpers.exportAll(_interactorTypeJs, exports);
+var _particleOutTypeJs = require("./Enums/Types/ParticleOutType.js");
+parcelHelpers.exportAll(_particleOutTypeJs, exports);
+var _startValueTypeJs = require("./Enums/Types/StartValueType.js");
+parcelHelpers.exportAll(_startValueTypeJs, exports);
+var _divTypeJs = require("./Enums/Types/DivType.js");
+parcelHelpers.exportAll(_divTypeJs, exports);
+var _easingTypeJs = require("./Enums/Types/EasingType.js");
+parcelHelpers.exportAll(_easingTypeJs, exports);
+var _eventTypeJs = require("./Enums/Types/EventType.js");
+parcelHelpers.exportAll(_eventTypeJs, exports);
+var _animationStatusJs = require("./Enums/AnimationStatus.js");
+parcelHelpers.exportAll(_animationStatusJs, exports);
+var _interactivityDetectJs = require("./Enums/InteractivityDetect.js");
+parcelHelpers.exportAll(_interactivityDetectJs, exports);
+var _animatableColorJs = require("./Options/Classes/AnimatableColor.js");
+parcelHelpers.exportAll(_animatableColorJs, exports);
+var _animationOptionsJs = require("./Options/Classes/AnimationOptions.js");
+parcelHelpers.exportAll(_animationOptionsJs, exports);
+var _backgroundJs = require("./Options/Classes/Background/Background.js");
+parcelHelpers.exportAll(_backgroundJs, exports);
+var _backgroundMaskJs = require("./Options/Classes/BackgroundMask/BackgroundMask.js");
+parcelHelpers.exportAll(_backgroundMaskJs, exports);
+var _backgroundMaskCoverJs = require("./Options/Classes/BackgroundMask/BackgroundMaskCover.js");
+parcelHelpers.exportAll(_backgroundMaskCoverJs, exports);
+var _colorAnimationJs = require("./Options/Classes/ColorAnimation.js");
+parcelHelpers.exportAll(_colorAnimationJs, exports);
+var _fullScreenJs = require("./Options/Classes/FullScreen/FullScreen.js");
+parcelHelpers.exportAll(_fullScreenJs, exports);
+var _hslAnimationJs = require("./Options/Classes/HslAnimation.js");
+parcelHelpers.exportAll(_hslAnimationJs, exports);
+var _clickEventJs = require("./Options/Classes/Interactivity/Events/ClickEvent.js");
+parcelHelpers.exportAll(_clickEventJs, exports);
+var _divEventJs = require("./Options/Classes/Interactivity/Events/DivEvent.js");
+parcelHelpers.exportAll(_divEventJs, exports);
+parcelHelpers.exportAll(_clickEventJs, exports);
+parcelHelpers.exportAll(_divEventJs, exports);
+var _eventsJs = require("./Options/Classes/Interactivity/Events/Events.js");
+parcelHelpers.exportAll(_eventsJs, exports);
+var _hoverEventJs = require("./Options/Classes/Interactivity/Events/HoverEvent.js");
+parcelHelpers.exportAll(_hoverEventJs, exports);
+var _parallaxJs = require("./Options/Classes/Interactivity/Events/Parallax.js");
+parcelHelpers.exportAll(_parallaxJs, exports);
+var _resizeEventJs = require("./Options/Classes/Interactivity/Events/ResizeEvent.js");
+parcelHelpers.exportAll(_resizeEventJs, exports);
+var _interactivityJs = require("./Options/Classes/Interactivity/Interactivity.js");
+parcelHelpers.exportAll(_interactivityJs, exports);
+var _modesJs = require("./Options/Classes/Interactivity/Modes/Modes.js");
+parcelHelpers.exportAll(_modesJs, exports);
+var _manualParticleJs = require("./Options/Classes/ManualParticle.js");
+parcelHelpers.exportAll(_manualParticleJs, exports);
+var _optionsJs = require("./Options/Classes/Options.js");
+parcelHelpers.exportAll(_optionsJs, exports);
+var _optionsColorJs = require("./Options/Classes/OptionsColor.js");
+parcelHelpers.exportAll(_optionsColorJs, exports);
+var _particlesBounceJs = require("./Options/Classes/Particles/Bounce/ParticlesBounce.js");
+parcelHelpers.exportAll(_particlesBounceJs, exports);
+var _particlesBounceFactorJs = require("./Options/Classes/Particles/Bounce/ParticlesBounceFactor.js");
+parcelHelpers.exportAll(_particlesBounceFactorJs, exports);
+var _collisionsJs = require("./Options/Classes/Particles/Collisions/Collisions.js");
+parcelHelpers.exportAll(_collisionsJs, exports);
+var _collisionsAbsorbJs = require("./Options/Classes/Particles/Collisions/CollisionsAbsorb.js");
+parcelHelpers.exportAll(_collisionsAbsorbJs, exports);
+var _collisionsOverlapJs = require("./Options/Classes/Particles/Collisions/CollisionsOverlap.js");
+parcelHelpers.exportAll(_collisionsOverlapJs, exports);
+var _particlesOptionsJs = require("./Options/Classes/Particles/ParticlesOptions.js");
+parcelHelpers.exportAll(_particlesOptionsJs, exports);
+var _shadowJs = require("./Options/Classes/Particles/Shadow.js");
+parcelHelpers.exportAll(_shadowJs, exports);
+var _strokeJs = require("./Options/Classes/Particles/Stroke.js");
+parcelHelpers.exportAll(_strokeJs, exports);
+var _moveAttractJs = require("./Options/Classes/Particles/Move/MoveAttract.js");
+parcelHelpers.exportAll(_moveAttractJs, exports);
+var _moveJs = require("./Options/Classes/Particles/Move/Move.js");
+parcelHelpers.exportAll(_moveJs, exports);
+var _moveAngleJs = require("./Options/Classes/Particles/Move/MoveAngle.js");
+parcelHelpers.exportAll(_moveAngleJs, exports);
+var _moveCenterJs = require("./Options/Classes/Particles/Move/MoveCenter.js");
+parcelHelpers.exportAll(_moveCenterJs, exports);
+var _moveGravityJs = require("./Options/Classes/Particles/Move/MoveGravity.js");
+parcelHelpers.exportAll(_moveGravityJs, exports);
+var _outModesJs = require("./Options/Classes/Particles/Move/OutModes.js");
+parcelHelpers.exportAll(_outModesJs, exports);
+var _movePathJs = require("./Options/Classes/Particles/Move/Path/MovePath.js");
+parcelHelpers.exportAll(_movePathJs, exports);
+var _spinJs = require("./Options/Classes/Particles/Move/Spin.js");
+parcelHelpers.exportAll(_spinJs, exports);
+var _moveTrailJs = require("./Options/Classes/Particles/Move/MoveTrail.js");
+parcelHelpers.exportAll(_moveTrailJs, exports);
+var _particlesNumberJs = require("./Options/Classes/Particles/Number/ParticlesNumber.js");
+parcelHelpers.exportAll(_particlesNumberJs, exports);
+var _particlesNumberLimitJs = require("./Options/Classes/Particles/Number/ParticlesNumberLimit.js");
+parcelHelpers.exportAll(_particlesNumberLimitJs, exports);
+var _particlesDensityJs = require("./Options/Classes/Particles/Number/ParticlesDensity.js");
+parcelHelpers.exportAll(_particlesDensityJs, exports);
+var _opacityJs = require("./Options/Classes/Particles/Opacity/Opacity.js");
+parcelHelpers.exportAll(_opacityJs, exports);
+var _opacityAnimationJs = require("./Options/Classes/Particles/Opacity/OpacityAnimation.js");
+parcelHelpers.exportAll(_opacityAnimationJs, exports);
+var _shapeJs = require("./Options/Classes/Particles/Shape/Shape.js");
+parcelHelpers.exportAll(_shapeJs, exports);
+var _sizeJs = require("./Options/Classes/Particles/Size/Size.js");
+parcelHelpers.exportAll(_sizeJs, exports);
+var _sizeAnimationJs = require("./Options/Classes/Particles/Size/SizeAnimation.js");
+parcelHelpers.exportAll(_sizeAnimationJs, exports);
+var _zindexJs = require("./Options/Classes/Particles/ZIndex/ZIndex.js");
+parcelHelpers.exportAll(_zindexJs, exports);
+var _responsiveJs = require("./Options/Classes/Responsive.js");
+parcelHelpers.exportAll(_responsiveJs, exports);
+var _themeJs = require("./Options/Classes/Theme/Theme.js");
+parcelHelpers.exportAll(_themeJs, exports);
+var _themeDefaultJs = require("./Options/Classes/Theme/ThemeDefault.js");
+parcelHelpers.exportAll(_themeDefaultJs, exports);
+var _valueWithRandomJs = require("./Options/Classes/ValueWithRandom.js");
+parcelHelpers.exportAll(_valueWithRandomJs, exports);
+var _canvasUtilsJs = require("./Utils/CanvasUtils.js");
+parcelHelpers.exportAll(_canvasUtilsJs, exports);
+var _colorUtilsJs = require("./Utils/ColorUtils.js");
+parcelHelpers.exportAll(_colorUtilsJs, exports);
+var _hslColorManagerJs = require("./Utils/HslColorManager.js");
+parcelHelpers.exportAll(_hslColorManagerJs, exports);
+var _numberUtilsJs = require("./Utils/NumberUtils.js");
+parcelHelpers.exportAll(_numberUtilsJs, exports);
+var _optionsUtilsJs = require("./Utils/OptionsUtils.js");
+parcelHelpers.exportAll(_optionsUtilsJs, exports);
+var _rgbColorManagerJs = require("./Utils/RgbColorManager.js");
+parcelHelpers.exportAll(_rgbColorManagerJs, exports);
+var _utilsJs = require("./Utils/Utils.js");
+parcelHelpers.exportAll(_utilsJs, exports);
+
+},{"./Core/Utils/Circle.js":"acUKk","./Core/Utils/Constants.js":"9fra9","./Core/Utils/ExternalInteractorBase.js":"jyaIq","./Core/Utils/ParticlesInteractorBase.js":"iPUMm","./Core/Utils/Point.js":"iGxI4","./Core/Utils/Range.js":"cUP4p","./Core/Utils/Rectangle.js":"5ZO3p","./Core/Utils/Vector.js":"eaMIS","./Core/Utils/Vector3d.js":"fauhc","./Enums/Directions/MoveDirection.js":"3qscp","./Enums/Directions/RotateDirection.js":"j5Cgx","./Enums/Directions/OutModeDirection.js":"aOdoD","./Enums/Modes/AnimationMode.js":"05e6W","./Enums/Modes/CollisionMode.js":"av2pf","./Enums/Modes/LimitMode.js":"lPB4N","./Enums/Modes/OutMode.js":"jMT26","./Enums/Modes/PixelMode.js":"cCDKl","./Enums/Modes/ThemeMode.js":"gmnYr","./Enums/Modes/ResponsiveMode.js":"1vowI","./Enums/Types/AlterType.js":"eeNYf","./Enums/Types/DestroyType.js":"dQDgD","./Enums/Types/GradientType.js":"kOwGN","./Enums/Types/InteractorType.js":"60Rgj","./Enums/Types/ParticleOutType.js":"b31LH","./Enums/Types/StartValueType.js":"9v8mk","./Enums/Types/DivType.js":"2TtyO","./Enums/Types/EasingType.js":"cxBqw","./Enums/Types/EventType.js":"hWRHD","./Enums/AnimationStatus.js":"fxAp8","./Enums/InteractivityDetect.js":"dReM6","./Options/Classes/AnimatableColor.js":"5djnu","./Options/Classes/AnimationOptions.js":"abEvO","./Options/Classes/Background/Background.js":"gm8xP","./Options/Classes/BackgroundMask/BackgroundMask.js":"3eGnq","./Options/Classes/BackgroundMask/BackgroundMaskCover.js":"1qgnF","./Options/Classes/ColorAnimation.js":"7jUHD","./Options/Classes/FullScreen/FullScreen.js":"dfpLr","./Options/Classes/HslAnimation.js":"hzzzN","./Options/Classes/Interactivity/Events/ClickEvent.js":"kjBh8","./Options/Classes/Interactivity/Events/DivEvent.js":"WIRuI","./Options/Classes/Interactivity/Events/Events.js":"6mux5","./Options/Classes/Interactivity/Events/HoverEvent.js":"5XXWb","./Options/Classes/Interactivity/Events/Parallax.js":"g5l3e","./Options/Classes/Interactivity/Events/ResizeEvent.js":"dMPxb","./Options/Classes/Interactivity/Interactivity.js":"48Zpu","./Options/Classes/Interactivity/Modes/Modes.js":"2kRwR","./Options/Classes/ManualParticle.js":"2dkfx","./Options/Classes/Options.js":"gH477","./Options/Classes/OptionsColor.js":"bzg9S","./Options/Classes/Particles/Bounce/ParticlesBounce.js":"VqyxP","./Options/Classes/Particles/Bounce/ParticlesBounceFactor.js":"3gkvS","./Options/Classes/Particles/Collisions/Collisions.js":"5vSbf","./Options/Classes/Particles/Collisions/CollisionsAbsorb.js":"2TAHy","./Options/Classes/Particles/Collisions/CollisionsOverlap.js":"3UIdS","./Options/Classes/Particles/ParticlesOptions.js":"d1MQq","./Options/Classes/Particles/Shadow.js":"gSdou","./Options/Classes/Particles/Stroke.js":"j8rvF","./Options/Classes/Particles/Move/MoveAttract.js":"3Hg7c","./Options/Classes/Particles/Move/Move.js":"hupTV","./Options/Classes/Particles/Move/MoveAngle.js":"iUXMO","./Options/Classes/Particles/Move/MoveCenter.js":"1Xu1n","./Options/Classes/Particles/Move/MoveGravity.js":"4z4Rh","./Options/Classes/Particles/Move/OutModes.js":"bXg6Z","./Options/Classes/Particles/Move/Path/MovePath.js":"cWSlc","./Options/Classes/Particles/Move/Spin.js":"8P0Om","./Options/Classes/Particles/Move/MoveTrail.js":"fkbOJ","./Options/Classes/Particles/Number/ParticlesNumber.js":"jRQTT","./Options/Classes/Particles/Number/ParticlesNumberLimit.js":"eybIF","./Options/Classes/Particles/Number/ParticlesDensity.js":"4SGsC","./Options/Classes/Particles/Opacity/Opacity.js":"gntnr","./Options/Classes/Particles/Opacity/OpacityAnimation.js":"bmRKN","./Options/Classes/Particles/Shape/Shape.js":"jy5CK","./Options/Classes/Particles/Size/Size.js":"1K5Wn","./Options/Classes/Particles/Size/SizeAnimation.js":"kvh2y","./Options/Classes/Particles/ZIndex/ZIndex.js":"783r3","./Options/Classes/Responsive.js":"gmVzG","./Options/Classes/Theme/Theme.js":"5vbwW","./Options/Classes/Theme/ThemeDefault.js":"64zhn","./Options/Classes/ValueWithRandom.js":"dKmbd","./Utils/CanvasUtils.js":"8COXr","./Utils/ColorUtils.js":"9NWNO","./Utils/HslColorManager.js":"6gEpO","./Utils/NumberUtils.js":"c9eVN","./Utils/OptionsUtils.js":"eM9C9","./Utils/RgbColorManager.js":"gAkuj","./Utils/Utils.js":"17M4n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jyaIq":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ExternalInteractorBase", ()=>ExternalInteractorBase);
+class ExternalInteractorBase {
+    constructor(container){
+        this.container = container;
+        this.type = "external";
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iPUMm":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ParticlesInteractorBase", ()=>ParticlesInteractorBase);
+class ParticlesInteractorBase {
+    constructor(container){
+        this.container = container;
+        this.type = "particles";
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3qscp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j5Cgx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aOdoD":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"05e6W":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"av2pf":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lPB4N":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jMT26":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cCDKl":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gmnYr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1vowI":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eeNYf":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dQDgD":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kOwGN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"60Rgj":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b31LH":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9v8mk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2TtyO":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cxBqw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hWRHD":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fxAp8":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dReM6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8l4GZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _colorsJs = require("./Core/Interfaces/Colors.js");
+parcelHelpers.exportAll(_colorsJs, exports);
+var _iboundsJs = require("./Core/Interfaces/IBounds.js");
+parcelHelpers.exportAll(_iboundsJs, exports);
+var _ibubbleParticleDataJs = require("./Core/Interfaces/IBubbleParticleData.js");
+parcelHelpers.exportAll(_ibubbleParticleDataJs, exports);
+var _icircleBouncerJs = require("./Core/Interfaces/ICircleBouncer.js");
+parcelHelpers.exportAll(_icircleBouncerJs, exports);
+var _icolorManagerJs = require("./Core/Interfaces/IColorManager.js");
+parcelHelpers.exportAll(_icolorManagerJs, exports);
+var _icontainerInteractivityJs = require("./Core/Interfaces/IContainerInteractivity.js");
+parcelHelpers.exportAll(_icontainerInteractivityJs, exports);
+var _icontainerPluginJs = require("./Core/Interfaces/IContainerPlugin.js");
+parcelHelpers.exportAll(_icontainerPluginJs, exports);
+var _icoordinatesJs = require("./Core/Interfaces/ICoordinates.js");
+parcelHelpers.exportAll(_icoordinatesJs, exports);
+var _ideltaJs = require("./Core/Interfaces/IDelta.js");
+parcelHelpers.exportAll(_ideltaJs, exports);
+var _idimensionJs = require("./Core/Interfaces/IDimension.js");
+parcelHelpers.exportAll(_idimensionJs, exports);
+var _idistanceJs = require("./Core/Interfaces/IDistance.js");
+parcelHelpers.exportAll(_idistanceJs, exports);
+var _idrawParticleParamsJs = require("./Core/Interfaces/IDrawParticleParams.js");
+parcelHelpers.exportAll(_idrawParticleParamsJs, exports);
+var _ieffectDrawerJs = require("./Core/Interfaces/IEffectDrawer.js");
+parcelHelpers.exportAll(_ieffectDrawerJs, exports);
+var _iexternalInteractorJs = require("./Core/Interfaces/IExternalInteractor.js");
+parcelHelpers.exportAll(_iexternalInteractorJs, exports);
+var _iinteractorJs = require("./Core/Interfaces/IInteractor.js");
+parcelHelpers.exportAll(_iinteractorJs, exports);
+var _iloadParamsJs = require("./Core/Interfaces/ILoadParams.js");
+parcelHelpers.exportAll(_iloadParamsJs, exports);
+var _imouseDataJs = require("./Core/Interfaces/IMouseData.js");
+parcelHelpers.exportAll(_imouseDataJs, exports);
+var _imovePathGeneratorJs = require("./Core/Interfaces/IMovePathGenerator.js");
+parcelHelpers.exportAll(_imovePathGeneratorJs, exports);
+var _iparticleColorStyleJs = require("./Core/Interfaces/IParticleColorStyle.js");
+parcelHelpers.exportAll(_iparticleColorStyleJs, exports);
+var _iparticleHslAnimationJs = require("./Core/Interfaces/IParticleHslAnimation.js");
+parcelHelpers.exportAll(_iparticleHslAnimationJs, exports);
+var _iparticleLifeJs = require("./Core/Interfaces/IParticleLife.js");
+parcelHelpers.exportAll(_iparticleLifeJs, exports);
+var _iparticleMoverJs = require("./Core/Interfaces/IParticleMover.js");
+parcelHelpers.exportAll(_iparticleMoverJs, exports);
+var _iparticleRetinaPropsJs = require("./Core/Interfaces/IParticleRetinaProps.js");
+parcelHelpers.exportAll(_iparticleRetinaPropsJs, exports);
+var _iparticleRollJs = require("./Core/Interfaces/IParticleRoll.js");
+parcelHelpers.exportAll(_iparticleRollJs, exports);
+var _iparticleTransformValuesJs = require("./Core/Interfaces/IParticleTransformValues.js");
+parcelHelpers.exportAll(_iparticleTransformValuesJs, exports);
+var _iparticleUpdaterJs = require("./Core/Interfaces/IParticleUpdater.js");
+parcelHelpers.exportAll(_iparticleUpdaterJs, exports);
+var _iparticleValueAnimationJs = require("./Core/Interfaces/IParticleValueAnimation.js");
+parcelHelpers.exportAll(_iparticleValueAnimationJs, exports);
+var _iparticlesInteractorJs = require("./Core/Interfaces/IParticlesInteractor.js");
+parcelHelpers.exportAll(_iparticlesInteractorJs, exports);
+var _ipluginJs = require("./Core/Interfaces/IPlugin.js");
+parcelHelpers.exportAll(_ipluginJs, exports);
+var _ipositionFromSizeParamsJs = require("./Core/Interfaces/IPositionFromSizeParams.js");
+parcelHelpers.exportAll(_ipositionFromSizeParamsJs, exports);
+var _irangeValueJs = require("./Core/Interfaces/IRangeValue.js");
+parcelHelpers.exportAll(_irangeValueJs, exports);
+var _irectSideResultJs = require("./Core/Interfaces/IRectSideResult.js");
+parcelHelpers.exportAll(_irectSideResultJs, exports);
+var _ishapeDrawDataJs = require("./Core/Interfaces/IShapeDrawData.js");
+parcelHelpers.exportAll(_ishapeDrawDataJs, exports);
+var _ishapeDrawerJs = require("./Core/Interfaces/IShapeDrawer.js");
+parcelHelpers.exportAll(_ishapeDrawerJs, exports);
+var _ishapeValuesJs = require("./Core/Interfaces/IShapeValues.js");
+parcelHelpers.exportAll(_ishapeValuesJs, exports);
+var _islowParticleDataJs = require("./Core/Interfaces/ISlowParticleData.js");
+parcelHelpers.exportAll(_islowParticleDataJs, exports);
+var _itrailFillDataJs = require("./Core/Interfaces/ITrailFillData.js");
+parcelHelpers.exportAll(_itrailFillDataJs, exports);
+var _ibackgroundJs = require("./Options/Interfaces/Background/IBackground.js");
+parcelHelpers.exportAll(_ibackgroundJs, exports);
+var _ibackgroundMaskJs = require("./Options/Interfaces/BackgroundMask/IBackgroundMask.js");
+parcelHelpers.exportAll(_ibackgroundMaskJs, exports);
+var _ibackgroundMaskCoverJs = require("./Options/Interfaces/BackgroundMask/IBackgroundMaskCover.js");
+parcelHelpers.exportAll(_ibackgroundMaskCoverJs, exports);
+var _ifullScreenJs = require("./Options/Interfaces/FullScreen/IFullScreen.js");
+parcelHelpers.exportAll(_ifullScreenJs, exports);
+var _ianimatableJs = require("./Options/Interfaces/IAnimatable.js");
+parcelHelpers.exportAll(_ianimatableJs, exports);
+var _ianimatableColorJs = require("./Options/Interfaces/IAnimatableColor.js");
+parcelHelpers.exportAll(_ianimatableColorJs, exports);
+var _ianimationJs = require("./Options/Interfaces/IAnimation.js");
+parcelHelpers.exportAll(_ianimationJs, exports);
+var _icolorAnimationJs = require("./Options/Interfaces/IColorAnimation.js");
+parcelHelpers.exportAll(_icolorAnimationJs, exports);
+var _ihslAnimationJs = require("./Options/Interfaces/IHslAnimation.js");
+parcelHelpers.exportAll(_ihslAnimationJs, exports);
+var _imanualParticleJs = require("./Options/Interfaces/IManualParticle.js");
+parcelHelpers.exportAll(_imanualParticleJs, exports);
+var _ioptionLoaderJs = require("./Options/Interfaces/IOptionLoader.js");
+parcelHelpers.exportAll(_ioptionLoaderJs, exports);
+var _ioptionsJs = require("./Options/Interfaces/IOptions.js");
+parcelHelpers.exportAll(_ioptionsJs, exports);
+var _ioptionsColorJs = require("./Options/Interfaces/IOptionsColor.js");
+parcelHelpers.exportAll(_ioptionsColorJs, exports);
+var _iresponsiveJs = require("./Options/Interfaces/IResponsive.js");
+parcelHelpers.exportAll(_iresponsiveJs, exports);
+var _ivalueWithRandomJs = require("./Options/Interfaces/IValueWithRandom.js");
+parcelHelpers.exportAll(_ivalueWithRandomJs, exports);
+var _iclickEventJs = require("./Options/Interfaces/Interactivity/Events/IClickEvent.js");
+parcelHelpers.exportAll(_iclickEventJs, exports);
+var _idivEventJs = require("./Options/Interfaces/Interactivity/Events/IDivEvent.js");
+parcelHelpers.exportAll(_idivEventJs, exports);
+var _ieventsJs = require("./Options/Interfaces/Interactivity/Events/IEvents.js");
+parcelHelpers.exportAll(_ieventsJs, exports);
+var _ihoverEventJs = require("./Options/Interfaces/Interactivity/Events/IHoverEvent.js");
+parcelHelpers.exportAll(_ihoverEventJs, exports);
+var _iparallaxJs = require("./Options/Interfaces/Interactivity/Events/IParallax.js");
+parcelHelpers.exportAll(_iparallaxJs, exports);
+var _iresizeEventJs = require("./Options/Interfaces/Interactivity/Events/IResizeEvent.js");
+parcelHelpers.exportAll(_iresizeEventJs, exports);
+var _imodeDivJs = require("./Options/Interfaces/Interactivity/Modes/IModeDiv.js");
+parcelHelpers.exportAll(_imodeDivJs, exports);
+var _imodesJs = require("./Options/Interfaces/Interactivity/Modes/IModes.js");
+parcelHelpers.exportAll(_imodesJs, exports);
+var _iinteractivityJs = require("./Options/Interfaces/Interactivity/IInteractivity.js");
+parcelHelpers.exportAll(_iinteractivityJs, exports);
+var _iparticlesBounceJs = require("./Options/Interfaces/Particles/Bounce/IParticlesBounce.js");
+parcelHelpers.exportAll(_iparticlesBounceJs, exports);
+var _icollisionsJs = require("./Options/Interfaces/Particles/Collisions/ICollisions.js");
+parcelHelpers.exportAll(_icollisionsJs, exports);
+var _icollisionsAbsorbJs = require("./Options/Interfaces/Particles/Collisions/ICollisionsAbsorb.js");
+parcelHelpers.exportAll(_icollisionsAbsorbJs, exports);
+var _icollisionsOverlapJs = require("./Options/Interfaces/Particles/Collisions/ICollisionsOverlap.js");
+parcelHelpers.exportAll(_icollisionsOverlapJs, exports);
+var _ieffectJs = require("./Options/Interfaces/Particles/Effect/IEffect.js");
+parcelHelpers.exportAll(_ieffectJs, exports);
+var _iparticlesOptionsJs = require("./Options/Interfaces/Particles/IParticlesOptions.js");
+parcelHelpers.exportAll(_iparticlesOptionsJs, exports);
+var _ishadowJs = require("./Options/Interfaces/Particles/IShadow.js");
+parcelHelpers.exportAll(_ishadowJs, exports);
+var _istrokeJs = require("./Options/Interfaces/Particles/IStroke.js");
+parcelHelpers.exportAll(_istrokeJs, exports);
+var _imoveAttractJs = require("./Options/Interfaces/Particles/Move/IMoveAttract.js");
+parcelHelpers.exportAll(_imoveAttractJs, exports);
+var _imoveJs = require("./Options/Interfaces/Particles/Move/IMove.js");
+parcelHelpers.exportAll(_imoveJs, exports);
+var _imoveAngleJs = require("./Options/Interfaces/Particles/Move/IMoveAngle.js");
+parcelHelpers.exportAll(_imoveAngleJs, exports);
+var _imoveCenterJs = require("./Options/Interfaces/Particles/Move/IMoveCenter.js");
+parcelHelpers.exportAll(_imoveCenterJs, exports);
+var _imoveGravityJs = require("./Options/Interfaces/Particles/Move/IMoveGravity.js");
+parcelHelpers.exportAll(_imoveGravityJs, exports);
+var _imovePathJs = require("./Options/Interfaces/Particles/Move/Path/IMovePath.js");
+parcelHelpers.exportAll(_imovePathJs, exports);
+var _ioutModesJs = require("./Options/Interfaces/Particles/Move/IOutModes.js");
+parcelHelpers.exportAll(_ioutModesJs, exports);
+var _ispinJs = require("./Options/Interfaces/Particles/Move/ISpin.js");
+parcelHelpers.exportAll(_ispinJs, exports);
+var _imoveTrailJs = require("./Options/Interfaces/Particles/Move/IMoveTrail.js");
+parcelHelpers.exportAll(_imoveTrailJs, exports);
+var _iparticlesDensityJs = require("./Options/Interfaces/Particles/Number/IParticlesDensity.js");
+parcelHelpers.exportAll(_iparticlesDensityJs, exports);
+var _iparticlesNumberJs = require("./Options/Interfaces/Particles/Number/IParticlesNumber.js");
+parcelHelpers.exportAll(_iparticlesNumberJs, exports);
+var _iparticlesNumberLimitJs = require("./Options/Interfaces/Particles/Number/IParticlesNumberLimit.js");
+parcelHelpers.exportAll(_iparticlesNumberLimitJs, exports);
+var _iopacityJs = require("./Options/Interfaces/Particles/Opacity/IOpacity.js");
+parcelHelpers.exportAll(_iopacityJs, exports);
+var _iopacityAnimationJs = require("./Options/Interfaces/Particles/Opacity/IOpacityAnimation.js");
+parcelHelpers.exportAll(_iopacityAnimationJs, exports);
+var _ishapeJs = require("./Options/Interfaces/Particles/Shape/IShape.js");
+parcelHelpers.exportAll(_ishapeJs, exports);
+var _isizeJs = require("./Options/Interfaces/Particles/Size/ISize.js");
+parcelHelpers.exportAll(_isizeJs, exports);
+var _isizeAnimationJs = require("./Options/Interfaces/Particles/Size/ISizeAnimation.js");
+parcelHelpers.exportAll(_isizeAnimationJs, exports);
+var _izindexJs = require("./Options/Interfaces/Particles/ZIndex/IZIndex.js");
+parcelHelpers.exportAll(_izindexJs, exports);
+var _ithemeJs = require("./Options/Interfaces/Theme/ITheme.js");
+parcelHelpers.exportAll(_ithemeJs, exports);
+var _ithemeDefaultJs = require("./Options/Interfaces/Theme/IThemeDefault.js");
+parcelHelpers.exportAll(_ithemeDefaultJs, exports);
+var _customEventArgsJs = require("./Types/CustomEventArgs.js");
+parcelHelpers.exportAll(_customEventArgsJs, exports);
+var _customEventListenerJs = require("./Types/CustomEventListener.js");
+parcelHelpers.exportAll(_customEventListenerJs, exports);
+var _exportResultJs = require("./Types/ExportResult.js");
+parcelHelpers.exportAll(_exportResultJs, exports);
+var _isourceOptionsJs = require("./Types/ISourceOptions.js");
+parcelHelpers.exportAll(_isourceOptionsJs, exports);
+var _particlesGroupsJs = require("./Types/ParticlesGroups.js");
+parcelHelpers.exportAll(_particlesGroupsJs, exports);
+var _pathOptionsJs = require("./Types/PathOptions.js");
+parcelHelpers.exportAll(_pathOptionsJs, exports);
+var _rangeValueJs = require("./Types/RangeValue.js");
+parcelHelpers.exportAll(_rangeValueJs, exports);
+var _recursivePartialJs = require("./Types/RecursivePartial.js");
+parcelHelpers.exportAll(_recursivePartialJs, exports);
+var _shapeDataJs = require("./Types/ShapeData.js");
+parcelHelpers.exportAll(_shapeDataJs, exports);
+var _singleOrMultipleJs = require("./Types/SingleOrMultiple.js");
+parcelHelpers.exportAll(_singleOrMultipleJs, exports);
+
+},{"./Core/Interfaces/Colors.js":"cDlu1","./Core/Interfaces/IBounds.js":"sTdhB","./Core/Interfaces/IBubbleParticleData.js":"MPIXe","./Core/Interfaces/ICircleBouncer.js":"7KVno","./Core/Interfaces/IColorManager.js":"2IV5J","./Core/Interfaces/IContainerInteractivity.js":"52aQA","./Core/Interfaces/IContainerPlugin.js":"hBNuA","./Core/Interfaces/ICoordinates.js":"jIG9m","./Core/Interfaces/IDelta.js":"7opKa","./Core/Interfaces/IDimension.js":"9yGv3","./Core/Interfaces/IDistance.js":"iMw8J","./Core/Interfaces/IDrawParticleParams.js":"9Ar5R","./Core/Interfaces/IEffectDrawer.js":"bTC8c","./Core/Interfaces/IExternalInteractor.js":"6akdi","./Core/Interfaces/IInteractor.js":"lgIyZ","./Core/Interfaces/ILoadParams.js":"aLeo5","./Core/Interfaces/IMouseData.js":"5rcun","./Core/Interfaces/IMovePathGenerator.js":"cmVHF","./Core/Interfaces/IParticleColorStyle.js":"4QUQV","./Core/Interfaces/IParticleHslAnimation.js":"4YxBB","./Core/Interfaces/IParticleLife.js":"2VQTB","./Core/Interfaces/IParticleMover.js":"cQKcy","./Core/Interfaces/IParticleRetinaProps.js":"eRFBY","./Core/Interfaces/IParticleRoll.js":"2ahay","./Core/Interfaces/IParticleTransformValues.js":"1EvV0","./Core/Interfaces/IParticleUpdater.js":"3cJZ0","./Core/Interfaces/IParticleValueAnimation.js":"dhgEo","./Core/Interfaces/IParticlesInteractor.js":"fXIYw","./Core/Interfaces/IPlugin.js":"jbLTx","./Core/Interfaces/IPositionFromSizeParams.js":"gVWYy","./Core/Interfaces/IRangeValue.js":"dlEpM","./Core/Interfaces/IRectSideResult.js":"jITk3","./Core/Interfaces/IShapeDrawData.js":"8OIcC","./Core/Interfaces/IShapeDrawer.js":"iZf7K","./Core/Interfaces/IShapeValues.js":"fFjkQ","./Core/Interfaces/ISlowParticleData.js":"2bIib","./Core/Interfaces/ITrailFillData.js":"iF46H","./Options/Interfaces/Background/IBackground.js":"7Zl6h","./Options/Interfaces/BackgroundMask/IBackgroundMask.js":"atE5D","./Options/Interfaces/BackgroundMask/IBackgroundMaskCover.js":"1ndcs","./Options/Interfaces/FullScreen/IFullScreen.js":"5UqMA","./Options/Interfaces/IAnimatable.js":"h9gVc","./Options/Interfaces/IAnimatableColor.js":"hEyUC","./Options/Interfaces/IAnimation.js":"7uCGY","./Options/Interfaces/IColorAnimation.js":"chp6M","./Options/Interfaces/IHslAnimation.js":"kKDCG","./Options/Interfaces/IManualParticle.js":"88nze","./Options/Interfaces/IOptionLoader.js":"jszDv","./Options/Interfaces/IOptions.js":"c5SJV","./Options/Interfaces/IOptionsColor.js":"irb9R","./Options/Interfaces/IResponsive.js":"gGk76","./Options/Interfaces/IValueWithRandom.js":"kVrPF","./Options/Interfaces/Interactivity/Events/IClickEvent.js":"c6hcx","./Options/Interfaces/Interactivity/Events/IDivEvent.js":"GYBNX","./Options/Interfaces/Interactivity/Events/IEvents.js":"30Yy5","./Options/Interfaces/Interactivity/Events/IHoverEvent.js":"lgKVy","./Options/Interfaces/Interactivity/Events/IParallax.js":"4KHAp","./Options/Interfaces/Interactivity/Events/IResizeEvent.js":"8jzYC","./Options/Interfaces/Interactivity/Modes/IModeDiv.js":"49i4q","./Options/Interfaces/Interactivity/Modes/IModes.js":"jlD8K","./Options/Interfaces/Interactivity/IInteractivity.js":"fAPJH","./Options/Interfaces/Particles/Bounce/IParticlesBounce.js":"9gCZ8","./Options/Interfaces/Particles/Collisions/ICollisions.js":"jXXY1","./Options/Interfaces/Particles/Collisions/ICollisionsAbsorb.js":"l9etD","./Options/Interfaces/Particles/Collisions/ICollisionsOverlap.js":"3imXM","./Options/Interfaces/Particles/Effect/IEffect.js":"cIRbk","./Options/Interfaces/Particles/IParticlesOptions.js":"8uosj","./Options/Interfaces/Particles/IShadow.js":"97Gwn","./Options/Interfaces/Particles/IStroke.js":"9YbmP","./Options/Interfaces/Particles/Move/IMoveAttract.js":"cDhnk","./Options/Interfaces/Particles/Move/IMove.js":"aKOJD","./Options/Interfaces/Particles/Move/IMoveAngle.js":"jOgPP","./Options/Interfaces/Particles/Move/IMoveCenter.js":"kiNEJ","./Options/Interfaces/Particles/Move/IMoveGravity.js":"cP7tw","./Options/Interfaces/Particles/Move/Path/IMovePath.js":"jHYD3","./Options/Interfaces/Particles/Move/IOutModes.js":"c6SLz","./Options/Interfaces/Particles/Move/ISpin.js":"12Jds","./Options/Interfaces/Particles/Move/IMoveTrail.js":"6MF85","./Options/Interfaces/Particles/Number/IParticlesDensity.js":"aRtFG","./Options/Interfaces/Particles/Number/IParticlesNumber.js":"5aqPJ","./Options/Interfaces/Particles/Number/IParticlesNumberLimit.js":"5Kdks","./Options/Interfaces/Particles/Opacity/IOpacity.js":"7PKpG","./Options/Interfaces/Particles/Opacity/IOpacityAnimation.js":"eAVhB","./Options/Interfaces/Particles/Shape/IShape.js":"adRPW","./Options/Interfaces/Particles/Size/ISize.js":"51AH4","./Options/Interfaces/Particles/Size/ISizeAnimation.js":"aPTC2","./Options/Interfaces/Particles/ZIndex/IZIndex.js":"7ZLNi","./Options/Interfaces/Theme/ITheme.js":"HQZip","./Options/Interfaces/Theme/IThemeDefault.js":"WKd04","./Types/CustomEventArgs.js":"6WTIs","./Types/CustomEventListener.js":"8T7Qw","./Types/ExportResult.js":"4NRvY","./Types/ISourceOptions.js":"bluyN","./Types/ParticlesGroups.js":"g9y7Z","./Types/PathOptions.js":"lIJCA","./Types/RangeValue.js":"8YibX","./Types/RecursivePartial.js":"gSQeE","./Types/ShapeData.js":"coUof","./Types/SingleOrMultiple.js":"4HXTk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cDlu1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"sTdhB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"MPIXe":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7KVno":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2IV5J":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"52aQA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hBNuA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jIG9m":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7opKa":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9yGv3":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iMw8J":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9Ar5R":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bTC8c":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6akdi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lgIyZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aLeo5":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5rcun":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cmVHF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4QUQV":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4YxBB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2VQTB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cQKcy":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eRFBY":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2ahay":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1EvV0":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3cJZ0":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dhgEo":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fXIYw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jbLTx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gVWYy":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dlEpM":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jITk3":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8OIcC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iZf7K":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fFjkQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2bIib":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iF46H":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7Zl6h":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"atE5D":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1ndcs":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5UqMA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"h9gVc":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hEyUC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7uCGY":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"chp6M":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kKDCG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"88nze":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jszDv":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c5SJV":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"irb9R":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gGk76":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kVrPF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c6hcx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"GYBNX":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"30Yy5":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lgKVy":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4KHAp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8jzYC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"49i4q":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jlD8K":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fAPJH":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9gCZ8":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jXXY1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l9etD":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3imXM":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cIRbk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8uosj":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"97Gwn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9YbmP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cDhnk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aKOJD":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jOgPP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kiNEJ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cP7tw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jHYD3":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c6SLz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"12Jds":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6MF85":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aRtFG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5aqPJ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5Kdks":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7PKpG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eAVhB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"adRPW":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"51AH4":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aPTC2":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7ZLNi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"HQZip":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"WKd04":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6WTIs":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8T7Qw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4NRvY":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bluyN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g9y7Z":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lIJCA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8YibX":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gSQeE":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"coUof":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4HXTk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gTg7A":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>f);
+var _jsxRuntime = require("react/jsx-runtime");
+var _react = require("react");
+var _engine = require("@tsparticles/engine");
+const f = (t)=>{
+    const i = t.id ?? "tsparticles";
+    return (0, _react.useEffect)(()=>{
+        let e;
+        return (0, _engine.tsParticles).load({
+            id: i,
+            url: t.url,
+            options: t.options
+        }).then((l)=>{
+            var a;
+            e = l, (a = t.particlesLoaded) == null || a.call(t, l);
+        }), ()=>{
+            e == null || e.destroy();
+        };
+    }, [
+        i,
+        t,
+        t.url,
+        t.options
+    ]), /* @__PURE__ */ (0, _jsxRuntime.jsx)("div", {
+        id: i,
+        className: t.className
+    });
+};
+
+},{"react/jsx-runtime":"6AEwr","react":"21dqq","@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
+"use strict";
+module.exports = require("c4c10cbba9862d5f");
+
+},{"c4c10cbba9862d5f":"kujY4"}],"kujY4":[function(require,module,exports) {
+/**
+ * @license React
+ * react-jsx-runtime.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+(function() {
+    "use strict";
+    var React = require("593632ccebda0d3a");
+    // ATTENTION
+    // When adding new symbols to this file,
+    // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
+    // The Symbol used to tag the ReactElement-like types.
+    var REACT_ELEMENT_TYPE = Symbol.for("react.element");
+    var REACT_PORTAL_TYPE = Symbol.for("react.portal");
+    var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+    var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
+    var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+    var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
+    var REACT_CONTEXT_TYPE = Symbol.for("react.context");
+    var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
+    var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
+    var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
+    var REACT_MEMO_TYPE = Symbol.for("react.memo");
+    var REACT_LAZY_TYPE = Symbol.for("react.lazy");
+    var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
+    var MAYBE_ITERATOR_SYMBOL = Symbol.iterator;
+    var FAUX_ITERATOR_SYMBOL = "@@iterator";
+    function getIteratorFn(maybeIterable) {
+        if (maybeIterable === null || typeof maybeIterable !== "object") return null;
+        var maybeIterator = MAYBE_ITERATOR_SYMBOL && maybeIterable[MAYBE_ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL];
+        if (typeof maybeIterator === "function") return maybeIterator;
+        return null;
+    }
+    var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+    function error(format) {
+        for(var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++)args[_key2 - 1] = arguments[_key2];
+        printWarning("error", format, args);
+    }
+    function printWarning(level, format, args) {
+        var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+        var stack = ReactDebugCurrentFrame.getStackAddendum();
+        if (stack !== "") {
+            format += "%s";
+            args = args.concat([
+                stack
+            ]);
+        } // eslint-disable-next-line react-internal/safe-string-coercion
+        var argsWithFormat = args.map(function(item) {
+            return String(item);
+        }); // Careful: RN currently depends on this prefix
+        argsWithFormat.unshift("Warning: " + format); // We intentionally don't use spread (or .apply) directly because it
+        // breaks IE9: https://github.com/facebook/react/issues/13610
+        // eslint-disable-next-line react-internal/no-production-logging
+        Function.prototype.apply.call(console[level], console, argsWithFormat);
+    }
+    // -----------------------------------------------------------------------------
+    var enableScopeAPI = false; // Experimental Create Event Handle API.
+    var enableCacheElement = false;
+    var enableTransitionTracing = false; // No known bugs, but needs performance testing
+    var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
+    // stuff. Intended to enable React core members to more easily debug scheduling
+    // issues in DEV builds.
+    var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
+    var REACT_MODULE_REFERENCE;
+    REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
+    function isValidElementType(type) {
+        if (typeof type === "string" || typeof type === "function") return true;
+         // Note: typeof might be other than 'symbol' or 'number' (e.g. if it's a polyfill).
+        if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) return true;
+        if (typeof type === "object" && type !== null) {
+            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || // This needs to include all possible module reference object
+            // types supported by any Flight configuration anywhere since
+            // we don't know which Flight build this will end up being used
+            // with.
+            type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== undefined) return true;
+        }
+        return false;
+    }
+    function getWrappedName(outerType, innerType, wrapperName) {
+        var displayName = outerType.displayName;
+        if (displayName) return displayName;
+        var functionName = innerType.displayName || innerType.name || "";
+        return functionName !== "" ? wrapperName + "(" + functionName + ")" : wrapperName;
+    } // Keep in sync with react-reconciler/getComponentNameFromFiber
+    function getContextName(type) {
+        return type.displayName || "Context";
+    } // Note that the reconciler package should generally prefer to use getComponentNameFromFiber() instead.
+    function getComponentNameFromType(type) {
+        if (type == null) // Host root, text node or just invalid type.
+        return null;
+        if (typeof type.tag === "number") error("Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.");
+        if (typeof type === "function") return type.displayName || type.name || null;
+        if (typeof type === "string") return type;
+        switch(type){
+            case REACT_FRAGMENT_TYPE:
+                return "Fragment";
+            case REACT_PORTAL_TYPE:
+                return "Portal";
+            case REACT_PROFILER_TYPE:
+                return "Profiler";
+            case REACT_STRICT_MODE_TYPE:
+                return "StrictMode";
+            case REACT_SUSPENSE_TYPE:
+                return "Suspense";
+            case REACT_SUSPENSE_LIST_TYPE:
+                return "SuspenseList";
+        }
+        if (typeof type === "object") switch(type.$$typeof){
+            case REACT_CONTEXT_TYPE:
+                var context = type;
+                return getContextName(context) + ".Consumer";
+            case REACT_PROVIDER_TYPE:
+                var provider = type;
+                return getContextName(provider._context) + ".Provider";
+            case REACT_FORWARD_REF_TYPE:
+                return getWrappedName(type, type.render, "ForwardRef");
+            case REACT_MEMO_TYPE:
+                var outerName = type.displayName || null;
+                if (outerName !== null) return outerName;
+                return getComponentNameFromType(type.type) || "Memo";
+            case REACT_LAZY_TYPE:
+                var lazyComponent = type;
+                var payload = lazyComponent._payload;
+                var init = lazyComponent._init;
+                try {
+                    return getComponentNameFromType(init(payload));
+                } catch (x) {
+                    return null;
+                }
+        }
+        return null;
+    }
+    var assign = Object.assign;
+    // Helpers to patch console.logs to avoid logging during side-effect free
+    // replaying on render function. This currently only patches the object
+    // lazily which won't cover if the log function was extracted eagerly.
+    // We could also eagerly patch the method.
+    var disabledDepth = 0;
+    var prevLog;
+    var prevInfo;
+    var prevWarn;
+    var prevError;
+    var prevGroup;
+    var prevGroupCollapsed;
+    var prevGroupEnd;
+    function disabledLog() {}
+    disabledLog.__reactDisabledLog = true;
+    function disableLogs() {
+        if (disabledDepth === 0) {
+            /* eslint-disable react-internal/no-production-logging */ prevLog = console.log;
+            prevInfo = console.info;
+            prevWarn = console.warn;
+            prevError = console.error;
+            prevGroup = console.group;
+            prevGroupCollapsed = console.groupCollapsed;
+            prevGroupEnd = console.groupEnd; // https://github.com/facebook/react/issues/19099
+            var props = {
+                configurable: true,
+                enumerable: true,
+                value: disabledLog,
+                writable: true
+            }; // $FlowFixMe Flow thinks console is immutable.
+            Object.defineProperties(console, {
+                info: props,
+                log: props,
+                warn: props,
+                error: props,
+                group: props,
+                groupCollapsed: props,
+                groupEnd: props
+            });
+        /* eslint-enable react-internal/no-production-logging */ }
+        disabledDepth++;
+    }
+    function reenableLogs() {
+        disabledDepth--;
+        if (disabledDepth === 0) {
+            /* eslint-disable react-internal/no-production-logging */ var props = {
+                configurable: true,
+                enumerable: true,
+                writable: true
+            }; // $FlowFixMe Flow thinks console is immutable.
+            Object.defineProperties(console, {
+                log: assign({}, props, {
+                    value: prevLog
+                }),
+                info: assign({}, props, {
+                    value: prevInfo
+                }),
+                warn: assign({}, props, {
+                    value: prevWarn
+                }),
+                error: assign({}, props, {
+                    value: prevError
+                }),
+                group: assign({}, props, {
+                    value: prevGroup
+                }),
+                groupCollapsed: assign({}, props, {
+                    value: prevGroupCollapsed
+                }),
+                groupEnd: assign({}, props, {
+                    value: prevGroupEnd
+                })
+            });
+        /* eslint-enable react-internal/no-production-logging */ }
+        if (disabledDepth < 0) error("disabledDepth fell below zero. This is a bug in React. Please file an issue.");
+    }
+    var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
+    var prefix;
+    function describeBuiltInComponentFrame(name, source, ownerFn) {
+        if (prefix === undefined) // Extract the VM specific prefix used by each line.
+        try {
+            throw Error();
+        } catch (x) {
+            var match = x.stack.trim().match(/\n( *(at )?)/);
+            prefix = match && match[1] || "";
+        }
+         // We use the prefix to ensure our stacks line up with native stack frames.
+        return "\n" + prefix + name;
+    }
+    var reentry = false;
+    var componentFrameCache;
+    var PossiblyWeakMap = typeof WeakMap === "function" ? WeakMap : Map;
+    componentFrameCache = new PossiblyWeakMap();
+    function describeNativeComponentFrame(fn, construct) {
+        // If something asked for a stack inside a fake render, it should get ignored.
+        if (!fn || reentry) return "";
+        var frame = componentFrameCache.get(fn);
+        if (frame !== undefined) return frame;
+        var control;
+        reentry = true;
+        var previousPrepareStackTrace = Error.prepareStackTrace; // $FlowFixMe It does accept undefined.
+        Error.prepareStackTrace = undefined;
+        var previousDispatcher;
+        previousDispatcher = ReactCurrentDispatcher.current; // Set the dispatcher in DEV because this might be call in the render function
+        // for warnings.
+        ReactCurrentDispatcher.current = null;
+        disableLogs();
+        try {
+            // This should throw.
+            if (construct) {
+                // Something should be setting the props in the constructor.
+                var Fake = function() {
+                    throw Error();
+                }; // $FlowFixMe
+                Object.defineProperty(Fake.prototype, "props", {
+                    set: function() {
+                        // We use a throwing setter instead of frozen or non-writable props
+                        // because that won't throw in a non-strict mode function.
+                        throw Error();
+                    }
+                });
+                if (typeof Reflect === "object" && Reflect.construct) {
+                    // We construct a different control for this case to include any extra
+                    // frames added by the construct call.
+                    try {
+                        Reflect.construct(Fake, []);
+                    } catch (x) {
+                        control = x;
+                    }
+                    Reflect.construct(fn, [], Fake);
+                } else {
+                    try {
+                        Fake.call();
+                    } catch (x) {
+                        control = x;
+                    }
+                    fn.call(Fake.prototype);
+                }
+            } else {
+                try {
+                    throw Error();
+                } catch (x) {
+                    control = x;
+                }
+                fn();
+            }
+        } catch (sample) {
+            // This is inlined manually because closure doesn't do it for us.
+            if (sample && control && typeof sample.stack === "string") {
+                // This extracts the first frame from the sample that isn't also in the control.
+                // Skipping one frame that we assume is the frame that calls the two.
+                var sampleLines = sample.stack.split("\n");
+                var controlLines = control.stack.split("\n");
+                var s = sampleLines.length - 1;
+                var c = controlLines.length - 1;
+                while(s >= 1 && c >= 0 && sampleLines[s] !== controlLines[c])// We expect at least one stack frame to be shared.
+                // Typically this will be the root most one. However, stack frames may be
+                // cut off due to maximum stack limits. In this case, one maybe cut off
+                // earlier than the other. We assume that the sample is longer or the same
+                // and there for cut off earlier. So we should find the root most frame in
+                // the sample somewhere in the control.
+                c--;
+                for(; s >= 1 && c >= 0; s--, c--)// Next we find the first one that isn't the same which should be the
+                // frame that called our sample function and the control.
+                if (sampleLines[s] !== controlLines[c]) {
+                    // In V8, the first line is describing the message but other VMs don't.
+                    // If we're about to return the first line, and the control is also on the same
+                    // line, that's a pretty good indicator that our sample threw at same line as
+                    // the control. I.e. before we entered the sample frame. So we ignore this result.
+                    // This can happen if you passed a class to function component, or non-function.
+                    if (s !== 1 || c !== 1) do {
+                        s--;
+                        c--; // We may still have similar intermediate frames from the construct call.
+                        // The next one that isn't the same should be our match though.
+                        if (c < 0 || sampleLines[s] !== controlLines[c]) {
+                            // V8 adds a "new" prefix for native classes. Let's remove it to make it prettier.
+                            var _frame = "\n" + sampleLines[s].replace(" at new ", " at "); // If our component frame is labeled "<anonymous>"
+                            // but we have a user-provided "displayName"
+                            // splice it in to make the stack more readable.
+                            if (fn.displayName && _frame.includes("<anonymous>")) _frame = _frame.replace("<anonymous>", fn.displayName);
+                            if (typeof fn === "function") componentFrameCache.set(fn, _frame);
+                            return _frame;
+                        }
+                    }while (s >= 1 && c >= 0);
+                    break;
+                }
+            }
+        } finally{
+            reentry = false;
+            ReactCurrentDispatcher.current = previousDispatcher;
+            reenableLogs();
+            Error.prepareStackTrace = previousPrepareStackTrace;
+        } // Fallback to just using the name if we couldn't make it throw.
+        var name = fn ? fn.displayName || fn.name : "";
+        var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
+        if (typeof fn === "function") componentFrameCache.set(fn, syntheticFrame);
+        return syntheticFrame;
+    }
+    function describeFunctionComponentFrame(fn, source, ownerFn) {
+        return describeNativeComponentFrame(fn, false);
+    }
+    function shouldConstruct(Component) {
+        var prototype = Component.prototype;
+        return !!(prototype && prototype.isReactComponent);
+    }
+    function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
+        if (type == null) return "";
+        if (typeof type === "function") return describeNativeComponentFrame(type, shouldConstruct(type));
+        if (typeof type === "string") return describeBuiltInComponentFrame(type);
+        switch(type){
+            case REACT_SUSPENSE_TYPE:
+                return describeBuiltInComponentFrame("Suspense");
+            case REACT_SUSPENSE_LIST_TYPE:
+                return describeBuiltInComponentFrame("SuspenseList");
+        }
+        if (typeof type === "object") switch(type.$$typeof){
+            case REACT_FORWARD_REF_TYPE:
+                return describeFunctionComponentFrame(type.render);
+            case REACT_MEMO_TYPE:
+                // Memo may contain any component type so we recursively resolve it.
+                return describeUnknownElementTypeFrameInDEV(type.type, source, ownerFn);
+            case REACT_LAZY_TYPE:
+                var lazyComponent = type;
+                var payload = lazyComponent._payload;
+                var init = lazyComponent._init;
+                try {
+                    // Lazy may contain any component type so we recursively resolve it.
+                    return describeUnknownElementTypeFrameInDEV(init(payload), source, ownerFn);
+                } catch (x) {}
+        }
+        return "";
+    }
+    var hasOwnProperty = Object.prototype.hasOwnProperty;
+    var loggedTypeFailures = {};
+    var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+    function setCurrentlyValidatingElement(element) {
+        if (element) {
+            var owner = element._owner;
+            var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+            ReactDebugCurrentFrame.setExtraStackFrame(stack);
+        } else ReactDebugCurrentFrame.setExtraStackFrame(null);
+    }
+    function checkPropTypes(typeSpecs, values, location, componentName, element) {
+        // $FlowFixMe This is okay but Flow doesn't know it.
+        var has = Function.call.bind(hasOwnProperty);
+        for(var typeSpecName in typeSpecs)if (has(typeSpecs, typeSpecName)) {
+            var error$1 = void 0; // Prop type validation may throw. In case they do, we don't want to
+            // fail the render phase where it didn't fail before. So we log it.
+            // After these have been cleaned up, we'll let them throw.
+            try {
+                // This is intentionally an invariant that gets caught. It's the same
+                // behavior as without this statement except with a better message.
+                if (typeof typeSpecs[typeSpecName] !== "function") {
+                    // eslint-disable-next-line react-internal/prod-error-codes
+                    var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; " + "it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`." + "This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
+                    err.name = "Invariant Violation";
+                    throw err;
+                }
+                error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+            } catch (ex) {
+                error$1 = ex;
+            }
+            if (error$1 && !(error$1 instanceof Error)) {
+                setCurrentlyValidatingElement(element);
+                error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location, typeSpecName, typeof error$1);
+                setCurrentlyValidatingElement(null);
+            }
+            if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
+                // Only monitor this failure once because there tends to be a lot of the
+                // same error.
+                loggedTypeFailures[error$1.message] = true;
+                setCurrentlyValidatingElement(element);
+                error("Failed %s type: %s", location, error$1.message);
+                setCurrentlyValidatingElement(null);
+            }
+        }
+    }
+    var isArrayImpl = Array.isArray; // eslint-disable-next-line no-redeclare
+    function isArray(a) {
+        return isArrayImpl(a);
+    }
+    /*
+ * The `'' + value` pattern (used in in perf-sensitive code) throws for Symbol
+ * and Temporal.* types. See https://github.com/facebook/react/pull/22064.
+ *
+ * The functions in this module will throw an easier-to-understand,
+ * easier-to-debug exception with a clear errors message message explaining the
+ * problem. (Instead of a confusing exception thrown inside the implementation
+ * of the `value` object).
+ */ // $FlowFixMe only called in DEV, so void return is not possible.
+    function typeName(value) {
+        // toStringTag is needed for namespaced types like Temporal.Instant
+        var hasToStringTag = typeof Symbol === "function" && Symbol.toStringTag;
+        var type = hasToStringTag && value[Symbol.toStringTag] || value.constructor.name || "Object";
+        return type;
+    } // $FlowFixMe only called in DEV, so void return is not possible.
+    function willCoercionThrow(value) {
+        try {
+            testStringCoercion(value);
+            return false;
+        } catch (e) {
+            return true;
+        }
+    }
+    function testStringCoercion(value) {
+        // If you ended up here by following an exception call stack, here's what's
+        // happened: you supplied an object or symbol value to React (as a prop, key,
+        // DOM attribute, CSS property, string ref, etc.) and when React tried to
+        // coerce it to a string using `'' + value`, an exception was thrown.
+        //
+        // The most common types that will cause this exception are `Symbol` instances
+        // and Temporal objects like `Temporal.Instant`. But any object that has a
+        // `valueOf` or `[Symbol.toPrimitive]` method that throws will also cause this
+        // exception. (Library authors do this to prevent users from using built-in
+        // numeric operators like `+` or comparison operators like `>=` because custom
+        // methods are needed to perform accurate arithmetic or comparison.)
+        //
+        // To fix the problem, coerce this object or symbol value to a string before
+        // passing it to React. The most reliable way is usually `String(value)`.
+        //
+        // To find which value is throwing, check the browser or debugger console.
+        // Before this exception was thrown, there should be `console.error` output
+        // that shows the type (Symbol, Temporal.PlainDate, etc.) that caused the
+        // problem and how that type was used: key, atrribute, input value prop, etc.
+        // In most cases, this console output also shows the component and its
+        // ancestor components where the exception happened.
+        //
+        // eslint-disable-next-line react-internal/safe-string-coercion
+        return "" + value;
+    }
+    function checkKeyStringCoercion(value) {
+        if (willCoercionThrow(value)) {
+            error("The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.", typeName(value));
+            return testStringCoercion(value); // throw (to help callers find troubleshooting comments)
+        }
+    }
+    var ReactCurrentOwner = ReactSharedInternals.ReactCurrentOwner;
+    var RESERVED_PROPS = {
+        key: true,
+        ref: true,
+        __self: true,
+        __source: true
+    };
+    var specialPropKeyWarningShown;
+    var specialPropRefWarningShown;
+    var didWarnAboutStringRefs;
+    didWarnAboutStringRefs = {};
+    function hasValidRef(config) {
+        if (hasOwnProperty.call(config, "ref")) {
+            var getter = Object.getOwnPropertyDescriptor(config, "ref").get;
+            if (getter && getter.isReactWarning) return false;
+        }
+        return config.ref !== undefined;
+    }
+    function hasValidKey(config) {
+        if (hasOwnProperty.call(config, "key")) {
+            var getter = Object.getOwnPropertyDescriptor(config, "key").get;
+            if (getter && getter.isReactWarning) return false;
+        }
+        return config.key !== undefined;
+    }
+    function warnIfStringRefCannotBeAutoConverted(config, self) {
+        if (typeof config.ref === "string" && ReactCurrentOwner.current && self && ReactCurrentOwner.current.stateNode !== self) {
+            var componentName = getComponentNameFromType(ReactCurrentOwner.current.type);
+            if (!didWarnAboutStringRefs[componentName]) {
+                error('Component "%s" contains the string ref "%s". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref', getComponentNameFromType(ReactCurrentOwner.current.type), config.ref);
+                didWarnAboutStringRefs[componentName] = true;
+            }
+        }
+    }
+    function defineKeyPropWarningGetter(props, displayName) {
+        var warnAboutAccessingKey = function() {
+            if (!specialPropKeyWarningShown) {
+                specialPropKeyWarningShown = true;
+                error("%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
+            }
+        };
+        warnAboutAccessingKey.isReactWarning = true;
+        Object.defineProperty(props, "key", {
+            get: warnAboutAccessingKey,
+            configurable: true
+        });
+    }
+    function defineRefPropWarningGetter(props, displayName) {
+        var warnAboutAccessingRef = function() {
+            if (!specialPropRefWarningShown) {
+                specialPropRefWarningShown = true;
+                error("%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
+            }
+        };
+        warnAboutAccessingRef.isReactWarning = true;
+        Object.defineProperty(props, "ref", {
+            get: warnAboutAccessingRef,
+            configurable: true
+        });
+    }
+    /**
+ * Factory method to create a new React element. This no longer adheres to
+ * the class pattern, so do not use new to call it. Also, instanceof check
+ * will not work. Instead test $$typeof field against Symbol.for('react.element') to check
+ * if something is a React Element.
+ *
+ * @param {*} type
+ * @param {*} props
+ * @param {*} key
+ * @param {string|object} ref
+ * @param {*} owner
+ * @param {*} self A *temporary* helper to detect places where `this` is
+ * different from the `owner` when React.createElement is called, so that we
+ * can warn. We want to get rid of owner and replace string `ref`s with arrow
+ * functions, and as long as `this` and owner are the same, there will be no
+ * change in behavior.
+ * @param {*} source An annotation object (added by a transpiler or otherwise)
+ * indicating filename, line number, and/or other information.
+ * @internal
+ */ var ReactElement = function(type, key, ref, self, source, owner, props) {
+        var element = {
+            // This tag allows us to uniquely identify this as a React Element
+            $$typeof: REACT_ELEMENT_TYPE,
+            // Built-in properties that belong on the element
+            type: type,
+            key: key,
+            ref: ref,
+            props: props,
+            // Record the component responsible for creating this element.
+            _owner: owner
+        };
+        // The validation flag is currently mutative. We put it on
+        // an external backing store so that we can freeze the whole object.
+        // This can be replaced with a WeakMap once they are implemented in
+        // commonly used development environments.
+        element._store = {}; // To make comparing ReactElements easier for testing purposes, we make
+        // the validation flag non-enumerable (where possible, which should
+        // include every environment we run tests in), so the test framework
+        // ignores it.
+        Object.defineProperty(element._store, "validated", {
+            configurable: false,
+            enumerable: false,
+            writable: true,
+            value: false
+        }); // self and source are DEV only properties.
+        Object.defineProperty(element, "_self", {
+            configurable: false,
+            enumerable: false,
+            writable: false,
+            value: self
+        }); // Two elements created in two different places should be considered
+        // equal for testing purposes and therefore we hide it from enumeration.
+        Object.defineProperty(element, "_source", {
+            configurable: false,
+            enumerable: false,
+            writable: false,
+            value: source
+        });
+        if (Object.freeze) {
+            Object.freeze(element.props);
+            Object.freeze(element);
+        }
+        return element;
+    };
+    /**
+ * https://github.com/reactjs/rfcs/pull/107
+ * @param {*} type
+ * @param {object} props
+ * @param {string} key
+ */ function jsxDEV(type, config, maybeKey, source, self) {
+        var propName; // Reserved names are extracted
+        var props = {};
+        var key = null;
+        var ref = null; // Currently, key can be spread in as a prop. This causes a potential
+        // issue if key is also explicitly declared (ie. <div {...props} key="Hi" />
+        // or <div key="Hi" {...props} /> ). We want to deprecate key spread,
+        // but as an intermediary step, we will use jsxDEV for everything except
+        // <div {...props} key="Hi" />, because we aren't currently able to tell if
+        // key is explicitly declared to be undefined or not.
+        if (maybeKey !== undefined) {
+            checkKeyStringCoercion(maybeKey);
+            key = "" + maybeKey;
+        }
+        if (hasValidKey(config)) {
+            checkKeyStringCoercion(config.key);
+            key = "" + config.key;
+        }
+        if (hasValidRef(config)) {
+            ref = config.ref;
+            warnIfStringRefCannotBeAutoConverted(config, self);
+        } // Remaining properties are added to a new props object
+        for(propName in config)if (hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName)) props[propName] = config[propName];
+         // Resolve default props
+        if (type && type.defaultProps) {
+            var defaultProps = type.defaultProps;
+            for(propName in defaultProps)if (props[propName] === undefined) props[propName] = defaultProps[propName];
+        }
+        if (key || ref) {
+            var displayName = typeof type === "function" ? type.displayName || type.name || "Unknown" : type;
+            if (key) defineKeyPropWarningGetter(props, displayName);
+            if (ref) defineRefPropWarningGetter(props, displayName);
+        }
+        return ReactElement(type, key, ref, self, source, ReactCurrentOwner.current, props);
+    }
+    var ReactCurrentOwner$1 = ReactSharedInternals.ReactCurrentOwner;
+    var ReactDebugCurrentFrame$1 = ReactSharedInternals.ReactDebugCurrentFrame;
+    function setCurrentlyValidatingElement$1(element) {
+        if (element) {
+            var owner = element._owner;
+            var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+            ReactDebugCurrentFrame$1.setExtraStackFrame(stack);
+        } else ReactDebugCurrentFrame$1.setExtraStackFrame(null);
+    }
+    var propTypesMisspellWarningShown;
+    propTypesMisspellWarningShown = false;
+    /**
+ * Verifies the object is a ReactElement.
+ * See https://reactjs.org/docs/react-api.html#isvalidelement
+ * @param {?object} object
+ * @return {boolean} True if `object` is a ReactElement.
+ * @final
+ */ function isValidElement(object) {
+        return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+    }
+    function getDeclarationErrorAddendum() {
+        if (ReactCurrentOwner$1.current) {
+            var name = getComponentNameFromType(ReactCurrentOwner$1.current.type);
+            if (name) return "\n\nCheck the render method of `" + name + "`.";
+        }
+        return "";
+    }
+    function getSourceInfoErrorAddendum(source) {
+        if (source !== undefined) {
+            var fileName = source.fileName.replace(/^.*[\\\/]/, "");
+            var lineNumber = source.lineNumber;
+            return "\n\nCheck your code at " + fileName + ":" + lineNumber + ".";
+        }
+        return "";
+    }
+    /**
+ * Warn if there's no key explicitly set on dynamic arrays of children or
+ * object keys are not valid. This allows us to keep track of children between
+ * updates.
+ */ var ownerHasKeyUseWarning = {};
+    function getCurrentComponentErrorInfo(parentType) {
+        var info = getDeclarationErrorAddendum();
+        if (!info) {
+            var parentName = typeof parentType === "string" ? parentType : parentType.displayName || parentType.name;
+            if (parentName) info = "\n\nCheck the top-level render call using <" + parentName + ">.";
+        }
+        return info;
+    }
+    /**
+ * Warn if the element doesn't have an explicit key assigned to it.
+ * This element is in an array. The array could grow and shrink or be
+ * reordered. All children that haven't already been validated are required to
+ * have a "key" property assigned to it. Error statuses are cached so a warning
+ * will only be shown once.
+ *
+ * @internal
+ * @param {ReactElement} element Element that requires a key.
+ * @param {*} parentType element's parent's type.
+ */ function validateExplicitKey(element, parentType) {
+        if (!element._store || element._store.validated || element.key != null) return;
+        element._store.validated = true;
+        var currentComponentErrorInfo = getCurrentComponentErrorInfo(parentType);
+        if (ownerHasKeyUseWarning[currentComponentErrorInfo]) return;
+        ownerHasKeyUseWarning[currentComponentErrorInfo] = true; // Usually the current owner is the offender, but if it accepts children as a
+        // property, it may be the creator of the child that's responsible for
+        // assigning it a key.
+        var childOwner = "";
+        if (element && element._owner && element._owner !== ReactCurrentOwner$1.current) // Give the component that originally created this child.
+        childOwner = " It was passed a child from " + getComponentNameFromType(element._owner.type) + ".";
+        setCurrentlyValidatingElement$1(element);
+        error('Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.', currentComponentErrorInfo, childOwner);
+        setCurrentlyValidatingElement$1(null);
+    }
+    /**
+ * Ensure that every element either is passed in a static location, in an
+ * array with an explicit keys property defined, or in an object literal
+ * with valid key property.
+ *
+ * @internal
+ * @param {ReactNode} node Statically passed child of any type.
+ * @param {*} parentType node's parent's type.
+ */ function validateChildKeys(node, parentType) {
+        if (typeof node !== "object") return;
+        if (isArray(node)) for(var i = 0; i < node.length; i++){
+            var child = node[i];
+            if (isValidElement(child)) validateExplicitKey(child, parentType);
+        }
+        else if (isValidElement(node)) // This element was passed in a valid location.
+        {
+            if (node._store) node._store.validated = true;
+        } else if (node) {
+            var iteratorFn = getIteratorFn(node);
+            if (typeof iteratorFn === "function") // Entry iterators used to provide implicit keys,
+            // but now we print a separate warning for them later.
+            {
+                if (iteratorFn !== node.entries) {
+                    var iterator = iteratorFn.call(node);
+                    var step;
+                    while(!(step = iterator.next()).done)if (isValidElement(step.value)) validateExplicitKey(step.value, parentType);
+                }
+            }
+        }
+    }
+    /**
+ * Given an element, validate that its props follow the propTypes definition,
+ * provided by the type.
+ *
+ * @param {ReactElement} element
+ */ function validatePropTypes(element) {
+        var type = element.type;
+        if (type === null || type === undefined || typeof type === "string") return;
+        var propTypes;
+        if (typeof type === "function") propTypes = type.propTypes;
+        else if (typeof type === "object" && (type.$$typeof === REACT_FORWARD_REF_TYPE || // Note: Memo only checks outer props here.
+        // Inner props are checked in the reconciler.
+        type.$$typeof === REACT_MEMO_TYPE)) propTypes = type.propTypes;
+        else return;
+        if (propTypes) {
+            // Intentionally inside to avoid triggering lazy initializers:
+            var name = getComponentNameFromType(type);
+            checkPropTypes(propTypes, element.props, "prop", name, element);
+        } else if (type.PropTypes !== undefined && !propTypesMisspellWarningShown) {
+            propTypesMisspellWarningShown = true; // Intentionally inside to avoid triggering lazy initializers:
+            var _name = getComponentNameFromType(type);
+            error("Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?", _name || "Unknown");
+        }
+        if (typeof type.getDefaultProps === "function" && !type.getDefaultProps.isReactClassApproved) error("getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.");
+    }
+    /**
+ * Given a fragment, validate that it can only be provided with fragment props
+ * @param {ReactElement} fragment
+ */ function validateFragmentProps(fragment) {
+        var keys = Object.keys(fragment.props);
+        for(var i = 0; i < keys.length; i++){
+            var key = keys[i];
+            if (key !== "children" && key !== "key") {
+                setCurrentlyValidatingElement$1(fragment);
+                error("Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.", key);
+                setCurrentlyValidatingElement$1(null);
+                break;
+            }
+        }
+        if (fragment.ref !== null) {
+            setCurrentlyValidatingElement$1(fragment);
+            error("Invalid attribute `ref` supplied to `React.Fragment`.");
+            setCurrentlyValidatingElement$1(null);
+        }
+    }
+    function jsxWithValidation(type, props, key, isStaticChildren, source, self) {
+        var validType = isValidElementType(type); // We warn in this case but don't throw. We expect the element creation to
+        // succeed and there will likely be errors in render.
+        if (!validType) {
+            var info = "";
+            if (type === undefined || typeof type === "object" && type !== null && Object.keys(type).length === 0) info += " You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.";
+            var sourceInfo = getSourceInfoErrorAddendum(source);
+            if (sourceInfo) info += sourceInfo;
+            else info += getDeclarationErrorAddendum();
+            var typeString;
+            if (type === null) typeString = "null";
+            else if (isArray(type)) typeString = "array";
+            else if (type !== undefined && type.$$typeof === REACT_ELEMENT_TYPE) {
+                typeString = "<" + (getComponentNameFromType(type.type) || "Unknown") + " />";
+                info = " Did you accidentally export a JSX literal instead of a component?";
+            } else typeString = typeof type;
+            error("React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
+        }
+        var element = jsxDEV(type, props, key, source, self); // The result can be nullish if a mock or a custom function is used.
+        // TODO: Drop this when these are no longer allowed as the type argument.
+        if (element == null) return element;
+         // Skip key warning if the type isn't valid since our key validation logic
+        // doesn't expect a non-string/function type and can throw confusing errors.
+        // We don't want exception behavior to differ between dev and prod.
+        // (Rendering will throw with a helpful message and as soon as the type is
+        // fixed, the key warnings will appear.)
+        if (validType) {
+            var children = props.children;
+            if (children !== undefined) {
+                if (isStaticChildren) {
+                    if (isArray(children)) {
+                        for(var i = 0; i < children.length; i++)validateChildKeys(children[i], type);
+                        if (Object.freeze) Object.freeze(children);
+                    } else error("React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.");
+                } else validateChildKeys(children, type);
+            }
+        }
+        if (type === REACT_FRAGMENT_TYPE) validateFragmentProps(element);
+        else validatePropTypes(element);
+        return element;
+    } // These two functions exist to still get child warnings in dev
+    // even with the prod transform. This means that jsxDEV is purely
+    // opt-in behavior for better messages but that we won't stop
+    // giving you warnings if you use production apis.
+    function jsxWithValidationStatic(type, props, key) {
+        return jsxWithValidation(type, props, key, true);
+    }
+    function jsxWithValidationDynamic(type, props, key) {
+        return jsxWithValidation(type, props, key, false);
+    }
+    var jsx = jsxWithValidationDynamic; // we may want to special case jsxs internally to take advantage of static children.
+    // for now we can ship identical prod functions
+    var jsxs = jsxWithValidationStatic;
+    exports.Fragment = REACT_FRAGMENT_TYPE;
+    exports.jsx = jsx;
+    exports.jsxs = jsxs;
+})();
+
+},{"593632ccebda0d3a":"21dqq"}],"0jTcN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadSlim", ()=>loadSlim);
+var _basic = require("@tsparticles/basic");
+var _pluginEasingQuad = require("@tsparticles/plugin-easing-quad");
+var _shapeEmoji = require("@tsparticles/shape-emoji");
+var _interactionExternalAttract = require("@tsparticles/interaction-external-attract");
+var _interactionExternalBounce = require("@tsparticles/interaction-external-bounce");
+var _interactionExternalBubble = require("@tsparticles/interaction-external-bubble");
+var _interactionExternalConnect = require("@tsparticles/interaction-external-connect");
+var _interactionExternalGrab = require("@tsparticles/interaction-external-grab");
+var _interactionExternalPause = require("@tsparticles/interaction-external-pause");
+var _interactionExternalPush = require("@tsparticles/interaction-external-push");
+var _interactionExternalRemove = require("@tsparticles/interaction-external-remove");
+var _interactionExternalRepulse = require("@tsparticles/interaction-external-repulse");
+var _interactionExternalSlow = require("@tsparticles/interaction-external-slow");
+var _shapeImage = require("@tsparticles/shape-image");
+var _updaterLife = require("@tsparticles/updater-life");
+var _shapeLine = require("@tsparticles/shape-line");
+var _moveParallax = require("@tsparticles/move-parallax");
+var _interactionParticlesAttract = require("@tsparticles/interaction-particles-attract");
+var _interactionParticlesCollisions = require("@tsparticles/interaction-particles-collisions");
+var _interactionParticlesLinks = require("@tsparticles/interaction-particles-links");
+var _shapePolygon = require("@tsparticles/shape-polygon");
+var _updaterRotate = require("@tsparticles/updater-rotate");
+var _shapeSquare = require("@tsparticles/shape-square");
+var _shapeStar = require("@tsparticles/shape-star");
+var _updaterStrokeColor = require("@tsparticles/updater-stroke-color");
+async function loadSlim(engine, refresh = true) {
+    await (0, _moveParallax.loadParallaxMover)(engine, false);
+    await (0, _interactionExternalAttract.loadExternalAttractInteraction)(engine, false);
+    await (0, _interactionExternalBounce.loadExternalBounceInteraction)(engine, false);
+    await (0, _interactionExternalBubble.loadExternalBubbleInteraction)(engine, false);
+    await (0, _interactionExternalConnect.loadExternalConnectInteraction)(engine, false);
+    await (0, _interactionExternalGrab.loadExternalGrabInteraction)(engine, false);
+    await (0, _interactionExternalPause.loadExternalPauseInteraction)(engine, false);
+    await (0, _interactionExternalPush.loadExternalPushInteraction)(engine, false);
+    await (0, _interactionExternalRemove.loadExternalRemoveInteraction)(engine, false);
+    await (0, _interactionExternalRepulse.loadExternalRepulseInteraction)(engine, false);
+    await (0, _interactionExternalSlow.loadExternalSlowInteraction)(engine, false);
+    await (0, _interactionParticlesAttract.loadParticlesAttractInteraction)(engine, false);
+    await (0, _interactionParticlesCollisions.loadParticlesCollisionsInteraction)(engine, false);
+    await (0, _interactionParticlesLinks.loadParticlesLinksInteraction)(engine, false);
+    await (0, _pluginEasingQuad.loadEasingQuadPlugin)();
+    await (0, _shapeEmoji.loadEmojiShape)(engine, false);
+    await (0, _shapeImage.loadImageShape)(engine, false);
+    await (0, _shapeLine.loadLineShape)(engine, false);
+    await (0, _shapePolygon.loadPolygonShape)(engine, false);
+    await (0, _shapeSquare.loadSquareShape)(engine, false);
+    await (0, _shapeStar.loadStarShape)(engine, false);
+    await (0, _updaterLife.loadLifeUpdater)(engine, false);
+    await (0, _updaterRotate.loadRotateUpdater)(engine, false);
+    await (0, _updaterStrokeColor.loadStrokeColorUpdater)(engine, false);
+    await (0, _basic.loadBasic)(engine, refresh);
+}
+
+},{"@tsparticles/basic":"bu4gt","@tsparticles/plugin-easing-quad":"iujCd","@tsparticles/shape-emoji":"Grdzr","@tsparticles/interaction-external-attract":"2XFPb","@tsparticles/interaction-external-bounce":"7ktbo","@tsparticles/interaction-external-bubble":"b43t1","@tsparticles/interaction-external-connect":"jakZz","@tsparticles/interaction-external-grab":"ds6pp","@tsparticles/interaction-external-pause":"8pblm","@tsparticles/interaction-external-push":"WPEfZ","@tsparticles/interaction-external-remove":"l5WHz","@tsparticles/interaction-external-repulse":"g95RS","@tsparticles/interaction-external-slow":"aaEsz","@tsparticles/shape-image":"63bIE","@tsparticles/updater-life":"goeJr","@tsparticles/shape-line":"2PQep","@tsparticles/move-parallax":"1Gt6Z","@tsparticles/interaction-particles-attract":"1Fp4v","@tsparticles/interaction-particles-collisions":"aZk4Y","@tsparticles/interaction-particles-links":"anKWJ","@tsparticles/shape-polygon":"gCRfI","@tsparticles/updater-rotate":"hulbM","@tsparticles/shape-square":"3d86B","@tsparticles/shape-star":"bCPNV","@tsparticles/updater-stroke-color":"6p4CZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bu4gt":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadBasic", ()=>loadBasic);
+var _moveBase = require("@tsparticles/move-base");
+var _shapeCircle = require("@tsparticles/shape-circle");
+var _updaterColor = require("@tsparticles/updater-color");
+var _updaterOpacity = require("@tsparticles/updater-opacity");
+var _updaterOutModes = require("@tsparticles/updater-out-modes");
+var _updaterSize = require("@tsparticles/updater-size");
+async function loadBasic(engine, refresh = true) {
+    await (0, _moveBase.loadBaseMover)(engine, false);
+    await (0, _shapeCircle.loadCircleShape)(engine, false);
+    await (0, _updaterColor.loadColorUpdater)(engine, false);
+    await (0, _updaterOpacity.loadOpacityUpdater)(engine, false);
+    await (0, _updaterOutModes.loadOutModesUpdater)(engine, false);
+    await (0, _updaterSize.loadSizeUpdater)(engine, false);
+    await engine.refresh(refresh);
+}
+
+},{"@tsparticles/move-base":"aFbTO","@tsparticles/shape-circle":"8yaKs","@tsparticles/updater-color":"gHVTS","@tsparticles/updater-opacity":"cTW4b","@tsparticles/updater-out-modes":"6vabg","@tsparticles/updater-size":"7NHVF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aFbTO":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadBaseMover", ()=>loadBaseMover);
+var _baseMoverJs = require("./BaseMover.js");
+async function loadBaseMover(engine, refresh = true) {
+    await engine.addMover("base", ()=>new (0, _baseMoverJs.BaseMover)(), refresh);
+}
+
+},{"./BaseMover.js":"49ygi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"49ygi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BaseMover", ()=>BaseMover);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./Utils.js");
+const diffFactor = 2;
+class BaseMover {
+    constructor(){
+        this._initSpin = (particle)=>{
+            const container = particle.container, options = particle.options, spinOptions = options.move.spin;
+            if (!spinOptions.enable) return;
+            const spinPos = spinOptions.position ?? {
+                x: 50,
+                y: 50
+            }, spinCenter = {
+                x: spinPos.x * 0.01 * container.canvas.size.width,
+                y: spinPos.y * 0.01 * container.canvas.size.height
+            }, pos = particle.getPosition(), distance = (0, _engine.getDistance)(pos, spinCenter), spinAcceleration = (0, _engine.getRangeValue)(spinOptions.acceleration);
+            particle.retina.spinAcceleration = spinAcceleration * container.retina.pixelRatio;
+            particle.spin = {
+                center: spinCenter,
+                direction: particle.velocity.x >= 0 ? "clockwise" : "counter-clockwise",
+                angle: particle.velocity.angle,
+                radius: distance,
+                acceleration: particle.retina.spinAcceleration
+            };
+        };
+    }
+    init(particle) {
+        const options = particle.options, gravityOptions = options.move.gravity;
+        particle.gravity = {
+            enable: gravityOptions.enable,
+            acceleration: (0, _engine.getRangeValue)(gravityOptions.acceleration),
+            inverse: gravityOptions.inverse
+        };
+        this._initSpin(particle);
+    }
+    isEnabled(particle) {
+        return !particle.destroyed && particle.options.move.enable;
+    }
+    move(particle, delta) {
+        const particleOptions = particle.options, moveOptions = particleOptions.move;
+        if (!moveOptions.enable) return;
+        const container = particle.container, pxRatio = container.retina.pixelRatio, slowFactor = (0, _utilsJs.getProximitySpeedFactor)(particle), baseSpeed = (particle.retina.moveSpeed ??= (0, _engine.getRangeValue)(moveOptions.speed) * pxRatio) * container.retina.reduceFactor, moveDrift = particle.retina.moveDrift ??= (0, _engine.getRangeValue)(particle.options.move.drift) * pxRatio, maxSize = (0, _engine.getRangeMax)(particleOptions.size.value) * pxRatio, sizeFactor = moveOptions.size ? particle.getRadius() / maxSize : 1, moveSpeed = baseSpeed * sizeFactor * slowFactor * (delta.factor || 1) / diffFactor, maxSpeed = particle.retina.maxSpeed ?? container.retina.maxSpeed;
+        if (moveOptions.spin.enable) (0, _utilsJs.spin)(particle, moveSpeed);
+        else (0, _utilsJs.move)(particle, moveOptions, moveSpeed, maxSpeed, moveDrift, delta);
+        (0, _utilsJs.applyDistance)(particle);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Utils.js":"hTz8U","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hTz8U":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "applyDistance", ()=>applyDistance);
+parcelHelpers.export(exports, "move", ()=>move);
+parcelHelpers.export(exports, "spin", ()=>spin);
+parcelHelpers.export(exports, "applyPath", ()=>applyPath);
+parcelHelpers.export(exports, "getProximitySpeedFactor", ()=>getProximitySpeedFactor);
+var _engine = require("@tsparticles/engine");
+function applyDistance(particle) {
+    const initialPosition = particle.initialPosition, { dx, dy } = (0, _engine.getDistances)(initialPosition, particle.position), dxFixed = Math.abs(dx), dyFixed = Math.abs(dy), { maxDistance } = particle.retina, hDistance = maxDistance.horizontal, vDistance = maxDistance.vertical;
+    if (!hDistance && !vDistance) return;
+    if ((hDistance && dxFixed >= hDistance || vDistance && dyFixed >= vDistance) && !particle.misplaced) {
+        particle.misplaced = !!hDistance && dxFixed > hDistance || !!vDistance && dyFixed > vDistance;
+        if (hDistance) particle.velocity.x = particle.velocity.y * 0.5 - particle.velocity.x;
+        if (vDistance) particle.velocity.y = particle.velocity.x * 0.5 - particle.velocity.y;
+    } else if ((!hDistance || dxFixed < hDistance) && (!vDistance || dyFixed < vDistance) && particle.misplaced) particle.misplaced = false;
+    else if (particle.misplaced) {
+        const pos = particle.position, vel = particle.velocity;
+        if (hDistance && (pos.x < initialPosition.x && vel.x < 0 || pos.x > initialPosition.x && vel.x > 0)) vel.x *= -(0, _engine.getRandom)();
+        if (vDistance && (pos.y < initialPosition.y && vel.y < 0 || pos.y > initialPosition.y && vel.y > 0)) vel.y *= -(0, _engine.getRandom)();
+    }
+}
+function move(particle, moveOptions, moveSpeed, maxSpeed, moveDrift, delta) {
+    applyPath(particle, delta);
+    const gravityOptions = particle.gravity, gravityFactor = gravityOptions?.enable && gravityOptions.inverse ? -1 : 1;
+    if (moveDrift && moveSpeed) particle.velocity.x += moveDrift * delta.factor / (60 * moveSpeed);
+    if (gravityOptions?.enable && moveSpeed) particle.velocity.y += gravityFactor * (gravityOptions.acceleration * delta.factor) / (60 * moveSpeed);
+    const decay = particle.moveDecay;
+    particle.velocity.multTo(decay);
+    const velocity = particle.velocity.mult(moveSpeed);
+    if (gravityOptions?.enable && maxSpeed > 0 && (!gravityOptions.inverse && velocity.y >= 0 && velocity.y >= maxSpeed || gravityOptions.inverse && velocity.y <= 0 && velocity.y <= -maxSpeed)) {
+        velocity.y = gravityFactor * maxSpeed;
+        if (moveSpeed) particle.velocity.y = velocity.y / moveSpeed;
+    }
+    const zIndexOptions = particle.options.zIndex, zVelocityFactor = (1 - particle.zIndexFactor) ** zIndexOptions.velocityRate;
+    velocity.multTo(zVelocityFactor);
+    const { position } = particle;
+    position.addTo(velocity);
+    if (moveOptions.vibrate) {
+        position.x += Math.sin(position.x * Math.cos(position.y));
+        position.y += Math.cos(position.y * Math.sin(position.x));
+    }
+}
+function spin(particle, moveSpeed) {
+    const container = particle.container;
+    if (!particle.spin) return;
+    const updateFunc = {
+        x: particle.spin.direction === "clockwise" ? Math.cos : Math.sin,
+        y: particle.spin.direction === "clockwise" ? Math.sin : Math.cos
+    };
+    particle.position.x = particle.spin.center.x + particle.spin.radius * updateFunc.x(particle.spin.angle);
+    particle.position.y = particle.spin.center.y + particle.spin.radius * updateFunc.y(particle.spin.angle);
+    particle.spin.radius += particle.spin.acceleration;
+    const maxCanvasSize = Math.max(container.canvas.size.width, container.canvas.size.height), halfMaxSize = maxCanvasSize * 0.5;
+    if (particle.spin.radius > halfMaxSize) {
+        particle.spin.radius = halfMaxSize;
+        particle.spin.acceleration *= -1;
+    } else if (particle.spin.radius < 0) {
+        particle.spin.radius = 0;
+        particle.spin.acceleration *= -1;
+    }
+    particle.spin.angle += moveSpeed * 0.01 * (1 - particle.spin.radius / maxCanvasSize);
+}
+function applyPath(particle, delta) {
+    const particlesOptions = particle.options, pathOptions = particlesOptions.move.path, pathEnabled = pathOptions.enable;
+    if (!pathEnabled) return;
+    if (particle.lastPathTime <= particle.pathDelay) {
+        particle.lastPathTime += delta.value;
+        return;
+    }
+    const path = particle.pathGenerator?.generate(particle, delta);
+    if (path) particle.velocity.addTo(path);
+    if (pathOptions.clamp) {
+        particle.velocity.x = (0, _engine.clamp)(particle.velocity.x, -1, 1);
+        particle.velocity.y = (0, _engine.clamp)(particle.velocity.y, -1, 1);
+    }
+    particle.lastPathTime -= particle.pathDelay;
+}
+function getProximitySpeedFactor(particle) {
+    return particle.slow.inRange ? particle.slow.factor : 1;
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8yaKs":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadCircleShape", ()=>loadCircleShape);
+var _circleDrawerJs = require("./CircleDrawer.js");
+async function loadCircleShape(engine, refresh = true) {
+    await engine.addShape("circle", new (0, _circleDrawerJs.CircleDrawer)(), refresh);
+}
+
+},{"./CircleDrawer.js":"inWaF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"inWaF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "CircleDrawer", ()=>CircleDrawer);
+var _engine = require("@tsparticles/engine");
+class CircleDrawer {
+    draw(data) {
+        const { context, particle, radius } = data;
+        if (!particle.circleRange) particle.circleRange = {
+            min: 0,
+            max: Math.PI * 2
+        };
+        const circleRange = particle.circleRange;
+        context.arc(0, 0, radius, circleRange.min, circleRange.max, false);
+    }
+    getSidesCount() {
+        return 12;
+    }
+    particleInit(container, particle) {
+        const shapeData = particle.shapeData, angle = shapeData?.angle ?? {
+            max: 360,
+            min: 0
+        };
+        particle.circleRange = !(0, _engine.isObject)(angle) ? {
+            min: 0,
+            max: angle * Math.PI / 180
+        } : {
+            min: angle.min * Math.PI / 180,
+            max: angle.max * Math.PI / 180
+        };
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gHVTS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadColorUpdater", ()=>loadColorUpdater);
+var _colorUpdaterJs = require("./ColorUpdater.js");
+async function loadColorUpdater(engine, refresh = true) {
+    await engine.addParticleUpdater("color", (container)=>new (0, _colorUpdaterJs.ColorUpdater)(container), refresh);
+}
+
+},{"./ColorUpdater.js":"ewL0O","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ewL0O":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ColorUpdater", ()=>ColorUpdater);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./Utils.js");
+class ColorUpdater {
+    constructor(container){
+        this.container = container;
+    }
+    init(particle) {
+        const hslColor = (0, _engine.rangeColorToHsl)(particle.options.color, particle.id, particle.options.reduceDuplicates);
+        if (hslColor) particle.color = (0, _engine.getHslAnimationFromHsl)(hslColor, particle.options.color.animation, this.container.retina.reduceFactor);
+    }
+    isEnabled(particle) {
+        const { h: hAnimation, s: sAnimation, l: lAnimation } = particle.options.color.animation, { color } = particle;
+        return !particle.destroyed && !particle.spawning && (color?.h.value !== undefined && hAnimation.enable || color?.s.value !== undefined && sAnimation.enable || color?.l.value !== undefined && lAnimation.enable);
+    }
+    update(particle, delta) {
+        (0, _utilsJs.updateColor)(particle, delta);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Utils.js":"4BeaL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4BeaL":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "updateColor", ()=>updateColor);
+var _engine = require("@tsparticles/engine");
+function updateColorValue(delta, colorValue, valueAnimation, max, decrease) {
+    if (!colorValue || !valueAnimation.enable || (colorValue.maxLoops ?? 0) > 0 && (colorValue.loops ?? 0) > (colorValue.maxLoops ?? 0)) return;
+    if (!colorValue.time) colorValue.time = 0;
+    if ((colorValue.delayTime ?? 0) > 0 && colorValue.time < (colorValue.delayTime ?? 0)) colorValue.time += delta.value;
+    if ((colorValue.delayTime ?? 0) > 0 && colorValue.time < (colorValue.delayTime ?? 0)) return;
+    const offset = (0, _engine.randomInRange)(valueAnimation.offset), velocity = (colorValue.velocity ?? 0) * delta.factor + offset * 3.6, decay = colorValue.decay ?? 1;
+    if (!decrease || colorValue.status === "increasing") {
+        colorValue.value += velocity;
+        if (colorValue.value > max) {
+            if (!colorValue.loops) colorValue.loops = 0;
+            colorValue.loops++;
+            if (decrease) {
+                colorValue.status = "decreasing";
+                colorValue.value -= colorValue.value % max;
+            }
+        }
+    } else {
+        colorValue.value -= velocity;
+        if (colorValue.value < 0) {
+            if (!colorValue.loops) colorValue.loops = 0;
+            colorValue.loops++;
+            colorValue.status = "increasing";
+            colorValue.value += colorValue.value;
+        }
+    }
+    if (colorValue.velocity && decay !== 1) colorValue.velocity *= decay;
+    if (colorValue.value > max) colorValue.value %= max;
+}
+function updateColor(particle, delta) {
+    const { h: hAnimation, s: sAnimation, l: lAnimation } = particle.options.color.animation, { color } = particle;
+    if (!color) return;
+    const { h, s, l } = color;
+    if (h) updateColorValue(delta, h, hAnimation, 360, false);
+    if (s) updateColorValue(delta, s, sAnimation, 100, true);
+    if (l) updateColorValue(delta, l, lAnimation, 100, true);
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cTW4b":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadOpacityUpdater", ()=>loadOpacityUpdater);
+var _opacityUpdaterJs = require("./OpacityUpdater.js");
+async function loadOpacityUpdater(engine, refresh = true) {
+    await engine.addParticleUpdater("opacity", (container)=>new (0, _opacityUpdaterJs.OpacityUpdater)(container), refresh);
+}
+
+},{"./OpacityUpdater.js":"6mx86","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6mx86":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "OpacityUpdater", ()=>OpacityUpdater);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./Utils.js");
+class OpacityUpdater {
+    constructor(container){
+        this.container = container;
+    }
+    init(particle) {
+        const opacityOptions = particle.options.opacity;
+        particle.opacity = (0, _engine.initParticleNumericAnimationValue)(opacityOptions, 1);
+        const opacityAnimation = opacityOptions.animation;
+        if (opacityAnimation.enable) {
+            particle.opacity.velocity = (0, _engine.getRangeValue)(opacityAnimation.speed) / 100 * this.container.retina.reduceFactor;
+            if (!opacityAnimation.sync) particle.opacity.velocity *= (0, _engine.getRandom)();
+        }
+    }
+    isEnabled(particle) {
+        return !particle.destroyed && !particle.spawning && !!particle.opacity && particle.opacity.enable && ((particle.opacity.maxLoops ?? 0) <= 0 || (particle.opacity.maxLoops ?? 0) > 0 && (particle.opacity.loops ?? 0) < (particle.opacity.maxLoops ?? 0));
+    }
+    reset(particle) {
+        if (particle.opacity) {
+            particle.opacity.time = 0;
+            particle.opacity.loops = 0;
+        }
+    }
+    update(particle, delta) {
+        if (!this.isEnabled(particle)) return;
+        (0, _utilsJs.updateOpacity)(particle, delta);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Utils.js":"b58Km","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b58Km":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "updateOpacity", ()=>updateOpacity);
+var _engine = require("@tsparticles/engine");
+function checkDestroy(particle, value, minValue, maxValue) {
+    switch(particle.options.opacity.animation.destroy){
+        case "max":
+            if (value >= maxValue) particle.destroy();
+            break;
+        case "min":
+            if (value <= minValue) particle.destroy();
+            break;
+    }
+}
+function updateOpacity(particle, delta) {
+    const data = particle.opacity;
+    if (particle.destroyed || !data?.enable || (data.maxLoops ?? 0) > 0 && (data.loops ?? 0) > (data.maxLoops ?? 0)) return;
+    const minValue = data.min, maxValue = data.max, decay = data.decay ?? 1;
+    if (!data.time) data.time = 0;
+    if ((data.delayTime ?? 0) > 0 && data.time < (data.delayTime ?? 0)) data.time += delta.value;
+    if ((data.delayTime ?? 0) > 0 && data.time < (data.delayTime ?? 0)) return;
+    switch(data.status){
+        case "increasing":
+            if (data.value >= maxValue) {
+                data.status = "decreasing";
+                if (!data.loops) data.loops = 0;
+                data.loops++;
+            } else data.value += (data.velocity ?? 0) * delta.factor;
+            break;
+        case "decreasing":
+            if (data.value <= minValue) {
+                data.status = "increasing";
+                if (!data.loops) data.loops = 0;
+                data.loops++;
+            } else data.value -= (data.velocity ?? 0) * delta.factor;
+            break;
+    }
+    if (data.velocity && data.decay !== 1) data.velocity *= decay;
+    checkDestroy(particle, data.value, minValue, maxValue);
+    if (!particle.destroyed) data.value = (0, _engine.clamp)(data.value, minValue, maxValue);
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6vabg":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadOutModesUpdater", ()=>loadOutModesUpdater);
+var _outOfCanvasUpdaterJs = require("./OutOfCanvasUpdater.js");
+async function loadOutModesUpdater(engine, refresh = true) {
+    await engine.addParticleUpdater("outModes", (container)=>new (0, _outOfCanvasUpdaterJs.OutOfCanvasUpdater)(container), refresh);
+}
+
+},{"./OutOfCanvasUpdater.js":"l15qL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l15qL":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "OutOfCanvasUpdater", ()=>OutOfCanvasUpdater);
+var _bounceOutModeJs = require("./BounceOutMode.js");
+var _destroyOutModeJs = require("./DestroyOutMode.js");
+var _noneOutModeJs = require("./NoneOutMode.js");
+var _outOutModeJs = require("./OutOutMode.js");
+class OutOfCanvasUpdater {
+    constructor(container){
+        this.container = container;
+        this._updateOutMode = (particle, delta, outMode, direction)=>{
+            for (const updater of this.updaters)updater.update(particle, direction, delta, outMode);
+        };
+        this.updaters = [
+            new (0, _bounceOutModeJs.BounceOutMode)(container),
+            new (0, _destroyOutModeJs.DestroyOutMode)(container),
+            new (0, _outOutModeJs.OutOutMode)(container),
+            new (0, _noneOutModeJs.NoneOutMode)(container)
+        ];
+    }
+    init() {}
+    isEnabled(particle) {
+        return !particle.destroyed && !particle.spawning;
+    }
+    update(particle, delta) {
+        const outModes = particle.options.move.outModes;
+        this._updateOutMode(particle, delta, outModes.bottom ?? outModes.default, "bottom");
+        this._updateOutMode(particle, delta, outModes.left ?? outModes.default, "left");
+        this._updateOutMode(particle, delta, outModes.right ?? outModes.default, "right");
+        this._updateOutMode(particle, delta, outModes.top ?? outModes.default, "top");
+    }
+}
+
+},{"./BounceOutMode.js":"lCgtw","./DestroyOutMode.js":"2dP2o","./NoneOutMode.js":"dZG4n","./OutOutMode.js":"cCBzA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lCgtw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BounceOutMode", ()=>BounceOutMode);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./Utils.js");
+class BounceOutMode {
+    constructor(container){
+        this.container = container;
+        this.modes = [
+            "bounce",
+            "bounce-vertical",
+            "bounce-horizontal",
+            "bounceVertical",
+            "bounceHorizontal",
+            "split"
+        ];
+    }
+    update(particle, direction, delta, outMode) {
+        if (!this.modes.includes(outMode)) return;
+        const container = this.container;
+        let handled = false;
+        for (const [, plugin] of container.plugins){
+            if (plugin.particleBounce !== undefined) handled = plugin.particleBounce(particle, delta, direction);
+            if (handled) break;
+        }
+        if (handled) return;
+        const pos = particle.getPosition(), offset = particle.offset, size = particle.getRadius(), bounds = (0, _engine.calculateBounds)(pos, size), canvasSize = container.canvas.size;
+        (0, _utilsJs.bounceHorizontal)({
+            particle,
+            outMode,
+            direction,
+            bounds,
+            canvasSize,
+            offset,
+            size
+        });
+        (0, _utilsJs.bounceVertical)({
+            particle,
+            outMode,
+            direction,
+            bounds,
+            canvasSize,
+            offset,
+            size
+        });
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Utils.js":"3lPEd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3lPEd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "bounceHorizontal", ()=>bounceHorizontal);
+parcelHelpers.export(exports, "bounceVertical", ()=>bounceVertical);
+var _engine = require("@tsparticles/engine");
+function bounceHorizontal(data) {
+    if (data.outMode !== "bounce" && data.outMode !== "bounce-horizontal" && data.outMode !== "bounceHorizontal" && data.outMode !== "split" || data.direction !== "left" && data.direction !== "right") return;
+    if (data.bounds.right < 0 && data.direction === "left") data.particle.position.x = data.size + data.offset.x;
+    else if (data.bounds.left > data.canvasSize.width && data.direction === "right") data.particle.position.x = data.canvasSize.width - data.size - data.offset.x;
+    const velocity = data.particle.velocity.x;
+    let bounced = false;
+    if (data.direction === "right" && data.bounds.right >= data.canvasSize.width && velocity > 0 || data.direction === "left" && data.bounds.left <= 0 && velocity < 0) {
+        const newVelocity = (0, _engine.getRangeValue)(data.particle.options.bounce.horizontal.value);
+        data.particle.velocity.x *= -newVelocity;
+        bounced = true;
+    }
+    if (!bounced) return;
+    const minPos = data.offset.x + data.size;
+    if (data.bounds.right >= data.canvasSize.width && data.direction === "right") data.particle.position.x = data.canvasSize.width - minPos;
+    else if (data.bounds.left <= 0 && data.direction === "left") data.particle.position.x = minPos;
+    if (data.outMode === "split") data.particle.destroy();
+}
+function bounceVertical(data) {
+    if (data.outMode !== "bounce" && data.outMode !== "bounce-vertical" && data.outMode !== "bounceVertical" && data.outMode !== "split" || data.direction !== "bottom" && data.direction !== "top") return;
+    if (data.bounds.bottom < 0 && data.direction === "top") data.particle.position.y = data.size + data.offset.y;
+    else if (data.bounds.top > data.canvasSize.height && data.direction === "bottom") data.particle.position.y = data.canvasSize.height - data.size - data.offset.y;
+    const velocity = data.particle.velocity.y;
+    let bounced = false;
+    if (data.direction === "bottom" && data.bounds.bottom >= data.canvasSize.height && velocity > 0 || data.direction === "top" && data.bounds.top <= 0 && velocity < 0) {
+        const newVelocity = (0, _engine.getRangeValue)(data.particle.options.bounce.vertical.value);
+        data.particle.velocity.y *= -newVelocity;
+        bounced = true;
+    }
+    if (!bounced) return;
+    const minPos = data.offset.y + data.size;
+    if (data.bounds.bottom >= data.canvasSize.height && data.direction === "bottom") data.particle.position.y = data.canvasSize.height - minPos;
+    else if (data.bounds.top <= 0 && data.direction === "top") data.particle.position.y = minPos;
+    if (data.outMode === "split") data.particle.destroy();
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2dP2o":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DestroyOutMode", ()=>DestroyOutMode);
+var _engine = require("@tsparticles/engine");
+class DestroyOutMode {
+    constructor(container){
+        this.container = container;
+        this.modes = [
+            "destroy"
+        ];
+    }
+    update(particle, direction, _delta, outMode) {
+        if (!this.modes.includes(outMode)) return;
+        const container = this.container;
+        switch(particle.outType){
+            case "normal":
+            case "outside":
+                if ((0, _engine.isPointInside)(particle.position, container.canvas.size, (0, _engine.Vector).origin, particle.getRadius(), direction)) return;
+                break;
+            case "inside":
+                {
+                    const { dx, dy } = (0, _engine.getDistances)(particle.position, particle.moveCenter);
+                    const { x: vx, y: vy } = particle.velocity;
+                    if (vx < 0 && dx > particle.moveCenter.radius || vy < 0 && dy > particle.moveCenter.radius || vx >= 0 && dx < -particle.moveCenter.radius || vy >= 0 && dy < -particle.moveCenter.radius) return;
+                    break;
+                }
+        }
+        container.particles.remove(particle, undefined, true);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dZG4n":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "NoneOutMode", ()=>NoneOutMode);
+var _engine = require("@tsparticles/engine");
+class NoneOutMode {
+    constructor(container){
+        this.container = container;
+        this.modes = [
+            "none"
+        ];
+    }
+    update(particle, direction, delta, outMode) {
+        if (!this.modes.includes(outMode)) return;
+        if (particle.options.move.distance.horizontal && (direction === "left" || direction === "right") || particle.options.move.distance.vertical && (direction === "top" || direction === "bottom")) return;
+        const gravityOptions = particle.options.move.gravity, container = this.container;
+        const canvasSize = container.canvas.size;
+        const pRadius = particle.getRadius();
+        if (!gravityOptions.enable) {
+            if (particle.velocity.y > 0 && particle.position.y <= canvasSize.height + pRadius || particle.velocity.y < 0 && particle.position.y >= -pRadius || particle.velocity.x > 0 && particle.position.x <= canvasSize.width + pRadius || particle.velocity.x < 0 && particle.position.x >= -pRadius) return;
+            if (!(0, _engine.isPointInside)(particle.position, container.canvas.size, (0, _engine.Vector).origin, pRadius, direction)) container.particles.remove(particle);
+        } else {
+            const position = particle.position;
+            if (!gravityOptions.inverse && position.y > canvasSize.height + pRadius && direction === "bottom" || gravityOptions.inverse && position.y < -pRadius && direction === "top") container.particles.remove(particle);
+        }
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cCBzA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "OutOutMode", ()=>OutOutMode);
+var _engine = require("@tsparticles/engine");
+class OutOutMode {
+    constructor(container){
+        this.container = container;
+        this.modes = [
+            "out"
+        ];
+    }
+    update(particle, direction, delta, outMode) {
+        if (!this.modes.includes(outMode)) return;
+        const container = this.container;
+        switch(particle.outType){
+            case "inside":
+                {
+                    const { x: vx, y: vy } = particle.velocity;
+                    const circVec = (0, _engine.Vector).origin;
+                    circVec.length = particle.moveCenter.radius;
+                    circVec.angle = particle.velocity.angle + Math.PI;
+                    circVec.addTo((0, _engine.Vector).create(particle.moveCenter));
+                    const { dx, dy } = (0, _engine.getDistances)(particle.position, circVec);
+                    if (vx <= 0 && dx >= 0 || vy <= 0 && dy >= 0 || vx >= 0 && dx <= 0 || vy >= 0 && dy <= 0) return;
+                    particle.position.x = Math.floor((0, _engine.randomInRange)({
+                        min: 0,
+                        max: container.canvas.size.width
+                    }));
+                    particle.position.y = Math.floor((0, _engine.randomInRange)({
+                        min: 0,
+                        max: container.canvas.size.height
+                    }));
+                    const { dx: newDx, dy: newDy } = (0, _engine.getDistances)(particle.position, particle.moveCenter);
+                    particle.direction = Math.atan2(-newDy, -newDx);
+                    particle.velocity.angle = particle.direction;
+                    break;
+                }
+            default:
+                if ((0, _engine.isPointInside)(particle.position, container.canvas.size, (0, _engine.Vector).origin, particle.getRadius(), direction)) return;
+                switch(particle.outType){
+                    case "outside":
+                        {
+                            particle.position.x = Math.floor((0, _engine.randomInRange)({
+                                min: -particle.moveCenter.radius,
+                                max: particle.moveCenter.radius
+                            })) + particle.moveCenter.x;
+                            particle.position.y = Math.floor((0, _engine.randomInRange)({
+                                min: -particle.moveCenter.radius,
+                                max: particle.moveCenter.radius
+                            })) + particle.moveCenter.y;
+                            const { dx, dy } = (0, _engine.getDistances)(particle.position, particle.moveCenter);
+                            if (particle.moveCenter.radius) {
+                                particle.direction = Math.atan2(dy, dx);
+                                particle.velocity.angle = particle.direction;
+                            }
+                            break;
+                        }
+                    case "normal":
+                        {
+                            const warp = particle.options.move.warp, canvasSize = container.canvas.size, newPos = {
+                                bottom: canvasSize.height + particle.getRadius() + particle.offset.y,
+                                left: -particle.getRadius() - particle.offset.x,
+                                right: canvasSize.width + particle.getRadius() + particle.offset.x,
+                                top: -particle.getRadius() - particle.offset.y
+                            }, sizeValue = particle.getRadius(), nextBounds = (0, _engine.calculateBounds)(particle.position, sizeValue);
+                            if (direction === "right" && nextBounds.left > canvasSize.width + particle.offset.x) {
+                                particle.position.x = newPos.left;
+                                particle.initialPosition.x = particle.position.x;
+                                if (!warp) {
+                                    particle.position.y = (0, _engine.getRandom)() * canvasSize.height;
+                                    particle.initialPosition.y = particle.position.y;
+                                }
+                            } else if (direction === "left" && nextBounds.right < -particle.offset.x) {
+                                particle.position.x = newPos.right;
+                                particle.initialPosition.x = particle.position.x;
+                                if (!warp) {
+                                    particle.position.y = (0, _engine.getRandom)() * canvasSize.height;
+                                    particle.initialPosition.y = particle.position.y;
+                                }
+                            }
+                            if (direction === "bottom" && nextBounds.top > canvasSize.height + particle.offset.y) {
+                                if (!warp) {
+                                    particle.position.x = (0, _engine.getRandom)() * canvasSize.width;
+                                    particle.initialPosition.x = particle.position.x;
+                                }
+                                particle.position.y = newPos.top;
+                                particle.initialPosition.y = particle.position.y;
+                            } else if (direction === "top" && nextBounds.bottom < -particle.offset.y) {
+                                if (!warp) {
+                                    particle.position.x = (0, _engine.getRandom)() * canvasSize.width;
+                                    particle.initialPosition.x = particle.position.x;
+                                }
+                                particle.position.y = newPos.bottom;
+                                particle.initialPosition.y = particle.position.y;
+                            }
+                            break;
+                        }
+                }
+                break;
+        }
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7NHVF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadSizeUpdater", ()=>loadSizeUpdater);
+var _sizeUpdaterJs = require("./SizeUpdater.js");
+async function loadSizeUpdater(engine, refresh = true) {
+    await engine.addParticleUpdater("size", ()=>new (0, _sizeUpdaterJs.SizeUpdater)(), refresh);
+}
+
+},{"./SizeUpdater.js":"7xX7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7xX7e":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SizeUpdater", ()=>SizeUpdater);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./Utils.js");
+class SizeUpdater {
+    init(particle) {
+        const container = particle.container, sizeOptions = particle.options.size, sizeAnimation = sizeOptions.animation;
+        if (sizeAnimation.enable) {
+            particle.size.velocity = (particle.retina.sizeAnimationSpeed ?? container.retina.sizeAnimationSpeed) / 100 * container.retina.reduceFactor;
+            if (!sizeAnimation.sync) particle.size.velocity *= (0, _engine.getRandom)();
+        }
+    }
+    isEnabled(particle) {
+        return !particle.destroyed && !particle.spawning && particle.size.enable && ((particle.size.maxLoops ?? 0) <= 0 || (particle.size.maxLoops ?? 0) > 0 && (particle.size.loops ?? 0) < (particle.size.maxLoops ?? 0));
+    }
+    reset(particle) {
+        particle.size.loops = 0;
+    }
+    update(particle, delta) {
+        if (!this.isEnabled(particle)) return;
+        (0, _utilsJs.updateSize)(particle, delta);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Utils.js":"iZwRG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iZwRG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "updateSize", ()=>updateSize);
+var _engine = require("@tsparticles/engine");
+function checkDestroy(particle, value, minValue, maxValue) {
+    switch(particle.options.size.animation.destroy){
+        case "max":
+            if (value >= maxValue) particle.destroy();
+            break;
+        case "min":
+            if (value <= minValue) particle.destroy();
+            break;
+    }
+}
+function updateSize(particle, delta) {
+    const data = particle.size;
+    if (particle.destroyed || !data || !data.enable || (data.maxLoops ?? 0) > 0 && (data.loops ?? 0) > (data.maxLoops ?? 0)) return;
+    const sizeVelocity = (data.velocity ?? 0) * delta.factor, minValue = data.min, maxValue = data.max, decay = data.decay ?? 1;
+    if (!data.time) data.time = 0;
+    if ((data.delayTime ?? 0) > 0 && data.time < (data.delayTime ?? 0)) data.time += delta.value;
+    if ((data.delayTime ?? 0) > 0 && data.time < (data.delayTime ?? 0)) return;
+    switch(data.status){
+        case "increasing":
+            if (data.value >= maxValue) {
+                data.status = "decreasing";
+                if (!data.loops) data.loops = 0;
+                data.loops++;
+            } else data.value += sizeVelocity;
+            break;
+        case "decreasing":
+            if (data.value <= minValue) {
+                data.status = "increasing";
+                if (!data.loops) data.loops = 0;
+                data.loops++;
+            } else data.value -= sizeVelocity;
+    }
+    if (data.velocity && decay !== 1) data.velocity *= decay;
+    checkDestroy(particle, data.value, minValue, maxValue);
+    if (!particle.destroyed) data.value = (0, _engine.clamp)(data.value, minValue, maxValue);
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iujCd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadEasingQuadPlugin", ()=>loadEasingQuadPlugin);
+var _engine = require("@tsparticles/engine");
+async function loadEasingQuadPlugin() {
+    (0, _engine.addEasing)("ease-in-quad", (value)=>value ** 2);
+    (0, _engine.addEasing)("ease-out-quad", (value)=>1 - (1 - value) ** 2);
+    (0, _engine.addEasing)("ease-in-out-quad", (value)=>value < 0.5 ? 2 * value ** 2 : 1 - (-2 * value + 2) ** 2 / 2);
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"Grdzr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadEmojiShape", ()=>loadEmojiShape);
+var _emojiDrawerJs = require("./EmojiDrawer.js");
+async function loadEmojiShape(engine, refresh = true) {
+    await engine.addShape((0, _emojiDrawerJs.validTypes), new (0, _emojiDrawerJs.EmojiDrawer)(), refresh);
+}
+
+},{"./EmojiDrawer.js":"4WSSC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4WSSC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "validTypes", ()=>validTypes);
+parcelHelpers.export(exports, "EmojiDrawer", ()=>EmojiDrawer);
+var _engine = require("@tsparticles/engine");
+const validTypes = [
+    "emoji"
+];
+const defaultFont = '"Twemoji Mozilla", Apple Color Emoji, "Segoe UI Emoji", "Noto Color Emoji", "EmojiOne Color"';
+class EmojiDrawer {
+    constructor(){
+        this._emojiShapeDict = new Map();
+    }
+    destroy() {
+        for (const [, emojiData] of this._emojiShapeDict)emojiData instanceof ImageBitmap && emojiData?.close();
+    }
+    draw(data) {
+        const { context, particle, radius, opacity } = data, emojiData = particle.emojiData;
+        if (!emojiData) return;
+        context.globalAlpha = opacity;
+        context.drawImage(emojiData, -radius, -radius, radius * 2, radius * 2);
+        context.globalAlpha = 1;
+    }
+    async init(container) {
+        const options = container.actualOptions;
+        if (validTypes.find((t)=>(0, _engine.isInArray)(t, options.particles.shape.type))) {
+            const promises = [
+                (0, _engine.loadFont)(defaultFont)
+            ], shapeOptions = validTypes.map((t)=>options.particles.shape.options[t]).find((t)=>!!t);
+            if (shapeOptions) (0, _engine.executeOnSingleOrMultiple)(shapeOptions, (shape)=>{
+                shape.font && promises.push((0, _engine.loadFont)(shape.font));
+            });
+            await Promise.all(promises);
+        }
+    }
+    particleDestroy(particle) {
+        delete particle.emojiData;
+    }
+    particleInit(container, particle) {
+        if (!particle.emojiData) {
+            const shapeData = particle.shapeData;
+            if (!shapeData?.value) return;
+            const emoji = (0, _engine.itemFromSingleOrMultiple)(shapeData.value, particle.randomIndexData), font = shapeData.font ?? defaultFont;
+            if (!emoji) return;
+            const key = `${emoji}_${font}`, existingData = this._emojiShapeDict.get(key);
+            if (existingData) {
+                particle.emojiData = existingData;
+                return;
+            }
+            const canvasSize = (0, _engine.getRangeMax)(particle.size.value) * 2;
+            let emojiData;
+            if (typeof OffscreenCanvas !== "undefined") {
+                const canvas = new OffscreenCanvas(canvasSize, canvasSize), context = canvas.getContext("2d");
+                if (!context) return;
+                context.font = `400 ${(0, _engine.getRangeMax)(particle.size.value) * 2}px ${font}`;
+                context.textBaseline = "middle";
+                context.textAlign = "center";
+                context.fillText(emoji, (0, _engine.getRangeMax)(particle.size.value), (0, _engine.getRangeMax)(particle.size.value));
+                emojiData = canvas.transferToImageBitmap();
+            } else {
+                const canvas = document.createElement("canvas");
+                canvas.width = canvasSize;
+                canvas.height = canvasSize;
+                const context = canvas.getContext("2d");
+                if (!context) return;
+                context.font = `400 ${(0, _engine.getRangeMax)(particle.size.value) * 2}px ${font}`;
+                context.textBaseline = "middle";
+                context.textAlign = "center";
+                context.fillText(emoji, (0, _engine.getRangeMax)(particle.size.value), (0, _engine.getRangeMax)(particle.size.value));
+                emojiData = canvas;
+            }
+            this._emojiShapeDict.set(key, emojiData);
+            particle.emojiData = emojiData;
+        }
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2XFPb":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalAttractInteraction", ()=>loadExternalAttractInteraction);
+var _attractorJs = require("./Attractor.js");
+var _attractJs = require("./Options/Classes/Attract.js");
+parcelHelpers.exportAll(_attractJs, exports);
+var _iattractJs = require("./Options/Interfaces/IAttract.js");
+parcelHelpers.exportAll(_iattractJs, exports);
+async function loadExternalAttractInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalAttract", (container)=>new (0, _attractorJs.Attractor)(engine, container), refresh);
+}
+
+},{"./Attractor.js":"kAOlz","./Options/Classes/Attract.js":"9j4pK","./Options/Interfaces/IAttract.js":"aDw0b","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kAOlz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Attractor", ()=>Attractor);
+var _engine = require("@tsparticles/engine");
+var _attractJs = require("./Options/Classes/Attract.js");
+const attractMode = "attract";
+class Attractor extends (0, _engine.ExternalInteractorBase) {
+    constructor(engine, container){
+        super(container);
+        this._clickAttract = ()=>{
+            const container = this.container;
+            if (!container.attract) container.attract = {
+                particles: []
+            };
+            const { attract } = container;
+            if (!attract.finish) {
+                if (!attract.count) attract.count = 0;
+                attract.count++;
+                if (attract.count === container.particles.count) attract.finish = true;
+            }
+            if (attract.clicking) {
+                const mousePos = container.interactivity.mouse.clickPosition, attractRadius = container.retina.attractModeDistance;
+                if (!attractRadius || attractRadius < 0 || !mousePos) return;
+                this._processAttract(mousePos, attractRadius, new (0, _engine.Circle)(mousePos.x, mousePos.y, attractRadius));
+            } else if (attract.clicking === false) attract.particles = [];
+            return;
+        };
+        this._hoverAttract = ()=>{
+            const container = this.container, mousePos = container.interactivity.mouse.position, attractRadius = container.retina.attractModeDistance;
+            if (!attractRadius || attractRadius < 0 || !mousePos) return;
+            this._processAttract(mousePos, attractRadius, new (0, _engine.Circle)(mousePos.x, mousePos.y, attractRadius));
+        };
+        this._processAttract = (position, attractRadius, area)=>{
+            const container = this.container, attractOptions = container.actualOptions.interactivity.modes.attract;
+            if (!attractOptions) return;
+            const query = container.particles.quadTree.query(area, (p)=>this.isEnabled(p));
+            for (const particle of query){
+                const { dx, dy, distance } = (0, _engine.getDistances)(particle.position, position);
+                const velocity = attractOptions.speed * attractOptions.factor;
+                const attractFactor = (0, _engine.clamp)((0, _engine.getEasing)(attractOptions.easing)(1 - distance / attractRadius) * velocity, 0, attractOptions.maxSpeed);
+                const normVec = (0, _engine.Vector).create(distance === 0 ? velocity : dx / distance * attractFactor, distance === 0 ? velocity : dy / distance * attractFactor);
+                particle.position.subFrom(normVec);
+            }
+        };
+        this._engine = engine;
+        if (!container.attract) container.attract = {
+            particles: []
+        };
+        this.handleClickMode = (mode)=>{
+            const options = this.container.actualOptions, attract = options.interactivity.modes.attract;
+            if (!attract || mode !== attractMode) return;
+            if (!container.attract) container.attract = {
+                particles: []
+            };
+            container.attract.clicking = true;
+            container.attract.count = 0;
+            for (const particle of container.attract.particles){
+                if (!this.isEnabled(particle)) continue;
+                particle.velocity.setTo(particle.initialVelocity);
+            }
+            container.attract.particles = [];
+            container.attract.finish = false;
+            setTimeout(()=>{
+                if (container.destroyed) return;
+                if (!container.attract) container.attract = {
+                    particles: []
+                };
+                container.attract.clicking = false;
+            }, attract.duration * 1000);
+        };
+    }
+    clear() {}
+    init() {
+        const container = this.container, attract = container.actualOptions.interactivity.modes.attract;
+        if (!attract) return;
+        container.retina.attractModeDistance = attract.distance * container.retina.pixelRatio;
+    }
+    async interact() {
+        const container = this.container, options = container.actualOptions, mouseMoveStatus = container.interactivity.status === (0, _engine.mouseMoveEvent), events = options.interactivity.events, hoverEnabled = events.onHover.enable, hoverMode = events.onHover.mode, clickEnabled = events.onClick.enable, clickMode = events.onClick.mode;
+        if (mouseMoveStatus && hoverEnabled && (0, _engine.isInArray)(attractMode, hoverMode)) this._hoverAttract();
+        else if (clickEnabled && (0, _engine.isInArray)(attractMode, clickMode)) this._clickAttract();
+    }
+    isEnabled(particle) {
+        const container = this.container, options = container.actualOptions, mouse = container.interactivity.mouse, events = (particle?.interactivity ?? options.interactivity).events;
+        if ((!mouse.position || !events.onHover.enable) && (!mouse.clickPosition || !events.onClick.enable)) return false;
+        const hoverMode = events.onHover.mode, clickMode = events.onClick.mode;
+        return (0, _engine.isInArray)(attractMode, hoverMode) || (0, _engine.isInArray)(attractMode, clickMode);
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.attract) options.attract = new (0, _attractJs.Attract)();
+        for (const source of sources)options.attract.load(source?.attract);
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Attract.js":"9j4pK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9j4pK":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Attract", ()=>Attract);
+class Attract {
+    constructor(){
+        this.distance = 200;
+        this.duration = 0.4;
+        this.easing = "ease-out-quad";
+        this.factor = 1;
+        this.maxSpeed = 50;
+        this.speed = 1;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.distance !== undefined) this.distance = data.distance;
+        if (data.duration !== undefined) this.duration = data.duration;
+        if (data.easing !== undefined) this.easing = data.easing;
+        if (data.factor !== undefined) this.factor = data.factor;
+        if (data.maxSpeed !== undefined) this.maxSpeed = data.maxSpeed;
+        if (data.speed !== undefined) this.speed = data.speed;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aDw0b":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7ktbo":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalBounceInteraction", ()=>loadExternalBounceInteraction);
+var _bouncerJs = require("./Bouncer.js");
+var _bounceJs = require("./Options/Classes/Bounce.js");
+parcelHelpers.exportAll(_bounceJs, exports);
+var _ibounceJs = require("./Options/Interfaces/IBounce.js");
+parcelHelpers.exportAll(_ibounceJs, exports);
+async function loadExternalBounceInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalBounce", (container)=>new (0, _bouncerJs.Bouncer)(container), refresh);
+}
+
+},{"./Bouncer.js":"fgFm0","./Options/Classes/Bounce.js":"kKgV5","./Options/Interfaces/IBounce.js":"jfMJ5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fgFm0":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Bouncer", ()=>Bouncer);
+var _engine = require("@tsparticles/engine");
+var _bounceJs = require("./Options/Classes/Bounce.js");
+const bounceMode = "bounce";
+class Bouncer extends (0, _engine.ExternalInteractorBase) {
+    constructor(container){
+        super(container);
+        this._processBounce = (position, radius, area)=>{
+            const query = this.container.particles.quadTree.query(area, (p)=>this.isEnabled(p));
+            for (const particle of query){
+                if (area instanceof (0, _engine.Circle)) (0, _engine.circleBounce)((0, _engine.circleBounceDataFromParticle)(particle), {
+                    position,
+                    radius,
+                    mass: radius ** 2 * Math.PI / 2,
+                    velocity: (0, _engine.Vector).origin,
+                    factor: (0, _engine.Vector).origin
+                });
+                else if (area instanceof (0, _engine.Rectangle)) (0, _engine.rectBounce)(particle, (0, _engine.calculateBounds)(position, radius));
+            }
+        };
+        this._processMouseBounce = ()=>{
+            const container = this.container, pxRatio = container.retina.pixelRatio, tolerance = 10 * pxRatio, mousePos = container.interactivity.mouse.position, radius = container.retina.bounceModeDistance;
+            if (!radius || radius < 0 || !mousePos) return;
+            this._processBounce(mousePos, radius, new (0, _engine.Circle)(mousePos.x, mousePos.y, radius + tolerance));
+        };
+        this._singleSelectorBounce = (selector, div)=>{
+            const container = this.container, query = document.querySelectorAll(selector);
+            if (!query.length) return;
+            query.forEach((item)=>{
+                const elem = item, pxRatio = container.retina.pixelRatio, pos = {
+                    x: (elem.offsetLeft + elem.offsetWidth / 2) * pxRatio,
+                    y: (elem.offsetTop + elem.offsetHeight / 2) * pxRatio
+                }, radius = elem.offsetWidth / 2 * pxRatio, tolerance = 10 * pxRatio, area = div.type === "circle" ? new (0, _engine.Circle)(pos.x, pos.y, radius + tolerance) : new (0, _engine.Rectangle)(elem.offsetLeft * pxRatio - tolerance, elem.offsetTop * pxRatio - tolerance, elem.offsetWidth * pxRatio + tolerance * 2, elem.offsetHeight * pxRatio + tolerance * 2);
+                this._processBounce(pos, radius, area);
+            });
+        };
+    }
+    clear() {}
+    init() {
+        const container = this.container, bounce = container.actualOptions.interactivity.modes.bounce;
+        if (!bounce) return;
+        container.retina.bounceModeDistance = bounce.distance * container.retina.pixelRatio;
+    }
+    async interact() {
+        const container = this.container, options = container.actualOptions, events = options.interactivity.events, mouseMoveStatus = container.interactivity.status === (0, _engine.mouseMoveEvent), hoverEnabled = events.onHover.enable, hoverMode = events.onHover.mode, divs = events.onDiv;
+        if (mouseMoveStatus && hoverEnabled && (0, _engine.isInArray)(bounceMode, hoverMode)) this._processMouseBounce();
+        else (0, _engine.divModeExecute)(bounceMode, divs, (selector, div)=>this._singleSelectorBounce(selector, div));
+    }
+    isEnabled(particle) {
+        const container = this.container, options = container.actualOptions, mouse = container.interactivity.mouse, events = (particle?.interactivity ?? options.interactivity).events, divs = events.onDiv;
+        return mouse.position && events.onHover.enable && (0, _engine.isInArray)(bounceMode, events.onHover.mode) || (0, _engine.isDivModeEnabled)(bounceMode, divs);
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.bounce) options.bounce = new (0, _bounceJs.Bounce)();
+        for (const source of sources)options.bounce.load(source?.bounce);
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Bounce.js":"kKgV5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kKgV5":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Bounce", ()=>Bounce);
+class Bounce {
+    constructor(){
+        this.distance = 200;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.distance !== undefined) this.distance = data.distance;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jfMJ5":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b43t1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalBubbleInteraction", ()=>loadExternalBubbleInteraction);
+var _bubblerJs = require("./Bubbler.js");
+var _bubbleBaseJs = require("./Options/Classes/BubbleBase.js");
+parcelHelpers.exportAll(_bubbleBaseJs, exports);
+var _bubbleDivJs = require("./Options/Classes/BubbleDiv.js");
+parcelHelpers.exportAll(_bubbleDivJs, exports);
+var _bubbleJs = require("./Options/Classes/Bubble.js");
+parcelHelpers.exportAll(_bubbleJs, exports);
+var _ibubbleBaseJs = require("./Options/Interfaces/IBubbleBase.js");
+parcelHelpers.exportAll(_ibubbleBaseJs, exports);
+var _ibubbleDivJs = require("./Options/Interfaces/IBubbleDiv.js");
+parcelHelpers.exportAll(_ibubbleDivJs, exports);
+var _ibubbleJs = require("./Options/Interfaces/IBubble.js");
+parcelHelpers.exportAll(_ibubbleJs, exports);
+async function loadExternalBubbleInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalBubble", (container)=>new (0, _bubblerJs.Bubbler)(container), refresh);
+}
+
+},{"./Bubbler.js":"he25O","./Options/Classes/BubbleBase.js":"fADIZ","./Options/Classes/BubbleDiv.js":"jhMNh","./Options/Classes/Bubble.js":"lRPHR","./Options/Interfaces/IBubbleBase.js":"ebKAp","./Options/Interfaces/IBubbleDiv.js":"3ZxZw","./Options/Interfaces/IBubble.js":"ci3X6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"he25O":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Bubbler", ()=>Bubbler);
+var _engine = require("@tsparticles/engine");
+var _bubbleJs = require("./Options/Classes/Bubble.js");
+var _utilsJs = require("./Utils.js");
+const bubbleMode = "bubble";
+class Bubbler extends (0, _engine.ExternalInteractorBase) {
+    constructor(container){
+        super(container);
+        this._clickBubble = ()=>{
+            const container = this.container, options = container.actualOptions, mouseClickPos = container.interactivity.mouse.clickPosition, bubbleOptions = options.interactivity.modes.bubble;
+            if (!bubbleOptions || !mouseClickPos) return;
+            if (!container.bubble) container.bubble = {};
+            const distance = container.retina.bubbleModeDistance;
+            if (!distance || distance < 0) return;
+            const query = container.particles.quadTree.queryCircle(mouseClickPos, distance, (p)=>this.isEnabled(p)), { bubble } = container;
+            for (const particle of query){
+                if (!bubble.clicking) continue;
+                particle.bubble.inRange = !bubble.durationEnd;
+                const pos = particle.getPosition(), distMouse = (0, _engine.getDistance)(pos, mouseClickPos), timeSpent = (new Date().getTime() - (container.interactivity.mouse.clickTime || 0)) / 1000;
+                if (timeSpent > bubbleOptions.duration) bubble.durationEnd = true;
+                if (timeSpent > bubbleOptions.duration * 2) {
+                    bubble.clicking = false;
+                    bubble.durationEnd = false;
+                }
+                const sizeData = {
+                    bubbleObj: {
+                        optValue: container.retina.bubbleModeSize,
+                        value: particle.bubble.radius
+                    },
+                    particlesObj: {
+                        optValue: (0, _engine.getRangeMax)(particle.options.size.value) * container.retina.pixelRatio,
+                        value: particle.size.value
+                    },
+                    type: "size"
+                };
+                this._process(particle, distMouse, timeSpent, sizeData);
+                const opacityData = {
+                    bubbleObj: {
+                        optValue: bubbleOptions.opacity,
+                        value: particle.bubble.opacity
+                    },
+                    particlesObj: {
+                        optValue: (0, _engine.getRangeMax)(particle.options.opacity.value),
+                        value: particle.opacity?.value ?? 1
+                    },
+                    type: "opacity"
+                };
+                this._process(particle, distMouse, timeSpent, opacityData);
+                if (!bubble.durationEnd && distMouse <= distance) this._hoverBubbleColor(particle, distMouse);
+                else delete particle.bubble.color;
+            }
+        };
+        this._hoverBubble = ()=>{
+            const container = this.container, mousePos = container.interactivity.mouse.position, distance = container.retina.bubbleModeDistance;
+            if (!distance || distance < 0 || mousePos === undefined) return;
+            const query = container.particles.quadTree.queryCircle(mousePos, distance, (p)=>this.isEnabled(p));
+            for (const particle of query){
+                particle.bubble.inRange = true;
+                const pos = particle.getPosition(), pointDistance = (0, _engine.getDistance)(pos, mousePos), ratio = 1 - pointDistance / distance;
+                if (pointDistance <= distance) {
+                    if (ratio >= 0 && container.interactivity.status === (0, _engine.mouseMoveEvent)) {
+                        this._hoverBubbleSize(particle, ratio);
+                        this._hoverBubbleOpacity(particle, ratio);
+                        this._hoverBubbleColor(particle, ratio);
+                    }
+                } else this.reset(particle);
+                if (container.interactivity.status === (0, _engine.mouseLeaveEvent)) this.reset(particle);
+            }
+        };
+        this._hoverBubbleColor = (particle, ratio, divBubble)=>{
+            const options = this.container.actualOptions, bubbleOptions = divBubble ?? options.interactivity.modes.bubble;
+            if (!bubbleOptions) return;
+            if (!particle.bubble.finalColor) {
+                const modeColor = bubbleOptions.color;
+                if (!modeColor) return;
+                const bubbleColor = (0, _engine.itemFromSingleOrMultiple)(modeColor);
+                particle.bubble.finalColor = (0, _engine.rangeColorToHsl)(bubbleColor);
+            }
+            if (!particle.bubble.finalColor) return;
+            if (bubbleOptions.mix) {
+                particle.bubble.color = undefined;
+                const pColor = particle.getFillColor();
+                particle.bubble.color = pColor ? (0, _engine.rgbToHsl)((0, _engine.colorMix)(pColor, particle.bubble.finalColor, 1 - ratio, ratio)) : particle.bubble.finalColor;
+            } else particle.bubble.color = particle.bubble.finalColor;
+        };
+        this._hoverBubbleOpacity = (particle, ratio, divBubble)=>{
+            const container = this.container, options = container.actualOptions, modeOpacity = divBubble?.opacity ?? options.interactivity.modes.bubble?.opacity;
+            if (!modeOpacity) return;
+            const optOpacity = particle.options.opacity.value, pOpacity = particle.opacity?.value ?? 1, opacity = (0, _utilsJs.calculateBubbleValue)(pOpacity, modeOpacity, (0, _engine.getRangeMax)(optOpacity), ratio);
+            if (opacity !== undefined) particle.bubble.opacity = opacity;
+        };
+        this._hoverBubbleSize = (particle, ratio, divBubble)=>{
+            const container = this.container, modeSize = divBubble?.size ? divBubble.size * container.retina.pixelRatio : container.retina.bubbleModeSize;
+            if (modeSize === undefined) return;
+            const optSize = (0, _engine.getRangeMax)(particle.options.size.value) * container.retina.pixelRatio, pSize = particle.size.value, size = (0, _utilsJs.calculateBubbleValue)(pSize, modeSize, optSize, ratio);
+            if (size !== undefined) particle.bubble.radius = size;
+        };
+        this._process = (particle, distMouse, timeSpent, data)=>{
+            const container = this.container, bubbleParam = data.bubbleObj.optValue, options = container.actualOptions, bubbleOptions = options.interactivity.modes.bubble;
+            if (!bubbleOptions || bubbleParam === undefined) return;
+            const bubbleDuration = bubbleOptions.duration, bubbleDistance = container.retina.bubbleModeDistance, particlesParam = data.particlesObj.optValue, pObjBubble = data.bubbleObj.value, pObj = data.particlesObj.value || 0, type = data.type;
+            if (!bubbleDistance || bubbleDistance < 0 || bubbleParam === particlesParam) return;
+            if (!container.bubble) container.bubble = {};
+            if (container.bubble.durationEnd) {
+                if (pObjBubble) {
+                    if (type === "size") delete particle.bubble.radius;
+                    if (type === "opacity") delete particle.bubble.opacity;
+                }
+            } else if (distMouse <= bubbleDistance) {
+                const obj = pObjBubble ?? pObj;
+                if (obj !== bubbleParam) {
+                    const value = pObj - timeSpent * (pObj - bubbleParam) / bubbleDuration;
+                    if (type === "size") particle.bubble.radius = value;
+                    if (type === "opacity") particle.bubble.opacity = value;
+                }
+            } else {
+                if (type === "size") delete particle.bubble.radius;
+                if (type === "opacity") delete particle.bubble.opacity;
+            }
+        };
+        this._singleSelectorHover = (delta, selector, div)=>{
+            const container = this.container, selectors = document.querySelectorAll(selector), bubble = container.actualOptions.interactivity.modes.bubble;
+            if (!bubble || !selectors.length) return;
+            selectors.forEach((item)=>{
+                const elem = item, pxRatio = container.retina.pixelRatio, pos = {
+                    x: (elem.offsetLeft + elem.offsetWidth / 2) * pxRatio,
+                    y: (elem.offsetTop + elem.offsetHeight / 2) * pxRatio
+                }, repulseRadius = elem.offsetWidth / 2 * pxRatio, area = div.type === "circle" ? new (0, _engine.Circle)(pos.x, pos.y, repulseRadius) : new (0, _engine.Rectangle)(elem.offsetLeft * pxRatio, elem.offsetTop * pxRatio, elem.offsetWidth * pxRatio, elem.offsetHeight * pxRatio), query = container.particles.quadTree.query(area, (p)=>this.isEnabled(p));
+                for (const particle of query){
+                    if (!area.contains(particle.getPosition())) continue;
+                    particle.bubble.inRange = true;
+                    const divs = bubble.divs, divBubble = (0, _engine.divMode)(divs, elem);
+                    if (!particle.bubble.div || particle.bubble.div !== elem) {
+                        this.clear(particle, delta, true);
+                        particle.bubble.div = elem;
+                    }
+                    this._hoverBubbleSize(particle, 1, divBubble);
+                    this._hoverBubbleOpacity(particle, 1, divBubble);
+                    this._hoverBubbleColor(particle, 1, divBubble);
+                }
+            });
+        };
+        if (!container.bubble) container.bubble = {};
+        this.handleClickMode = (mode)=>{
+            if (mode !== bubbleMode) return;
+            if (!container.bubble) container.bubble = {};
+            container.bubble.clicking = true;
+        };
+    }
+    clear(particle, delta, force) {
+        if (particle.bubble.inRange && !force) return;
+        delete particle.bubble.div;
+        delete particle.bubble.opacity;
+        delete particle.bubble.radius;
+        delete particle.bubble.color;
+    }
+    init() {
+        const container = this.container, bubble = container.actualOptions.interactivity.modes.bubble;
+        if (!bubble) return;
+        container.retina.bubbleModeDistance = bubble.distance * container.retina.pixelRatio;
+        if (bubble.size !== undefined) container.retina.bubbleModeSize = bubble.size * container.retina.pixelRatio;
+    }
+    async interact(delta) {
+        const options = this.container.actualOptions, events = options.interactivity.events, onHover = events.onHover, onClick = events.onClick, hoverEnabled = onHover.enable, hoverMode = onHover.mode, clickEnabled = onClick.enable, clickMode = onClick.mode, divs = events.onDiv;
+        if (hoverEnabled && (0, _engine.isInArray)(bubbleMode, hoverMode)) this._hoverBubble();
+        else if (clickEnabled && (0, _engine.isInArray)(bubbleMode, clickMode)) this._clickBubble();
+        else (0, _engine.divModeExecute)(bubbleMode, divs, (selector, div)=>this._singleSelectorHover(delta, selector, div));
+    }
+    isEnabled(particle) {
+        const container = this.container, options = container.actualOptions, mouse = container.interactivity.mouse, events = (particle?.interactivity ?? options.interactivity).events, { onClick, onDiv, onHover } = events, divBubble = (0, _engine.isDivModeEnabled)(bubbleMode, onDiv);
+        if (!(divBubble || onHover.enable && mouse.position || onClick.enable && mouse.clickPosition)) return false;
+        return (0, _engine.isInArray)(bubbleMode, onHover.mode) || (0, _engine.isInArray)(bubbleMode, onClick.mode) || divBubble;
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.bubble) options.bubble = new (0, _bubbleJs.Bubble)();
+        for (const source of sources)options.bubble.load(source?.bubble);
+    }
+    reset(particle) {
+        particle.bubble.inRange = false;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Bubble.js":"lRPHR","./Utils.js":"icTFQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lRPHR":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Bubble", ()=>Bubble);
+var _engine = require("@tsparticles/engine");
+var _bubbleBaseJs = require("./BubbleBase.js");
+var _bubbleDivJs = require("./BubbleDiv.js");
+class Bubble extends (0, _bubbleBaseJs.BubbleBase) {
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        this.divs = (0, _engine.executeOnSingleOrMultiple)(data.divs, (div)=>{
+            const tmp = new (0, _bubbleDivJs.BubbleDiv)();
+            tmp.load(div);
+            return tmp;
+        });
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./BubbleBase.js":"fADIZ","./BubbleDiv.js":"jhMNh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fADIZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BubbleBase", ()=>BubbleBase);
+var _engine = require("@tsparticles/engine");
+class BubbleBase {
+    constructor(){
+        this.distance = 200;
+        this.duration = 0.4;
+        this.mix = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.distance !== undefined) this.distance = data.distance;
+        if (data.duration !== undefined) this.duration = data.duration;
+        if (data.mix !== undefined) this.mix = data.mix;
+        if (data.opacity !== undefined) this.opacity = data.opacity;
+        if (data.color !== undefined) {
+            const sourceColor = (0, _engine.isArray)(this.color) ? undefined : this.color;
+            this.color = (0, _engine.executeOnSingleOrMultiple)(data.color, (color)=>{
+                return (0, _engine.OptionsColor).create(sourceColor, color);
+            });
+        }
+        if (data.size !== undefined) this.size = data.size;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jhMNh":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BubbleDiv", ()=>BubbleDiv);
+var _bubbleBaseJs = require("./BubbleBase.js");
+class BubbleDiv extends (0, _bubbleBaseJs.BubbleBase) {
+    constructor(){
+        super();
+        this.selectors = [];
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        if (data.selectors !== undefined) this.selectors = data.selectors;
+    }
+}
+
+},{"./BubbleBase.js":"fADIZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"icTFQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "calculateBubbleValue", ()=>calculateBubbleValue);
+var _engine = require("@tsparticles/engine");
+function calculateBubbleValue(particleValue, modeValue, optionsValue, ratio) {
+    if (modeValue >= optionsValue) {
+        const value = particleValue + (modeValue - optionsValue) * ratio;
+        return (0, _engine.clamp)(value, particleValue, modeValue);
+    } else if (modeValue < optionsValue) {
+        const value = particleValue - (optionsValue - modeValue) * ratio;
+        return (0, _engine.clamp)(value, modeValue, particleValue);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ebKAp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3ZxZw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ci3X6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jakZz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalConnectInteraction", ()=>loadExternalConnectInteraction);
+var _connectorJs = require("./Connector.js");
+var _connectJs = require("./Options/Classes/Connect.js");
+parcelHelpers.exportAll(_connectJs, exports);
+var _connectLinksJs = require("./Options/Classes/ConnectLinks.js");
+parcelHelpers.exportAll(_connectLinksJs, exports);
+var _iconnectJs = require("./Options/Interfaces/IConnect.js");
+parcelHelpers.exportAll(_iconnectJs, exports);
+var _iconnectLinksJs = require("./Options/Interfaces/IConnectLinks.js");
+parcelHelpers.exportAll(_iconnectLinksJs, exports);
+async function loadExternalConnectInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalConnect", (container)=>new (0, _connectorJs.Connector)(container), refresh);
+}
+
+},{"./Connector.js":"3ABuJ","./Options/Classes/Connect.js":"3K2zW","./Options/Classes/ConnectLinks.js":"cIfcW","./Options/Interfaces/IConnect.js":"j44RD","./Options/Interfaces/IConnectLinks.js":"d43TC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3ABuJ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Connector", ()=>Connector);
+var _engine = require("@tsparticles/engine");
+var _connectJs = require("./Options/Classes/Connect.js");
+var _utilsJs = require("./Utils.js");
+const connectMode = "connect";
+class Connector extends (0, _engine.ExternalInteractorBase) {
+    constructor(container){
+        super(container);
+    }
+    clear() {}
+    init() {
+        const container = this.container, connect = container.actualOptions.interactivity.modes.connect;
+        if (!connect) return;
+        container.retina.connectModeDistance = connect.distance * container.retina.pixelRatio;
+        container.retina.connectModeRadius = connect.radius * container.retina.pixelRatio;
+    }
+    async interact() {
+        const container = this.container, options = container.actualOptions;
+        if (options.interactivity.events.onHover.enable && container.interactivity.status === "pointermove") {
+            const mousePos = container.interactivity.mouse.position;
+            if (!container.retina.connectModeDistance || container.retina.connectModeDistance < 0 || !container.retina.connectModeRadius || container.retina.connectModeRadius < 0 || !mousePos) return;
+            const distance = Math.abs(container.retina.connectModeRadius), query = container.particles.quadTree.queryCircle(mousePos, distance, (p)=>this.isEnabled(p));
+            let i = 0;
+            for (const p1 of query){
+                const pos1 = p1.getPosition();
+                for (const p2 of query.slice(i + 1)){
+                    const pos2 = p2.getPosition(), distMax = Math.abs(container.retina.connectModeDistance), xDiff = Math.abs(pos1.x - pos2.x), yDiff = Math.abs(pos1.y - pos2.y);
+                    if (xDiff < distMax && yDiff < distMax) (0, _utilsJs.drawConnection)(container, p1, p2);
+                }
+                ++i;
+            }
+        }
+    }
+    isEnabled(particle) {
+        const container = this.container, mouse = container.interactivity.mouse, events = (particle?.interactivity ?? container.actualOptions.interactivity).events;
+        if (!(events.onHover.enable && mouse.position)) return false;
+        return (0, _engine.isInArray)(connectMode, events.onHover.mode);
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.connect) options.connect = new (0, _connectJs.Connect)();
+        for (const source of sources)options.connect.load(source?.connect);
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Connect.js":"3K2zW","./Utils.js":"3nQiC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3K2zW":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Connect", ()=>Connect);
+var _connectLinksJs = require("./ConnectLinks.js");
+class Connect {
+    constructor(){
+        this.distance = 80;
+        this.links = new (0, _connectLinksJs.ConnectLinks)();
+        this.radius = 60;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.distance !== undefined) this.distance = data.distance;
+        this.links.load(data.links);
+        if (data.radius !== undefined) this.radius = data.radius;
+    }
+}
+
+},{"./ConnectLinks.js":"cIfcW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cIfcW":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ConnectLinks", ()=>ConnectLinks);
+class ConnectLinks {
+    constructor(){
+        this.opacity = 0.5;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.opacity !== undefined) this.opacity = data.opacity;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3nQiC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "gradient", ()=>gradient);
+parcelHelpers.export(exports, "drawConnectLine", ()=>drawConnectLine);
+parcelHelpers.export(exports, "lineStyle", ()=>lineStyle);
+parcelHelpers.export(exports, "drawConnection", ()=>drawConnection);
+var _engine = require("@tsparticles/engine");
+function gradient(context, p1, p2, opacity) {
+    const gradStop = Math.floor(p2.getRadius() / p1.getRadius()), color1 = p1.getFillColor(), color2 = p2.getFillColor();
+    if (!color1 || !color2) return;
+    const sourcePos = p1.getPosition(), destPos = p2.getPosition(), midRgb = (0, _engine.colorMix)(color1, color2, p1.getRadius(), p2.getRadius()), grad = context.createLinearGradient(sourcePos.x, sourcePos.y, destPos.x, destPos.y);
+    grad.addColorStop(0, (0, _engine.getStyleFromHsl)(color1, opacity));
+    grad.addColorStop(gradStop > 1 ? 1 : gradStop, (0, _engine.getStyleFromRgb)(midRgb, opacity));
+    grad.addColorStop(1, (0, _engine.getStyleFromHsl)(color2, opacity));
+    return grad;
+}
+function drawConnectLine(context, width, lineStyle, begin, end) {
+    (0, _engine.drawLine)(context, begin, end);
+    context.lineWidth = width;
+    context.strokeStyle = lineStyle;
+    context.stroke();
+}
+function lineStyle(container, ctx, p1, p2) {
+    const options = container.actualOptions, connectOptions = options.interactivity.modes.connect;
+    if (!connectOptions) return;
+    return gradient(ctx, p1, p2, connectOptions.links.opacity);
+}
+function drawConnection(container, p1, p2) {
+    container.canvas.draw((ctx)=>{
+        const ls = lineStyle(container, ctx, p1, p2);
+        if (!ls) return;
+        const pos1 = p1.getPosition(), pos2 = p2.getPosition();
+        drawConnectLine(ctx, p1.retina.linksWidth ?? 0, ls, pos1, pos2);
+    });
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j44RD":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d43TC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ds6pp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalGrabInteraction", ()=>loadExternalGrabInteraction);
+var _grabberJs = require("./Grabber.js");
+var _grabJs = require("./Options/Classes/Grab.js");
+parcelHelpers.exportAll(_grabJs, exports);
+var _grabLinksJs = require("./Options/Classes/GrabLinks.js");
+parcelHelpers.exportAll(_grabLinksJs, exports);
+var _igrabJs = require("./Options/Interfaces/IGrab.js");
+parcelHelpers.exportAll(_igrabJs, exports);
+var _igrabLinksJs = require("./Options/Interfaces/IGrabLinks.js");
+parcelHelpers.exportAll(_igrabLinksJs, exports);
+async function loadExternalGrabInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalGrab", (container)=>new (0, _grabberJs.Grabber)(container), refresh);
+}
+
+},{"./Grabber.js":"eR17G","./Options/Classes/Grab.js":"kJyOq","./Options/Classes/GrabLinks.js":"8THiC","./Options/Interfaces/IGrab.js":"hbFFH","./Options/Interfaces/IGrabLinks.js":"crdH6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eR17G":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Grabber", ()=>Grabber);
+var _engine = require("@tsparticles/engine");
+var _grabJs = require("./Options/Classes/Grab.js");
+var _utilsJs = require("./Utils.js");
+const grabMode = "grab";
+class Grabber extends (0, _engine.ExternalInteractorBase) {
+    constructor(container){
+        super(container);
+    }
+    clear() {}
+    init() {
+        const container = this.container, grab = container.actualOptions.interactivity.modes.grab;
+        if (!grab) return;
+        container.retina.grabModeDistance = grab.distance * container.retina.pixelRatio;
+    }
+    async interact() {
+        const container = this.container, options = container.actualOptions, interactivity = options.interactivity;
+        if (!interactivity.modes.grab || !interactivity.events.onHover.enable || container.interactivity.status !== (0, _engine.mouseMoveEvent)) return;
+        const mousePos = container.interactivity.mouse.position;
+        if (!mousePos) return;
+        const distance = container.retina.grabModeDistance;
+        if (!distance || distance < 0) return;
+        const query = container.particles.quadTree.queryCircle(mousePos, distance, (p)=>this.isEnabled(p));
+        for (const particle of query){
+            const pos = particle.getPosition(), pointDistance = (0, _engine.getDistance)(pos, mousePos);
+            if (pointDistance > distance) continue;
+            const grabLineOptions = interactivity.modes.grab.links, lineOpacity = grabLineOptions.opacity, opacityLine = lineOpacity - pointDistance * lineOpacity / distance;
+            if (opacityLine <= 0) continue;
+            const optColor = grabLineOptions.color ?? particle.options.links?.color;
+            if (!container.particles.grabLineColor && optColor) {
+                const linksOptions = interactivity.modes.grab.links;
+                container.particles.grabLineColor = (0, _engine.getLinkRandomColor)(optColor, linksOptions.blink, linksOptions.consent);
+            }
+            const colorLine = (0, _engine.getLinkColor)(particle, undefined, container.particles.grabLineColor);
+            if (!colorLine) continue;
+            (0, _utilsJs.drawGrab)(container, particle, colorLine, opacityLine, mousePos);
+        }
+    }
+    isEnabled(particle) {
+        const container = this.container, mouse = container.interactivity.mouse, events = (particle?.interactivity ?? container.actualOptions.interactivity).events;
+        return events.onHover.enable && !!mouse.position && (0, _engine.isInArray)(grabMode, events.onHover.mode);
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.grab) options.grab = new (0, _grabJs.Grab)();
+        for (const source of sources)options.grab.load(source?.grab);
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Grab.js":"kJyOq","./Utils.js":"8cAW5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kJyOq":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Grab", ()=>Grab);
+var _grabLinksJs = require("./GrabLinks.js");
+class Grab {
+    constructor(){
+        this.distance = 100;
+        this.links = new (0, _grabLinksJs.GrabLinks)();
+    }
+    load(data) {
+        if (!data) return;
+        if (data.distance !== undefined) this.distance = data.distance;
+        this.links.load(data.links);
+    }
+}
+
+},{"./GrabLinks.js":"8THiC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8THiC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "GrabLinks", ()=>GrabLinks);
+var _engine = require("@tsparticles/engine");
+class GrabLinks {
+    constructor(){
+        this.blink = false;
+        this.consent = false;
+        this.opacity = 1;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.blink !== undefined) this.blink = data.blink;
+        if (data.color !== undefined) this.color = (0, _engine.OptionsColor).create(this.color, data.color);
+        if (data.consent !== undefined) this.consent = data.consent;
+        if (data.opacity !== undefined) this.opacity = data.opacity;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8cAW5":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "drawGrabLine", ()=>drawGrabLine);
+parcelHelpers.export(exports, "drawGrab", ()=>drawGrab);
+var _engine = require("@tsparticles/engine");
+function drawGrabLine(context, width, begin, end, colorLine, opacity) {
+    (0, _engine.drawLine)(context, begin, end);
+    context.strokeStyle = (0, _engine.getStyleFromRgb)(colorLine, opacity);
+    context.lineWidth = width;
+    context.stroke();
+}
+function drawGrab(container, particle, lineColor, opacity, mousePos) {
+    container.canvas.draw((ctx)=>{
+        const beginPos = particle.getPosition();
+        drawGrabLine(ctx, particle.retina.linksWidth ?? 0, beginPos, mousePos, lineColor, opacity);
+    });
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hbFFH":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"crdH6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8pblm":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalPauseInteraction", ()=>loadExternalPauseInteraction);
+var _pauserJs = require("./Pauser.js");
+async function loadExternalPauseInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalPause", (container)=>new (0, _pauserJs.Pauser)(container), refresh);
+}
+
+},{"./Pauser.js":"lOtxQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lOtxQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Pauser", ()=>Pauser);
+var _engine = require("@tsparticles/engine");
+const pauseMode = "pause";
+class Pauser extends (0, _engine.ExternalInteractorBase) {
+    constructor(container){
+        super(container);
+        this.handleClickMode = (mode)=>{
+            if (mode !== pauseMode) return;
+            const container = this.container;
+            if (container.getAnimationStatus()) container.pause();
+            else container.play();
+        };
+    }
+    clear() {}
+    init() {}
+    async interact() {}
+    isEnabled() {
+        return true;
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"WPEfZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalPushInteraction", ()=>loadExternalPushInteraction);
+var _pusherJs = require("./Pusher.js");
+var _pushJs = require("./Options/Classes/Push.js");
+parcelHelpers.exportAll(_pushJs, exports);
+var _ipushJs = require("./Options/Interfaces/IPush.js");
+parcelHelpers.exportAll(_ipushJs, exports);
+async function loadExternalPushInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalPush", (container)=>new (0, _pusherJs.Pusher)(container), refresh);
+}
+
+},{"./Pusher.js":"gzpFB","./Options/Classes/Push.js":"jFLQH","./Options/Interfaces/IPush.js":"ipILS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gzpFB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Pusher", ()=>Pusher);
+var _engine = require("@tsparticles/engine");
+var _pushJs = require("./Options/Classes/Push.js");
+const pushMode = "push";
+class Pusher extends (0, _engine.ExternalInteractorBase) {
+    constructor(container){
+        super(container);
+        this.handleClickMode = (mode)=>{
+            if (mode !== pushMode) return;
+            const container = this.container, options = container.actualOptions, pushOptions = options.interactivity.modes.push;
+            if (!pushOptions) return;
+            const quantity = (0, _engine.getRangeValue)(pushOptions.quantity);
+            if (quantity <= 0) return;
+            const group = (0, _engine.itemFromArray)([
+                undefined,
+                ...pushOptions.groups
+            ]), groupOptions = group !== undefined ? container.actualOptions.particles.groups[group] : undefined;
+            container.particles.push(quantity, container.interactivity.mouse, groupOptions, group);
+        };
+    }
+    clear() {}
+    init() {}
+    async interact() {}
+    isEnabled() {
+        return true;
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.push) options.push = new (0, _pushJs.Push)();
+        for (const source of sources)options.push.load(source?.push);
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Push.js":"jFLQH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jFLQH":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Push", ()=>Push);
+var _engine = require("@tsparticles/engine");
+class Push {
+    constructor(){
+        this.default = true;
+        this.groups = [];
+        this.quantity = 4;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.default !== undefined) this.default = data.default;
+        if (data.groups !== undefined) this.groups = data.groups.map((t)=>t);
+        if (!this.groups.length) this.default = true;
+        const quantity = data.quantity;
+        if (quantity !== undefined) this.quantity = (0, _engine.setRangeValue)(quantity);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ipILS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l5WHz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalRemoveInteraction", ()=>loadExternalRemoveInteraction);
+var _removerJs = require("./Remover.js");
+var _removeJs = require("./Options/Classes/Remove.js");
+parcelHelpers.exportAll(_removeJs, exports);
+var _iremoveJs = require("./Options/Interfaces/IRemove.js");
+parcelHelpers.exportAll(_iremoveJs, exports);
+async function loadExternalRemoveInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalRemove", (container)=>new (0, _removerJs.Remover)(container), refresh);
+}
+
+},{"./Remover.js":"J0SCh","./Options/Classes/Remove.js":"eEXqS","./Options/Interfaces/IRemove.js":"fqkn1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"J0SCh":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Remover", ()=>Remover);
+var _engine = require("@tsparticles/engine");
+var _removeJs = require("./Options/Classes/Remove.js");
+const removeMode = "remove";
+class Remover extends (0, _engine.ExternalInteractorBase) {
+    constructor(container){
+        super(container);
+        this.handleClickMode = (mode)=>{
+            const container = this.container, options = container.actualOptions;
+            if (!options.interactivity.modes.remove || mode !== removeMode) return;
+            const removeNb = (0, _engine.getRangeValue)(options.interactivity.modes.remove.quantity);
+            container.particles.removeQuantity(removeNb);
+        };
+    }
+    clear() {}
+    init() {}
+    async interact() {}
+    isEnabled() {
+        return true;
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.remove) options.remove = new (0, _removeJs.Remove)();
+        for (const source of sources)options.remove.load(source?.remove);
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Remove.js":"eEXqS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eEXqS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Remove", ()=>Remove);
+var _engine = require("@tsparticles/engine");
+class Remove {
+    constructor(){
+        this.quantity = 2;
+    }
+    load(data) {
+        if (!data) return;
+        const quantity = data.quantity;
+        if (quantity !== undefined) this.quantity = (0, _engine.setRangeValue)(quantity);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fqkn1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g95RS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalRepulseInteraction", ()=>loadExternalRepulseInteraction);
+var _repulserJs = require("./Repulser.js");
+var _repulseBaseJs = require("./Options/Classes/RepulseBase.js");
+parcelHelpers.exportAll(_repulseBaseJs, exports);
+var _repulseDivJs = require("./Options/Classes/RepulseDiv.js");
+parcelHelpers.exportAll(_repulseDivJs, exports);
+var _repulseJs = require("./Options/Classes/Repulse.js");
+parcelHelpers.exportAll(_repulseJs, exports);
+var _irepulseBaseJs = require("./Options/Interfaces/IRepulseBase.js");
+parcelHelpers.exportAll(_irepulseBaseJs, exports);
+var _irepulseDivJs = require("./Options/Interfaces/IRepulseDiv.js");
+parcelHelpers.exportAll(_irepulseDivJs, exports);
+var _irepulseJs = require("./Options/Interfaces/IRepulse.js");
+parcelHelpers.exportAll(_irepulseJs, exports);
+async function loadExternalRepulseInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalRepulse", (container)=>new (0, _repulserJs.Repulser)(engine, container), refresh);
+}
+
+},{"./Repulser.js":"k8sRC","./Options/Classes/RepulseBase.js":"euv0j","./Options/Classes/RepulseDiv.js":"cbBZ3","./Options/Classes/Repulse.js":"5vnl7","./Options/Interfaces/IRepulseBase.js":"eD4KN","./Options/Interfaces/IRepulseDiv.js":"7vdRd","./Options/Interfaces/IRepulse.js":"kOILT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k8sRC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Repulser", ()=>Repulser);
+var _engine = require("@tsparticles/engine");
+var _repulseJs = require("./Options/Classes/Repulse.js");
+const repulseMode = "repulse";
+class Repulser extends (0, _engine.ExternalInteractorBase) {
+    constructor(engine, container){
+        super(container);
+        this._clickRepulse = ()=>{
+            const container = this.container, repulseOptions = container.actualOptions.interactivity.modes.repulse;
+            if (!repulseOptions) return;
+            const repulse = container.repulse || {
+                particles: []
+            };
+            if (!repulse.finish) {
+                if (!repulse.count) repulse.count = 0;
+                repulse.count++;
+                if (repulse.count === container.particles.count) repulse.finish = true;
+            }
+            if (repulse.clicking) {
+                const repulseDistance = container.retina.repulseModeDistance;
+                if (!repulseDistance || repulseDistance < 0) return;
+                const repulseRadius = Math.pow(repulseDistance / 6, 3), mouseClickPos = container.interactivity.mouse.clickPosition;
+                if (mouseClickPos === undefined) return;
+                const range = new (0, _engine.Circle)(mouseClickPos.x, mouseClickPos.y, repulseRadius), query = container.particles.quadTree.query(range, (p)=>this.isEnabled(p));
+                for (const particle of query){
+                    const { dx, dy, distance } = (0, _engine.getDistances)(mouseClickPos, particle.position), d = distance ** 2, velocity = repulseOptions.speed, force = -repulseRadius * velocity / d;
+                    if (d <= repulseRadius) {
+                        repulse.particles.push(particle);
+                        const vect = (0, _engine.Vector).create(dx, dy);
+                        vect.length = force;
+                        particle.velocity.setTo(vect);
+                    }
+                }
+            } else if (repulse.clicking === false) {
+                for (const particle of repulse.particles)particle.velocity.setTo(particle.initialVelocity);
+                repulse.particles = [];
+            }
+        };
+        this._hoverRepulse = ()=>{
+            const container = this.container, mousePos = container.interactivity.mouse.position, repulseRadius = container.retina.repulseModeDistance;
+            if (!repulseRadius || repulseRadius < 0 || !mousePos) return;
+            this._processRepulse(mousePos, repulseRadius, new (0, _engine.Circle)(mousePos.x, mousePos.y, repulseRadius));
+        };
+        this._processRepulse = (position, repulseRadius, area, divRepulse)=>{
+            const container = this.container, query = container.particles.quadTree.query(area, (p)=>this.isEnabled(p)), repulseOptions = container.actualOptions.interactivity.modes.repulse;
+            if (!repulseOptions) return;
+            const { easing, speed, factor, maxSpeed } = repulseOptions, easingFunc = (0, _engine.getEasing)(easing), velocity = (divRepulse?.speed ?? speed) * factor;
+            for (const particle of query){
+                const { dx, dy, distance } = (0, _engine.getDistances)(particle.position, position), repulseFactor = (0, _engine.clamp)(easingFunc(1 - distance / repulseRadius) * velocity, 0, maxSpeed), normVec = (0, _engine.Vector).create(distance === 0 ? velocity : dx / distance * repulseFactor, distance === 0 ? velocity : dy / distance * repulseFactor);
+                particle.position.addTo(normVec);
+            }
+        };
+        this._singleSelectorRepulse = (selector, div)=>{
+            const container = this.container, repulse = container.actualOptions.interactivity.modes.repulse;
+            if (!repulse) return;
+            const query = document.querySelectorAll(selector);
+            if (!query.length) return;
+            query.forEach((item)=>{
+                const elem = item, pxRatio = container.retina.pixelRatio, pos = {
+                    x: (elem.offsetLeft + elem.offsetWidth / 2) * pxRatio,
+                    y: (elem.offsetTop + elem.offsetHeight / 2) * pxRatio
+                }, repulseRadius = elem.offsetWidth / 2 * pxRatio, area = div.type === "circle" ? new (0, _engine.Circle)(pos.x, pos.y, repulseRadius) : new (0, _engine.Rectangle)(elem.offsetLeft * pxRatio, elem.offsetTop * pxRatio, elem.offsetWidth * pxRatio, elem.offsetHeight * pxRatio), divs = repulse.divs, divRepulse = (0, _engine.divMode)(divs, elem);
+                this._processRepulse(pos, repulseRadius, area, divRepulse);
+            });
+        };
+        this._engine = engine;
+        if (!container.repulse) container.repulse = {
+            particles: []
+        };
+        this.handleClickMode = (mode)=>{
+            const options = this.container.actualOptions, repulseOpts = options.interactivity.modes.repulse;
+            if (!repulseOpts || mode !== repulseMode) return;
+            if (!container.repulse) container.repulse = {
+                particles: []
+            };
+            const repulse = container.repulse;
+            repulse.clicking = true;
+            repulse.count = 0;
+            for (const particle of container.repulse.particles){
+                if (!this.isEnabled(particle)) continue;
+                particle.velocity.setTo(particle.initialVelocity);
+            }
+            repulse.particles = [];
+            repulse.finish = false;
+            setTimeout(()=>{
+                if (container.destroyed) return;
+                repulse.clicking = false;
+            }, repulseOpts.duration * 1000);
+        };
+    }
+    clear() {}
+    init() {
+        const container = this.container, repulse = container.actualOptions.interactivity.modes.repulse;
+        if (!repulse) return;
+        container.retina.repulseModeDistance = repulse.distance * container.retina.pixelRatio;
+    }
+    async interact() {
+        const container = this.container, options = container.actualOptions, mouseMoveStatus = container.interactivity.status === (0, _engine.mouseMoveEvent), events = options.interactivity.events, hover = events.onHover, hoverEnabled = hover.enable, hoverMode = hover.mode, click = events.onClick, clickEnabled = click.enable, clickMode = click.mode, divs = events.onDiv;
+        if (mouseMoveStatus && hoverEnabled && (0, _engine.isInArray)(repulseMode, hoverMode)) this._hoverRepulse();
+        else if (clickEnabled && (0, _engine.isInArray)(repulseMode, clickMode)) this._clickRepulse();
+        else (0, _engine.divModeExecute)(repulseMode, divs, (selector, div)=>this._singleSelectorRepulse(selector, div));
+    }
+    isEnabled(particle) {
+        const container = this.container, options = container.actualOptions, mouse = container.interactivity.mouse, events = (particle?.interactivity ?? options.interactivity).events, divs = events.onDiv, hover = events.onHover, click = events.onClick, divRepulse = (0, _engine.isDivModeEnabled)(repulseMode, divs);
+        if (!(divRepulse || hover.enable && mouse.position || click.enable && mouse.clickPosition)) return false;
+        const hoverMode = hover.mode, clickMode = click.mode;
+        return (0, _engine.isInArray)(repulseMode, hoverMode) || (0, _engine.isInArray)(repulseMode, clickMode) || divRepulse;
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.repulse) options.repulse = new (0, _repulseJs.Repulse)();
+        for (const source of sources)options.repulse.load(source?.repulse);
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Repulse.js":"5vnl7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5vnl7":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Repulse", ()=>Repulse);
+var _engine = require("@tsparticles/engine");
+var _repulseBaseJs = require("./RepulseBase.js");
+var _repulseDivJs = require("./RepulseDiv.js");
+class Repulse extends (0, _repulseBaseJs.RepulseBase) {
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        this.divs = (0, _engine.executeOnSingleOrMultiple)(data.divs, (div)=>{
+            const tmp = new (0, _repulseDivJs.RepulseDiv)();
+            tmp.load(div);
+            return tmp;
+        });
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./RepulseBase.js":"euv0j","./RepulseDiv.js":"cbBZ3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"euv0j":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "RepulseBase", ()=>RepulseBase);
+class RepulseBase {
+    constructor(){
+        this.distance = 200;
+        this.duration = 0.4;
+        this.factor = 100;
+        this.speed = 1;
+        this.maxSpeed = 50;
+        this.easing = "ease-out-quad";
+    }
+    load(data) {
+        if (!data) return;
+        if (data.distance !== undefined) this.distance = data.distance;
+        if (data.duration !== undefined) this.duration = data.duration;
+        if (data.easing !== undefined) this.easing = data.easing;
+        if (data.factor !== undefined) this.factor = data.factor;
+        if (data.speed !== undefined) this.speed = data.speed;
+        if (data.maxSpeed !== undefined) this.maxSpeed = data.maxSpeed;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cbBZ3":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "RepulseDiv", ()=>RepulseDiv);
+var _repulseBaseJs = require("./RepulseBase.js");
+class RepulseDiv extends (0, _repulseBaseJs.RepulseBase) {
+    constructor(){
+        super();
+        this.selectors = [];
+    }
+    load(data) {
+        super.load(data);
+        if (!data) return;
+        if (data.selectors !== undefined) this.selectors = data.selectors;
+    }
+}
+
+},{"./RepulseBase.js":"euv0j","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eD4KN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7vdRd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kOILT":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aaEsz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExternalSlowInteraction", ()=>loadExternalSlowInteraction);
+var _slowerJs = require("./Slower.js");
+var _slowJs = require("./Options/Classes/Slow.js");
+parcelHelpers.exportAll(_slowJs, exports);
+var _islowJs = require("./Options/Interfaces/ISlow.js");
+parcelHelpers.exportAll(_islowJs, exports);
+async function loadExternalSlowInteraction(engine, refresh = true) {
+    await engine.addInteractor("externalSlow", (container)=>new (0, _slowerJs.Slower)(container), refresh);
+}
+
+},{"./Slower.js":"vGUEp","./Options/Classes/Slow.js":"3mPkR","./Options/Interfaces/ISlow.js":"8FIJu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"vGUEp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Slower", ()=>Slower);
+var _engine = require("@tsparticles/engine");
+var _slowJs = require("./Options/Classes/Slow.js");
+const slowMode = "slow";
+class Slower extends (0, _engine.ExternalInteractorBase) {
+    constructor(container){
+        super(container);
+    }
+    clear(particle, delta, force) {
+        if (particle.slow.inRange && !force) return;
+        particle.slow.factor = 1;
+    }
+    init() {
+        const container = this.container, slow = container.actualOptions.interactivity.modes.slow;
+        if (!slow) return;
+        container.retina.slowModeRadius = slow.radius * container.retina.pixelRatio;
+    }
+    async interact() {}
+    isEnabled(particle) {
+        const container = this.container, mouse = container.interactivity.mouse, events = (particle?.interactivity ?? container.actualOptions.interactivity).events;
+        return events.onHover.enable && !!mouse.position && (0, _engine.isInArray)(slowMode, events.onHover.mode);
+    }
+    loadModeOptions(options, ...sources) {
+        if (!options.slow) options.slow = new (0, _slowJs.Slow)();
+        for (const source of sources)options.slow.load(source?.slow);
+    }
+    reset(particle) {
+        particle.slow.inRange = false;
+        const container = this.container, options = container.actualOptions, mousePos = container.interactivity.mouse.position, radius = container.retina.slowModeRadius, slowOptions = options.interactivity.modes.slow;
+        if (!slowOptions || !radius || radius < 0 || !mousePos) return;
+        const particlePos = particle.getPosition(), dist = (0, _engine.getDistance)(mousePos, particlePos), proximityFactor = dist / radius, slowFactor = slowOptions.factor, { slow } = particle;
+        if (dist > radius) return;
+        slow.inRange = true;
+        slow.factor = proximityFactor / slowFactor;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Slow.js":"3mPkR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3mPkR":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Slow", ()=>Slow);
+class Slow {
+    constructor(){
+        this.factor = 3;
+        this.radius = 200;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.factor !== undefined) this.factor = data.factor;
+        if (data.radius !== undefined) this.radius = data.radius;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8FIJu":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"63bIE":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadImageShape", ()=>loadImageShape);
+var _utilsJs = require("./Utils.js");
+var _imageDrawerJs = require("./ImageDrawer.js");
+var _imagePreloaderJs = require("./ImagePreloader.js");
+var _engine = require("@tsparticles/engine");
+function addLoadImageToEngine(engine) {
+    if (engine.loadImage) return;
+    engine.loadImage = async (data)=>{
+        if (!data.name && !data.src) throw new Error(`${(0, _engine.errorPrefix)} no image source provided`);
+        if (!engine.images) engine.images = [];
+        if (engine.images.find((t)=>t.name === data.name || t.source === data.src)) return;
+        try {
+            const image = {
+                gif: data.gif ?? false,
+                name: data.name ?? data.src,
+                source: data.src,
+                type: data.src.substring(data.src.length - 3),
+                error: false,
+                loading: true,
+                replaceColor: data.replaceColor,
+                ratio: data.width && data.height ? data.width / data.height : undefined
+            };
+            engine.images.push(image);
+            const imageFunc = data.gif ? (0, _utilsJs.loadGifImage) : data.replaceColor ? (0, _utilsJs.downloadSvgImage) : (0, _utilsJs.loadImage);
+            await imageFunc(image);
+        } catch  {
+            throw new Error(`${(0, _engine.errorPrefix)} ${data.name ?? data.src} not found`);
+        }
+    };
+}
+async function loadImageShape(engine, refresh = true) {
+    addLoadImageToEngine(engine);
+    const preloader = new (0, _imagePreloaderJs.ImagePreloaderPlugin)(engine);
+    await engine.addPlugin(preloader, refresh);
+    await engine.addShape([
+        "image",
+        "images"
+    ], new (0, _imageDrawerJs.ImageDrawer)(engine), refresh);
+}
+
+},{"./Utils.js":"i16sx","./ImageDrawer.js":"lz6ld","./ImagePreloader.js":"i3SWc","@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i16sx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadImage", ()=>loadImage);
+parcelHelpers.export(exports, "loadGifImage", ()=>loadGifImage);
+parcelHelpers.export(exports, "downloadSvgImage", ()=>downloadSvgImage);
+parcelHelpers.export(exports, "replaceImageColor", ()=>replaceImageColor);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./GifUtils/Utils.js");
+const currentColorRegex = /(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d.]+%?\))|currentcolor/gi;
+function replaceColorSvg(imageShape, color, opacity) {
+    const { svgData } = imageShape;
+    if (!svgData) return "";
+    const colorStyle = (0, _engine.getStyleFromHsl)(color, opacity);
+    if (svgData.includes("fill")) return svgData.replace(currentColorRegex, ()=>colorStyle);
+    const preFillIndex = svgData.indexOf(">");
+    return `${svgData.substring(0, preFillIndex)} fill="${colorStyle}"${svgData.substring(preFillIndex)}`;
+}
+async function loadImage(image) {
+    return new Promise((resolve)=>{
+        image.loading = true;
+        const img = new Image();
+        image.element = img;
+        img.addEventListener("load", ()=>{
+            image.loading = false;
+            resolve();
+        });
+        img.addEventListener("error", ()=>{
+            image.element = undefined;
+            image.error = true;
+            image.loading = false;
+            (0, _engine.getLogger)().error(`${(0, _engine.errorPrefix)} loading image: ${image.source}`);
+            resolve();
+        });
+        img.src = image.source;
+    });
+}
+async function loadGifImage(image) {
+    if (image.type !== "gif") {
+        await loadImage(image);
+        return;
+    }
+    image.loading = true;
+    try {
+        image.gifData = await (0, _utilsJs.decodeGIF)(image.source);
+        image.gifLoopCount = (0, _utilsJs.getGIFLoopAmount)(image.gifData) ?? 0;
+        if (image.gifLoopCount === 0) image.gifLoopCount = Infinity;
+    } catch  {
+        image.error = true;
+    }
+    image.loading = false;
+}
+async function downloadSvgImage(image) {
+    if (image.type !== "svg") {
+        await loadImage(image);
+        return;
+    }
+    image.loading = true;
+    const response = await fetch(image.source);
+    if (!response.ok) {
+        (0, _engine.getLogger)().error(`${(0, _engine.errorPrefix)} Image not found`);
+        image.error = true;
+    } else image.svgData = await response.text();
+    image.loading = false;
+}
+function replaceImageColor(image, imageData, color, particle) {
+    const svgColoredData = replaceColorSvg(image, color, particle.opacity?.value ?? 1), imageRes = {
+        color,
+        gif: imageData.gif,
+        data: {
+            ...image,
+            svgData: svgColoredData
+        },
+        loaded: false,
+        ratio: imageData.width / imageData.height,
+        replaceColor: imageData.replaceColor,
+        source: imageData.src
+    };
+    return new Promise((resolve)=>{
+        const svg = new Blob([
+            svgColoredData
+        ], {
+            type: "image/svg+xml"
+        }), domUrl = URL || window.URL || window.webkitURL || window, url = domUrl.createObjectURL(svg), img = new Image();
+        img.addEventListener("load", ()=>{
+            imageRes.loaded = true;
+            imageRes.element = img;
+            resolve(imageRes);
+            domUrl.revokeObjectURL(url);
+        });
+        img.addEventListener("error", async ()=>{
+            domUrl.revokeObjectURL(url);
+            const img2 = {
+                ...image,
+                error: false,
+                loading: true
+            };
+            await loadImage(img2);
+            imageRes.loaded = true;
+            imageRes.element = img2.element;
+            resolve(imageRes);
+        });
+        img.src = url;
+    });
+}
+
+},{"@tsparticles/engine":"ahMVX","./GifUtils/Utils.js":"icRPA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"icRPA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "getGIFLoopAmount", ()=>getGIFLoopAmount);
+parcelHelpers.export(exports, "decodeGIF", ()=>decodeGIF);
+var _constantsJs = require("./Constants.js");
+var _byteStreamJs = require("./ByteStream.js");
+function parseColorTable(byteStream, count) {
+    const colors = [];
+    for(let i = 0; i < count; i++){
+        colors.push({
+            r: byteStream.data[byteStream.pos],
+            g: byteStream.data[byteStream.pos + 1],
+            b: byteStream.data[byteStream.pos + 2]
+        });
+        byteStream.pos += 3;
+    }
+    return colors;
+}
+async function parseExtensionBlock(byteStream, gif, getFrameIndex, getTransparencyIndex) {
+    switch(byteStream.nextByte()){
+        case 249:
+            {
+                const frame = gif.frames[getFrameIndex(false)];
+                byteStream.pos++;
+                const packedByte = byteStream.nextByte();
+                frame.GCreserved = (packedByte & 0xe0) >>> 5;
+                frame.disposalMethod = (packedByte & 0x1c) >>> 2;
+                frame.userInputDelayFlag = (packedByte & 2) === 2;
+                const transparencyFlag = (packedByte & 1) === 1;
+                frame.delayTime = byteStream.nextTwoBytes() * 0xa;
+                const transparencyIndex = byteStream.nextByte();
+                if (transparencyFlag) getTransparencyIndex(transparencyIndex);
+                byteStream.pos++;
+                break;
+            }
+        case 255:
+            {
+                byteStream.pos++;
+                const applicationExtension = {
+                    identifier: byteStream.getString(8),
+                    authenticationCode: byteStream.getString(3),
+                    data: byteStream.readSubBlocksBin()
+                };
+                gif.applicationExtensions.push(applicationExtension);
+                break;
+            }
+        case 254:
+            gif.comments.push([
+                getFrameIndex(false),
+                byteStream.readSubBlocks()
+            ]);
+            break;
+        case 1:
+            if (gif.globalColorTable.length === 0) throw new EvalError("plain text extension without global color table");
+            byteStream.pos++;
+            gif.frames[getFrameIndex(false)].plainTextData = {
+                left: byteStream.nextTwoBytes(),
+                top: byteStream.nextTwoBytes(),
+                width: byteStream.nextTwoBytes(),
+                height: byteStream.nextTwoBytes(),
+                charSize: {
+                    width: byteStream.nextTwoBytes(),
+                    height: byteStream.nextTwoBytes()
+                },
+                foregroundColor: byteStream.nextByte(),
+                backgroundColor: byteStream.nextByte(),
+                text: byteStream.readSubBlocks()
+            };
+            break;
+        default:
+            byteStream.skipSubBlocks();
+            break;
+    }
+}
+async function parseImageBlock(byteStream, gif, avgAlpha, getFrameIndex, getTransparencyIndex, progressCallback) {
+    const frame = gif.frames[getFrameIndex(true)];
+    frame.left = byteStream.nextTwoBytes();
+    frame.top = byteStream.nextTwoBytes();
+    frame.width = byteStream.nextTwoBytes();
+    frame.height = byteStream.nextTwoBytes();
+    const packedByte = byteStream.nextByte(), localColorTableFlag = (packedByte & 0x80) === 0x80, interlacedFlag = (packedByte & 0x40) === 0x40;
+    frame.sortFlag = (packedByte & 0x20) === 0x20;
+    frame.reserved = (packedByte & 0x18) >>> 3;
+    const localColorCount = 1 << (packedByte & 7) + 1;
+    if (localColorTableFlag) frame.localColorTable = parseColorTable(byteStream, localColorCount);
+    const getColor = (index)=>{
+        const { r, g, b } = (localColorTableFlag ? frame.localColorTable : gif.globalColorTable)[index];
+        return {
+            r,
+            g,
+            b,
+            a: index === getTransparencyIndex(null) ? avgAlpha ? ~~((r + g + b) / 3) : 0 : 255
+        };
+    };
+    const image = (()=>{
+        try {
+            return new ImageData(frame.width, frame.height, {
+                colorSpace: "srgb"
+            });
+        } catch (error) {
+            if (error instanceof DOMException && error.name === "IndexSizeError") return null;
+            throw error;
+        }
+    })();
+    if (image == null) throw new EvalError("GIF frame size is to large");
+    const minCodeSize = byteStream.nextByte(), imageData = byteStream.readSubBlocksBin(), clearCode = 1 << minCodeSize;
+    const readBits = (pos, len)=>{
+        const bytePos = pos >>> 3, bitPos = pos & 7;
+        return (imageData[bytePos] + (imageData[bytePos + 1] << 8) + (imageData[bytePos + 2] << 16) & (1 << len) - 1 << bitPos) >>> bitPos;
+    };
+    if (interlacedFlag) {
+        for(let code = 0, size = minCodeSize + 1, pos = 0, dic = [
+            [
+                0
+            ]
+        ], pass = 0; pass < 4; pass++){
+            if ((0, _constantsJs.InterlaceOffsets)[pass] < frame.height) for(let pixelPos = 0, lineIndex = 0;;){
+                const last = code;
+                code = readBits(pos, size);
+                pos += size + 1;
+                if (code === clearCode) {
+                    size = minCodeSize + 1;
+                    dic.length = clearCode + 2;
+                    for(let i = 0; i < dic.length; i++)dic[i] = i < clearCode ? [
+                        i
+                    ] : [];
+                } else {
+                    if (code >= dic.length) dic.push(dic[last].concat(dic[last][0]));
+                    else if (last !== clearCode) dic.push(dic[last].concat(dic[code][0]));
+                    for(let i = 0; i < dic[code].length; i++){
+                        const { r, g, b, a } = getColor(dic[code][i]);
+                        image.data.set([
+                            r,
+                            g,
+                            b,
+                            a
+                        ], (0, _constantsJs.InterlaceOffsets)[pass] * frame.width + (0, _constantsJs.InterlaceSteps)[pass] * lineIndex + pixelPos % (frame.width * 4));
+                        pixelPos += 4;
+                    }
+                    if (dic.length === 1 << size && size < 0xc) size++;
+                }
+                if (pixelPos === frame.width * 4 * (lineIndex + 1)) {
+                    lineIndex++;
+                    if ((0, _constantsJs.InterlaceOffsets)[pass] + (0, _constantsJs.InterlaceSteps)[pass] * lineIndex >= frame.height) break;
+                }
+            }
+            progressCallback?.(byteStream.pos / (byteStream.data.length - 1), getFrameIndex(false) + 1, image, {
+                x: frame.left,
+                y: frame.top
+            }, {
+                width: gif.width,
+                height: gif.height
+            });
+        }
+        frame.image = image;
+        frame.bitmap = await createImageBitmap(image);
+    } else {
+        for(let code = 0, size = minCodeSize + 1, pos = 0, dic = [
+            [
+                0
+            ]
+        ], pixelPos = -4;;){
+            const last = code;
+            code = readBits(pos, size);
+            pos += size;
+            if (code === clearCode) {
+                size = minCodeSize + 1;
+                dic.length = clearCode + 2;
+                for(let i = 0; i < dic.length; i++)dic[i] = i < clearCode ? [
+                    i
+                ] : [];
+            } else {
+                if (code === clearCode + 1) break;
+                if (code >= dic.length) dic.push(dic[last].concat(dic[last][0]));
+                else if (last !== clearCode) dic.push(dic[last].concat(dic[code][0]));
+                for(let i = 0; i < dic[code].length; i++){
+                    const { r, g, b, a } = getColor(dic[code][i]);
+                    image.data.set([
+                        r,
+                        g,
+                        b,
+                        a
+                    ], pixelPos += 4);
+                }
+                if (dic.length >= 1 << size && size < 0xc) size++;
+            }
+        }
+        frame.image = image;
+        frame.bitmap = await createImageBitmap(image);
+        progressCallback?.((byteStream.pos + 1) / byteStream.data.length, getFrameIndex(false) + 1, frame.image, {
+            x: frame.left,
+            y: frame.top
+        }, {
+            width: gif.width,
+            height: gif.height
+        });
+    }
+}
+async function parseBlock(byteStream, gif, avgAlpha, getFrameIndex, getTransparencyIndex, progressCallback) {
+    switch(byteStream.nextByte()){
+        case 59:
+            return true;
+        case 44:
+            await parseImageBlock(byteStream, gif, avgAlpha, getFrameIndex, getTransparencyIndex, progressCallback);
+            break;
+        case 33:
+            await parseExtensionBlock(byteStream, gif, getFrameIndex, getTransparencyIndex);
+            break;
+        default:
+            throw new EvalError("undefined block found");
+    }
+    return false;
+}
+function getGIFLoopAmount(gif) {
+    for (const extension of gif.applicationExtensions){
+        if (extension.identifier + extension.authenticationCode !== "NETSCAPE2.0") continue;
+        return extension.data[1] + (extension.data[2] << 8);
+    }
+    return NaN;
+}
+async function decodeGIF(gifURL, progressCallback, avgAlpha) {
+    if (!avgAlpha) avgAlpha = false;
+    const res = await fetch(gifURL);
+    if (!res.ok && res.status === 404) throw new EvalError("file not found");
+    const buffer = await res.arrayBuffer();
+    const gif = {
+        width: 0,
+        height: 0,
+        totalTime: 0,
+        colorRes: 0,
+        pixelAspectRatio: 0,
+        frames: [],
+        sortFlag: false,
+        globalColorTable: [],
+        backgroundImage: new ImageData(1, 1, {
+            colorSpace: "srgb"
+        }),
+        comments: [],
+        applicationExtensions: []
+    }, byteStream = new (0, _byteStreamJs.ByteStream)(new Uint8ClampedArray(buffer));
+    if (byteStream.getString(6) !== "GIF89a") throw new Error("not a supported GIF file");
+    gif.width = byteStream.nextTwoBytes();
+    gif.height = byteStream.nextTwoBytes();
+    const packedByte = byteStream.nextByte(), globalColorTableFlag = (packedByte & 0x80) === 0x80;
+    gif.colorRes = (packedByte & 0x70) >>> 4;
+    gif.sortFlag = (packedByte & 8) === 8;
+    const globalColorCount = 1 << (packedByte & 7) + 1, backgroundColorIndex = byteStream.nextByte();
+    gif.pixelAspectRatio = byteStream.nextByte();
+    if (gif.pixelAspectRatio !== 0) gif.pixelAspectRatio = (gif.pixelAspectRatio + 0xf) / 0x40;
+    if (globalColorTableFlag) gif.globalColorTable = parseColorTable(byteStream, globalColorCount);
+    const backgroundImage = (()=>{
+        try {
+            return new ImageData(gif.width, gif.height, {
+                colorSpace: "srgb"
+            });
+        } catch (error) {
+            if (error instanceof DOMException && error.name === "IndexSizeError") return null;
+            throw error;
+        }
+    })();
+    if (backgroundImage == null) throw new Error("GIF frame size is to large");
+    const { r, g, b } = gif.globalColorTable[backgroundColorIndex];
+    backgroundImage.data.set(globalColorTableFlag ? [
+        r,
+        g,
+        b,
+        255
+    ] : [
+        0,
+        0,
+        0,
+        0
+    ]);
+    for(let i = 4; i < backgroundImage.data.length; i *= 2)backgroundImage.data.copyWithin(i, 0, i);
+    gif.backgroundImage = backgroundImage;
+    let frameIndex = -1, incrementFrameIndex = true, transparencyIndex = -1;
+    const getframeIndex = (increment)=>{
+        if (increment) incrementFrameIndex = true;
+        return frameIndex;
+    };
+    const getTransparencyIndex = (newValue)=>{
+        if (newValue != null) transparencyIndex = newValue;
+        return transparencyIndex;
+    };
+    try {
+        do if (incrementFrameIndex) {
+            gif.frames.push({
+                left: 0,
+                top: 0,
+                width: 0,
+                height: 0,
+                disposalMethod: 0,
+                image: new ImageData(1, 1, {
+                    colorSpace: "srgb"
+                }),
+                plainTextData: null,
+                userInputDelayFlag: false,
+                delayTime: 0,
+                sortFlag: false,
+                localColorTable: [],
+                reserved: 0,
+                GCreserved: 0
+            });
+            frameIndex++;
+            transparencyIndex = -1;
+            incrementFrameIndex = false;
+        }
+        while (!await parseBlock(byteStream, gif, avgAlpha, getframeIndex, getTransparencyIndex, progressCallback));
+        gif.frames.length--;
+        for (const frame of gif.frames){
+            if (frame.userInputDelayFlag && frame.delayTime === 0) {
+                gif.totalTime = Infinity;
+                break;
+            }
+            gif.totalTime += frame.delayTime;
+        }
+        return gif;
+    } catch (error) {
+        if (error instanceof EvalError) throw new Error(`error while parsing frame ${frameIndex} "${error.message}"`);
+        throw error;
+    }
+}
+
+},{"./Constants.js":"aJL3W","./ByteStream.js":"8Ux2Q","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aJL3W":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "InterlaceOffsets", ()=>InterlaceOffsets);
+parcelHelpers.export(exports, "InterlaceSteps", ()=>InterlaceSteps);
+const InterlaceOffsets = [
+    0,
+    4,
+    2,
+    1
+];
+const InterlaceSteps = [
+    8,
+    8,
+    4,
+    2
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8Ux2Q":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ByteStream", ()=>ByteStream);
+class ByteStream {
+    constructor(bytes){
+        this.pos = 0;
+        this.data = new Uint8ClampedArray(bytes);
+    }
+    getString(count) {
+        const slice = this.data.slice(this.pos, this.pos + count);
+        this.pos += slice.length;
+        return slice.reduce((acc, curr)=>acc + String.fromCharCode(curr), "");
+    }
+    nextByte() {
+        return this.data[this.pos++];
+    }
+    nextTwoBytes() {
+        this.pos += 2;
+        return this.data[this.pos - 2] + (this.data[this.pos - 1] << 8);
+    }
+    readSubBlocks() {
+        let blockString = "", size = 0;
+        do {
+            size = this.data[this.pos++];
+            for(let count = size; --count >= 0; blockString += String.fromCharCode(this.data[this.pos++]));
+        }while (size !== 0);
+        return blockString;
+    }
+    readSubBlocksBin() {
+        let size = 0, len = 0;
+        for(let offset = 0; (size = this.data[this.pos + offset]) !== 0; offset += size + 1)len += size;
+        const blockData = new Uint8Array(len);
+        for(let i = 0; (size = this.data[this.pos++]) !== 0;){
+            for(let count = size; --count >= 0; blockData[i++] = this.data[this.pos++]);
+        }
+        return blockData;
+    }
+    skipSubBlocks() {
+        for(; this.data[this.pos] !== 0; this.pos += this.data[this.pos] + 1);
+        this.pos++;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lz6ld":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ImageDrawer", ()=>ImageDrawer);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./Utils.js");
+class ImageDrawer {
+    constructor(engine){
+        this.loadImageShape = async (imageShape)=>{
+            if (!this._engine.loadImage) throw new Error(`${(0, _engine.errorPrefix)} image shape not initialized`);
+            await this._engine.loadImage({
+                gif: imageShape.gif,
+                name: imageShape.name,
+                replaceColor: imageShape.replaceColor ?? false,
+                src: imageShape.src
+            });
+        };
+        this._engine = engine;
+    }
+    addImage(image) {
+        if (!this._engine.images) this._engine.images = [];
+        this._engine.images.push(image);
+    }
+    draw(data) {
+        const { context, radius, particle, opacity, delta } = data, image = particle.image, element = image?.element;
+        if (!image) return;
+        context.globalAlpha = opacity;
+        if (image.gif && image.gifData) {
+            const offscreenCanvas = new OffscreenCanvas(image.gifData.width, image.gifData.height), offscreenContext = offscreenCanvas.getContext("2d");
+            if (!offscreenContext) throw new Error("could not create offscreen canvas context");
+            offscreenContext.imageSmoothingQuality = "low";
+            offscreenContext.imageSmoothingEnabled = false;
+            offscreenContext.clearRect(0, 0, offscreenCanvas.width, offscreenCanvas.height);
+            if (particle.gifLoopCount === undefined) particle.gifLoopCount = image.gifLoopCount ?? 0;
+            let frameIndex = particle.gifFrame ?? 0;
+            const pos = {
+                x: -image.gifData.width * 0.5,
+                y: -image.gifData.height * 0.5
+            }, frame = image.gifData.frames[frameIndex];
+            if (particle.gifTime === undefined) particle.gifTime = 0;
+            if (!frame.bitmap) return;
+            context.scale(radius / image.gifData.width, radius / image.gifData.height);
+            switch(frame.disposalMethod){
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 0:
+                    offscreenContext.drawImage(frame.bitmap, frame.left, frame.top);
+                    context.drawImage(offscreenCanvas, pos.x, pos.y);
+                    offscreenContext.clearRect(0, 0, offscreenCanvas.width, offscreenCanvas.height);
+                    break;
+                case 1:
+                    offscreenContext.drawImage(frame.bitmap, frame.left, frame.top);
+                    context.drawImage(offscreenCanvas, pos.x, pos.y);
+                    break;
+                case 2:
+                    offscreenContext.drawImage(frame.bitmap, frame.left, frame.top);
+                    context.drawImage(offscreenCanvas, pos.x, pos.y);
+                    offscreenContext.clearRect(0, 0, offscreenCanvas.width, offscreenCanvas.height);
+                    if (image.gifData.globalColorTable.length === 0) offscreenContext.putImageData(image.gifData.frames[0].image, pos.x + frame.left, pos.y + frame.top);
+                    else offscreenContext.putImageData(image.gifData.backgroundImage, pos.x, pos.y);
+                    break;
+                case 3:
+                    {
+                        const previousImageData = offscreenContext.getImageData(0, 0, offscreenCanvas.width, offscreenCanvas.height);
+                        offscreenContext.drawImage(frame.bitmap, frame.left, frame.top);
+                        context.drawImage(offscreenCanvas, pos.x, pos.y);
+                        offscreenContext.clearRect(0, 0, offscreenCanvas.width, offscreenCanvas.height);
+                        offscreenContext.putImageData(previousImageData, 0, 0);
+                    }
+                    break;
+            }
+            particle.gifTime += delta.value;
+            if (particle.gifTime > frame.delayTime) {
+                particle.gifTime -= frame.delayTime;
+                if (++frameIndex >= image.gifData.frames.length) {
+                    if (--particle.gifLoopCount <= 0) return;
+                    frameIndex = 0;
+                    offscreenContext.clearRect(0, 0, offscreenCanvas.width, offscreenCanvas.height);
+                }
+                particle.gifFrame = frameIndex;
+            }
+            context.scale(image.gifData.width / radius, image.gifData.height / radius);
+        } else if (element) {
+            const ratio = image.ratio, pos = {
+                x: -radius,
+                y: -radius
+            }, diameter = radius * 2;
+            context.drawImage(element, pos.x, pos.y, diameter, diameter / ratio);
+        }
+        context.globalAlpha = 1;
+    }
+    getSidesCount() {
+        return 12;
+    }
+    async init(container) {
+        const options = container.actualOptions;
+        if (!options.preload || !this._engine.loadImage) return;
+        for (const imageData of options.preload)await this._engine.loadImage(imageData);
+    }
+    loadShape(particle) {
+        if (particle.shape !== "image" && particle.shape !== "images") return;
+        if (!this._engine.images) this._engine.images = [];
+        const imageData = particle.shapeData;
+        if (!imageData) return;
+        const image = this._engine.images.find((t)=>t.name === imageData.name || t.source === imageData.src);
+        if (!image) this.loadImageShape(imageData).then(()=>{
+            this.loadShape(particle);
+        });
+    }
+    particleInit(container, particle) {
+        if (particle.shape !== "image" && particle.shape !== "images") return;
+        if (!this._engine.images) this._engine.images = [];
+        const images = this._engine.images, imageData = particle.shapeData;
+        if (!imageData) return;
+        const color = particle.getFillColor(), image = images.find((t)=>t.name === imageData.name || t.source === imageData.src);
+        if (!image) return;
+        const replaceColor = imageData.replaceColor ?? image.replaceColor;
+        if (image.loading) {
+            setTimeout(()=>{
+                this.particleInit(container, particle);
+            });
+            return;
+        }
+        (async ()=>{
+            let imageRes;
+            if (image.svgData && color) imageRes = await (0, _utilsJs.replaceImageColor)(image, imageData, color, particle);
+            else imageRes = {
+                color,
+                data: image,
+                element: image.element,
+                gif: image.gif,
+                gifData: image.gifData,
+                gifLoopCount: image.gifLoopCount,
+                loaded: true,
+                ratio: imageData.width && imageData.height ? imageData.width / imageData.height : image.ratio ?? 1,
+                replaceColor: replaceColor,
+                source: imageData.src
+            };
+            if (!imageRes.ratio) imageRes.ratio = 1;
+            const fill = imageData.fill ?? particle.shapeFill, close = imageData.close ?? particle.shapeClose, imageShape = {
+                image: imageRes,
+                fill,
+                close
+            };
+            particle.image = imageShape.image;
+            particle.shapeFill = imageShape.fill;
+            particle.shapeClose = imageShape.close;
+        })();
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Utils.js":"i16sx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i3SWc":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ImagePreloaderPlugin", ()=>ImagePreloaderPlugin);
+var _preloadJs = require("./Options/Classes/Preload.js");
+class ImagePreloaderPlugin {
+    constructor(engine){
+        this.id = "imagePreloader";
+        this._engine = engine;
+    }
+    getPlugin() {
+        return {};
+    }
+    loadOptions(options, source) {
+        if (!source || !source.preload) return;
+        if (!options.preload) options.preload = [];
+        const preloadOptions = options.preload;
+        for (const item of source.preload){
+            const existing = preloadOptions.find((t)=>t.name === item.name || t.src === item.src);
+            if (existing) existing.load(item);
+            else {
+                const preload = new (0, _preloadJs.Preload)();
+                preload.load(item);
+                preloadOptions.push(preload);
+            }
+        }
+    }
+    needsPlugin() {
+        return true;
+    }
+}
+
+},{"./Options/Classes/Preload.js":"dwaTB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dwaTB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Preload", ()=>Preload);
+class Preload {
+    constructor(){
+        this.src = "";
+        this.gif = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.gif !== undefined) this.gif = data.gif;
+        if (data.height !== undefined) this.height = data.height;
+        if (data.name !== undefined) this.name = data.name;
+        if (data.replaceColor !== undefined) this.replaceColor = data.replaceColor;
+        if (data.src !== undefined) this.src = data.src;
+        if (data.width !== undefined) this.width = data.width;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"goeJr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadLifeUpdater", ()=>loadLifeUpdater);
+var _lifeUpdaterJs = require("./LifeUpdater.js");
+async function loadLifeUpdater(engine, refresh = true) {
+    await engine.addParticleUpdater("life", (container)=>new (0, _lifeUpdaterJs.LifeUpdater)(container), refresh);
+}
+
+},{"./LifeUpdater.js":"bgbY9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bgbY9":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LifeUpdater", ()=>LifeUpdater);
+var _engine = require("@tsparticles/engine");
+var _lifeJs = require("./Options/Classes/Life.js");
+class LifeUpdater {
+    constructor(container){
+        this.container = container;
+    }
+    init(particle) {
+        const container = this.container, particlesOptions = particle.options, lifeOptions = particlesOptions.life;
+        if (!lifeOptions) return;
+        particle.life = {
+            delay: container.retina.reduceFactor ? (0, _engine.getRangeValue)(lifeOptions.delay.value) * (lifeOptions.delay.sync ? 1 : (0, _engine.getRandom)()) / container.retina.reduceFactor * 1000 : 0,
+            delayTime: 0,
+            duration: container.retina.reduceFactor ? (0, _engine.getRangeValue)(lifeOptions.duration.value) * (lifeOptions.duration.sync ? 1 : (0, _engine.getRandom)()) / container.retina.reduceFactor * 1000 : 0,
+            time: 0,
+            count: lifeOptions.count
+        };
+        if (particle.life.duration <= 0) particle.life.duration = -1;
+        if (particle.life.count <= 0) particle.life.count = -1;
+        if (particle.life) particle.spawning = particle.life.delay > 0;
+    }
+    isEnabled(particle) {
+        return !particle.destroyed;
+    }
+    loadOptions(options, ...sources) {
+        if (!options.life) options.life = new (0, _lifeJs.Life)();
+        for (const source of sources)options.life.load(source?.life);
+    }
+    update(particle, delta) {
+        if (!this.isEnabled(particle) || !particle.life) return;
+        const life = particle.life;
+        let justSpawned = false;
+        if (particle.spawning) {
+            life.delayTime += delta.value;
+            if (life.delayTime >= particle.life.delay) {
+                justSpawned = true;
+                particle.spawning = false;
+                life.delayTime = 0;
+                life.time = 0;
+            } else return;
+        }
+        if (life.duration === -1) return;
+        if (particle.spawning) return;
+        if (justSpawned) life.time = 0;
+        else life.time += delta.value;
+        if (life.time < life.duration) return;
+        life.time = 0;
+        if (particle.life.count > 0) particle.life.count--;
+        if (particle.life.count === 0) {
+            particle.destroy();
+            return;
+        }
+        const canvasSize = this.container.canvas.size, widthRange = (0, _engine.setRangeValue)(0, canvasSize.width), heightRange = (0, _engine.setRangeValue)(0, canvasSize.width);
+        particle.position.x = (0, _engine.randomInRange)(widthRange);
+        particle.position.y = (0, _engine.randomInRange)(heightRange);
+        particle.spawning = true;
+        life.delayTime = 0;
+        life.time = 0;
+        particle.reset();
+        const lifeOptions = particle.options.life;
+        if (lifeOptions) {
+            life.delay = (0, _engine.getRangeValue)(lifeOptions.delay.value) * 1000;
+            life.duration = (0, _engine.getRangeValue)(lifeOptions.duration.value) * 1000;
+        }
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Life.js":"dmJ1w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dmJ1w":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Life", ()=>Life);
+var _lifeDelayJs = require("./LifeDelay.js");
+var _lifeDurationJs = require("./LifeDuration.js");
+class Life {
+    constructor(){
+        this.count = 0;
+        this.delay = new (0, _lifeDelayJs.LifeDelay)();
+        this.duration = new (0, _lifeDurationJs.LifeDuration)();
+    }
+    load(data) {
+        if (!data) return;
+        if (data.count !== undefined) this.count = data.count;
+        this.delay.load(data.delay);
+        this.duration.load(data.duration);
+    }
+}
+
+},{"./LifeDelay.js":"5Zqx0","./LifeDuration.js":"aaY4I","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5Zqx0":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LifeDelay", ()=>LifeDelay);
+var _engine = require("@tsparticles/engine");
+class LifeDelay extends (0, _engine.ValueWithRandom) {
+    constructor(){
+        super();
+        this.sync = false;
+    }
+    load(data) {
+        if (!data) return;
+        super.load(data);
+        if (data.sync !== undefined) this.sync = data.sync;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aaY4I":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LifeDuration", ()=>LifeDuration);
+var _engine = require("@tsparticles/engine");
+class LifeDuration extends (0, _engine.ValueWithRandom) {
+    constructor(){
+        super();
+        this.sync = false;
+    }
+    load(data) {
+        if (!data) return;
+        super.load(data);
+        if (data.sync !== undefined) this.sync = data.sync;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2PQep":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadLineShape", ()=>loadLineShape);
+var _lineDrawerJs = require("./LineDrawer.js");
+async function loadLineShape(engine, refresh = true) {
+    await engine.addShape("line", new (0, _lineDrawerJs.LineDrawer)(), refresh);
+}
+
+},{"./LineDrawer.js":"hMfGl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hMfGl":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LineDrawer", ()=>LineDrawer);
+class LineDrawer {
+    draw(data) {
+        const { context, particle, radius } = data, shapeData = particle.shapeData;
+        context.moveTo(-radius / 2, 0);
+        context.lineTo(radius / 2, 0);
+        context.lineCap = shapeData?.cap ?? "butt";
+    }
+    getSidesCount() {
+        return 1;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1Gt6Z":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadParallaxMover", ()=>loadParallaxMover);
+var _parallaxMoverJs = require("./ParallaxMover.js");
+async function loadParallaxMover(engine, refresh = true) {
+    await engine.addMover("parallax", ()=>new (0, _parallaxMoverJs.ParallaxMover)(), refresh);
+}
+
+},{"./ParallaxMover.js":"feWTh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"feWTh":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ParallaxMover", ()=>ParallaxMover);
+var _engine = require("@tsparticles/engine");
+class ParallaxMover {
+    init() {}
+    isEnabled(particle) {
+        return !(0, _engine.isSsr)() && !particle.destroyed && particle.container.actualOptions.interactivity.events.onHover.parallax.enable;
+    }
+    move(particle) {
+        const container = particle.container, options = container.actualOptions, parallaxOptions = options.interactivity.events.onHover.parallax;
+        if ((0, _engine.isSsr)() || !parallaxOptions.enable) return;
+        const parallaxForce = parallaxOptions.force, mousePos = container.interactivity.mouse.position;
+        if (!mousePos) return;
+        const canvasSize = container.canvas.size, canvasCenter = {
+            x: canvasSize.width * 0.5,
+            y: canvasSize.height * 0.5
+        }, parallaxSmooth = parallaxOptions.smooth, factor = particle.getRadius() / parallaxForce, centerDistance = {
+            x: (mousePos.x - canvasCenter.x) * factor,
+            y: (mousePos.y - canvasCenter.y) * factor
+        }, { offset } = particle;
+        offset.x += (centerDistance.x - offset.x) / parallaxSmooth;
+        offset.y += (centerDistance.y - offset.y) / parallaxSmooth;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1Fp4v":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadParticlesAttractInteraction", ()=>loadParticlesAttractInteraction);
+var _attractorJs = require("./Attractor.js");
+async function loadParticlesAttractInteraction(engine, refresh = true) {
+    await engine.addInteractor("particlesAttract", (container)=>new (0, _attractorJs.Attractor)(container), refresh);
+}
+
+},{"./Attractor.js":"8iLc4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8iLc4":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Attractor", ()=>Attractor);
+var _engine = require("@tsparticles/engine");
+class Attractor extends (0, _engine.ParticlesInteractorBase) {
+    constructor(container){
+        super(container);
+    }
+    clear() {}
+    init() {}
+    async interact(p1) {
+        const container = this.container;
+        if (p1.attractDistance === undefined) p1.attractDistance = (0, _engine.getRangeValue)(p1.options.move.attract.distance) * container.retina.pixelRatio;
+        const distance = p1.attractDistance, pos1 = p1.getPosition(), query = container.particles.quadTree.queryCircle(pos1, distance);
+        for (const p2 of query){
+            if (p1 === p2 || !p2.options.move.attract.enable || p2.destroyed || p2.spawning) continue;
+            const pos2 = p2.getPosition(), { dx, dy } = (0, _engine.getDistances)(pos1, pos2), rotate = p1.options.move.attract.rotate, ax = dx / (rotate.x * 1000), ay = dy / (rotate.y * 1000), p1Factor = p2.size.value / p1.size.value, p2Factor = 1 / p1Factor;
+            p1.velocity.x -= ax * p1Factor;
+            p1.velocity.y -= ay * p1Factor;
+            p2.velocity.x += ax * p2Factor;
+            p2.velocity.y += ay * p2Factor;
+        }
+    }
+    isEnabled(particle) {
+        return particle.options.move.attract.enable;
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aZk4Y":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadParticlesCollisionsInteraction", ()=>loadParticlesCollisionsInteraction);
+var _colliderJs = require("./Collider.js");
+async function loadParticlesCollisionsInteraction(engine, refresh = true) {
+    await engine.addInteractor("particlesCollisions", (container)=>new (0, _colliderJs.Collider)(container), refresh);
+}
+
+},{"./Collider.js":"k8jlj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k8jlj":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Collider", ()=>Collider);
+var _engine = require("@tsparticles/engine");
+var _resolveCollisionJs = require("./ResolveCollision.js");
+class Collider extends (0, _engine.ParticlesInteractorBase) {
+    constructor(container){
+        super(container);
+    }
+    clear() {}
+    init() {}
+    async interact(p1, delta) {
+        if (p1.destroyed || p1.spawning) return;
+        const container = this.container, pos1 = p1.getPosition(), radius1 = p1.getRadius(), query = container.particles.quadTree.queryCircle(pos1, radius1 * 2);
+        for (const p2 of query){
+            if (p1 === p2 || !p2.options.collisions.enable || p1.options.collisions.mode !== p2.options.collisions.mode || p2.destroyed || p2.spawning) continue;
+            const pos2 = p2.getPosition(), radius2 = p2.getRadius();
+            if (Math.abs(Math.round(pos1.z) - Math.round(pos2.z)) > radius1 + radius2) continue;
+            const dist = (0, _engine.getDistance)(pos1, pos2), distP = radius1 + radius2;
+            if (dist > distP) continue;
+            (0, _resolveCollisionJs.resolveCollision)(p1, p2, delta, container.retina.pixelRatio);
+        }
+    }
+    isEnabled(particle) {
+        return particle.options.collisions.enable;
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./ResolveCollision.js":"3g4DY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3g4DY":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "resolveCollision", ()=>resolveCollision);
+var _absorbJs = require("./Absorb.js");
+var _bounceJs = require("./Bounce.js");
+var _destroyJs = require("./Destroy.js");
+function resolveCollision(p1, p2, delta, pixelRatio) {
+    switch(p1.options.collisions.mode){
+        case "absorb":
+            (0, _absorbJs.absorb)(p1, p2, delta, pixelRatio);
+            break;
+        case "bounce":
+            (0, _bounceJs.bounce)(p1, p2);
+            break;
+        case "destroy":
+            (0, _destroyJs.destroy)(p1, p2);
+            break;
+    }
+}
+
+},{"./Absorb.js":"7OHi8","./Bounce.js":"54ILn","./Destroy.js":"5VLzL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7OHi8":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "absorb", ()=>absorb);
+var _engine = require("@tsparticles/engine");
+function updateAbsorb(p1, r1, p2, r2, delta, pixelRatio) {
+    const factor = (0, _engine.clamp)(p1.options.collisions.absorb.speed * delta.factor / 10, 0, r2);
+    p1.size.value += factor / 2;
+    p2.size.value -= factor;
+    if (r2 <= pixelRatio) {
+        p2.size.value = 0;
+        p2.destroy();
+    }
+}
+function absorb(p1, p2, delta, pixelRatio) {
+    const r1 = p1.getRadius(), r2 = p2.getRadius();
+    if (r1 === undefined && r2 !== undefined) p1.destroy();
+    else if (r1 !== undefined && r2 === undefined) p2.destroy();
+    else if (r1 !== undefined && r2 !== undefined) {
+        if (r1 >= r2) updateAbsorb(p1, r1, p2, r2, delta, pixelRatio);
+        else updateAbsorb(p2, r2, p1, r1, delta, pixelRatio);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"54ILn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "bounce", ()=>bounce);
+var _engine = require("@tsparticles/engine");
+const fixBounceSpeed = (p)=>{
+    if (p.collisionMaxSpeed === undefined) p.collisionMaxSpeed = (0, _engine.getRangeValue)(p.options.collisions.maxSpeed);
+    if (p.velocity.length > p.collisionMaxSpeed) p.velocity.length = p.collisionMaxSpeed;
+};
+function bounce(p1, p2) {
+    (0, _engine.circleBounce)((0, _engine.circleBounceDataFromParticle)(p1), (0, _engine.circleBounceDataFromParticle)(p2));
+    fixBounceSpeed(p1);
+    fixBounceSpeed(p2);
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5VLzL":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "destroy", ()=>destroy);
+var _bounceJs = require("./Bounce.js");
+function destroy(p1, p2) {
+    if (!p1.unbreakable && !p2.unbreakable) (0, _bounceJs.bounce)(p1, p2);
+    if (p1.getRadius() === undefined && p2.getRadius() !== undefined) p1.destroy();
+    else if (p1.getRadius() !== undefined && p2.getRadius() === undefined) p2.destroy();
+    else if (p1.getRadius() !== undefined && p2.getRadius() !== undefined) {
+        const deleteP = p1.getRadius() >= p2.getRadius() ? p2 : p1;
+        deleteP.destroy();
+    }
+}
+
+},{"./Bounce.js":"54ILn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"anKWJ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadParticlesLinksInteraction", ()=>loadParticlesLinksInteraction);
+var _interactionJs = require("./interaction.js");
+var _pluginJs = require("./plugin.js");
+var _linksJs = require("./Options/Classes/Links.js");
+parcelHelpers.exportAll(_linksJs, exports);
+var _linksShadowJs = require("./Options/Classes/LinksShadow.js");
+parcelHelpers.exportAll(_linksShadowJs, exports);
+var _linksTriangleJs = require("./Options/Classes/LinksTriangle.js");
+parcelHelpers.exportAll(_linksTriangleJs, exports);
+var _ilinksJs = require("./Options/Interfaces/ILinks.js");
+parcelHelpers.exportAll(_ilinksJs, exports);
+var _ilinksShadowJs = require("./Options/Interfaces/ILinksShadow.js");
+parcelHelpers.exportAll(_ilinksShadowJs, exports);
+var _ilinksTriangleJs = require("./Options/Interfaces/ILinksTriangle.js");
+parcelHelpers.exportAll(_ilinksTriangleJs, exports);
+async function loadParticlesLinksInteraction(engine, refresh = true) {
+    await (0, _interactionJs.loadLinksInteraction)(engine, refresh);
+    await (0, _pluginJs.loadLinksPlugin)(engine, refresh);
+}
+
+},{"./interaction.js":"4zrcu","./plugin.js":"r7UPr","./Options/Classes/Links.js":"brvKu","./Options/Classes/LinksShadow.js":"ehpbZ","./Options/Classes/LinksTriangle.js":"30pWz","./Options/Interfaces/ILinks.js":"ixaXp","./Options/Interfaces/ILinksShadow.js":"70JJN","./Options/Interfaces/ILinksTriangle.js":"5JDwG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4zrcu":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadLinksInteraction", ()=>loadLinksInteraction);
+var _linkerJs = require("./Linker.js");
+async function loadLinksInteraction(engine, refresh = true) {
+    await engine.addInteractor("particlesLinks", (container)=>new (0, _linkerJs.Linker)(container), refresh);
+}
+
+},{"./Linker.js":"fsMx0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fsMx0":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Linker", ()=>Linker);
+var _engine = require("@tsparticles/engine");
+var _circleWarpJs = require("./CircleWarp.js");
+var _linksJs = require("./Options/Classes/Links.js");
+function getLinkDistance(pos1, pos2, optDistance, canvasSize, warp) {
+    const { dx, dy, distance } = (0, _engine.getDistances)(pos1, pos2);
+    if (!warp || distance <= optDistance) return distance;
+    const absDiffs = {
+        x: Math.abs(dx),
+        y: Math.abs(dy)
+    }, warpDistances = {
+        x: Math.min(absDiffs.x, canvasSize.width - absDiffs.x),
+        y: Math.min(absDiffs.y, canvasSize.height - absDiffs.y)
+    };
+    return Math.sqrt(warpDistances.x ** 2 + warpDistances.y ** 2);
+}
+class Linker extends (0, _engine.ParticlesInteractorBase) {
+    constructor(container){
+        super(container);
+        this._setColor = (p1)=>{
+            if (!p1.options.links) return;
+            const container = this.linkContainer, linksOptions = p1.options.links;
+            let linkColor = linksOptions.id === undefined ? container.particles.linksColor : container.particles.linksColors.get(linksOptions.id);
+            if (linkColor) return;
+            const optColor = linksOptions.color;
+            linkColor = (0, _engine.getLinkRandomColor)(optColor, linksOptions.blink, linksOptions.consent);
+            if (linksOptions.id === undefined) container.particles.linksColor = linkColor;
+            else container.particles.linksColors.set(linksOptions.id, linkColor);
+        };
+        this.linkContainer = container;
+    }
+    clear() {}
+    init() {
+        this.linkContainer.particles.linksColor = undefined;
+        this.linkContainer.particles.linksColors = new Map();
+    }
+    async interact(p1) {
+        if (!p1.options.links) return;
+        p1.links = [];
+        const pos1 = p1.getPosition(), container = this.container, canvasSize = container.canvas.size;
+        if (pos1.x < 0 || pos1.y < 0 || pos1.x > canvasSize.width || pos1.y > canvasSize.height) return;
+        const linkOpt1 = p1.options.links, optOpacity = linkOpt1.opacity, optDistance = p1.retina.linksDistance ?? 0, warp = linkOpt1.warp, range = warp ? new (0, _circleWarpJs.CircleWarp)(pos1.x, pos1.y, optDistance, canvasSize) : new (0, _engine.Circle)(pos1.x, pos1.y, optDistance), query = container.particles.quadTree.query(range);
+        for (const p2 of query){
+            const linkOpt2 = p2.options.links;
+            if (p1 === p2 || !linkOpt2?.enable || linkOpt1.id !== linkOpt2.id || p2.spawning || p2.destroyed || !p2.links || p1.links.some((t)=>t.destination === p2) || p2.links.some((t)=>t.destination === p1)) continue;
+            const pos2 = p2.getPosition();
+            if (pos2.x < 0 || pos2.y < 0 || pos2.x > canvasSize.width || pos2.y > canvasSize.height) continue;
+            const distance = getLinkDistance(pos1, pos2, optDistance, canvasSize, warp && linkOpt2.warp);
+            if (distance > optDistance) continue;
+            const opacityLine = (1 - distance / optDistance) * optOpacity;
+            this._setColor(p1);
+            p1.links.push({
+                destination: p2,
+                opacity: opacityLine
+            });
+        }
+    }
+    isEnabled(particle) {
+        return !!particle.options.links?.enable;
+    }
+    loadParticlesOptions(options, ...sources) {
+        if (!options.links) options.links = new (0, _linksJs.Links)();
+        for (const source of sources)options.links.load(source?.links);
+    }
+    reset() {}
+}
+
+},{"@tsparticles/engine":"ahMVX","./CircleWarp.js":"aWzFp","./Options/Classes/Links.js":"brvKu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aWzFp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "CircleWarp", ()=>CircleWarp);
+var _engine = require("@tsparticles/engine");
+class CircleWarp extends (0, _engine.Circle) {
+    constructor(x, y, radius, canvasSize){
+        super(x, y, radius);
+        this.canvasSize = canvasSize;
+        this.canvasSize = {
+            ...canvasSize
+        };
+    }
+    contains(point) {
+        const { width, height } = this.canvasSize;
+        const { x, y } = point;
+        return super.contains(point) || super.contains({
+            x: x - width,
+            y
+        }) || super.contains({
+            x: x - width,
+            y: y - height
+        }) || super.contains({
+            x,
+            y: y - height
+        });
+    }
+    intersects(range) {
+        if (super.intersects(range)) return true;
+        const rect = range, circle = range, newPos = {
+            x: range.position.x - this.canvasSize.width,
+            y: range.position.y - this.canvasSize.height
+        };
+        if (circle.radius !== undefined) {
+            const biggerCircle = new (0, _engine.Circle)(newPos.x, newPos.y, circle.radius * 2);
+            return super.intersects(biggerCircle);
+        } else if (rect.size !== undefined) {
+            const rectSW = new (0, _engine.Rectangle)(newPos.x, newPos.y, rect.size.width * 2, rect.size.height * 2);
+            return super.intersects(rectSW);
+        }
+        return false;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"brvKu":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Links", ()=>Links);
+var _engine = require("@tsparticles/engine");
+var _linksShadowJs = require("./LinksShadow.js");
+var _linksTriangleJs = require("./LinksTriangle.js");
+class Links {
+    constructor(){
+        this.blink = false;
+        this.color = new (0, _engine.OptionsColor)();
+        this.color.value = "#fff";
+        this.consent = false;
+        this.distance = 100;
+        this.enable = false;
+        this.frequency = 1;
+        this.opacity = 1;
+        this.shadow = new (0, _linksShadowJs.LinksShadow)();
+        this.triangles = new (0, _linksTriangleJs.LinksTriangle)();
+        this.width = 1;
+        this.warp = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.id !== undefined) this.id = data.id;
+        if (data.blink !== undefined) this.blink = data.blink;
+        this.color = (0, _engine.OptionsColor).create(this.color, data.color);
+        if (data.consent !== undefined) this.consent = data.consent;
+        if (data.distance !== undefined) this.distance = data.distance;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.frequency !== undefined) this.frequency = data.frequency;
+        if (data.opacity !== undefined) this.opacity = data.opacity;
+        this.shadow.load(data.shadow);
+        this.triangles.load(data.triangles);
+        if (data.width !== undefined) this.width = data.width;
+        if (data.warp !== undefined) this.warp = data.warp;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./LinksShadow.js":"ehpbZ","./LinksTriangle.js":"30pWz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ehpbZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LinksShadow", ()=>LinksShadow);
+var _engine = require("@tsparticles/engine");
+class LinksShadow {
+    constructor(){
+        this.blur = 5;
+        this.color = new (0, _engine.OptionsColor)();
+        this.color.value = "#000";
+        this.enable = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.blur !== undefined) this.blur = data.blur;
+        this.color = (0, _engine.OptionsColor).create(this.color, data.color);
+        if (data.enable !== undefined) this.enable = data.enable;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"30pWz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LinksTriangle", ()=>LinksTriangle);
+var _engine = require("@tsparticles/engine");
+class LinksTriangle {
+    constructor(){
+        this.enable = false;
+        this.frequency = 1;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.color !== undefined) this.color = (0, _engine.OptionsColor).create(this.color, data.color);
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.frequency !== undefined) this.frequency = data.frequency;
+        if (data.opacity !== undefined) this.opacity = data.opacity;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"r7UPr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadLinksPlugin", ()=>loadLinksPlugin);
+var _linkInstanceJs = require("./LinkInstance.js");
+class LinksPlugin {
+    constructor(){
+        this.id = "links";
+    }
+    getPlugin(container) {
+        return new (0, _linkInstanceJs.LinkInstance)(container);
+    }
+    loadOptions() {}
+    needsPlugin() {
+        return true;
+    }
+}
+async function loadLinksPlugin(engine, refresh = true) {
+    const plugin = new LinksPlugin();
+    await engine.addPlugin(plugin, refresh);
+}
+
+},{"./LinkInstance.js":"kOghc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kOghc":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LinkInstance", ()=>LinkInstance);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./Utils.js");
+class LinkInstance {
+    constructor(container){
+        this.container = container;
+        this._drawLinkLine = (p1, link)=>{
+            const p1LinksOptions = p1.options.links;
+            if (!p1LinksOptions?.enable) return;
+            const container = this.container, options = container.actualOptions, p2 = link.destination, pos1 = p1.getPosition(), pos2 = p2.getPosition();
+            let opacity = link.opacity;
+            container.canvas.draw((ctx)=>{
+                let colorLine;
+                const twinkle = p1.options.twinkle?.lines;
+                if (twinkle?.enable) {
+                    const twinkleFreq = twinkle.frequency, twinkleRgb = (0, _engine.rangeColorToRgb)(twinkle.color), twinkling = (0, _engine.getRandom)() < twinkleFreq;
+                    if (twinkling && twinkleRgb) {
+                        colorLine = twinkleRgb;
+                        opacity = (0, _engine.getRangeValue)(twinkle.opacity);
+                    }
+                }
+                if (!colorLine) {
+                    const linkColor = p1LinksOptions.id !== undefined ? container.particles.linksColors.get(p1LinksOptions.id) : container.particles.linksColor;
+                    colorLine = (0, _engine.getLinkColor)(p1, p2, linkColor);
+                }
+                if (!colorLine) return;
+                const width = p1.retina.linksWidth ?? 0, maxDistance = p1.retina.linksDistance ?? 0, { backgroundMask } = options;
+                (0, _utilsJs.drawLinkLine)({
+                    context: ctx,
+                    width,
+                    begin: pos1,
+                    end: pos2,
+                    maxDistance,
+                    canvasSize: container.canvas.size,
+                    links: p1LinksOptions,
+                    backgroundMask: backgroundMask,
+                    colorLine,
+                    opacity
+                });
+            });
+        };
+        this._drawLinkTriangle = (p1, link1, link2)=>{
+            const linksOptions = p1.options.links;
+            if (!linksOptions?.enable) return;
+            const triangleOptions = linksOptions.triangles;
+            if (!triangleOptions.enable) return;
+            const container = this.container, options = container.actualOptions, p2 = link1.destination, p3 = link2.destination, opacityTriangle = triangleOptions.opacity ?? (link1.opacity + link2.opacity) / 2;
+            if (opacityTriangle <= 0) return;
+            container.canvas.draw((ctx)=>{
+                const pos1 = p1.getPosition(), pos2 = p2.getPosition(), pos3 = p3.getPosition(), linksDistance = p1.retina.linksDistance ?? 0;
+                if ((0, _engine.getDistance)(pos1, pos2) > linksDistance || (0, _engine.getDistance)(pos3, pos2) > linksDistance || (0, _engine.getDistance)(pos3, pos1) > linksDistance) return;
+                let colorTriangle = (0, _engine.rangeColorToRgb)(triangleOptions.color);
+                if (!colorTriangle) {
+                    const linkColor = linksOptions.id !== undefined ? container.particles.linksColors.get(linksOptions.id) : container.particles.linksColor;
+                    colorTriangle = (0, _engine.getLinkColor)(p1, p2, linkColor);
+                }
+                if (!colorTriangle) return;
+                (0, _utilsJs.drawLinkTriangle)({
+                    context: ctx,
+                    pos1,
+                    pos2,
+                    pos3,
+                    backgroundMask: options.backgroundMask,
+                    colorTriangle,
+                    opacityTriangle
+                });
+            });
+        };
+        this._drawTriangles = (options, p1, link, p1Links)=>{
+            const p2 = link.destination;
+            if (!(options.links?.triangles.enable && p2.options.links?.triangles.enable)) return;
+            const vertices = p2.links?.filter((t)=>{
+                const linkFreq = this._getLinkFrequency(p2, t.destination);
+                return p2.options.links && linkFreq <= p2.options.links.frequency && p1Links.findIndex((l)=>l.destination === t.destination) >= 0;
+            });
+            if (!vertices?.length) return;
+            for (const vertex of vertices){
+                const p3 = vertex.destination, triangleFreq = this._getTriangleFrequency(p1, p2, p3);
+                if (triangleFreq > options.links.triangles.frequency) continue;
+                this._drawLinkTriangle(p1, link, vertex);
+            }
+        };
+        this._getLinkFrequency = (p1, p2)=>{
+            return (0, _utilsJs.setLinkFrequency)([
+                p1,
+                p2
+            ], this._freqs.links);
+        };
+        this._getTriangleFrequency = (p1, p2, p3)=>{
+            return (0, _utilsJs.setLinkFrequency)([
+                p1,
+                p2,
+                p3
+            ], this._freqs.triangles);
+        };
+        this._freqs = {
+            links: new Map(),
+            triangles: new Map()
+        };
+    }
+    drawParticle(context, particle) {
+        const { links, options } = particle;
+        if (!links || links.length <= 0) return;
+        const p1Links = links.filter((l)=>options.links && this._getLinkFrequency(particle, l.destination) <= options.links.frequency);
+        for (const link of p1Links){
+            this._drawTriangles(options, particle, link, p1Links);
+            if (link.opacity > 0 && (particle.retina.linksWidth ?? 0) > 0) this._drawLinkLine(particle, link);
+        }
+    }
+    async init() {
+        this._freqs.links = new Map();
+        this._freqs.triangles = new Map();
+    }
+    particleCreated(particle) {
+        particle.links = [];
+        if (!particle.options.links) return;
+        const ratio = this.container.retina.pixelRatio, { retina } = particle, { distance, width } = particle.options.links;
+        retina.linksDistance = distance * ratio;
+        retina.linksWidth = width * ratio;
+    }
+    particleDestroyed(particle) {
+        particle.links = [];
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Utils.js":"3zeLk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3zeLk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "drawTriangle", ()=>drawTriangle);
+parcelHelpers.export(exports, "drawLinkLine", ()=>drawLinkLine);
+parcelHelpers.export(exports, "drawLinkTriangle", ()=>drawLinkTriangle);
+parcelHelpers.export(exports, "getLinkKey", ()=>getLinkKey);
+parcelHelpers.export(exports, "setLinkFrequency", ()=>setLinkFrequency);
+var _engine = require("@tsparticles/engine");
+function drawTriangle(context, p1, p2, p3) {
+    context.beginPath();
+    context.moveTo(p1.x, p1.y);
+    context.lineTo(p2.x, p2.y);
+    context.lineTo(p3.x, p3.y);
+    context.closePath();
+}
+function drawLinkLine(params) {
+    let drawn = false;
+    const { begin, end, maxDistance, context, canvasSize, width, backgroundMask, colorLine, opacity, links } = params;
+    if ((0, _engine.getDistance)(begin, end) <= maxDistance) {
+        (0, _engine.drawLine)(context, begin, end);
+        drawn = true;
+    } else if (links.warp) {
+        let pi1;
+        let pi2;
+        const endNE = {
+            x: end.x - canvasSize.width,
+            y: end.y
+        };
+        const d1 = (0, _engine.getDistances)(begin, endNE);
+        if (d1.distance <= maxDistance) {
+            const yi = begin.y - d1.dy / d1.dx * begin.x;
+            pi1 = {
+                x: 0,
+                y: yi
+            };
+            pi2 = {
+                x: canvasSize.width,
+                y: yi
+            };
+        } else {
+            const endSW = {
+                x: end.x,
+                y: end.y - canvasSize.height
+            };
+            const d2 = (0, _engine.getDistances)(begin, endSW);
+            if (d2.distance <= maxDistance) {
+                const yi = begin.y - d2.dy / d2.dx * begin.x;
+                const xi = -yi / (d2.dy / d2.dx);
+                pi1 = {
+                    x: xi,
+                    y: 0
+                };
+                pi2 = {
+                    x: xi,
+                    y: canvasSize.height
+                };
+            } else {
+                const endSE = {
+                    x: end.x - canvasSize.width,
+                    y: end.y - canvasSize.height
+                };
+                const d3 = (0, _engine.getDistances)(begin, endSE);
+                if (d3.distance <= maxDistance) {
+                    const yi = begin.y - d3.dy / d3.dx * begin.x;
+                    const xi = -yi / (d3.dy / d3.dx);
+                    pi1 = {
+                        x: xi,
+                        y: yi
+                    };
+                    pi2 = {
+                        x: pi1.x + canvasSize.width,
+                        y: pi1.y + canvasSize.height
+                    };
+                }
+            }
+        }
+        if (pi1 && pi2) {
+            (0, _engine.drawLine)(context, begin, pi1);
+            (0, _engine.drawLine)(context, end, pi2);
+            drawn = true;
+        }
+    }
+    if (!drawn) return;
+    context.lineWidth = width;
+    if (backgroundMask.enable) context.globalCompositeOperation = backgroundMask.composite;
+    context.strokeStyle = (0, _engine.getStyleFromRgb)(colorLine, opacity);
+    const { shadow } = links;
+    if (shadow.enable) {
+        const shadowColor = (0, _engine.rangeColorToRgb)(shadow.color);
+        if (shadowColor) {
+            context.shadowBlur = shadow.blur;
+            context.shadowColor = (0, _engine.getStyleFromRgb)(shadowColor);
+        }
+    }
+    context.stroke();
+}
+function drawLinkTriangle(params) {
+    const { context, pos1, pos2, pos3, backgroundMask, colorTriangle, opacityTriangle } = params;
+    drawTriangle(context, pos1, pos2, pos3);
+    if (backgroundMask.enable) context.globalCompositeOperation = backgroundMask.composite;
+    context.fillStyle = (0, _engine.getStyleFromRgb)(colorTriangle, opacityTriangle);
+    context.fill();
+}
+function getLinkKey(ids) {
+    ids.sort((a, b)=>a - b);
+    return ids.join("_");
+}
+function setLinkFrequency(particles, dictionary) {
+    const key = getLinkKey(particles.map((t)=>t.id));
+    let res = dictionary.get(key);
+    if (res === undefined) {
+        res = (0, _engine.getRandom)();
+        dictionary.set(key, res);
+    }
+    return res;
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ixaXp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"70JJN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5JDwG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gCRfI":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadGenericPolygonShape", ()=>loadGenericPolygonShape);
+parcelHelpers.export(exports, "loadTriangleShape", ()=>loadTriangleShape);
+parcelHelpers.export(exports, "loadPolygonShape", ()=>loadPolygonShape);
+var _polygonDrawerJs = require("./PolygonDrawer.js");
+var _triangleDrawerJs = require("./TriangleDrawer.js");
+async function loadGenericPolygonShape(engine, refresh = true) {
+    await engine.addShape("polygon", new (0, _polygonDrawerJs.PolygonDrawer)(), refresh);
+}
+async function loadTriangleShape(engine, refresh = true) {
+    await engine.addShape("triangle", new (0, _triangleDrawerJs.TriangleDrawer)(), refresh);
+}
+async function loadPolygonShape(engine, refresh = true) {
+    await loadGenericPolygonShape(engine, refresh);
+    await loadTriangleShape(engine, refresh);
+}
+
+},{"./PolygonDrawer.js":"e7LD2","./TriangleDrawer.js":"e74FZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e7LD2":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "PolygonDrawer", ()=>PolygonDrawer);
+var _polygonDrawerBaseJs = require("./PolygonDrawerBase.js");
+class PolygonDrawer extends (0, _polygonDrawerBaseJs.PolygonDrawerBase) {
+    getCenter(particle, radius) {
+        return {
+            x: -radius / (particle.sides / 3.5),
+            y: -radius / 0.76
+        };
+    }
+    getSidesData(particle, radius) {
+        const sides = particle.sides;
+        return {
+            count: {
+                denominator: 1,
+                numerator: sides
+            },
+            length: radius * 2.66 / (sides / 3)
+        };
+    }
+}
+
+},{"./PolygonDrawerBase.js":"bHoi8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bHoi8":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "PolygonDrawerBase", ()=>PolygonDrawerBase);
+var _engine = require("@tsparticles/engine");
+class PolygonDrawerBase {
+    draw(data) {
+        const { context, particle, radius } = data, start = this.getCenter(particle, radius), side = this.getSidesData(particle, radius), sideCount = side.count.numerator * side.count.denominator, decimalSides = side.count.numerator / side.count.denominator, interiorAngleDegrees = 180 * (decimalSides - 2) / decimalSides, interiorAngle = Math.PI - Math.PI * interiorAngleDegrees / 180;
+        if (!context) return;
+        context.beginPath();
+        context.translate(start.x, start.y);
+        context.moveTo(0, 0);
+        for(let i = 0; i < sideCount; i++){
+            context.lineTo(side.length, 0);
+            context.translate(side.length, 0);
+            context.rotate(interiorAngle);
+        }
+    }
+    getSidesCount(particle) {
+        const polygon = particle.shapeData;
+        return Math.round((0, _engine.getRangeValue)(polygon?.sides ?? 5));
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e74FZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "TriangleDrawer", ()=>TriangleDrawer);
+var _polygonDrawerBaseJs = require("./PolygonDrawerBase.js");
+class TriangleDrawer extends (0, _polygonDrawerBaseJs.PolygonDrawerBase) {
+    getCenter(particle, radius) {
+        return {
+            x: -radius,
+            y: radius / 1.66
+        };
+    }
+    getSidesCount() {
+        return 3;
+    }
+    getSidesData(particle, radius) {
+        return {
+            count: {
+                denominator: 2,
+                numerator: 3
+            },
+            length: radius * 2
+        };
+    }
+}
+
+},{"./PolygonDrawerBase.js":"bHoi8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hulbM":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadRotateUpdater", ()=>loadRotateUpdater);
+var _rotateUpdaterJs = require("./RotateUpdater.js");
+async function loadRotateUpdater(engine, refresh = true) {
+    await engine.addParticleUpdater("rotate", (container)=>new (0, _rotateUpdaterJs.RotateUpdater)(container), refresh);
+}
+
+},{"./RotateUpdater.js":"alxdQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"alxdQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "RotateUpdater", ()=>RotateUpdater);
+var _engine = require("@tsparticles/engine");
+var _rotateJs = require("./Options/Classes/Rotate.js");
+function updateRotate(particle, delta) {
+    const rotate = particle.rotate, rotateOptions = particle.options.rotate;
+    if (!rotate || !rotateOptions) return;
+    const rotateAnimation = rotateOptions.animation, speed = (rotate.velocity ?? 0) * delta.factor, max = 2 * Math.PI, decay = rotate.decay ?? 1;
+    if (!rotateAnimation.enable) return;
+    switch(rotate.status){
+        case "increasing":
+            rotate.value += speed;
+            if (rotate.value > max) rotate.value -= max;
+            break;
+        case "decreasing":
+        default:
+            rotate.value -= speed;
+            if (rotate.value < 0) rotate.value += max;
+            break;
+    }
+    if (rotate.velocity && decay !== 1) rotate.velocity *= decay;
+}
+class RotateUpdater {
+    constructor(container){
+        this.container = container;
+    }
+    init(particle) {
+        const rotateOptions = particle.options.rotate;
+        if (!rotateOptions) return;
+        particle.rotate = {
+            enable: rotateOptions.animation.enable,
+            value: (0, _engine.getRangeValue)(rotateOptions.value) * Math.PI / 180
+        };
+        particle.pathRotation = rotateOptions.path;
+        let rotateDirection = rotateOptions.direction;
+        if (rotateDirection === "random") {
+            const index = Math.floor((0, _engine.getRandom)() * 2);
+            rotateDirection = index > 0 ? "counter-clockwise" : "clockwise";
+        }
+        switch(rotateDirection){
+            case "counter-clockwise":
+            case "counterClockwise":
+                particle.rotate.status = "decreasing";
+                break;
+            case "clockwise":
+                particle.rotate.status = "increasing";
+                break;
+        }
+        const rotateAnimation = rotateOptions.animation;
+        if (rotateAnimation.enable) {
+            particle.rotate.decay = 1 - (0, _engine.getRangeValue)(rotateAnimation.decay);
+            particle.rotate.velocity = (0, _engine.getRangeValue)(rotateAnimation.speed) / 360 * this.container.retina.reduceFactor;
+            if (!rotateAnimation.sync) particle.rotate.velocity *= (0, _engine.getRandom)();
+        }
+        particle.rotation = particle.rotate.value;
+    }
+    isEnabled(particle) {
+        const rotate = particle.options.rotate;
+        if (!rotate) return false;
+        return !particle.destroyed && !particle.spawning && rotate.animation.enable && !rotate.path;
+    }
+    loadOptions(options, ...sources) {
+        if (!options.rotate) options.rotate = new (0, _rotateJs.Rotate)();
+        for (const source of sources)options.rotate.load(source?.rotate);
+    }
+    update(particle, delta) {
+        if (!this.isEnabled(particle)) return;
+        updateRotate(particle, delta);
+        particle.rotation = particle.rotate?.value ?? 0;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Options/Classes/Rotate.js":"hBMhX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hBMhX":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Rotate", ()=>Rotate);
+var _engine = require("@tsparticles/engine");
+var _rotateAnimationJs = require("./RotateAnimation.js");
+class Rotate extends (0, _engine.ValueWithRandom) {
+    constructor(){
+        super();
+        this.animation = new (0, _rotateAnimationJs.RotateAnimation)();
+        this.direction = "clockwise";
+        this.path = false;
+        this.value = 0;
+    }
+    load(data) {
+        if (!data) return;
+        super.load(data);
+        if (data.direction !== undefined) this.direction = data.direction;
+        this.animation.load(data.animation);
+        if (data.path !== undefined) this.path = data.path;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./RotateAnimation.js":"ispxt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ispxt":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "RotateAnimation", ()=>RotateAnimation);
+var _engine = require("@tsparticles/engine");
+class RotateAnimation {
+    constructor(){
+        this.enable = false;
+        this.speed = 0;
+        this.decay = 0;
+        this.sync = false;
+    }
+    load(data) {
+        if (!data) return;
+        if (data.enable !== undefined) this.enable = data.enable;
+        if (data.speed !== undefined) this.speed = (0, _engine.setRangeValue)(data.speed);
+        if (data.decay !== undefined) this.decay = (0, _engine.setRangeValue)(data.decay);
+        if (data.sync !== undefined) this.sync = data.sync;
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3d86B":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadSquareShape", ()=>loadSquareShape);
+var _squareDrawerJs = require("./SquareDrawer.js");
+async function loadSquareShape(engine, refresh = true) {
+    await engine.addShape([
+        "edge",
+        "square"
+    ], new (0, _squareDrawerJs.SquareDrawer)(), refresh);
+}
+
+},{"./SquareDrawer.js":"4UMYe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4UMYe":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SquareDrawer", ()=>SquareDrawer);
+const fixFactor = Math.sqrt(2);
+class SquareDrawer {
+    draw(data) {
+        const { context, radius } = data, fixedRadius = radius / fixFactor, fixedDiameter = fixedRadius * 2;
+        context.rect(-fixedRadius, -fixedRadius, fixedDiameter, fixedDiameter);
+    }
+    getSidesCount() {
+        return 4;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bCPNV":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadStarShape", ()=>loadStarShape);
+var _starDrawerJs = require("./StarDrawer.js");
+async function loadStarShape(engine, refresh = true) {
+    await engine.addShape("star", new (0, _starDrawerJs.StarDrawer)(), refresh);
+}
+
+},{"./StarDrawer.js":"1XrHk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1XrHk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "StarDrawer", ()=>StarDrawer);
+var _engine = require("@tsparticles/engine");
+class StarDrawer {
+    draw(data) {
+        const { context, particle, radius } = data, sides = particle.sides, inset = particle.starInset ?? 2;
+        context.moveTo(0, 0 - radius);
+        for(let i = 0; i < sides; i++){
+            context.rotate(Math.PI / sides);
+            context.lineTo(0, 0 - radius * inset);
+            context.rotate(Math.PI / sides);
+            context.lineTo(0, 0 - radius);
+        }
+    }
+    getSidesCount(particle) {
+        const star = particle.shapeData;
+        return Math.round((0, _engine.getRangeValue)(star?.sides ?? 5));
+    }
+    particleInit(container, particle) {
+        const star = particle.shapeData;
+        particle.starInset = (0, _engine.getRangeValue)(star?.inset ?? 2);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6p4CZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadStrokeColorUpdater", ()=>loadStrokeColorUpdater);
+var _strokeColorUpdaterJs = require("./StrokeColorUpdater.js");
+async function loadStrokeColorUpdater(engine, refresh = true) {
+    await engine.addParticleUpdater("strokeColor", (container)=>new (0, _strokeColorUpdaterJs.StrokeColorUpdater)(container), refresh);
+}
+
+},{"./StrokeColorUpdater.js":"9NSnV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9NSnV":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "StrokeColorUpdater", ()=>StrokeColorUpdater);
+var _engine = require("@tsparticles/engine");
+var _utilsJs = require("./Utils.js");
+class StrokeColorUpdater {
+    constructor(container){
+        this.container = container;
+    }
+    init(particle) {
+        const container = this.container, options = particle.options;
+        const stroke = (0, _engine.itemFromSingleOrMultiple)(options.stroke, particle.id, options.reduceDuplicates);
+        particle.strokeWidth = (0, _engine.getRangeValue)(stroke.width) * container.retina.pixelRatio;
+        particle.strokeOpacity = (0, _engine.getRangeValue)(stroke.opacity ?? 1);
+        particle.strokeAnimation = stroke.color?.animation;
+        const strokeHslColor = (0, _engine.rangeColorToHsl)(stroke.color) ?? particle.getFillColor();
+        if (strokeHslColor) particle.strokeColor = (0, _engine.getHslAnimationFromHsl)(strokeHslColor, particle.strokeAnimation, container.retina.reduceFactor);
+    }
+    isEnabled(particle) {
+        const color = particle.strokeAnimation, { strokeColor } = particle;
+        return !particle.destroyed && !particle.spawning && !!color && (strokeColor?.h.value !== undefined && strokeColor.h.enable || strokeColor?.s.value !== undefined && strokeColor.s.enable || strokeColor?.l.value !== undefined && strokeColor.l.enable);
+    }
+    update(particle, delta) {
+        if (!this.isEnabled(particle)) return;
+        (0, _utilsJs.updateStrokeColor)(particle, delta);
+    }
+}
+
+},{"@tsparticles/engine":"ahMVX","./Utils.js":"35TV1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"35TV1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "updateStrokeColor", ()=>updateStrokeColor);
+var _engine = require("@tsparticles/engine");
+function updateColorValue(delta, colorValue, valueAnimation, max, decrease) {
+    if (!colorValue || !valueAnimation.enable || (colorValue.maxLoops ?? 0) > 0 && (colorValue.loops ?? 0) > (colorValue.maxLoops ?? 0)) return;
+    if (!colorValue.time) colorValue.time = 0;
+    if ((colorValue.delayTime ?? 0) > 0 && colorValue.time < (colorValue.delayTime ?? 0)) colorValue.time += delta.value;
+    if ((colorValue.delayTime ?? 0) > 0 && colorValue.time < (colorValue.delayTime ?? 0)) return;
+    const offset = (0, _engine.randomInRange)(valueAnimation.offset), velocity = (colorValue.velocity ?? 0) * delta.factor + offset * 3.6, decay = colorValue.decay ?? 1;
+    if (!decrease || colorValue.status === "increasing") {
+        colorValue.value += velocity;
+        if (colorValue.value > max) {
+            if (!colorValue.loops) colorValue.loops = 0;
+            colorValue.loops++;
+            if (decrease) {
+                colorValue.status = "decreasing";
+                colorValue.value -= colorValue.value % max;
+            }
+        }
+    } else {
+        colorValue.value -= velocity;
+        if (colorValue.value < 0) {
+            if (!colorValue.loops) colorValue.loops = 0;
+            colorValue.loops++;
+            colorValue.status = "increasing";
+            colorValue.value += colorValue.value;
+        }
+    }
+    if (colorValue.velocity && decay !== 1) colorValue.velocity *= decay;
+    if (colorValue.value > max) colorValue.value %= max;
+}
+function updateStrokeColor(particle, delta) {
+    if (!particle.strokeColor || !particle.strokeAnimation) return;
+    const { h, s, l } = particle.strokeColor, { h: hAnimation, s: sAnimation, l: lAnimation } = particle.strokeAnimation;
+    if (h) updateColorValue(delta, h, hAnimation, 360, false);
+    if (s) updateColorValue(delta, s, sAnimation, 100, true);
+    if (l) updateColorValue(delta, l, lAnimation, 100, true);
+}
+
+},{"@tsparticles/engine":"ahMVX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["iWvxK","1xC6H","bNKaB"], "bNKaB", "parcelRequire82ef")
 
 //# sourceMappingURL=index.0641b553.js.map
