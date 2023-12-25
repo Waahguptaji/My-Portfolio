@@ -18,6 +18,13 @@ nav {
   padding-top: 20px;
 }
 
+#navDiv {
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  top: 50%;
+}
+
 #navDiv > ul {
   display: inline-flex;
   gap: 1rem;
@@ -83,6 +90,7 @@ nav div.menu {
 @media (max-width: 700px) {
   nav div.menu {
     display: flex;
+    position: relative;
   }
 
   /* .header {
