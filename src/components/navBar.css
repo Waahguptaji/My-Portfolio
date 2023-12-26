@@ -18,12 +18,7 @@ nav {
   padding-top: 20px;
 }
 
-#navDiv {
-  width: 100vw;
-  display: flex;
-  position: absolute;
-  top: 50%;
-}
+
 
 #navDiv > ul {
   display: inline-flex;
@@ -100,6 +95,12 @@ nav div.menu {
 
   #navDiv > ul {
     display: none;
+  }
+  #navDiv {
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    top: 50%;
   }
 
   #navDiv > ul.open {
