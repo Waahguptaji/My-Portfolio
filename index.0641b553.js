@@ -33813,13 +33813,16 @@ const Navbar = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 className: "nav-item",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.NavLink), {
+                                    onClick: ()=>{
+                                        setmenuOpen(!menuOpen);
+                                    },
                                     to: "/Home",
                                     className: "nav-item-inner",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         children: " Home "
                                     }, void 0, false, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 20,
+                                        lineNumber: 26,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
@@ -33835,67 +33838,76 @@ const Navbar = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 className: "nav-item",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.NavLink), {
+                                    onClick: ()=>{
+                                        setmenuOpen(!menuOpen);
+                                    },
                                     to: "/About",
                                     className: "nav-item-inner",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         children: " About "
                                     }, void 0, false, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 25,
+                                        lineNumber: 37,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Navbar.js",
-                                    lineNumber: 24,
+                                    lineNumber: 30,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Navbar.js",
-                                lineNumber: 23,
+                                lineNumber: 29,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 className: "nav-item",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.NavLink), {
+                                    onClick: ()=>{
+                                        setmenuOpen(!menuOpen);
+                                    },
                                     to: "/Projects",
                                     className: "nav-item-inner",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         children: " Projects "
                                     }, void 0, false, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 30,
+                                        lineNumber: 48,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Navbar.js",
-                                    lineNumber: 29,
+                                    lineNumber: 41,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Navbar.js",
-                                lineNumber: 28,
+                                lineNumber: 40,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 className: "nav-item",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.NavLink), {
+                                    onClick: ()=>{
+                                        setmenuOpen(!menuOpen);
+                                    },
                                     to: "/Blogs",
                                     className: "nav-item-inner",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         children: " Blogs "
                                     }, void 0, false, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 35,
+                                        lineNumber: 59,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Navbar.js",
-                                    lineNumber: 34,
+                                    lineNumber: 52,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Navbar.js",
-                                lineNumber: 33,
+                                lineNumber: 51,
                                 columnNumber: 13
                             }, undefined)
                         ]
@@ -33914,18 +33926,26 @@ const Navbar = ()=>{
                     onClick: ()=>{
                         setmenuOpen(!menuOpen);
                     },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    children: menuOpen ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _arrowPngDefault.default),
+                        className: "btn",
+                        name: "close-circle-outline"
+                    }, void 0, false, {
+                        fileName: "src/components/Navbar.js",
+                        lineNumber: 71,
+                        columnNumber: 13
+                    }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: (0, _menuPngDefault.default),
                         className: "btn",
                         name: "add-circle-outline"
                     }, void 0, false, {
                         fileName: "src/components/Navbar.js",
-                        lineNumber: 46,
-                        columnNumber: 11
+                        lineNumber: 73,
+                        columnNumber: 13
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/Navbar.js",
-                    lineNumber: 40,
+                    lineNumber: 64,
                     columnNumber: 9
                 }, undefined)
             ]

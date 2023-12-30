@@ -2,7 +2,7 @@ body {
   color: #bda2a2;
   box-sizing: border-box;
   background: linear-gradient(to right, #241f1f 0% 32%) fixed;
-  margin: .5rem 1rem 1rem;
+  margin: 0;
   font-family: Ysabeau SC, sans-serif;
   font-size: 1.5rem;
   overflow-x: hidden;

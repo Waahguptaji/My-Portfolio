@@ -108,6 +108,7 @@ nav {
 .logo {
   width: 10rem;
   height: 3rem;
+  margin-left: 15px;
   padding-top: 20px;
 }
 
@@ -172,14 +173,19 @@ nav div.menu {
     width: 100vw;
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 0;
   }
 
   #navDiv > ul.open {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     z-index: 5;
+    background: linear-gradient(to right, #241f1fcc 0%, #241f1fcc);
     flex-direction: column;
-    width: 100%;
-    margin-bottom: .25rem;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
     padding-left: 0;
     display: flex;
   }
@@ -194,8 +200,10 @@ nav div.menu {
   }
 
   .btn {
+    z-index: 6;
     width: 1.5rem;
     height: 1.5rem;
+    margin-right: 15px;
   }
 }
 
