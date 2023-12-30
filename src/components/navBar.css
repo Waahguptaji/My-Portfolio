@@ -16,9 +16,8 @@ nav {
   width: 10rem;
   height: 3rem;
   padding-top: 20px;
+  margin-left: 15px;
 }
-
-
 
 #navDiv > ul {
   display: inline-flex;
@@ -100,16 +99,24 @@ nav div.menu {
     width: 100vw;
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 0px;
   }
 
   #navDiv > ul.open {
     display: flex;
     flex-direction: column;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(
+      to right,
+      rgba(36, 31, 31, 0.8) 0%,
+      rgba(36, 31, 31, 0.8)
+    );
     padding-left: 0px;
-    margin-bottom: 0.25rem;
-    width: 100%;
+    width: 100vw;
     z-index: 5;
+    height: 100vh;
+    margin: 0px;
+    justify-content: center;
   }
 
   nav ul li {
@@ -129,5 +136,7 @@ nav div.menu {
   .btn {
     width: 1.5rem;
     height: 1.5rem;
+    z-index: 6;
+    margin-right: 15px;
   }
 }

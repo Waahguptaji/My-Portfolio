@@ -1,342 +1,344 @@
 body {
-    background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%);
-    background-attachment: fixed;
-    color: #f8f8f8;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    font-family: 'Ysabeau SC', sans-serif;
-    font-size: 1.5rem;
-    margin: 0.5rem 1rem 1rem 1rem;
-    color: #BDA2A2;
+  background: linear-gradient(
+    to right,
+    rgba(36, 31, 31, 1) 0%,
+    rgba(36, 31, 31, 1) 32%
+  );
+  background-attachment: fixed;
+  color: #f8f8f8;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 1.5rem;
+  margin: 0px;
+  color: #bda2a2;
 }
 
 /* Main Image of me */
 
 .mainImg {
-    height: 419px;
-    width: 700px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0;
-    position: absolute;
-    bottom: 0;
-    transform: translate(-50%, -50%);
-    left: 50%;
+  height: 419px;
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0;
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
 }
 
-
 .img-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 11rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 11rem;
 }
 
 .imgMe {
-    width: 28.3rem;
-    height: 28.25rem;
+  width: 28.3rem;
+  height: 28.25rem;
 }
 
 .sunrays-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 5.5rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 5.5rem;
 }
 
 .rays {
-    width: 38rem;
-    height: 32.25rem;
-    display: none;
+  width: 38rem;
+  height: 32.25rem;
+  display: none;
 }
 
 .mainImg:hover {
-    transition: 1s;
+  transition: 1s;
 
-    .rays {
-        display: block;
-    }
+  .rays {
+    display: block;
+  }
 }
-
 
 /*------Name and Moving details------ */
 .nameContainer {
-    position: absolute;
-    bottom: 3rem;
+  position: absolute;
+  bottom: 3rem;
 }
 
 .movingContainer {
-    position: fixed;
-    bottom: 5px;
-    padding-right: 5px;
+  position: fixed;
+  bottom: 5px;
+  padding-right: 5px;
 }
 
 .nameContainer h1 {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
-    font-size: 4rem;
-    font-weight: 800;
-    letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
 .first::before {
-    content: "Sahil";
-    position: absolute;
-    color: transparent;
-    background-image: repeating-linear-gradient(45deg,
-            transparent 0,
-            transparent 2px,
-            #a45959 2px,
-            #a45959 4px);
-    -webkit-background-clip: text;
-    bottom: 15px;
-    top: 0;
-    left: 0;
-    transition: 1s;
+  content: "Sahil";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    #a45959 2px,
+    #a45959 4px
+  );
+  -webkit-background-clip: text;
+  bottom: 15px;
+  top: 0;
+  left: 0;
+  transition: 1s;
 }
 
 .first::after {
-    content: "Sahil";
-    position: absolute;
-    color: transparent;
-    background-image: repeating-linear-gradient(135deg,
-            transparent 0,
-            transparent 2px,
-            #a45959 2px,
-            #a45959 4px);
-    -webkit-background-clip: text;
-    bottom: 15px;
-    top: 0;
-    left: 0;
-    transition: 1s;
+  content: "Sahil";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    #a45959 2px,
+    #a45959 4px
+  );
+  -webkit-background-clip: text;
+  bottom: 15px;
+  top: 0;
+  left: 0;
+  transition: 1s;
 }
 
 .first:hover:before {
-    top: 0;
-    left: 3.5px;
-    z-index: -1;
+  top: 0;
+  left: 3.5px;
+  z-index: -1;
 }
 
-
 .last::before {
-    content: "Gupta";
-    position: absolute;
-    color: transparent;
-    background-image: repeating-linear-gradient(45deg,
-            transparent 0,
-            transparent 2px,
-            #a45959 2px,
-            #a45959 4px);
-    -webkit-background-clip: text;
-    bottom: 15px;
-    top: 4rem;
-    left: 0;
-    transition: 1s;
+  content: "Gupta";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    #a45959 2px,
+    #a45959 4px
+  );
+  -webkit-background-clip: text;
+  bottom: 15px;
+  top: 4rem;
+  left: 0;
+  transition: 1s;
 }
 
 .last::after {
-    content: "Gupta";
-    position: absolute;
-    color: transparent;
-    background-image: repeating-linear-gradient(135deg,
-            transparent 0,
-            transparent 2px,
-            #a45959 2px,
-            #a45959 4px);
-    -webkit-background-clip: text;
-    bottom: 15px;
-    top: 4rem;
-    left: 0;
-    transition: 1s;
+  content: "Gupta";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    #a45959 2px,
+    #a45959 4px
+  );
+  -webkit-background-clip: text;
+  bottom: 15px;
+  top: 4rem;
+  left: 0;
+  transition: 1s;
 }
 
 .last:hover:before {
-    top: 4rem;
-    left: 4px;
-    z-index: -1;
+  top: 4rem;
+  left: 4px;
+  z-index: -1;
 }
-
 
 #movingText {
-    font-size: 1.5rem;
-    padding-left: 5px;
+  font-size: 1.5rem;
+  padding-left: 5px;
 }
-
 
 /* -------Contact -------- */
 .contact {
-    display: inline-flex;
-    position: absolute;
-    transition: transform 0.3s;
-    /* transform: This is the property that will be affected by the transition. In this case, it's the transform property, which means any changes to transform will be animated. */
-    right: 3%;
-    bottom: 5%;
-    font-size: 1rem;
-    z-index: 1;
+  display: inline-flex;
+  position: absolute;
+  transition: transform 0.3s;
+  /* transform: This is the property that will be affected by the transition. In this case, it's the transform property, which means any changes to transform will be animated. */
+  right: 3%;
+  bottom: 5%;
+  font-size: 1rem;
+  z-index: 1;
 }
 
 .contact:hover {
-    transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .link {
-    background: #BDA2A2;
-    padding: 10px;
-    border-radius: 60px;
-    border: 0px;
-    margin: 10px;
+  background: #bda2a2;
+  padding: 10px;
+  border-radius: 60px;
+  border: 0px;
+  margin: 10px;
 }
 
 .sendImg {
-    vertical-align: middle;
-    border-style: none;
-    height: auto;
-    width: auto;
+  vertical-align: middle;
+  border-style: none;
+  height: auto;
+  width: auto;
 }
 
 .mobileContact {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 700px) {
+  /* image of me */
+  .mainImg {
+    position: absolute;
+    height: 24.5rem;
+    width: 24rem;
+    bottom: 0;
+    transform: none;
+    width: 100vw;
 
-    /* image of me */
-    .mainImg {
-        position: absolute;
-        height: 24.5rem;
-        width: 24rem;
-        bottom: 0;
-        transform: none;
-        width: 100vw;
-        
-        justify-content: center;
-        left: 0;
-        right: 0;
-    }
+    justify-content: center;
+    left: 0;
+    right: 0;
+  }
 
-    .img-container {
-        top: 7rem;
-    }
+  .img-container {
+    top: 7rem;
+  }
 
-    .imgMe {
-        width: 17rem;
-        height: 18rem;
-    }
+  .imgMe {
+    width: 17rem;
+    height: 18rem;
+  }
 
-    .sunrays-container {
-        top: 3.3rem;
-    }
+  .sunrays-container {
+    top: 3.3rem;
+  }
 
-    .rays {
-        width: 23rem;
-        height: 22rem;
-    }
+  .rays {
+    width: 23rem;
+    height: 22rem;
+  }
 
+  /* Name and movingtext */
 
-    /* Name and movingtext */
+  .wholeContainer {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 29%;
+    left: 0px;
+    right: 0px;
+  }
 
-    .wholeContainer {
-        height: inherit;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 29%;
-        left: 0px;
-        right: 0px;
-    }
+  .nameContainer {
+    position: relative;
+    bottom: 0;
+    margin-left: 0;
+  }
 
-    .nameContainer {
-        position: relative;
-        bottom: 0;
-        margin-left: 0;
+  .nameContainer h1 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
 
-    }
+  .first::before {
+    bottom: 0;
+    /* top: 32px; */
+  }
 
-    .nameContainer h1 {
-        display: block;
-        font-size: 3rem;
-        font-weight: 700;
-        letter-spacing: 2px;
-    }
+  .first::after {
+    bottom: 0;
+    /* top: 32px; */
+  }
 
-    .first::before {
-        bottom: 0;
-        /* top: 32px; */
-    }
+  .first:hover:before {
+    /* top: 32px; */
+    left: 4px;
+  }
 
-    .first::after {
-       bottom: 0;
-         /* top: 32px; */
-    }
+  .last::before {
+    bottom: 0;
+    top: 0;
+    left: 8rem;
+  }
 
-    .first:hover:before {
-        /* top: 32px; */
-        left: 4px;
-    }
+  .last::after {
+    bottom: 0;
+    top: 0;
+    left: 8rem;
+  }
 
+  .last:hover:before {
+    top: 0;
+    left: 8.2rem;
+    z-index: -1;
+  }
 
-    .last::before {
-        bottom: 0;
-        top: 0;
-        left: 8rem;
-    }
+  .movingContainer {
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    bottom: 0;
+  }
 
-    .last::after {
-        bottom: 0;
-        top: 0;
-        left: 8rem;
-    }
+  /* Contact Button */
+  .contact {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-size: 1rem;
+    z-index: 1;
+    align-items: center;
+    right: 0;
+  }
 
-    .last:hover:before {
-        top: 0;
-        left: 8.2rem;
-        z-index: -1;
-    }
+  .contact:hover {
+    transform: none;
+  }
 
-    .movingContainer {
-        position: relative;
-        margin-bottom: 25px;
-        margin-top: 10px;
-        bottom: 0;
-    }
+  .contact > p {
+    display: none;
+  }
 
-    /* Contact Button */
-    .contact {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        font-size: 1rem;
-        z-index: 1;
-        align-items: center;
-        right: 0;
-    }
+  .mobileContact {
+    display: block;
+    height: 2.5rem;
+    width: 7.5rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    background-color: #a45959;
+    color: #bda2a2;
+  }
 
-    .contact:hover {
-        transform: none;
-    }
-
-    .contact>p {
-        display: none;
-    }
-
-    .mobileContact {
-        display: block;
-        height: 2.5rem;
-        width: 7.5rem;
-        border: none;
-        border-radius: 20px;
-        font-size: 1.1rem;
-        background-color: #a45959;
-        color: #BDA2A2;
-    }
-
-    .mobileContact:hover {
-        color: #a45959;
-        transition: color 0.3s;
-        background-color: #BDA2A2;
-        cursor: pointer;
-    }
-
+  .mobileContact:hover {
+    color: #a45959;
+    transition: color 0.3s;
+    background-color: #bda2a2;
+    cursor: pointer;
+  }
 }

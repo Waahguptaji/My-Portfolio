@@ -16,22 +16,46 @@ const Navbar = () => {
         <div id="navDiv">
           <ul className={menuOpen ? "open" : " "}>
             <li className="nav-item">
-              <NavLink to="/Home" className="nav-item-inner">
+              <NavLink
+                onClick={() => {
+                  setmenuOpen(!menuOpen);
+                }}
+                to="/Home"
+                className="nav-item-inner"
+              >
                 <span> Home </span>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/About" className="nav-item-inner">
+              <NavLink
+                onClick={() => {
+                  setmenuOpen(!menuOpen);
+                }}
+                to="/About"
+                className="nav-item-inner"
+              >
                 <span> About </span>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/Projects" className="nav-item-inner">
+              <NavLink
+                onClick={() => {
+                  setmenuOpen(!menuOpen);
+                }}
+                to="/Projects"
+                className="nav-item-inner"
+              >
                 <span> Projects </span>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/Blogs" className="nav-item-inner">
+              <NavLink
+                onClick={() => {
+                  setmenuOpen(!menuOpen);
+                }}
+                to="/Blogs"
+                className="nav-item-inner"
+              >
                 <span> Blogs </span>
               </NavLink>
             </li>
@@ -43,8 +67,11 @@ const Navbar = () => {
             setmenuOpen(!menuOpen);
           }}
         >
-          <img src={menu} className="btn" name="add-circle-outline" />
-          {/* <img src={arrow} className="btn" name="close-circle-outline" /> */}
+          {menuOpen ? (
+            <img src={arrow} className="btn" name="close-circle-outline" />
+          ) : (
+            <img src={menu} className="btn" name="add-circle-outline" />
+          )}
         </div>
       </div>
     </nav>
